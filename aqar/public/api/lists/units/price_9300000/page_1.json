@@ -1,0 +1,304 @@
+{
+  "data": [
+    {
+      "id": "unit-000095",
+      "title": {
+        "ar": "توين هاوس 214 متر - العاصمة الإدارية",
+        "en": "Twin House 214 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 214 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 214 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9300000,
+      "area": 214,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "موقف سيارات",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Parking",
+          "Private Elevator",
+          "Near Transportation",
+          "Gym",
+          "24/7 Security",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "30",
+      "floor": "الأول",
+      "unitNumber": "7324",
+      "usableSpace": 182,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0046",
+      "createdAt": "2025-12-27T03:44:50.133Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.133Z"
+    },
+    {
+      "id": "unit-000197",
+      "title": {
+        "ar": "دوبلكس 76 متر - الرحاب",
+        "en": "Duplex 76 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 76 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 76 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9300000,
+      "area": 76,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "إطلالة بحرية",
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "غرفة خادمة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Premium Finish",
+          "Central AC",
+          "Private Elevator",
+          "Parking",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "10",
+      "floor": "الأرضي",
+      "unitNumber": "8316",
+      "usableSpace": 65,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0037",
+      "createdAt": "2025-12-27T03:44:50.862Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.862Z"
+    },
+    {
+      "id": "unit-000332",
+      "title": {
+        "ar": "فيلا 461 متر - الشيخ زايد",
+        "en": "Villa 461 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 461 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 461 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9300000,
+      "area": 461,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "تكييف مركزي",
+          "قريب من المواصلات",
+          "تراس واسع",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Private Pool",
+          "Central AC",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "26",
+      "floor": "الخامس",
+      "unitNumber": "6793",
+      "usableSpace": 392,
+      "gardenShare": 123,
+      "view": "garden",
+      "projectId": "project-0005",
+      "createdAt": "2025-12-27T03:44:52.171Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.171Z"
+    },
+    {
+      "id": "unit-000361",
+      "title": {
+        "ar": "شقة 145 متر - الرحاب",
+        "en": "Apartment 145 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 145 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 145 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9300000,
+      "area": 145,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "موقف سيارات",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Sea View",
+          "Private Garden",
+          "Private Pool",
+          "Private Elevator",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "4",
+      "floor": "الأول",
+      "unitNumber": "810",
+      "usableSpace": 123,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0003",
+      "createdAt": "2025-12-27T03:44:52.471Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.471Z"
+    },
+    {
+      "id": "unit-000465",
+      "title": {
+        "ar": "استوديو 491 متر - الساحل الشمالي",
+        "en": "Studio 491 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 491 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 491 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9300000,
+      "area": 491,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "تراس واسع",
+          "قريب من المواصلات",
+          "تكييف مركزي",
+          "إطلالة بحرية",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Premium Finish",
+          "Parking",
+          "Large Terrace",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "23",
+      "floor": "السادس",
+      "unitNumber": "2931",
+      "usableSpace": 417,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0002",
+      "createdAt": "2025-12-27T03:44:53.563Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.563Z"
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "9300000"
+  },
+  "generatedAt": "2025-12-27T22:58:13.083Z"
+}

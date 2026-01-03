@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "id": "twin-house-461-sqm-fifth-settlement-copy-unit-7784-building-7",
+      "title": {
+        "ar": "توين هاوس 461 متر - التجمع الخامس (نسخة)",
+        "en": "Twin House 461 sqm - Fifth Settlement (Copy)"
+      },
+      "projectId": null,
+      "location": {
+        "ar": "مدينة المستقبل",
+        "en": "Mostakbal City"
+      },
+      "locationId": "mostakbal",
+      "unitStatus": "sold",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 461 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 461 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5500000,
+      "area": 461,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "",
+      "status": "active",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "موقف سيارات",
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Premium Finish",
+          "Near Transportation",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "7",
+      "floor": "الثالث",
+      "unitNumber": "7784",
+      "usableSpace": 392,
+      "gardenShare": 0,
+      "view": "",
+      "createdAt": "2025-12-27T04:25:31.688Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T04:25:31.688Z"
+    }
+  ],
+  "total": 1,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "type": ""
+  },
+  "generatedAt": "2025-12-27T22:42:12.822Z"
+}

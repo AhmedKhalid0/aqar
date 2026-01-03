@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "id": "unit-000131",
+      "title": {
+        "ar": "تاون هاوس 497 متر - الشيخ زايد",
+        "en": "Townhouse 497 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 497 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 497 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8600000,
+      "area": 497,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "مصعد خاص",
+          "موقف سيارات",
+          "تكييف مركزي",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Maid Room",
+          "24/7 Security",
+          "Near Transportation",
+          "Gym",
+          "Private Elevator",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "50",
+      "floor": "الأرضي",
+      "unitNumber": "6996",
+      "usableSpace": 422,
+      "gardenShare": 109,
+      "view": "landscape",
+      "projectId": "project-0003",
+      "createdAt": "2025-12-27T03:44:50.327Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.327Z"
+    },
+    {
+      "id": "unit-000143",
+      "title": {
+        "ar": "توين هاوس 210 متر - 6 أكتوبر",
+        "en": "Twin House 210 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 210 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 210 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8600000,
+      "area": 210,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "مصعد خاص",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Maid Room",
+          "Private Garden",
+          "Sea View",
+          "Private Pool",
+          "Large Terrace",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "16",
+      "floor": "السادس",
+      "unitNumber": "2644",
+      "usableSpace": 179,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0034",
+      "createdAt": "2025-12-27T03:44:50.411Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.411Z"
+    },
+    {
+      "id": "unit-000239",
+      "title": {
+        "ar": "تاون هاوس 252 متر - المعادي",
+        "en": "Townhouse 252 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 252 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 252 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8600000,
+      "area": 252,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "تكييف مركزي",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Near Transportation",
+          "Sea View",
+          "Premium Finish",
+          "Private Elevator",
+          "Private Pool",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "33",
+      "floor": "الرابع",
+      "unitNumber": "6506",
+      "usableSpace": 214,
+      "gardenShare": 145,
+      "view": "golf",
+      "projectId": "project-0018",
+      "createdAt": "2025-12-27T03:44:51.248Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.248Z"
+    }
+  ],
+  "total": 3,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "8600000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.995Z"
+}

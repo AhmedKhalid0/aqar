@@ -1,0 +1,362 @@
+{
+  "data": [
+    {
+      "id": "unit-000061",
+      "title": {
+        "ar": "شقة 159 متر - الشيخ زايد",
+        "en": "Apartment 159 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 159 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 159 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7500000,
+      "area": 159,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "8-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "أمن 24 ساعة",
+          "مصعد خاص",
+          "تراس واسع",
+          "إطلالة بحرية",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Central AC",
+          "Private Elevator",
+          "Private Garden",
+          "Large Terrace",
+          "Near Transportation",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "39",
+      "floor": "الرابع",
+      "unitNumber": "9756",
+      "usableSpace": 135,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0019",
+      "createdAt": "2025-12-27T03:44:49.991Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.991Z"
+    },
+    {
+      "id": "unit-000164",
+      "title": {
+        "ar": "دوبلكس 282 متر - المعادي",
+        "en": "Duplex 282 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 282 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 282 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7500000,
+      "area": 282,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "مصعد خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "24/7 Security",
+          "Parking",
+          "Private Elevator",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "23",
+      "floor": "الأول",
+      "unitNumber": "4750",
+      "usableSpace": 240,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0028",
+      "createdAt": "2025-12-27T03:44:50.565Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.565Z"
+    },
+    {
+      "id": "unit-000200",
+      "title": {
+        "ar": "شقة 346 متر - العاصمة الإدارية",
+        "en": "Apartment 346 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 346 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 346 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7500000,
+      "area": 346,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "حديقة خاصة",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Large Terrace",
+          "Sea View",
+          "24/7 Security",
+          "Premium Finish",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "47",
+      "floor": "الأول",
+      "unitNumber": "4502",
+      "usableSpace": 294,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0021",
+      "createdAt": "2025-12-27T03:44:50.889Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.889Z"
+    },
+    {
+      "id": "unit-000350",
+      "title": {
+        "ar": "فيلا 236 متر - العين السخنة",
+        "en": "Villa 236 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 236 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 236 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7500000,
+      "area": 236,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Maid Room",
+          "Private Elevator",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "1",
+      "floor": "الخامس",
+      "unitNumber": "4161",
+      "usableSpace": 201,
+      "gardenShare": 150,
+      "view": "street",
+      "projectId": "project-0009",
+      "createdAt": "2025-12-27T03:44:52.356Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.356Z"
+    },
+    {
+      "id": "unit-000420",
+      "title": {
+        "ar": "فيلا 251 متر - الشيخ زايد",
+        "en": "Villa 251 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 251 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 251 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7500000,
+      "area": 251,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "مصعد خاص",
+          "حمام سباحة خاص",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Sea View",
+          "Private Elevator",
+          "Private Garden",
+          "Parking",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "41",
+      "floor": "السادس",
+      "unitNumber": "8060",
+      "usableSpace": 213,
+      "gardenShare": 194,
+      "view": "",
+      "projectId": "project-0042",
+      "createdAt": "2025-12-27T03:44:53.096Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.096Z"
+    },
+    {
+      "id": "unit-000443",
+      "title": {
+        "ar": "شاليه 373 متر - التجمع الخامس",
+        "en": "Chalet 373 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 373 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 373 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7500000,
+      "area": 373,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "أمن 24 ساعة",
+          "تراس واسع",
+          "حديقة خاصة",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Premium Finish",
+          "Sea View",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "7",
+      "floor": "الأول",
+      "unitNumber": "3864",
+      "usableSpace": 317,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0004",
+      "createdAt": "2025-12-27T03:44:53.326Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.326Z"
+    }
+  ],
+  "total": 6,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "7500000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.836Z"
+}

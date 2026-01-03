@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول | لوحة التحكم - عقار</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+
+<body class="login-page">
+    <div class="login-box">
+        <div class="login-logo">
+            <h1><span>New</span>City</h1>
+            <p class="text-muted">لوحة التحكم</p>
+        </div>
+
+        <form id="loginForm">
+            <div class="mb-3">
+                <label class="form-label">اسم المستخدم</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                    <input type="text" class="form-control" id="username" required autocomplete="username">
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">كلمة المرور</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                    <input type="password" class="form-control" id="password" required autocomplete="current-password">
+                    <button type="button" class="btn btn-outline-secondary" id="togglePassword">
+                        <i class="bi bi-eye"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- CAPTCHA Section (hidden by default) -->
+            <div class="mb-3" id="captchaSection" style="display: none;">
+                <div class="alert alert-warning py-2 mb-2">
+                    <i class="bi bi-shield-exclamation me-1"></i>
+                    <span id="captchaWarning">تم تجاوز عدد المحاولات المسموحة. أجب على السؤال:</span>
+                </div>
+                <label class="form-label">
+                    <strong id="captchaQuestion"></strong> = ؟
+                </label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-calculator"></i></span>
+                    <input type="number" class="form-control" id="captchaAnswer" placeholder="الإجابة">
+                </div>
+            </div>
+
+            <div class="alert alert-danger" id="errorAlert" style="display: none;"></div>
+
+            <div class="text-muted small mb-2" id="attemptsInfo" style="display: none;">
+                <i class="bi bi-info-circle me-1"></i>
+                <span id="attemptsText"></span>
+            </div>
+
+            <button type="submit" class="btn btn-gold w-100 py-2" id="loginBtn">
+                <i class="bi bi-box-arrow-in-left me-2"></i>
+                تسجيل الدخول
+            </button>
+        </form>
+
+        <div class="text-center mt-4">
+            <a href="/" class="text-muted text-decoration-none">
+                <i class="bi bi-arrow-right me-1"></i>
+                العودة للموقع
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Check if already logged in (with verification)
+        (async function checkExistingAuth() {
+            const token = localStorage.getItem('adminToken');
+            if (token) {
+                try {
+                    const response = await fetch('/api/auth/verify', {
+                        headers: { 'Authorization': `Bearer ${token}` }
+                    });
+                    if (response.ok) {
+                        window.location.href = '/admin/';
+                        return;
+                    }
+                } catch (e) { }
+                // Token is invalid, clear it
+                localStorage.removeItem('adminToken');
+                localStorage.removeItem('adminUser');
+            }
+        })();
+
+        // CAPTCHA state
+        let captchaRequired = false;
+
+        // Check CAPTCHA status on page load
+        async function checkCaptchaStatus() {
+            try {
+                const response = await fetch('/api/auth/captcha-status');
+                const data = await response.json();
+
+                if (data.requiresCaptcha) {
+                    showCaptcha(data.captchaQuestion);
+                }
+            } catch (e) { }
+        }
+        checkCaptchaStatus();
+
+        // Show CAPTCHA UI
+        function showCaptcha(question) {
+            captchaRequired = true;
+            document.getElementById('captchaSection').style.display = 'block';
+            document.getElementById('captchaQuestion').textContent = question;
+            document.getElementById('captchaAnswer').required = true;
+        }
+
+        // Hide CAPTCHA UI
+        function hideCaptcha() {
+            captchaRequired = false;
+            document.getElementById('captchaSection').style.display = 'none';
+            document.getElementById('captchaAnswer').required = false;
+            document.getElementById('captchaAnswer').value = '';
+        }
+
+        // Show attempts remaining
+        function showAttempts(remaining) {
+            const info = document.getElementById('attemptsInfo');
+            const text = document.getElementById('attemptsText');
+            if (remaining > 0 && remaining < 3) {
+                info.style.display = 'block';
+                text.textContent = `متبقي ${remaining} محاولات قبل تفعيل التحقق`;
+            } else {
+                info.style.display = 'none';
+            }
+        }
+
+        // Toggle password visibility
+        document.getElementById('togglePassword').addEventListener('click', function () {
+            const password = document.getElementById('password');
+            const icon = this.querySelector('i');
+
+            if (password.type === 'password') {
+                password.type = 'text';
+                icon.classList.replace('bi-eye', 'bi-eye-slash');
+            } else {
+                password.type = 'password';
+                icon.classList.replace('bi-eye-slash', 'bi-eye');
+            }
+        });
+
+        // Login form
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const captchaAnswer = document.getElementById('captchaAnswer').value;
+            const btn = document.getElementById('loginBtn');
+            const errorAlert = document.getElementById('errorAlert');
+
+            btn.disabled = true;
+            btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span> جاري التحقق...';
+            errorAlert.style.display = 'none';
+
+            try {
+                const body = { username, password };
+                if (captchaRequired && captchaAnswer) {
+                    body.captchaAnswer = captchaAnswer;
+                }
+
+                const response = await fetch('/api/auth/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(body)
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    // Check if CAPTCHA is now required
+                    if (data.requiresCaptcha && data.captchaQuestion) {
+                        showCaptcha(data.captchaQuestion);
+                    }
+
+                    // Show attempts remaining
+                    if (data.attemptsRemaining !== undefined) {
+                        showAttempts(data.attemptsRemaining);
+                    }
+
+                    throw new Error(data.error || 'فشل تسجيل الدخول');
+                }
+
+                localStorage.setItem('adminToken', data.token);
+                localStorage.setItem('adminUser', JSON.stringify(data.user));
+
+                window.location.href = '/admin/';
+            } catch (error) {
+                errorAlert.textContent = error.message || 'اسم المستخدم أو كلمة المرور غير صحيحة';
+                errorAlert.style.display = 'block';
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="bi bi-box-arrow-in-left me-2"></i> تسجيل الدخول';
+            }
+        });
+    </script>
+</body>
+
+</html>

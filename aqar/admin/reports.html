@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التقارير | لوحة التحكم</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="admin-wrapper">
+        <aside class="admin-sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <a href="/admin/" class="sidebar-brand">
+                    <img src="/images/logo.png" alt="Aqar" height="40">
+                </a>
+            </div>
+            <nav class="sidebar-nav">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="/admin/index.html" class="nav-link"><i class="bi bi-speedometer2"></i>لوحة التحكم</a></li>
+                    <li class="nav-item"><a href="/admin/units.html" class="nav-link"><i class="bi bi-building"></i>الوحدات</a></li>
+                    <li class="nav-item"><a href="/admin/projects.html" class="nav-link"><i class="bi bi-buildings"></i>المشاريع</a></li>
+                    <li class="nav-item"><a href="/admin/news.html" class="nav-link"><i class="bi bi-newspaper"></i>الأخبار</a></li>
+                    <li class="nav-item"><a href="/admin/partners.html" class="nav-link"><i class="bi bi-people"></i>الشركاء</a></li>
+                    <li class="nav-item"><a href="/admin/reviews.html" class="nav-link"><i class="bi bi-star"></i>التقييمات</a></li>
+                    <li class="nav-item"><a href="/admin/messages.html" class="nav-link"><i class="bi bi-envelope"></i>الرسائل</a></li>
+                    <li class="nav-item"><a href="/admin/reports.html" class="nav-link active"><i class="bi bi-graph-up"></i>التقارير</a></li>
+                    <li class="nav-item"><a href="/admin/users.html" class="nav-link"><i class="bi bi-person-gear"></i>المستخدمين</a></li>
+                    <li class="nav-item"><a href="/admin/settings.html" class="nav-link"><i class="bi bi-gear"></i>الإعدادات</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="admin-main">
+            <header class="admin-header">
+                <button class="btn btn-link d-lg-none" id="sidebarToggle"><i class="bi bi-list fs-4"></i></button>
+                <div class="ms-auto d-flex align-items-center gap-3">
+                    <a href="/" target="_blank" class="btn btn-outline-secondary btn-sm"><i class="bi bi-globe me-1"></i>الموقع</a>
+                    <button class="btn btn-outline-danger btn-sm" onclick="Admin.logout()"><i class="bi bi-box-arrow-right"></i></button>
+                </div>
+            </header>
+
+            <div class="admin-content">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4 class="mb-0"><i class="bi bi-graph-up me-2"></i>التقارير والإحصائيات</h4>
+                </div>
+
+                <!-- Visitor Stats Cards -->
+                <div class="row mb-4">
+                    <div class="col-md-3 mb-3">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="bi bi-eye fs-1 text-primary"></i>
+                                <h3 class="mt-2" id="todayViews">0</h3>
+                                <p class="text-muted mb-0">زيارات اليوم</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="bi bi-person-check fs-1 text-success"></i>
+                                <h3 class="mt-2" id="todayUnique">0</h3>
+                                <p class="text-muted mb-0">زوار فريدون اليوم</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="bi bi-calendar-week fs-1 text-info"></i>
+                                <h3 class="mt-2" id="weekViews">0</h3>
+                                <p class="text-muted mb-0">زيارات آخر 7 أيام</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body text-center">
+                                <i class="bi bi-graph-up-arrow fs-1 text-warning"></i>
+                                <h3 class="mt-2" id="totalViews">0</h3>
+                                <p class="text-muted mb-0">إجمالي الزيارات</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Row -->
+                <div class="row mb-4">
+                    <div class="col-lg-8 mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-white">
+                                <h6 class="mb-0"><i class="bi bi-bar-chart me-2"></i>الزيارات اليومية (آخر 30 يوم)</h6>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="visitorsChart" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-white">
+                                <h6 class="mb-0"><i class="bi bi-pie-chart me-2"></i>الوحدات حسب النوع</h6>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="unitsTypeChart" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-white">
+                                <h6 class="mb-0"><i class="bi bi-house me-2"></i>الوحدات حسب الحالة</h6>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="unitsStatusChart" height="250"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-white">
+                                <h6 class="mb-0"><i class="bi bi-geo-alt me-2"></i>الوحدات حسب الموقع</h6>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="unitsLocationChart" height="250"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Summary Stats -->
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="card border-0 shadow-sm bg-primary text-white">
+                            <div class="card-body text-center">
+                                <i class="bi bi-building fs-1"></i>
+                                <h3 class="mt-2" id="totalUnits">0</h3>
+                                <p class="mb-0">إجمالي الوحدات</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card border-0 shadow-sm bg-success text-white">
+                            <div class="card-body text-center">
+                                <i class="bi bi-buildings fs-1"></i>
+                                <h3 class="mt-2" id="totalProjects">0</h3>
+                                <p class="mb-0">إجمالي المشاريع</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card border-0 shadow-sm bg-info text-white">
+                            <div class="card-body text-center">
+                                <i class="bi bi-envelope fs-1"></i>
+                                <h3 class="mt-2" id="totalMessages">0</h3>
+                                <p class="mb-0">إجمالي الرسائل</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card border-0 shadow-sm bg-warning text-white">
+                            <div class="card-body text-center">
+                                <i class="bi bi-people fs-1"></i>
+                                <h3 class="mt-2" id="totalVisitors">0</h3>
+                                <p class="mb-0">إجمالي الزوار</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    <script>
+        let visitorsChart, unitsTypeChart, unitsStatusChart, unitsLocationChart;
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (!await Admin.checkAuth()) return;
+            Admin.initSidebar();
+            loadReports();
+        });
+
+        async function loadReports() {
+            try {
+                const [visitors, reports] = await Promise.all([
+                    Admin.adminFetch('/api/admin/visitors'),
+                    Admin.adminFetch('/api/admin/reports')
+                ]);
+
+                // Update visitor stats
+                document.getElementById('todayViews').textContent = visitors.today?.views || 0;
+                document.getElementById('todayUnique').textContent = visitors.today?.unique || 0;
+                document.getElementById('weekViews').textContent = visitors.last7Days?.views || 0;
+                document.getElementById('totalViews').textContent = visitors.total || 0;
+
+                // Update summary stats
+                document.getElementById('totalUnits').textContent = reports.summary?.totalUnits || 0;
+                document.getElementById('totalProjects').textContent = reports.summary?.totalProjects || 0;
+                document.getElementById('totalMessages').textContent = reports.summary?.totalMessages || 0;
+                document.getElementById('totalVisitors').textContent = reports.summary?.totalVisitors || 0;
+
+                // Visitors Chart
+                const dailyData = visitors.daily || {};
+                const days = Object.keys(dailyData).sort().slice(-30);
+                const viewsData = days.map(d => dailyData[d]?.count || 0);
+
+                visitorsChart = new Chart(document.getElementById('visitorsChart'), {
+                    type: 'line',
+                    data: {
+                        labels: days.map(d => d.substring(5)),
+                        datasets: [{
+                            label: 'الزيارات',
+                            data: viewsData,
+                            borderColor: '#0d6efd',
+                            backgroundColor: 'rgba(13, 110, 253, 0.1)',
+                            fill: true,
+                            tension: 0.3
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } }
+                    }
+                });
+
+                // Units by Type Chart
+                const typeLabels = Object.keys(reports.unitsByType || {});
+                const typeData = Object.values(reports.unitsByType || {});
+                unitsTypeChart = new Chart(document.getElementById('unitsTypeChart'), {
+                    type: 'doughnut',
+                    data: {
+                        labels: typeLabels,
+                        datasets: [{
+                            data: typeData,
+                            backgroundColor: ['#0d6efd', '#198754', '#ffc107', '#dc3545', '#6c757d', '#17a2b8']
+                        }]
+                    },
+                    options: { responsive: true, maintainAspectRatio: false }
+                });
+
+                // Units by Status Chart
+                const statusLabels = { available: 'متاح', reserved: 'محجوز', sold: 'مباع', resale: 'إعادة بيع' };
+                const statusKeys = Object.keys(reports.unitsByStatus || {});
+                const statusData = Object.values(reports.unitsByStatus || {});
+                unitsStatusChart = new Chart(document.getElementById('unitsStatusChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: statusKeys.map(k => statusLabels[k] || k),
+                        datasets: [{
+                            label: 'الوحدات',
+                            data: statusData,
+                            backgroundColor: ['#28a745', '#ffc107', '#dc3545', '#17a2b8']
+                        }]
+                    },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+                });
+
+                // Units by Location Chart
+                const locLabels = Object.keys(reports.unitsByLocation || {});
+                const locData = Object.values(reports.unitsByLocation || {});
+                unitsLocationChart = new Chart(document.getElementById('unitsLocationChart'), {
+                    type: 'pie',
+                    data: {
+                        labels: locLabels,
+                        datasets: [{
+                            data: locData,
+                            backgroundColor: ['#0d6efd', '#198754', '#ffc107', '#dc3545', '#6c757d', '#17a2b8', '#6f42c1']
+                        }]
+                    },
+                    options: { responsive: true, maintainAspectRatio: false }
+                });
+
+            } catch (error) {
+                console.error('Error loading reports:', error);
+                Admin.showAlert('فشل تحميل التقارير', 'danger');
+            }
+        }
+    </script>
+</body>
+</html>

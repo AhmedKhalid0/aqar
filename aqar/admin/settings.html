@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الإعدادات | عقار</title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/quill@1.3.7/dist/quill.snow.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="sidebarContainer"></div>
+
+    <main class="admin-main">
+        <header class="admin-header">
+            <button class="sidebar-toggle"><i class="bi bi-list"></i></button>
+            <h1>الإعدادات</h1>
+        </header>
+
+        <div class="admin-content">
+            <!-- Tabs -->
+            <ul class="nav nav-tabs mb-4 flex-wrap" id="settingsTabs">
+                <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#brandingTab">العلامة
+                        التجارية</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#heroTab">البانر الرئيسي</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#ctaTab">قسم CTA</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#locationsTab">المواقع</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#typesTab">أنواع الوحدات</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#unitStatusesTab">حالات الوحدة</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#viewsTab">الإطلالات</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#paymentPlansTab">خطط الأقساط</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#contactTab">معلومات التواصل</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#socialTab">السوشيال ميديا</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#termsTab">الشروط والأحكام</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#privacyTab">سياسة الخصوصية</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#aboutTab">عن الشركة</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#colorsTab">الألوان</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#teamTab">فريق العمل</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#pagesTab">الصفحات</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#seoTab">SEO</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#scriptsTab">الأكواد</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#statsTab">الإحصائيات</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <!-- Locations Tab -->
+                <div class="tab-pane fade" id="locationsTab">
+                    <div class="data-card">
+                        <div class="data-card-header">
+                            <h3>المواقع</h3>
+                            <button class="btn btn-gold btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#addLocationModal">
+                                <i class="bi bi-plus-circle me-1"></i>إضافة موقع
+                            </button>
+                        </div>
+                        <div class="data-card-body">
+                            <table class="table data-table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>الاسم (عربي)</th>
+                                        <th>الاسم (إنجليزي)</th>
+                                        <th>المعرف</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="locationsTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unit Types Tab -->
+                <div class="tab-pane fade" id="typesTab">
+                    <div class="data-card">
+                        <div class="data-card-header">
+                            <h3>أنواع الوحدات</h3>
+                            <button class="btn btn-gold btn-sm" data-bs-toggle="modal" data-bs-target="#addTypeModal">
+                                <i class="bi bi-plus-circle me-1"></i>إضافة نوع
+                            </button>
+                        </div>
+                        <div class="data-card-body">
+                            <table class="table data-table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>الاسم (عربي)</th>
+                                        <th>الاسم (إنجليزي)</th>
+                                        <th>المعرف</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="typesTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unit Statuses Tab -->
+                <div class="tab-pane fade" id="unitStatusesTab">
+                    <div class="data-card">
+                        <div class="data-card-header">
+                            <h3>حالات الوحدة</h3>
+                            <button class="btn btn-gold btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#addUnitStatusModal">
+                                <i class="bi bi-plus-circle me-1"></i>إضافة حالة
+                            </button>
+                        </div>
+                        <div class="data-card-body">
+                            <table class="table data-table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>الاسم (عربي)</th>
+                                        <th>الاسم (إنجليزي)</th>
+                                        <th>المعرف</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="unitStatusesTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Views Tab -->
+                <div class="tab-pane fade" id="viewsTab">
+                    <div class="data-card">
+                        <div class="data-card-header">
+                            <h3>الإطلالات</h3>
+                            <button class="btn btn-gold btn-sm" data-bs-toggle="modal" data-bs-target="#addViewModal">
+                                <i class="bi bi-plus-circle me-1"></i>إضافة إطلالة
+                            </button>
+                        </div>
+                        <div class="data-card-body">
+                            <table class="table data-table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>الاسم (عربي)</th>
+                                        <th>الاسم (إنجليزي)</th>
+                                        <th>المعرف</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="viewsTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Plans Tab -->
+                <div class="tab-pane fade" id="paymentPlansTab">
+                    <div class="data-card">
+                        <div class="data-card-header">
+                            <h3>خطط الأقساط</h3>
+                            <button class="btn btn-gold btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#addPaymentPlanModal">
+                                <i class="bi bi-plus-circle me-1"></i>إضافة خطة
+                            </button>
+                        </div>
+                        <div class="data-card-body">
+                            <table class="table data-table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>الاسم (عربي)</th>
+                                        <th>الاسم (إنجليزي)</th>
+                                        <th>المعرف</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="paymentPlansTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Tab -->
+                <div class="tab-pane fade" id="contactTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">معلومات التواصل</h3>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">رقم الهاتف</label>
+                                    <input type="text" class="form-control" id="contactPhone">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">البريد الإلكتروني</label>
+                                    <input type="email" class="form-control" id="contactEmail">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان (عربي)</label>
+                                    <input type="text" class="form-control" id="addressAr">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان (إنجليزي)</label>
+                                    <input type="text" class="form-control" id="addressEn">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">ساعات العمل (عربي)</label>
+                                    <input type="text" class="form-control" id="hoursAr">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">ساعات العمل (إنجليزي)</label>
+                                    <input type="text" class="form-control" id="hoursEn">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">رقم واتساب</label>
+                                    <input type="text" class="form-control" id="whatsapp" placeholder="+201000000000">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">رابط خريطة جوجل</label>
+                                    <input type="url" class="form-control" id="mapUrl">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Social Tab -->
+                <div class="tab-pane fade" id="socialTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">روابط السوشيال ميديا</h3>
+                        <form id="socialForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label"><i
+                                            class="bi bi-facebook text-primary me-2"></i>Facebook</label>
+                                    <div class="input-group">
+                                        <div class="input-group-text">
+                                            <input class="form-check-input mt-0" type="checkbox" id="facebook_visible"
+                                                title="إظهار/إخفاء">
+                                        </div>
+                                        <input type="url" class="form-control" id="facebook"
+                                            placeholder="https://facebook.com/...">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label"><i
+                                            class="bi bi-instagram text-danger me-2"></i>Instagram</label>
+                                    <div class="input-group">
+                                        <div class="input-group-text">
+                                            <input class="form-check-input mt-0" type="checkbox" id="instagram_visible"
+                                                title="إظهار/إخفاء">
+                                        </div>
+                                        <input type="url" class="form-control" id="instagram"
+                                            placeholder="https://instagram.com/...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label"><i class="bi bi-twitter-x me-2"></i>Twitter/X</label>
+                                    <div class="input-group">
+                                        <div class="input-group-text">
+                                            <input class="form-check-input mt-0" type="checkbox" id="twitter_visible"
+                                                title="إظهار/إخفاء">
+                                        </div>
+                                        <input type="url" class="form-control" id="twitter"
+                                            placeholder="https://twitter.com/...">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label"><i
+                                            class="bi bi-linkedin text-primary me-2"></i>LinkedIn</label>
+                                    <div class="input-group">
+                                        <div class="input-group-text">
+                                            <input class="form-check-input mt-0" type="checkbox" id="linkedin_visible"
+                                                title="إظهار/إخفاء">
+                                        </div>
+                                        <input type="url" class="form-control" id="linkedin"
+                                            placeholder="https://linkedin.com/...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label"><i
+                                            class="bi bi-youtube text-danger me-2"></i>YouTube</label>
+                                    <div class="input-group">
+                                        <div class="input-group-text">
+                                            <input class="form-check-input mt-0" type="checkbox" id="youtube_visible"
+                                                title="إظهار/إخفاء">
+                                        </div>
+                                        <input type="url" class="form-control" id="youtube"
+                                            placeholder="https://youtube.com/...">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label"><i class="bi bi-tiktok me-2"></i>TikTok</label>
+                                    <div class="input-group">
+                                        <div class="input-group-text">
+                                            <input class="form-check-input mt-0" type="checkbox" id="tiktok_visible"
+                                                title="إظهار/إخفاء">
+                                        </div>
+                                        <input type="url" class="form-control" id="tiktok"
+                                            placeholder="https://tiktok.com/...">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Terms Tab -->
+                <div class="tab-pane fade" id="termsTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">الشروط والأحكام</h3>
+                        <form id="termsForm">
+                            <div class="mb-3">
+                                <label class="form-label">المحتوى (عربي)</label>
+                                <div id="termsArEditor" style="height: 300px;"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">المحتوى (إنجليزي)</label>
+                                <div id="termsEnEditor" style="height: 300px;"></div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Privacy Tab -->
+                <div class="tab-pane fade" id="privacyTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">سياسة الخصوصية</h3>
+                        <form id="privacyForm">
+                            <div class="mb-3">
+                                <label class="form-label">المحتوى (عربي)</label>
+                                <div id="privacyArEditor" style="height: 300px;"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">المحتوى (إنجليزي)</label>
+                                <div id="privacyEnEditor" style="height: 300px;"></div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- About Tab -->
+                <div class="tab-pane fade" id="aboutTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">عن الشركة</h3>
+                        <form id="aboutForm">
+                            <div class="mb-3">
+                                <label class="form-label">المحتوى (عربي)</label>
+                                <div id="aboutArEditor" style="height: 300px;"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">المحتوى (إنجليزي)</label>
+                                <div id="aboutEnEditor" style="height: 300px;"></div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Branding Tab -->
+                <div class="tab-pane fade show active" id="brandingTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">العلامة التجارية</h3>
+                        <form id="brandingForm">
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <label class="form-label">اللوجو الرئيسي</label>
+                                    <div class="border rounded p-3 text-center mb-2 position-relative"
+                                        style="background: #f8f9fa;">
+                                        <button type="button"
+                                            class="btn btn-sm btn-danger position-absolute top-0 end-0 m-1 logo-remove-btn"
+                                            onclick="removeLogo('logo')" style="display:none;" title="إزالة">
+                                            <i class="bi bi-x"></i>
+                                        </button>
+                                        <img id="logoPreview" src="/images/logo.png" alt="Logo"
+                                            style="max-height: 80px;">
+                                    </div>
+                                    <div class="btn-group w-100 mb-2">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            onclick="openMediaPicker('logo')">
+                                            <i class="bi bi-images me-1"></i>المكتبة
+                                        </button>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            onclick="toggleUrlInput('logo')">
+                                            <i class="bi bi-link-45deg me-1"></i>رابط
+                                        </button>
+                                        <label class="btn btn-outline-secondary btn-sm mb-0">
+                                            <i class="bi bi-upload me-1"></i>رفع
+                                            <input type="file" id="logoInput" accept="image/*" style="display:none;"
+                                                onchange="handleLogoUpload(this, 'logo')">
+                                        </label>
+                                    </div>
+                                    <input type="url" class="form-control form-control-sm url-input" id="logoUrlInput"
+                                        placeholder="https://..." style="display:none;"
+                                        onchange="setLogoFromUrl(this.value, 'logo')">
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <label class="form-label">لوجو للغة العربية (اختياري)</label>
+                                    <div class="border rounded p-3 text-center mb-2 position-relative"
+                                        style="background: #f8f9fa;">
+                                        <button type="button"
+                                            class="btn btn-sm btn-danger position-absolute top-0 end-0 m-1 logo-remove-btn"
+                                            onclick="removeLogo('logoAr')" style="display:none;" title="إزالة">
+                                            <i class="bi bi-x"></i>
+                                        </button>
+                                        <img id="logoArPreview" src="/images/logo.png" alt="Logo AR"
+                                            style="max-height: 80px;">
+                                    </div>
+                                    <div class="btn-group w-100 mb-2">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            onclick="openMediaPicker('logoAr')">
+                                            <i class="bi bi-images me-1"></i>المكتبة
+                                        </button>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            onclick="toggleUrlInput('logoAr')">
+                                            <i class="bi bi-link-45deg me-1"></i>رابط
+                                        </button>
+                                        <label class="btn btn-outline-secondary btn-sm mb-0">
+                                            <i class="bi bi-upload me-1"></i>رفع
+                                            <input type="file" id="logoArInput" accept="image/*" style="display:none;"
+                                                onchange="handleLogoUpload(this, 'logoAr')">
+                                        </label>
+                                    </div>
+                                    <input type="url" class="form-control form-control-sm url-input" id="logoArUrlInput"
+                                        placeholder="https://..." style="display:none;"
+                                        onchange="setLogoFromUrl(this.value, 'logoAr')">
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <label class="form-label">لوجو للغة الإنجليزية (اختياري)</label>
+                                    <div class="border rounded p-3 text-center mb-2 position-relative"
+                                        style="background: #f8f9fa;">
+                                        <button type="button"
+                                            class="btn btn-sm btn-danger position-absolute top-0 end-0 m-1 logo-remove-btn"
+                                            onclick="removeLogo('logoEn')" style="display:none;" title="إزالة">
+                                            <i class="bi bi-x"></i>
+                                        </button>
+                                        <img id="logoEnPreview" src="/images/logo.png" alt="Logo EN"
+                                            style="max-height: 80px;">
+                                    </div>
+                                    <div class="btn-group w-100 mb-2">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            onclick="openMediaPicker('logoEn')">
+                                            <i class="bi bi-images me-1"></i>المكتبة
+                                        </button>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                            onclick="toggleUrlInput('logoEn')">
+                                            <i class="bi bi-link-45deg me-1"></i>رابط
+                                        </button>
+                                        <label class="btn btn-outline-secondary btn-sm mb-0">
+                                            <i class="bi bi-upload me-1"></i>رفع
+                                            <input type="file" id="logoEnInput" accept="image/*" style="display:none;"
+                                                onchange="handleLogoUpload(this, 'logoEn')">
+                                        </label>
+                                    </div>
+                                    <input type="url" class="form-control form-control-sm url-input" id="logoEnUrlInput"
+                                        placeholder="https://..." style="display:none;"
+                                        onchange="setLogoFromUrl(this.value, 'logoEn')">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <label class="form-label">الأيقونة (Favicon)</label>
+                                    <div class="border rounded p-3 text-center mb-2" style="background: #f8f9fa;">
+                                        <img id="faviconPreview" src="/images/favicon.png" alt="Favicon"
+                                            style="max-height: 48px;">
+                                    </div>
+                                    <input type="file" class="form-control" id="faviconInput" accept="image/*">
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <label class="form-label">اسم الشركة (عربي)</label>
+                                    <input type="text" class="form-control" id="companyNameAr" placeholder="عقار">
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <label class="form-label">اسم الشركة (إنجليزي)</label>
+                                    <input type="text" class="form-control" id="companyNameEn" placeholder="Aqar">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="showCompanyName" checked>
+                                    <label class="form-check-label" for="showCompanyName">عرض اسم الشركة بجوار
+                                        اللوجو</label>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                            <h5 class="mb-3">نص الفوتر (عن الشركة)</h5>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">النص (عربي)</label>
+                                    <textarea class="form-control" id="footerAboutAr" rows="3"
+                                        placeholder="عقار هي منصتك العقارية الأولى في مصر..."></textarea>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">النص (إنجليزي)</label>
+                                    <textarea class="form-control" id="footerAboutEn" rows="3"
+                                        placeholder="Aqar is your premier real estate platform..."></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Hero Tab -->
+                <div class="tab-pane fade" id="heroTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">البانر الرئيسي (Hero Section)</h3>
+                        <form id="heroForm">
+                            <div class="mb-4">
+                                <label class="form-label">صورة البانر</label>
+                                <div class="border rounded p-3 text-center mb-2"
+                                    style="background: #f8f9fa; min-height: 150px;">
+                                    <img id="heroImagePreview" src="/images/placeholder.jpg" alt="Hero"
+                                        style="max-height: 150px; max-width: 100%;">
+                                </div>
+                                <input type="file" class="form-control" id="heroImageInput" accept="image/*">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان (عربي)</label>
+                                    <input type="text" class="form-control" id="heroTitleAr"
+                                        placeholder="نبني <span>مستقبلك</span> بأيدٍ أمينة">
+                                    <small class="text-muted">استخدم &lt;span&gt; للنص المميز</small>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان (إنجليزي)</label>
+                                    <input type="text" class="form-control" id="heroTitleEn"
+                                        placeholder="Find Your <span>Dream Home</span>">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان الفرعي (عربي)</label>
+                                    <textarea class="form-control" id="heroSubtitleAr" rows="2"></textarea>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان الفرعي (إنجليزي)</label>
+                                    <textarea class="form-control" id="heroSubtitleEn" rows="2"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- CTA Tab -->
+                <div class="tab-pane fade" id="ctaTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">قسم الدعوة للتواصل (CTA)</h3>
+                        <form id="ctaForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان (عربي)</label>
+                                    <input type="text" class="form-control" id="ctaTitleAr"
+                                        placeholder="هل تبحث عن عقار مميز؟">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان (إنجليزي)</label>
+                                    <input type="text" class="form-control" id="ctaTitleEn"
+                                        placeholder="Looking for a special property?">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان الفرعي (عربي)</label>
+                                    <input type="text" class="form-control" id="ctaSubtitleAr"
+                                        placeholder="تواصل معنا الآن واحصل على أفضل العروض">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">العنوان الفرعي (إنجليزي)</label>
+                                    <input type="text" class="form-control" id="ctaSubtitleEn"
+                                        placeholder="Contact us now and get the best offers">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">نص الزر (عربي)</label>
+                                    <input type="text" class="form-control" id="ctaButtonAr" placeholder="تواصل معنا">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">نص الزر (إنجليزي)</label>
+                                    <input type="text" class="form-control" id="ctaButtonEn" placeholder="Contact Us">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">رابط الزر</label>
+                                    <input type="text" class="form-control" id="ctaButtonLink"
+                                        placeholder="/contact.html">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- SEO Tab -->
+                <div class="tab-pane fade" id="seoTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">إعدادات SEO</h3>
+                        <form id="seoForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">اسم الموقع (عربي)</label>
+                                    <input type="text" class="form-control" id="siteNameAr">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">اسم الموقع (إنجليزي)</label>
+                                    <input type="text" class="form-control" id="siteNameEn">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">وصف الموقع (عربي)</label>
+                                    <textarea class="form-control" id="siteDescAr" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">وصف الموقع (إنجليزي)</label>
+                                    <textarea class="form-control" id="siteDescEn" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">الكلمات المفتاحية (مفصولة بفاصلة)</label>
+                                <input type="text" class="form-control" id="seoKeywords">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">صورة المشاركة (OG Image)</label>
+                                <input type="text" class="form-control" id="ogImage" placeholder="/images/og-image.jpg">
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Scripts Tab -->
+                <div class="tab-pane fade" id="scriptsTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">أكواد مخصصة</h3>
+                        <p class="text-muted">أضف أكواد مثل Google Tag Manager أو Analytics أو أي أكواد تتبع أخرى</p>
+                        <form id="scriptsForm">
+                            <div class="mb-3">
+                                <label class="form-label">أكواد داخل &lt;head&gt;</label>
+                                <textarea class="form-control font-monospace" id="headScripts" rows="5"
+                                    placeholder="<!-- Google Tag Manager -->"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">أكواد بعد &lt;body&gt; مباشرة</label>
+                                <textarea class="form-control font-monospace" id="bodyStartScripts" rows="5"
+                                    placeholder="<!-- GTM noscript -->"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">أكواد قبل &lt;/body&gt;</label>
+                                <textarea class="form-control font-monospace" id="bodyEndScripts" rows="5"
+                                    placeholder="<!-- Other scripts -->"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Colors Tab -->
+                <div class="tab-pane fade" id="colorsTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">ألوان الموقع</h3>
+                        <p class="text-muted mb-4">يمكنك تخصيص ألوان الموقع لتناسب هويتك البصرية</p>
+                        <form id="colorsForm">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">اللون الرئيسي (Primary)</label>
+                                    <input type="color" class="form-control form-control-color w-100" id="colorPrimary"
+                                        value="#1a2a4a">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">اللون الرئيسي الداكن</label>
+                                    <input type="color" class="form-control form-control-color w-100"
+                                        id="colorPrimaryDark" value="#0f1a2e">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">اللون الرئيسي الفاتح</label>
+                                    <input type="color" class="form-control form-control-color w-100"
+                                        id="colorPrimaryLight" value="#2a3a5a">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">اللون الثانوي (Secondary)</label>
+                                    <input type="color" class="form-control form-control-color w-100"
+                                        id="colorSecondary" value="#d4af37">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">اللون الثانوي الفاتح</label>
+                                    <input type="color" class="form-control form-control-color w-100"
+                                        id="colorSecondaryLight" value="#e6c35a">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">اللون الثانوي الداكن</label>
+                                    <input type="color" class="form-control form-control-color w-100"
+                                        id="colorSecondaryDark" value="#b8941f">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Team Tab -->
+                <div class="tab-pane fade" id="teamTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">فريق العمل</h3>
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label class="form-label">وصف الفريق (عربي)</label>
+                                <input type="text" class="form-control" id="teamDescAr"
+                                    placeholder="تعرف على فريقنا المميز">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">وصف الفريق (إنجليزي)</label>
+                                <input type="text" class="form-control" id="teamDescEn"
+                                    placeholder="Meet our amazing team">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5>أعضاء الفريق</h5>
+                            <button class="btn btn-gold btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#addTeamMemberModal">
+                                <i class="bi bi-plus-circle me-1"></i>إضافة عضو
+                            </button>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table data-table">
+                                <thead>
+                                    <tr>
+                                        <th>الصورة</th>
+                                        <th>الاسم</th>
+                                        <th>المنصب</th>
+                                        <th>الترتيب</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="teamMembersTable"></tbody>
+                            </table>
+                        </div>
+                        <button type="button" class="btn btn-gold mt-3" onclick="saveTeamDescription()"><i
+                                class="bi bi-check-lg me-2"></i>حفظ الوصف</button>
+                    </div>
+                </div>
+
+                <!-- Pages Tab -->
+                <div class="tab-pane fade" id="pagesTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">إعدادات الصفحات</h3>
+                        <p class="text-muted mb-4">تحكم في إظهار أو إخفاء الصفحات في الموقع</p>
+                        <form id="pagesForm">
+                            <div class="form-check form-switch mb-3">
+                                <input class="form-check-input" type="checkbox" id="showTeamPage">
+                                <label class="form-check-label" for="showTeamPage">إظهار صفحة فريق العمل في
+                                    القائمة</label>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Stats Tab -->
+                <div class="tab-pane fade" id="statsTab">
+                    <div class="form-card">
+                        <h3 class="mb-4">إحصائيات الموقع</h3>
+                        <p class="text-muted">هذه الأرقام تظهر في الصفحة الرئيسية</p>
+                        <form id="statsForm">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">عدد المشاريع</label>
+                                    <input type="number" class="form-control" id="statsProjects" min="0">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">عدد الوحدات</label>
+                                    <input type="number" class="form-control" id="statsUnits" min="0">
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label class="form-label">عدد العملاء</label>
+                                    <input type="number" class="form-control" id="statsClients" min="0">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Add Location Modal -->
+    <div class="modal fade" id="addLocationModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">إضافة موقع</h5><button type="button" class="btn-close"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <form id="addLocationForm">
+                    <div class="modal-body">
+                        <div class="mb-3"><label class="form-label">الاسم (عربي)</label><input type="text"
+                                class="form-control" id="locNameAr" required></div>
+                        <div class="mb-3"><label class="form-label">الاسم (إنجليزي)</label><input type="text"
+                                class="form-control" id="locNameEn" required></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                        <button type="submit" class="btn btn-gold">إضافة</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Type Modal -->
+    <div class="modal fade" id="addTypeModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">إضافة نوع وحدة</h5><button type="button" class="btn-close"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <form id="addTypeForm">
+                    <div class="modal-body">
+                        <div class="mb-3"><label class="form-label">الاسم (عربي)</label><input type="text"
+                                class="form-control" id="typeNameAr" required></div>
+                        <div class="mb-3"><label class="form-label">الاسم (إنجليزي)</label><input type="text"
+                                class="form-control" id="typeNameEn" required></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                        <button type="submit" class="btn btn-gold">إضافة</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Unit Status Modal -->
+    <div class="modal fade" id="addUnitStatusModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">إضافة حالة وحدة</h5><button type="button" class="btn-close"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <form id="addUnitStatusForm">
+                    <div class="modal-body">
+                        <div class="mb-3"><label class="form-label">الاسم (عربي)</label><input type="text"
+                                class="form-control" id="statusNameAr" required placeholder="مثال: متاح، محجوز، مباع">
+                        </div>
+                        <div class="mb-3"><label class="form-label">الاسم (إنجليزي)</label><input type="text"
+                                class="form-control" id="statusNameEn" required
+                                placeholder="e.g. Available, Reserved, Sold"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                        <button type="submit" class="btn btn-gold">إضافة</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add View Modal -->
+    <div class="modal fade" id="addViewModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">إضافة إطلالة</h5><button type="button" class="btn-close"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <form id="addViewForm">
+                    <div class="modal-body">
+                        <div class="mb-3"><label class="form-label">الاسم (عربي)</label><input type="text"
+                                class="form-control" id="viewNameAr" required
+                                placeholder="مثال: حديقة، بحر، شارع رئيسي"></div>
+                        <div class="mb-3"><label class="form-label">الاسم (إنجليزي)</label><input type="text"
+                                class="form-control" id="viewNameEn" required
+                                placeholder="e.g. Garden, Sea, Main Street"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                        <button type="submit" class="btn btn-gold">إضافة</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Payment Plan Modal -->
+    <div class="modal fade" id="addPaymentPlanModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">إضافة خطة أقساط</h5><button type="button" class="btn-close"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <form id="addPaymentPlanForm">
+                    <div class="modal-body">
+                        <div class="mb-3"><label class="form-label">الاسم (عربي)</label><input type="text"
+                                class="form-control" id="planNameAr" required placeholder="مثال: كاش، تقسيط 5 سنوات">
+                        </div>
+                        <div class="mb-3"><label class="form-label">الاسم (إنجليزي)</label><input type="text"
+                                class="form-control" id="planNameEn" required
+                                placeholder="e.g. Cash, 5 Years Installment"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                        <button type="submit" class="btn btn-gold">إضافة</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Team Member Modal -->
+    <div class="modal fade" id="addTeamMemberModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">إضافة عضو فريق</h5><button type="button" class="btn-close"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <form id="addTeamMemberForm">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">الاسم (عربي)</label>
+                                <input type="text" class="form-control" id="memberNameAr" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">الاسم (إنجليزي)</label>
+                                <input type="text" class="form-control" id="memberNameEn" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">المنصب (عربي)</label>
+                                <input type="text" class="form-control" id="memberPositionAr" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">المنصب (إنجليزي)</label>
+                                <input type="text" class="form-control" id="memberPositionEn" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">نبذة (عربي)</label>
+                                <textarea class="form-control" id="memberBioAr" rows="2"></textarea>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">نبذة (إنجليزي)</label>
+                                <textarea class="form-control" id="memberBioEn" rows="2"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">الصورة</label>
+                                <input type="file" class="form-control" id="memberImageInput" accept="image/*">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">الترتيب</label>
+                                <input type="number" class="form-control" id="memberOrder" value="0" min="0">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label">LinkedIn</label>
+                                <input type="url" class="form-control" id="memberLinkedin">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label">Twitter</label>
+                                <input type="url" class="form-control" id="memberTwitter">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label">البريد الإلكتروني</label>
+                                <input type="email" class="form-control" id="memberEmail">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                        <button type="submit" class="btn btn-gold">إضافة</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quill@1.3.7/dist/quill.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    <script src="/admin/js/media-picker.js"></script>
+    <script>
+        let settings = {};
+        let termsArQuill, termsEnQuill, aboutArQuill, aboutEnQuill, privacyArQuill, privacyEnQuill;
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (!await Admin.checkAuth()) return;
+            Admin.initSidebar();
+
+            const currentUser = Admin.getUser();
+            if (currentUser?.role !== 'super_admin') {
+                document.querySelector('.admin-content').innerHTML = '<div class="alert alert-warning"><i class="bi bi-exclamation-triangle me-2"></i>ليس لديك صلاحية للوصول لهذه الصفحة</div>';
+                return;
+            }
+
+            // Init Quill editors
+            const toolbarOptions = [[{ 'header': [1, 2, 3, false] }], ['bold', 'italic', 'underline'], [{ 'list': 'ordered' }, { 'list': 'bullet' }], ['link'], ['clean']];
+            termsArQuill = new Quill('#termsArEditor', { theme: 'snow', modules: { toolbar: toolbarOptions } });
+            termsEnQuill = new Quill('#termsEnEditor', { theme: 'snow', modules: { toolbar: toolbarOptions } });
+            aboutArQuill = new Quill('#aboutArEditor', { theme: 'snow', modules: { toolbar: toolbarOptions } });
+            aboutEnQuill = new Quill('#aboutEnEditor', { theme: 'snow', modules: { toolbar: toolbarOptions } });
+            privacyArQuill = new Quill('#privacyArEditor', { theme: 'snow', modules: { toolbar: toolbarOptions } });
+            privacyEnQuill = new Quill('#privacyEnEditor', { theme: 'snow', modules: { toolbar: toolbarOptions } });
+
+            loadSettings();
+        });
+
+        async function loadSettings() {
+            try {
+                settings = await Admin.adminFetch('/api/settings');
+                renderLocations();
+                renderTypes();
+                renderUnitStatuses();
+                renderViews();
+                renderPaymentPlans();
+                fillContactForm();
+                fillSocialForm();
+                fillTermsForm();
+                fillPrivacyForm();
+                fillAboutForm();
+                fillBrandingForm();
+                fillHeroForm();
+                fillCtaForm();
+                fillSeoForm();
+                fillScriptsForm();
+                fillStatsForm();
+                fillColorsForm();
+                fillTeamForm();
+                fillPagesForm();
+            } catch (error) {
+                Admin.showAlert('فشل تحميل الإعدادات', 'danger');
+            }
+        }
+
+        function renderLocations() {
+            const tbody = document.getElementById('locationsTable');
+            tbody.innerHTML = (settings.locations || []).map(loc => `
+                <tr>
+                    <td>${loc.name?.ar || ''}</td>
+                    <td>${loc.name?.en || ''}</td>
+                    <td><code>${loc.id}</code></td>
+                    <td><button class="btn btn-sm btn-outline-danger" onclick="deleteLocation('${loc.id}')"><i class="bi bi-trash"></i></button></td>
+                </tr>
+            `).join('');
+        }
+
+        function renderTypes() {
+            const tbody = document.getElementById('typesTable');
+            tbody.innerHTML = (settings.unitTypes || []).map(type => `
+                <tr>
+                    <td>${type.name?.ar || ''}</td>
+                    <td>${type.name?.en || ''}</td>
+                    <td><code>${type.id}</code></td>
+                    <td><button class="btn btn-sm btn-outline-danger" onclick="deleteType('${type.id}')"><i class="bi bi-trash"></i></button></td>
+                </tr>
+            `).join('');
+        }
+
+        function renderUnitStatuses() {
+            const tbody = document.getElementById('unitStatusesTable');
+            tbody.innerHTML = (settings.unitStatuses || []).map(status => `
+                <tr>
+                    <td>${status.name?.ar || ''}</td>
+                    <td>${status.name?.en || ''}</td>
+                    <td><code>${status.id}</code></td>
+                    <td><button class="btn btn-sm btn-outline-danger" onclick="deleteUnitStatus('${status.id}')"><i class="bi bi-trash"></i></button></td>
+                </tr>
+            `).join('');
+        }
+
+        function renderViews() {
+            const tbody = document.getElementById('viewsTable');
+            tbody.innerHTML = (settings.views || []).map(view => `
+                <tr>
+                    <td>${view.name?.ar || ''}</td>
+                    <td>${view.name?.en || ''}</td>
+                    <td><code>${view.id}</code></td>
+                    <td><button class="btn btn-sm btn-outline-danger" onclick="deleteView('${view.id}')"><i class="bi bi-trash"></i></button></td>
+                </tr>
+            `).join('');
+        }
+
+        function renderPaymentPlans() {
+            const tbody = document.getElementById('paymentPlansTable');
+            tbody.innerHTML = (settings.paymentPlans || []).map(plan => `
+                <tr>
+                    <td>${plan.name?.ar || ''}</td>
+                    <td>${plan.name?.en || ''}</td>
+                    <td><code>${plan.id}</code></td>
+                    <td><button class="btn btn-sm btn-outline-danger" onclick="deletePaymentPlan('${plan.id}')"><i class="bi bi-trash"></i></button></td>
+                </tr>
+            `).join('');
+        }
+
+        function fillContactForm() {
+            const c = settings.contact || {};
+            document.getElementById('contactPhone').value = c.phone || '';
+            document.getElementById('contactEmail').value = c.email || '';
+            document.getElementById('addressAr').value = c.address?.ar || '';
+            document.getElementById('addressEn').value = c.address?.en || '';
+            document.getElementById('hoursAr').value = c.workingHours?.ar || '';
+            document.getElementById('hoursEn').value = c.workingHours?.en || '';
+            document.getElementById('whatsapp').value = c.whatsapp || '';
+            document.getElementById('mapUrl').value = c.mapUrl || '';
+        }
+
+        function fillSocialForm() {
+            const s = settings.social || {};
+            document.getElementById('facebook').value = s.facebook || '';
+            document.getElementById('facebook_visible').checked = s.facebook_visible !== false;
+
+            document.getElementById('instagram').value = s.instagram || '';
+            document.getElementById('instagram_visible').checked = s.instagram_visible !== false;
+
+            document.getElementById('twitter').value = s.twitter || '';
+            document.getElementById('twitter_visible').checked = s.twitter_visible !== false;
+
+            document.getElementById('linkedin').value = s.linkedin || '';
+            document.getElementById('linkedin_visible').checked = s.linkedin_visible !== false;
+
+            document.getElementById('youtube').value = s.youtube || '';
+            document.getElementById('youtube_visible').checked = s.youtube_visible !== false;
+
+            document.getElementById('tiktok').value = s.tiktok || '';
+            document.getElementById('tiktok_visible').checked = s.tiktok_visible !== false;
+        }
+
+        function fillTermsForm() {
+            termsArQuill.root.innerHTML = Admin.decodeHtml(settings.termsContent?.ar || '');
+            termsEnQuill.root.innerHTML = Admin.decodeHtml(settings.termsContent?.en || '');
+        }
+
+        function fillPrivacyForm() {
+            privacyArQuill.root.innerHTML = Admin.decodeHtml(settings.privacyContent?.ar || '');
+            privacyEnQuill.root.innerHTML = Admin.decodeHtml(settings.privacyContent?.en || '');
+        }
+
+        function fillAboutForm() {
+            aboutArQuill.root.innerHTML = Admin.decodeHtml(settings.aboutContent?.ar || '');
+            aboutEnQuill.root.innerHTML = Admin.decodeHtml(settings.aboutContent?.en || '');
+        }
+
+        // Add Location
+        document.getElementById('addLocationForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                await Admin.adminFetch('/api/admin/settings/locations', {
+                    method: 'POST',
+                    body: JSON.stringify({ name: { ar: document.getElementById('locNameAr').value, en: document.getElementById('locNameEn').value } })
+                });
+                Admin.showAlert('تم إضافة الموقع');
+                bootstrap.Modal.getInstance(document.getElementById('addLocationModal')).hide();
+                document.getElementById('addLocationForm').reset();
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الإضافة', 'danger'); }
+        });
+
+        // Add Type
+        document.getElementById('addTypeForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                await Admin.adminFetch('/api/admin/settings/unit-types', {
+                    method: 'POST',
+                    body: JSON.stringify({ name: { ar: document.getElementById('typeNameAr').value, en: document.getElementById('typeNameEn').value } })
+                });
+                Admin.showAlert('تم إضافة النوع');
+                bootstrap.Modal.getInstance(document.getElementById('addTypeModal')).hide();
+                document.getElementById('addTypeForm').reset();
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الإضافة', 'danger'); }
+        });
+
+        async function deleteLocation(id) {
+            if (!await Admin.confirmAction('هل أنت متأكد؟')) return;
+            try {
+                await Admin.adminFetch(`/api/admin/settings/locations/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم الحذف');
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الحذف', 'danger'); }
+        }
+
+        async function deleteType(id) {
+            if (!await Admin.confirmAction('هل أنت متأكد؟')) return;
+            try {
+                await Admin.adminFetch(`/api/admin/settings/unit-types/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم الحذف');
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الحذف', 'danger'); }
+        }
+
+        // Add Unit Status
+        document.getElementById('addUnitStatusForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                await Admin.adminFetch('/api/admin/settings/unit-statuses', {
+                    method: 'POST',
+                    body: JSON.stringify({ name: { ar: document.getElementById('statusNameAr').value, en: document.getElementById('statusNameEn').value } })
+                });
+                Admin.showAlert('تم إضافة الحالة');
+                bootstrap.Modal.getInstance(document.getElementById('addUnitStatusModal')).hide();
+                document.getElementById('addUnitStatusForm').reset();
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الإضافة', 'danger'); }
+        });
+
+        async function deleteUnitStatus(id) {
+            if (!await Admin.confirmAction('هل أنت متأكد؟')) return;
+            try {
+                await Admin.adminFetch(`/api/admin/settings/unit-statuses/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم الحذف');
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الحذف', 'danger'); }
+        }
+
+        // Add View
+        document.getElementById('addViewForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                await Admin.adminFetch('/api/admin/settings/views', {
+                    method: 'POST',
+                    body: JSON.stringify({ name: { ar: document.getElementById('viewNameAr').value, en: document.getElementById('viewNameEn').value } })
+                });
+                Admin.showAlert('تم إضافة الإطلالة');
+                bootstrap.Modal.getInstance(document.getElementById('addViewModal')).hide();
+                document.getElementById('addViewForm').reset();
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الإضافة', 'danger'); }
+        });
+
+        async function deleteView(id) {
+            if (!await Admin.confirmAction('هل أنت متأكد؟')) return;
+            try {
+                await Admin.adminFetch(`/api/admin/settings/views/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم الحذف');
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الحذف', 'danger'); }
+        }
+
+        // Add Payment Plan
+        document.getElementById('addPaymentPlanForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                await Admin.adminFetch('/api/admin/settings/payment-plans', {
+                    method: 'POST',
+                    body: JSON.stringify({ name: { ar: document.getElementById('planNameAr').value, en: document.getElementById('planNameEn').value } })
+                });
+                Admin.showAlert('تم إضافة خطة الأقساط');
+                bootstrap.Modal.getInstance(document.getElementById('addPaymentPlanModal')).hide();
+                document.getElementById('addPaymentPlanForm').reset();
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الإضافة', 'danger'); }
+        });
+
+        async function deletePaymentPlan(id) {
+            if (!await Admin.confirmAction('هل أنت متأكد؟')) return;
+            try {
+                await Admin.adminFetch(`/api/admin/settings/payment-plans/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم الحذف');
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الحذف', 'danger'); }
+        }
+
+        // Contact Form
+        document.getElementById('contactForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        contact: {
+                            phone: document.getElementById('contactPhone').value,
+                            email: document.getElementById('contactEmail').value,
+                            address: { ar: document.getElementById('addressAr').value, en: document.getElementById('addressEn').value },
+                            workingHours: { ar: document.getElementById('hoursAr').value, en: document.getElementById('hoursEn').value },
+                            whatsapp: document.getElementById('whatsapp').value,
+                            mapUrl: document.getElementById('mapUrl').value
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Social Form
+        document.getElementById('socialForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        social: {
+                            facebook: document.getElementById('facebook').value,
+                            facebook_visible: document.getElementById('facebook_visible').checked,
+
+                            instagram: document.getElementById('instagram').value,
+                            instagram_visible: document.getElementById('instagram_visible').checked,
+
+                            twitter: document.getElementById('twitter').value,
+                            twitter_visible: document.getElementById('twitter_visible').checked,
+
+                            linkedin: document.getElementById('linkedin').value,
+                            linkedin_visible: document.getElementById('linkedin_visible').checked,
+
+                            youtube: document.getElementById('youtube').value,
+                            youtube_visible: document.getElementById('youtube_visible').checked,
+
+                            tiktok: document.getElementById('tiktok').value,
+                            tiktok_visible: document.getElementById('tiktok_visible').checked
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Terms Form
+        document.getElementById('termsForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({ termsContent: { ar: termsArQuill.root.innerHTML, en: termsEnQuill.root.innerHTML } })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // About Form
+        document.getElementById('aboutForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({ aboutContent: { ar: aboutArQuill.root.innerHTML, en: aboutEnQuill.root.innerHTML } })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Branding Form
+        document.getElementById('brandingForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                const logoInput = document.getElementById('logoInput');
+                const faviconInput = document.getElementById('faviconInput');
+                let logoUrl = settings.branding?.logo || '/images/logo.png';
+                let faviconUrl = settings.branding?.favicon || '/images/favicon.png';
+
+                if (logoInput.files[0]) {
+                    const result = await Admin.uploadImage(logoInput.files[0]);
+                    logoUrl = result.url;
+                }
+
+                if (faviconInput.files[0]) {
+                    const result = await Admin.uploadImage(faviconInput.files[0]);
+                    faviconUrl = result.url;
+                }
+
+                // Upload Arabic logo if provided
+                let logoArUrl = settings.branding?.logoAr || '';
+                const logoArInput = document.getElementById('logoArInput');
+                if (logoArInput.files[0]) {
+                    const result = await Admin.uploadImage(logoArInput.files[0]);
+                    logoArUrl = result.url;
+                }
+
+                // Upload English logo if provided
+                let logoEnUrl = settings.branding?.logoEn || '';
+                const logoEnInput = document.getElementById('logoEnInput');
+                if (logoEnInput.files[0]) {
+                    const result = await Admin.uploadImage(logoEnInput.files[0]);
+                    logoEnUrl = result.url;
+                }
+
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        branding: {
+                            logo: logoUrl,
+                            logoAr: logoArUrl,
+                            logoEn: logoEnUrl,
+                            favicon: faviconUrl,
+                            companyName: {
+                                ar: document.getElementById('companyNameAr').value,
+                                en: document.getElementById('companyNameEn').value
+                            },
+                            footerAbout: {
+                                ar: document.getElementById('footerAboutAr').value,
+                                en: document.getElementById('footerAboutEn').value
+                            },
+                            showCompanyName: document.getElementById('showCompanyName').checked
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Hero Form
+        document.getElementById('heroForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                let heroImage = settings.hero?.image || '';
+                const heroImageInput = document.getElementById('heroImageInput');
+                if (heroImageInput.files[0]) {
+                    const result = await Admin.uploadImage(heroImageInput.files[0]);
+                    heroImage = result.url;
+                }
+
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        hero: {
+                            image: heroImage,
+                            title: { ar: document.getElementById('heroTitleAr').value, en: document.getElementById('heroTitleEn').value },
+                            subtitle: { ar: document.getElementById('heroSubtitleAr').value, en: document.getElementById('heroSubtitleEn').value }
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // CTA Form
+        document.getElementById('ctaForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        cta: {
+                            title: { ar: document.getElementById('ctaTitleAr').value, en: document.getElementById('ctaTitleEn').value },
+                            subtitle: { ar: document.getElementById('ctaSubtitleAr').value, en: document.getElementById('ctaSubtitleEn').value },
+                            buttonText: { ar: document.getElementById('ctaButtonAr').value, en: document.getElementById('ctaButtonEn').value },
+                            buttonLink: document.getElementById('ctaButtonLink').value
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Privacy Form
+        document.getElementById('privacyForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        privacyContent: {
+                            ar: privacyArQuill.root.innerHTML,
+                            en: privacyEnQuill.root.innerHTML
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // SEO Form
+        document.getElementById('seoForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        seo: {
+                            siteName: { ar: document.getElementById('siteNameAr').value, en: document.getElementById('siteNameEn').value },
+                            siteDescription: { ar: document.getElementById('siteDescAr').value, en: document.getElementById('siteDescEn').value },
+                            keywords: document.getElementById('seoKeywords').value,
+                            ogImage: document.getElementById('ogImage').value
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Scripts Form
+        document.getElementById('scriptsForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        scripts: {
+                            head: document.getElementById('headScripts').value,
+                            bodyStart: document.getElementById('bodyStartScripts').value,
+                            bodyEnd: document.getElementById('bodyEndScripts').value
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Stats Form
+        document.getElementById('statsForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        stats: {
+                            projects: parseInt(document.getElementById('statsProjects').value) || 0,
+                            units: parseInt(document.getElementById('statsUnits').value) || 0,
+                            clients: parseInt(document.getElementById('statsClients').value) || 0
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Fill new forms
+        function fillBrandingForm() {
+            const b = settings.branding || {};
+
+            // Set logo previews
+            setLogoPreview('logo', b.logo);
+            setLogoPreview('logoAr', b.logoAr || b.logo);
+            setLogoPreview('logoEn', b.logoEn || b.logo);
+
+            document.getElementById('faviconPreview').src = b.favicon || '/images/favicon.png';
+            document.getElementById('companyNameAr').value = b.companyName?.ar || (typeof b.companyName === 'string' ? b.companyName : 'عقار');
+            document.getElementById('companyNameEn').value = b.companyName?.en || 'Aqar';
+            document.getElementById('showCompanyName').checked = b.showCompanyName !== false;
+            document.getElementById('footerAboutAr').value = b.footerAbout?.ar || '';
+            document.getElementById('footerAboutEn').value = b.footerAbout?.en || '';
+        }
+
+        // Logo management helper functions
+        function setLogoPreview(type, url) {
+            const previewId = type === 'logo' ? 'logoPreview' : type + 'Preview';
+            const preview = document.getElementById(previewId);
+            const removeBtn = preview?.parentElement.querySelector('.logo-remove-btn');
+
+            if (url && url !== '/images/logo.png') {
+                preview.src = url;
+                if (removeBtn) removeBtn.style.display = 'block';
+            } else {
+                preview.src = '/images/logo.png';
+                if (removeBtn) removeBtn.style.display = 'none';
+            }
+        }
+
+        function openMediaPicker(type) {
+            MediaPicker.open((url) => {
+                setLogoPreview(type, url);
+                // Store in settings for save
+                if (!settings.branding) settings.branding = {};
+                settings.branding[type] = url;
+            });
+        }
+
+        function toggleUrlInput(type) {
+            const inputId = type === 'logo' ? 'logoUrlInput' : type + 'UrlInput';
+            const input = document.getElementById(inputId);
+            input.style.display = input.style.display === 'none' ? 'block' : 'none';
+            if (input.style.display === 'block') input.focus();
+        }
+
+        function setLogoFromUrl(url, type) {
+            if (!url) return;
+            setLogoPreview(type, url);
+            if (!settings.branding) settings.branding = {};
+            settings.branding[type] = url;
+        }
+
+        async function handleLogoUpload(input, type) {
+            const file = input.files[0];
+            if (!file) return;
+
+            try {
+                Admin.showLoading();
+                const formData = new FormData();
+                formData.append('image', file);
+
+                const response = await Admin.adminFetch('/api/upload', {
+                    method: 'POST',
+                    body: formData,
+                    isFormData: true
+                });
+
+                if (response.url) {
+                    setLogoPreview(type, response.url);
+                    if (!settings.branding) settings.branding = {};
+                    settings.branding[type] = response.url;
+                    Admin.showAlert('تم رفع الصورة');
+                }
+            } catch (error) {
+                Admin.showAlert('فشل رفع الصورة', 'danger');
+            } finally {
+                Admin.hideLoading();
+            }
+        }
+
+        function removeLogo(type) {
+            setLogoPreview(type, null);
+            if (!settings.branding) settings.branding = {};
+            settings.branding[type] = '';
+            Admin.showAlert('تم إزالة اللوجو');
+        }
+
+        function fillHeroForm() {
+            const h = settings.hero || {};
+            if (h.image) document.getElementById('heroImagePreview').src = h.image;
+            document.getElementById('heroTitleAr').value = h.title?.ar || '';
+            document.getElementById('heroTitleEn').value = h.title?.en || '';
+            document.getElementById('heroSubtitleAr').value = h.subtitle?.ar || '';
+            document.getElementById('heroSubtitleEn').value = h.subtitle?.en || '';
+        }
+
+        function fillCtaForm() {
+            const c = settings.cta || {};
+            document.getElementById('ctaTitleAr').value = c.title?.ar || '';
+            document.getElementById('ctaTitleEn').value = c.title?.en || '';
+            document.getElementById('ctaSubtitleAr').value = c.subtitle?.ar || '';
+            document.getElementById('ctaSubtitleEn').value = c.subtitle?.en || '';
+            document.getElementById('ctaButtonAr').value = c.buttonText?.ar || '';
+            document.getElementById('ctaButtonEn').value = c.buttonText?.en || '';
+            document.getElementById('ctaButtonLink').value = c.buttonLink || '/contact.html';
+        }
+
+        function fillPrivacyForm() {
+            const p = settings.privacyContent || {};
+            if (p.ar) privacyArQuill.root.innerHTML = p.ar;
+            if (p.en) privacyEnQuill.root.innerHTML = p.en;
+        }
+
+        function fillSeoForm() {
+            const s = settings.seo || {};
+            document.getElementById('siteNameAr').value = s.siteName?.ar || '';
+            document.getElementById('siteNameEn').value = s.siteName?.en || '';
+            document.getElementById('siteDescAr').value = s.siteDescription?.ar || '';
+            document.getElementById('siteDescEn').value = s.siteDescription?.en || '';
+            document.getElementById('seoKeywords').value = s.keywords || '';
+            document.getElementById('ogImage').value = s.ogImage || '';
+        }
+
+        function fillScriptsForm() {
+            const s = settings.scripts || {};
+            document.getElementById('headScripts').value = s.head || '';
+            document.getElementById('bodyStartScripts').value = s.bodyStart || '';
+            document.getElementById('bodyEndScripts').value = s.bodyEnd || '';
+        }
+
+        function fillStatsForm() {
+            const s = settings.stats || {};
+            document.getElementById('statsProjects').value = s.projects || 15;
+            document.getElementById('statsUnits').value = s.units || 500;
+            document.getElementById('statsClients').value = s.clients || 1200;
+        }
+
+        function fillColorsForm() {
+            const c = settings.colors || {};
+            document.getElementById('colorPrimary').value = c.primary || '#1a2a4a';
+            document.getElementById('colorPrimaryDark').value = c.primaryDark || '#0f1a2e';
+            document.getElementById('colorPrimaryLight').value = c.primaryLight || '#2a3a5a';
+            document.getElementById('colorSecondary').value = c.secondary || '#d4af37';
+            document.getElementById('colorSecondaryLight').value = c.secondaryLight || '#e6c35a';
+            document.getElementById('colorSecondaryDark').value = c.secondaryDark || '#b8941f';
+        }
+
+        function fillTeamForm() {
+            const t = settings.team || {};
+            document.getElementById('teamDescAr').value = t.description?.ar || '';
+            document.getElementById('teamDescEn').value = t.description?.en || '';
+            renderTeamMembers();
+        }
+
+        function renderTeamMembers() {
+            const members = settings.team?.members || [];
+            const tbody = document.getElementById('teamMembersTable');
+            tbody.innerHTML = members.map((m, i) => `
+                <tr>
+                    <td><img src="${m.image || '/images/placeholder-user.png'}" style="width:40px;height:40px;object-fit:cover;border-radius:50%"></td>
+                    <td>${m.name?.ar || ''}</td>
+                    <td>${m.position?.ar || ''}</td>
+                    <td>${m.order || 0}</td>
+                    <td><button class="btn btn-sm btn-outline-danger" onclick="deleteTeamMember(${i})"><i class="bi bi-trash"></i></button></td>
+                </tr>
+            `).join('') || '<tr><td colspan="5" class="text-center text-muted">لا يوجد أعضاء</td></tr>';
+        }
+
+        function fillPagesForm() {
+            const p = settings.pages || {};
+            document.getElementById('showTeamPage').checked = p.showTeamPage || false;
+        }
+
+        // Colors Form
+        document.getElementById('colorsForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        colors: {
+                            primary: document.getElementById('colorPrimary').value,
+                            primaryDark: document.getElementById('colorPrimaryDark').value,
+                            primaryLight: document.getElementById('colorPrimaryLight').value,
+                            secondary: document.getElementById('colorSecondary').value,
+                            secondaryLight: document.getElementById('colorSecondaryLight').value,
+                            secondaryDark: document.getElementById('colorSecondaryDark').value
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Pages Form
+        document.getElementById('pagesForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        pages: {
+                            showTeamPage: document.getElementById('showTeamPage').checked
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Save Team Description
+        async function saveTeamDescription() {
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({
+                        team: {
+                            ...settings.team,
+                            description: {
+                                ar: document.getElementById('teamDescAr').value,
+                                en: document.getElementById('teamDescEn').value
+                            }
+                        }
+                    })
+                });
+                Admin.showAlert('تم الحفظ');
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        }
+
+        // Add Team Member
+        document.getElementById('addTeamMemberForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            try {
+                Admin.showLoading();
+                let imageUrl = '';
+                const imageInput = document.getElementById('memberImageInput');
+                if (imageInput.files[0]) {
+                    const result = await Admin.uploadImage(imageInput.files[0]);
+                    imageUrl = result.url;
+                }
+
+                const members = settings.team?.members || [];
+                members.push({
+                    id: Date.now().toString(),
+                    name: { ar: document.getElementById('memberNameAr').value, en: document.getElementById('memberNameEn').value },
+                    position: { ar: document.getElementById('memberPositionAr').value, en: document.getElementById('memberPositionEn').value },
+                    bio: { ar: document.getElementById('memberBioAr').value, en: document.getElementById('memberBioEn').value },
+                    image: imageUrl,
+                    order: parseInt(document.getElementById('memberOrder').value) || 0,
+                    social: {
+                        linkedin: document.getElementById('memberLinkedin').value,
+                        twitter: document.getElementById('memberTwitter').value,
+                        email: document.getElementById('memberEmail').value
+                    }
+                });
+
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({ team: { ...settings.team, members } })
+                });
+
+                Admin.showAlert('تم إضافة العضو');
+                bootstrap.Modal.getInstance(document.getElementById('addTeamMemberModal')).hide();
+                document.getElementById('addTeamMemberForm').reset();
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الإضافة', 'danger'); } finally { Admin.hideLoading(); }
+        });
+
+        // Delete Team Member
+        async function deleteTeamMember(index) {
+            if (!await Admin.confirmAction('هل أنت متأكد من حذف هذا العضو؟')) return;
+            try {
+                Admin.showLoading();
+                const members = settings.team?.members || [];
+                members.splice(index, 1);
+                await Admin.adminFetch('/api/admin/settings', {
+                    method: 'PUT',
+                    body: JSON.stringify({ team: { ...settings.team, members } })
+                });
+                Admin.showAlert('تم الحذف');
+                loadSettings();
+            } catch (error) { Admin.showAlert('فشل الحذف', 'danger'); } finally { Admin.hideLoading(); }
+        }
+
+        // Preview images
+        document.getElementById('logoInput').addEventListener('change', (e) => {
+            if (e.target.files[0]) document.getElementById('logoPreview').src = URL.createObjectURL(e.target.files[0]);
+        });
+        document.getElementById('logoArInput').addEventListener('change', (e) => {
+            if (e.target.files[0]) document.getElementById('logoArPreview').src = URL.createObjectURL(e.target.files[0]);
+        });
+        document.getElementById('logoEnInput').addEventListener('change', (e) => {
+            if (e.target.files[0]) document.getElementById('logoEnPreview').src = URL.createObjectURL(e.target.files[0]);
+        });
+        document.getElementById('faviconInput').addEventListener('change', (e) => {
+            if (e.target.files[0]) document.getElementById('faviconPreview').src = URL.createObjectURL(e.target.files[0]);
+        });
+        document.getElementById('heroImageInput').addEventListener('change', (e) => {
+            if (e.target.files[0]) document.getElementById('heroImagePreview').src = URL.createObjectURL(e.target.files[0]);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "id": "unit-123-building-15",
+      "numericId": "000001",
+      "title": {
+        "ar": "استديو 30 م",
+        "en": ""
+      },
+      "projectId": "project-8042d39d",
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "unitStatus": "available",
+      "description": {
+        "ar": "&lt;p&gt;&lt;strong&gt;استديو جميل&lt;/strong&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;br&gt;&lt;/p&gt;"
+      },
+      "price": 1500000,
+      "area": 30,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب",
+          "تكييف"
+        ],
+        "en": []
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644120514-abef4fce-2352-45db-b91c-4e417b576c59.jpeg"
+      ],
+      "buildingNumber": "15",
+      "floor": "5",
+      "unitNumber": "123",
+      "usableSpace": 30,
+      "gardenShare": 0,
+      "view": "riverside",
+      "createdAt": "2025-12-29T04:09:23.086Z",
+      "createdBy": "2ea56bd6-bf5a-4100-b8d2-b9ccfe8c3a5b",
+      "updatedAt": "2025-12-29T04:11:49.782Z"
+    }
+  ],
+  "total": 1,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "generatedAt": "2025-12-29T04:34:04.232Z"
+}

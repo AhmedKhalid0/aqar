@@ -1,0 +1,227 @@
+{
+  "data": [
+    {
+      "id": "project-0046",
+      "title": {
+        "ar": "مشروع إعمار مصر - العاصمة الإدارية 46",
+        "en": "Emaar Misr Project - New Capital 46"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في العاصمة الإدارية، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 867 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in New Capital, combining luxury and comfort with unique architectural designs. The project includes 867 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "إعمار مصر",
+        "en": "Emaar Misr"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "totalUnits": 867,
+      "availableUnits": 709,
+      "priceRange": {
+        "min": 5000000,
+        "max": 10000000
+      },
+      "amenities": {
+        "ar": [
+          "سبا",
+          "حدائق طبيعية",
+          "مدارس دولية",
+          "مطاعم راقية",
+          "أمن 24 ساعة",
+          "مراكز تسوق"
+        ],
+        "en": [
+          "Jogging Tracks",
+          "Shopping Centers",
+          "Golf Courses",
+          "Health Club",
+          "Spa",
+          "Kids Play Areas"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.859Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.859Z"
+    },
+    {
+      "id": "project-0048",
+      "title": {
+        "ar": "مشروع سوديك - مدينتي 48",
+        "en": "SODIC Project - Madinaty 48"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في مدينتي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 656 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Madinaty, combining luxury and comfort with unique architectural designs. The project includes 656 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "سوديك",
+        "en": "SODIC"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "totalUnits": 656,
+      "availableUnits": 382,
+      "priceRange": {
+        "min": 8000000,
+        "max": 13000000
+      },
+      "amenities": {
+        "ar": [
+          "مسجد",
+          "مناطق ترفيهية للأطفال",
+          "مراكز تسوق",
+          "حمامات سباحة"
+        ],
+        "en": [
+          "Golf Courses",
+          "Health Club",
+          "Landscaped Gardens",
+          "Spa",
+          "Tennis Courts"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.863Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.863Z"
+    },
+    {
+      "id": "project-0049",
+      "title": {
+        "ar": "مشروع إعمار مصر - الشيخ زايد 49",
+        "en": "Emaar Misr Project - Sheikh Zayed 49"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في الشيخ زايد، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 736 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Sheikh Zayed, combining luxury and comfort with unique architectural designs. The project includes 736 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "إعمار مصر",
+        "en": "Emaar Misr"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "totalUnits": 736,
+      "availableUnits": 679,
+      "priceRange": {
+        "min": 2000000,
+        "max": 7000000
+      },
+      "amenities": {
+        "ar": [
+          "نادي صحي",
+          "مطاعم راقية",
+          "حمامات سباحة",
+          "سبا",
+          "مدارس دولية"
+        ],
+        "en": [
+          "24/7 Security",
+          "Golf Courses",
+          "Spa",
+          "International Schools",
+          "Landscaped Gardens",
+          "Kids Play Areas"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.866Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.866Z"
+    },
+    {
+      "id": "project-0050",
+      "title": {
+        "ar": "مشروع ماونتن فيو - مدينتي 50",
+        "en": "Mountain View Project - Madinaty 50"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في مدينتي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1927 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Madinaty, combining luxury and comfort with unique architectural designs. The project includes 1927 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "ماونتن فيو",
+        "en": "Mountain View"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "totalUnits": 1927,
+      "availableUnits": 1061,
+      "priceRange": {
+        "min": 10000000,
+        "max": 19000000
+      },
+      "amenities": {
+        "ar": [
+          "حمامات سباحة",
+          "ملاعب تنس",
+          "مسجد",
+          "سبا",
+          "ملاعب جولف",
+          "مطاعم راقية"
+        ],
+        "en": [
+          "24/7 Security",
+          "International Schools",
+          "Jogging Tracks",
+          "Fine Dining",
+          "Spa",
+          "Tennis Courts",
+          "Shopping Centers",
+          "Club House"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.868Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.868Z"
+    }
+  ],
+  "total": 24,
+  "page": 2,
+  "limit": 20,
+  "totalPages": 2,
+  "hasNext": false,
+  "hasPrev": true,
+  "filter": {
+    "featured": "true"
+  },
+  "generatedAt": "2025-12-27T22:58:13.390Z"
+}

@@ -1,0 +1,129 @@
+{
+  "data": [
+    {
+      "id": "unit-000353",
+      "title": {
+        "ar": "شاليه 91 متر - مدينتي",
+        "en": "Chalet 91 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 91 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 91 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4800000,
+      "area": 91,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "نادي رياضي",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Elevator",
+          "Private Pool",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "الثاني",
+      "unitNumber": "9968",
+      "usableSpace": 77,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0034",
+      "createdAt": "2025-12-27T03:44:52.387Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.387Z"
+    },
+    {
+      "id": "unit-000463",
+      "title": {
+        "ar": "استوديو 375 متر - جولف بورتو مارينا",
+        "en": "Studio 375 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 375 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 375 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4800000,
+      "area": 375,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "إطلالة بحرية",
+          "غرفة خادمة",
+          "حمام سباحة خاص",
+          "حديقة خاصة",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Sea View",
+          "Near Transportation",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "37",
+      "floor": "الثالث",
+      "unitNumber": "2073",
+      "usableSpace": 319,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0040",
+      "createdAt": "2025-12-27T03:44:53.540Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.540Z"
+    }
+  ],
+  "total": 2,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "4800000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.446Z"
+}

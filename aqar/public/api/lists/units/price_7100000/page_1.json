@@ -1,0 +1,416 @@
+{
+  "data": [
+    {
+      "id": "unit-000014",
+      "title": {
+        "ar": "فيلا 382 متر - المعادي",
+        "en": "Villa 382 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 382 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 382 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7100000,
+      "area": 382,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "نادي رياضي",
+          "أمن 24 ساعة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Private Elevator",
+          "Gym",
+          "Near Transportation",
+          "Premium Finish",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "48",
+      "floor": "الثالث",
+      "unitNumber": "499",
+      "usableSpace": 325,
+      "gardenShare": 197,
+      "view": "street",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:49.885Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.885Z"
+    },
+    {
+      "id": "unit-000080",
+      "title": {
+        "ar": "شاليه 133 متر - الساحل الشمالي",
+        "en": "Chalet 133 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 133 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 133 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7100000,
+      "area": 133,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "8-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "مصعد خاص",
+          "نادي رياضي",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Private Elevator",
+          "Central AC",
+          "Premium Finish",
+          "Private Pool",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "30",
+      "floor": "السادس",
+      "unitNumber": "5514",
+      "usableSpace": 113,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0037",
+      "createdAt": "2025-12-27T03:44:50.060Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.060Z"
+    },
+    {
+      "id": "unit-000234",
+      "title": {
+        "ar": "فيلا 223 متر - جولف بورتو مارينا",
+        "en": "Villa 223 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 223 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 223 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7100000,
+      "area": 223,
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Premium Finish",
+          "Parking",
+          "Large Terrace",
+          "Central AC",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "38",
+      "floor": "الثاني",
+      "unitNumber": "5819",
+      "usableSpace": 190,
+      "gardenShare": 136,
+      "view": "street",
+      "projectId": "project-0004",
+      "createdAt": "2025-12-27T03:44:51.200Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.200Z"
+    },
+    {
+      "id": "unit-000251",
+      "title": {
+        "ar": "تاون هاوس 293 متر - الرحاب",
+        "en": "Townhouse 293 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 293 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 293 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7100000,
+      "area": 293,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "نادي رياضي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Parking",
+          "Premium Finish",
+          "24/7 Security",
+          "Private Pool",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "4",
+      "floor": "الأول",
+      "unitNumber": "9970",
+      "usableSpace": 249,
+      "gardenShare": 124,
+      "view": "sea",
+      "projectId": "project-0001",
+      "createdAt": "2025-12-27T03:44:51.358Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.358Z"
+    },
+    {
+      "id": "unit-000295",
+      "title": {
+        "ar": "استوديو 290 متر - جولف بورتو مارينا",
+        "en": "Studio 290 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 290 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 290 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7100000,
+      "area": 290,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حديقة خاصة",
+          "حمام سباحة خاص",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Maid Room",
+          "Large Terrace",
+          "Premium Finish",
+          "24/7 Security",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "11",
+      "floor": "الثاني",
+      "unitNumber": "9009",
+      "usableSpace": 247,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0007",
+      "createdAt": "2025-12-27T03:44:51.806Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.806Z"
+    },
+    {
+      "id": "unit-000348",
+      "title": {
+        "ar": "تاون هاوس 355 متر - المعادي",
+        "en": "Townhouse 355 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 355 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 355 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7100000,
+      "area": 355,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "8-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "24/7 Security",
+          "Central AC",
+          "Private Garden",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "28",
+      "floor": "الأول",
+      "unitNumber": "1991",
+      "usableSpace": 302,
+      "gardenShare": 74,
+      "view": "golf",
+      "projectId": "project-0044",
+      "createdAt": "2025-12-27T03:44:52.336Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.336Z"
+    },
+    {
+      "id": "unit-000440",
+      "title": {
+        "ar": "تاون هاوس 118 متر - المعادي",
+        "en": "Townhouse 118 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 118 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 118 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7100000,
+      "area": 118,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Gym",
+          "Parking",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "9",
+      "floor": "الأرضي",
+      "unitNumber": "6544",
+      "usableSpace": 100,
+      "gardenShare": 51,
+      "view": "",
+      "projectId": "project-0037",
+      "createdAt": "2025-12-27T03:44:53.296Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.296Z"
+    }
+  ],
+  "total": 7,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "7100000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.783Z"
+}

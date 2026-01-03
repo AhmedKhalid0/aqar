@@ -1,0 +1,359 @@
+{
+  "data": [
+    {
+      "id": "unit-000022",
+      "title": {
+        "ar": "فيلا 187 متر - العاصمة الإدارية",
+        "en": "Villa 187 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 187 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 187 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5900000,
+      "area": 187,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "تراس واسع",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "26",
+      "floor": "الأول",
+      "unitNumber": "352",
+      "usableSpace": 159,
+      "gardenShare": 161,
+      "view": "garden",
+      "projectId": "project-0011",
+      "createdAt": "2025-12-27T03:44:49.897Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.897Z"
+    },
+    {
+      "id": "unit-000068",
+      "title": {
+        "ar": "استوديو 165 متر - الشيخ زايد",
+        "en": "Studio 165 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 165 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 165 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5900000,
+      "area": 165,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "قريب من المواصلات",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Sea View",
+          "Parking",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الرابع",
+      "unitNumber": "6543",
+      "usableSpace": 140,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0017",
+      "createdAt": "2025-12-27T03:44:50.015Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.015Z"
+    },
+    {
+      "id": "unit-000249",
+      "title": {
+        "ar": "شاليه 171 متر - التجمع الخامس",
+        "en": "Chalet 171 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 171 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 171 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5900000,
+      "area": 171,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Maid Room",
+          "Private Garden",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "46",
+      "floor": "الثالث",
+      "unitNumber": "2791",
+      "usableSpace": 145,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0005",
+      "createdAt": "2025-12-27T03:44:51.341Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.341Z"
+    },
+    {
+      "id": "unit-000369",
+      "title": {
+        "ar": "بنتهاوس 223 متر - التجمع الخامس",
+        "en": "Penthouse 223 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 223 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 223 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5900000,
+      "area": 223,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Central AC",
+          "Parking",
+          "Private Elevator",
+          "Premium Finish",
+          "Private Pool",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الخامس",
+      "unitNumber": "2937",
+      "usableSpace": 190,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0047",
+      "createdAt": "2025-12-27T03:44:52.555Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.555Z"
+    },
+    {
+      "id": "unit-000380",
+      "title": {
+        "ar": "توين هاوس 194 متر - العاصمة الإدارية",
+        "en": "Twin House 194 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 194 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 194 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5900000,
+      "area": 194,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "حديقة خاصة",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "24/7 Security",
+          "Private Pool",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "31",
+      "floor": "الثاني",
+      "unitNumber": "9006",
+      "usableSpace": 165,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0003",
+      "createdAt": "2025-12-27T03:44:52.671Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.671Z"
+    },
+    {
+      "id": "unit-000460",
+      "title": {
+        "ar": "استوديو 468 متر - العين السخنة",
+        "en": "Studio 468 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 468 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 468 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5900000,
+      "area": 468,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "حديقة خاصة",
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Near Transportation",
+          "Parking",
+          "Private Pool",
+          "Private Garden",
+          "Gym",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "8",
+      "floor": "الثالث",
+      "unitNumber": "3690",
+      "usableSpace": 398,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0039",
+      "createdAt": "2025-12-27T03:44:53.509Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.509Z"
+    }
+  ],
+  "total": 6,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "5900000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.598Z"
+}

@@ -1,0 +1,1196 @@
+{
+  "data": [
+    {
+      "id": "unit-000003",
+      "title": {
+        "ar": "توين هاوس 172 متر - العاصمة الإدارية",
+        "en": "Twin House 172 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 172 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 172 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7300000,
+      "area": 172,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس",
+          "إطلالة بحرية",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Gym",
+          "Sea View",
+          "Premium Finish",
+          "Private Garden",
+          "Central AC",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الأول",
+      "unitNumber": "9860",
+      "usableSpace": 146,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0009",
+      "createdAt": "2025-12-27T03:44:49.874Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.874Z"
+    },
+    {
+      "id": "unit-000004",
+      "title": {
+        "ar": "توين هاوس 111 متر - العاصمة الإدارية",
+        "en": "Twin House 111 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 111 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 111 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4300000,
+      "area": 111,
+      "bedrooms": 6,
+      "bathrooms": 3,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "تراس واسع"
+        ],
+        "en": [
+          "Near Transportation",
+          "Gym",
+          "24/7 Security",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "41",
+      "floor": "الأول",
+      "unitNumber": "4392",
+      "usableSpace": 94,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0037",
+      "createdAt": "2025-12-27T03:44:49.875Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.875Z"
+    },
+    {
+      "id": "unit-000005",
+      "title": {
+        "ar": "توين هاوس 354 متر - جولف بورتو مارينا",
+        "en": "Twin House 354 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 354 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 354 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7900000,
+      "area": 354,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "مصعد خاص",
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "24/7 Security",
+          "Premium Finish",
+          "Central AC",
+          "Sea View",
+          "Private Garden",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "28",
+      "floor": "الثالث",
+      "unitNumber": "3640",
+      "usableSpace": 301,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0046",
+      "createdAt": "2025-12-27T03:44:49.875Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.875Z"
+    },
+    {
+      "id": "unit-000018",
+      "title": {
+        "ar": "توين هاوس 85 متر - العين السخنة",
+        "en": "Twin House 85 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 85 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 85 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4200000,
+      "area": 85,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "أمن 24 ساعة",
+          "تشطيب سوبر لوكس",
+          "نادي رياضي"
+        ],
+        "en": [
+          "24/7 Security",
+          "Sea View",
+          "Near Transportation",
+          "Parking",
+          "Gym",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "40",
+      "floor": "الثاني",
+      "unitNumber": "1259",
+      "usableSpace": 72,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0014",
+      "createdAt": "2025-12-27T03:44:49.891Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.891Z"
+    },
+    {
+      "id": "unit-000020",
+      "title": {
+        "ar": "توين هاوس 442 متر - العاصمة الإدارية",
+        "en": "Twin House 442 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 442 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 442 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9000000,
+      "area": 442,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "تراس واسع",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "31",
+      "floor": "الأول",
+      "unitNumber": "7796",
+      "usableSpace": 376,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0029",
+      "createdAt": "2025-12-27T03:44:49.895Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.895Z"
+    },
+    {
+      "id": "unit-000036",
+      "title": {
+        "ar": "توين هاوس 143 متر - الساحل الشمالي",
+        "en": "Twin House 143 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 143 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 143 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4400000,
+      "area": 143,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "موقف سيارات",
+          "نادي رياضي",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Parking",
+          "Private Elevator",
+          "Large Terrace",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "39",
+      "floor": "الخامس",
+      "unitNumber": "1624",
+      "usableSpace": 122,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0050",
+      "createdAt": "2025-12-27T03:44:49.922Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.922Z"
+    },
+    {
+      "id": "unit-000045",
+      "title": {
+        "ar": "توين هاوس 149 متر - الرحاب",
+        "en": "Twin House 149 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 149 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 149 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7200000,
+      "area": 149,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years",
+        "cash",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Maid Room",
+          "24/7 Security",
+          "Private Pool",
+          "Premium Finish",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "الأول",
+      "unitNumber": "247",
+      "usableSpace": 127,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0013",
+      "createdAt": "2025-12-27T03:44:49.944Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.944Z"
+    },
+    {
+      "id": "unit-000049",
+      "title": {
+        "ar": "توين هاوس 488 متر - مدينتي",
+        "en": "Twin House 488 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 488 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 488 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 600000,
+      "area": 488,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "غرفة خادمة",
+          "حمام سباحة خاص",
+          "قريب من المواصلات",
+          "حديقة خاصة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Premium Finish",
+          "24/7 Security",
+          "Maid Room",
+          "Sea View",
+          "Private Elevator",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "الأول",
+      "unitNumber": "1346",
+      "usableSpace": 415,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0023",
+      "createdAt": "2025-12-27T03:44:49.955Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.955Z"
+    },
+    {
+      "id": "unit-000079",
+      "title": {
+        "ar": "توين هاوس 303 متر - التجمع الخامس",
+        "en": "Twin House 303 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 303 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 303 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4500000,
+      "area": 303,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years",
+        "cash",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "إطلالة بحرية",
+          "حمام سباحة خاص",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Maid Room",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "39",
+      "floor": "السادس",
+      "unitNumber": "4259",
+      "usableSpace": 258,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0024",
+      "createdAt": "2025-12-27T03:44:50.056Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.056Z"
+    },
+    {
+      "id": "unit-000086",
+      "title": {
+        "ar": "توين هاوس 360 متر - المعادي",
+        "en": "Twin House 360 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 360 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 360 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6700000,
+      "area": 360,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "تراس واسع",
+          "تكييف مركزي",
+          "موقف سيارات",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Premium Finish",
+          "Sea View",
+          "Private Pool",
+          "Private Garden",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "27",
+      "floor": "الأول",
+      "unitNumber": "6136",
+      "usableSpace": 306,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0019",
+      "createdAt": "2025-12-27T03:44:50.085Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.085Z"
+    },
+    {
+      "id": "unit-000094",
+      "title": {
+        "ar": "توين هاوس 459 متر - العاصمة الإدارية",
+        "en": "Twin House 459 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 459 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 459 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2300000,
+      "area": 459,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "حديقة خاصة",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Gym",
+          "Premium Finish",
+          "Sea View",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "4",
+      "floor": "الثالث",
+      "unitNumber": "9759",
+      "usableSpace": 390,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0022",
+      "createdAt": "2025-12-27T03:44:50.127Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.127Z"
+    },
+    {
+      "id": "unit-000095",
+      "title": {
+        "ar": "توين هاوس 214 متر - العاصمة الإدارية",
+        "en": "Twin House 214 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 214 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 214 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9300000,
+      "area": 214,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "موقف سيارات",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Parking",
+          "Private Elevator",
+          "Near Transportation",
+          "Gym",
+          "24/7 Security",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "30",
+      "floor": "الأول",
+      "unitNumber": "7324",
+      "usableSpace": 182,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0046",
+      "createdAt": "2025-12-27T03:44:50.133Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.133Z"
+    },
+    {
+      "id": "unit-000098",
+      "title": {
+        "ar": "توين هاوس 193 متر - الساحل الشمالي",
+        "en": "Twin House 193 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 193 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 193 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5300000,
+      "area": 193,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "موقف سيارات",
+          "مصعد خاص",
+          "حديقة خاصة",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Private Garden",
+          "Private Pool",
+          "Private Elevator",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "46",
+      "floor": "الثاني",
+      "unitNumber": "683",
+      "usableSpace": 164,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0017",
+      "createdAt": "2025-12-27T03:44:50.146Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.146Z"
+    },
+    {
+      "id": "unit-000102",
+      "title": {
+        "ar": "توين هاوس 206 متر - الرحاب",
+        "en": "Twin House 206 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 206 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 206 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5000000,
+      "area": 206,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Near Transportation",
+          "Premium Finish",
+          "Large Terrace",
+          "Sea View",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "18",
+      "floor": "السادس",
+      "unitNumber": "3636",
+      "usableSpace": 175,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0050",
+      "createdAt": "2025-12-27T03:44:50.166Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.166Z"
+    },
+    {
+      "id": "unit-000124",
+      "title": {
+        "ar": "توين هاوس 66 متر - 6 أكتوبر",
+        "en": "Twin House 66 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 66 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 66 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1400000,
+      "area": 66,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "تشطيب سوبر لوكس",
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "مصعد خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الثالث",
+      "unitNumber": "4563",
+      "usableSpace": 56,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0046",
+      "createdAt": "2025-12-27T03:44:50.284Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.284Z"
+    },
+    {
+      "id": "unit-000143",
+      "title": {
+        "ar": "توين هاوس 210 متر - 6 أكتوبر",
+        "en": "Twin House 210 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 210 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 210 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8600000,
+      "area": 210,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "مصعد خاص",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Maid Room",
+          "Private Garden",
+          "Sea View",
+          "Private Pool",
+          "Large Terrace",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "16",
+      "floor": "السادس",
+      "unitNumber": "2644",
+      "usableSpace": 179,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0034",
+      "createdAt": "2025-12-27T03:44:50.411Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.411Z"
+    },
+    {
+      "id": "unit-000187",
+      "title": {
+        "ar": "توين هاوس 178 متر - 6 أكتوبر",
+        "en": "Twin House 178 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 178 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 178 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6900000,
+      "area": 178,
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "إطلالة بحرية",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Private Pool",
+          "24/7 Security",
+          "Maid Room",
+          "Gym",
+          "Parking",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "32",
+      "floor": "الأول",
+      "unitNumber": "3980",
+      "usableSpace": 151,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0024",
+      "createdAt": "2025-12-27T03:44:50.770Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.770Z"
+    },
+    {
+      "id": "unit-000211",
+      "title": {
+        "ar": "توين هاوس 146 متر - التجمع الخامس",
+        "en": "Twin House 146 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 146 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 146 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1500000,
+      "area": 146,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "قريب من المواصلات",
+          "إطلالة بحرية",
+          "موقف سيارات",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Large Terrace",
+          "Near Transportation",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "3",
+      "floor": "السادس",
+      "unitNumber": "2303",
+      "usableSpace": 124,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0044",
+      "createdAt": "2025-12-27T03:44:50.990Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.990Z"
+    },
+    {
+      "id": "unit-000213",
+      "title": {
+        "ar": "توين هاوس 312 متر - الشيخ زايد",
+        "en": "Twin House 312 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 312 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 312 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5600000,
+      "area": 312,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash",
+        "10-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "أمن 24 ساعة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Maid Room",
+          "Gym",
+          "Sea View",
+          "Large Terrace",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "8",
+      "floor": "الثالث",
+      "unitNumber": "2327",
+      "usableSpace": 265,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0025",
+      "createdAt": "2025-12-27T03:44:51.009Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.009Z"
+    },
+    {
+      "id": "unit-000219",
+      "title": {
+        "ar": "توين هاوس 255 متر - المعادي",
+        "en": "Twin House 255 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 255 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 255 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4100000,
+      "area": 255,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "حديقة خاصة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Sea View",
+          "Private Pool",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "الثالث",
+      "unitNumber": "2197",
+      "usableSpace": 217,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0009",
+      "createdAt": "2025-12-27T03:44:51.063Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.063Z"
+    }
+  ],
+  "total": 63,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 4,
+  "hasNext": true,
+  "hasPrev": false,
+  "filter": {
+    "type": "twin-house"
+  },
+  "generatedAt": "2025-12-27T22:58:08.627Z"
+}

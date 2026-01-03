@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "id": "project-8042d39d",
+      "title": {
+        "ar": "عمارة 15 – جولف بورتو مارينا",
+        "en": "Building 15 – Golf Porto Marina"
+      },
+      "developer": {
+        "ar": "عقار",
+        "en": "Aqar"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p><br></p><p class=\"ql-direction-rtl\"><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">عمارة 15: موقع استثنائي وتصميم فريد في جولف بورتو مارينا</strong></p><p><br></p><p class=\"ql-direction-rtl\"><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">تتميز عمارة 15 بتصميمها الفريد </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">(دابل فيس)</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> الذي يوفر واجهتين بإطلالتين مختلفتين، مما يضمن أعلى قيمة استثمارية وسكنية:</span></p><ul><li class=\"ql-direction-rtl\"><strong style=\"background-color: transparent;\">الواجهة البحرية:</strong><span style=\"background-color: transparent;\"> إطلالة مباشرة ومفتوحة على </span><strong style=\"background-color: transparent;\">الريڤير سايد</strong><span style=\"background-color: transparent;\">، في موقع يتميز بالهدوء والخصوصية.</span></li><li class=\"ql-direction-rtl\"><strong style=\"background-color: transparent;\">الواجهة القبلية:</strong><span style=\"background-color: transparent;\"> تتمتع بإطلالة حيوية على:</span></li><li class=\"ql-indent-1 ql-direction-rtl\"><strong style=\"background-color: transparent;\">حمامات السباحة</strong></li><li class=\"ql-indent-1 ql-direction-rtl\"><strong style=\"background-color: transparent;\">Sea Lagoon</strong><span style=\"background-color: transparent;\"> بمياهها الزرقاء الصافية.</span></li></ul><p class=\"ql-direction-rtl\"><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">موقع مركزي مثالي في جولف بورتو مارينا:</strong></p><p><br></p><p class=\"ql-direction-rtl\"><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">تقع العمارة في موقع مركزي داخل المشروع، مما يسهّل الوصول إلى جميع الخدمات والمرافق في جولف بورتو مارينا.</span></p><p><br></p><p class=\"ql-direction-rtl\"><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">القيمة والملاءمة:</strong></p><ul><li class=\"ql-direction-rtl\"><span style=\"background-color: transparent;\">توفر العمارة توازناً مثالياً بين الاستمتاع بالإطلالات الطبيعية الخلابة وتوفر الأنشطة الترفيهية المتنوعة.</span></li><li class=\"ql-direction-rtl\"><span style=\"background-color: transparent;\">تعد خياراً مثالياً للعائلات والمستثمرين الباحثين عن موقع متميز بأعلى قيمة ممكنة ضمن مشروع جولف بورتو مارينا.</span></li></ul><p><br></p>",
+        "en": "<p><strong>Building 15: An Exceptional Location and Unique Design at Golf Porto Marina</strong></p><p>Building 15 stands out with its unique <strong>double-face design</strong>, offering two façades with different views, ensuring the highest residential and investment value:</p><ul><li><strong>Waterfront Façade:</strong> A direct, open view overlooking the Riverside, in a location characterized by tranquility and privacy.</li><li><strong>Southern Façade:</strong> Enjoys a vibrant view overlooking:</li><li class=\"ql-indent-1\">Swimming pools</li><li class=\"ql-indent-1\">The Sea Lagoon with its clear blue waters</li></ul><p><strong>Prime Central Location at Golf Porto Marina:</strong></p><p>The building is centrally located within the project, providing easy access to all services and facilities at Golf Porto Marina.</p><p><strong>Value and Suitability:</strong></p><p>The building offers an ideal balance between enjoying stunning natural views and having access to a wide range of recreational activities.</p><p> It is an excellent choice for families and investors seeking a prime location with the highest possible value within the Golf Porto Marina project.</p>"
+      },
+      "totalUnits": 0,
+      "availableUnits": 0,
+      "priceRange": {
+        "min": 0,
+        "max": 0
+      },
+      "status": "active",
+      "featured": true,
+      "amenities": {
+        "ar": [
+          "تصميم \"دابل فيس\" (واجهتين مختلفتين)",
+          "موقع مركزي للعمارة داخل المشروع",
+          "إطلالة مباشرة على الـ \"ريڤير سايد\"",
+          "إطلالة على حمامات السباحة والـ \"Sea Lagoon\"",
+          "ملاعب جولف عالمية ومساحات خضراء شاسعة",
+          "موقع استراتيجي (بجوار مارينا والعلمين الجديدة)",
+          "منطقة تجارية شاملة (مطاعم، كافيهات، تسوق)",
+          "خدمات ترفيهية (أكوا بارك، سينمات، حفلات)",
+          "حمامات سباحة متعددة للكبار والأطفال",
+          "قرب من الجامعات ومستشفى العلمين (حياة طوال العام)",
+          "أمن وحراسة على مدار 24 ساعة",
+          "عائد استثماري وإيجاري مرتفع ومضمون"
+        ],
+        "en": [
+          "Unique \"Double Face\" building design",
+          "Central location within the compound",
+          "Direct view of the Riverside",
+          "Overlooking swimming pools and the Sea Lagoon",
+          "World-class golf courses and green landscapes",
+          "Strategic location (Near Marina and New Alamein)",
+          "Integrated commercial area (Dining & Shopping)",
+          "Entertainment facilities (Aqua Park, Cinemas, Events)",
+          "Multiple swimming pools for adults and kids",
+          "Proximity to Universities and Alamein Hospital (Year-round living)",
+          "24/7 Security and guarding",
+          "High investment and rental return potential"
+        ]
+      },
+      "images": [
+        "/uploads/1766931503511-7ddbe46c-30e0-4b5d-b86b-95ead737097b.jpeg"
+      ],
+      "createdAt": "2025-12-28T00:47:05.459Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-28T14:18:32.074Z"
+    }
+  ],
+  "total": 1,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "generatedAt": "2025-12-28T17:06:44.114Z"
+}

@@ -1,0 +1,365 @@
+{
+  "data": [
+    {
+      "id": "unit-000038",
+      "title": {
+        "ar": "دوبلكس 469 متر - 6 أكتوبر",
+        "en": "Duplex 469 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 469 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 469 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6200000,
+      "area": 469,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "10-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Large Terrace",
+          "Maid Room",
+          "Private Elevator",
+          "Private Pool",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "32",
+      "floor": "الرابع",
+      "unitNumber": "680",
+      "usableSpace": 399,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0025",
+      "createdAt": "2025-12-27T03:44:49.927Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.927Z"
+    },
+    {
+      "id": "unit-000042",
+      "title": {
+        "ar": "فيلا 159 متر - العاصمة الإدارية",
+        "en": "Villa 159 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 159 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 159 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6200000,
+      "area": 159,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "6-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "حديقة خاصة",
+          "موقف سيارات",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Parking",
+          "Premium Finish",
+          "Private Pool",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "40",
+      "floor": "السادس",
+      "unitNumber": "6683",
+      "usableSpace": 135,
+      "gardenShare": 99,
+      "view": "golf",
+      "projectId": "project-0005",
+      "createdAt": "2025-12-27T03:44:49.937Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.937Z"
+    },
+    {
+      "id": "unit-000089",
+      "title": {
+        "ar": "تاون هاوس 69 متر - الساحل الشمالي",
+        "en": "Townhouse 69 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 69 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 69 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6200000,
+      "area": 69,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "أمن 24 ساعة",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Private Garden",
+          "Parking",
+          "Central AC",
+          "24/7 Security",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "30",
+      "floor": "الرابع",
+      "unitNumber": "166",
+      "usableSpace": 59,
+      "gardenShare": 81,
+      "view": "pool",
+      "projectId": "project-0005",
+      "createdAt": "2025-12-27T03:44:50.100Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.100Z"
+    },
+    {
+      "id": "unit-000225",
+      "title": {
+        "ar": "توين هاوس 219 متر - الرحاب",
+        "en": "Twin House 219 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 219 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 219 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6200000,
+      "area": 219,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "نادي رياضي",
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Private Pool",
+          "Maid Room",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "31",
+      "floor": "الرابع",
+      "unitNumber": "5791",
+      "usableSpace": 186,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0039",
+      "createdAt": "2025-12-27T03:44:51.119Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.119Z"
+    },
+    {
+      "id": "unit-000240",
+      "title": {
+        "ar": "بنتهاوس 126 متر - العين السخنة",
+        "en": "Penthouse 126 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 126 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 126 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6200000,
+      "area": 126,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "موقف سيارات",
+          "قريب من المواصلات",
+          "أمن 24 ساعة",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Premium Finish",
+          "Central AC",
+          "Private Pool",
+          "Private Elevator",
+          "Large Terrace",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "28",
+      "floor": "الخامس",
+      "unitNumber": "3706",
+      "usableSpace": 107,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0006",
+      "createdAt": "2025-12-27T03:44:51.256Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.256Z"
+    },
+    {
+      "id": "unit-000431",
+      "title": {
+        "ar": "توين هاوس 156 متر - العين السخنة",
+        "en": "Twin House 156 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 156 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 156 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6200000,
+      "area": 156,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "حمام سباحة خاص",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Garden",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "18",
+      "floor": "الأرضي",
+      "unitNumber": "8084",
+      "usableSpace": 133,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0002",
+      "createdAt": "2025-12-27T03:44:53.204Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.204Z"
+    }
+  ],
+  "total": 6,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "6200000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.646Z"
+}

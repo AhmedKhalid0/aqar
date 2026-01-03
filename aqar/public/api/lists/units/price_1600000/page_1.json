@@ -1,0 +1,246 @@
+{
+  "data": [
+    {
+      "id": "unit-000091",
+      "title": {
+        "ar": "استوديو 128 متر - الرحاب",
+        "en": "Studio 128 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 128 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 128 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1600000,
+      "area": 128,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "تراس واسع",
+          "إطلالة بحرية",
+          "نادي رياضي",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Gym",
+          "Sea View",
+          "Central AC",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "9",
+      "floor": "السادس",
+      "unitNumber": "8105",
+      "usableSpace": 109,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0003",
+      "createdAt": "2025-12-27T03:44:50.113Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.113Z"
+    },
+    {
+      "id": "unit-000429",
+      "title": {
+        "ar": "فيلا 124 متر - التجمع الخامس",
+        "en": "Villa 124 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 124 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 124 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1600000,
+      "area": 124,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "غرفة خادمة",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Parking",
+          "Maid Room",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "31",
+      "floor": "الرابع",
+      "unitNumber": "2988",
+      "usableSpace": 105,
+      "gardenShare": 66,
+      "view": "sea",
+      "projectId": "project-0044",
+      "createdAt": "2025-12-27T03:44:53.184Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.184Z"
+    },
+    {
+      "id": "unit-000438",
+      "title": {
+        "ar": "شقة 156 متر - الرحاب",
+        "en": "Apartment 156 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 156 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 156 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1600000,
+      "area": 156,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "تكييف مركزي",
+          "تراس واسع"
+        ],
+        "en": [
+          "Premium Finish",
+          "Maid Room",
+          "Private Pool",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "18",
+      "floor": "الخامس",
+      "unitNumber": "5012",
+      "usableSpace": 133,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0005",
+      "createdAt": "2025-12-27T03:44:53.276Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.276Z"
+    },
+    {
+      "id": "unit-000442",
+      "title": {
+        "ar": "فيلا 111 متر - الرحاب",
+        "en": "Villa 111 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 111 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 111 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1600000,
+      "area": 111,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "مصعد خاص",
+          "غرفة خادمة",
+          "تراس واسع",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Large Terrace",
+          "Private Elevator",
+          "Central AC",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "35",
+      "floor": "الخامس",
+      "unitNumber": "7378",
+      "usableSpace": 94,
+      "gardenShare": 126,
+      "view": "landscape",
+      "projectId": "project-0039",
+      "createdAt": "2025-12-27T03:44:53.315Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.315Z"
+    }
+  ],
+  "total": 4,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "1600000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.040Z"
+}

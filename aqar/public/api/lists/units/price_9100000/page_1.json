@@ -1,0 +1,129 @@
+{
+  "data": [
+    {
+      "id": "unit-000221",
+      "title": {
+        "ar": "دوبلكس 230 متر - العاصمة الإدارية",
+        "en": "Duplex 230 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 230 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 230 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9100000,
+      "area": 230,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "غرفة خادمة",
+          "حمام سباحة خاص",
+          "موقف سيارات"
+        ],
+        "en": [
+          "24/7 Security",
+          "Private Garden",
+          "Large Terrace",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "38",
+      "floor": "الثاني",
+      "unitNumber": "9379",
+      "usableSpace": 196,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0034",
+      "createdAt": "2025-12-27T03:44:51.082Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.082Z"
+    },
+    {
+      "id": "unit-000489",
+      "title": {
+        "ar": "شقة 444 متر - التجمع الخامس",
+        "en": "Apartment 444 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 444 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 444 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9100000,
+      "area": 444,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "أمن 24 ساعة",
+          "حمام سباحة خاص",
+          "نادي رياضي",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Maid Room",
+          "Private Elevator",
+          "Parking",
+          "Near Transportation",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "1",
+      "floor": "الثاني",
+      "unitNumber": "2705",
+      "usableSpace": 377,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0035",
+      "createdAt": "2025-12-27T03:44:53.816Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.816Z"
+    }
+  ],
+  "total": 2,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "9100000"
+  },
+  "generatedAt": "2025-12-27T22:58:13.054Z"
+}

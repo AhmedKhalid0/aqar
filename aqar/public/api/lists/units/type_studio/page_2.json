@@ -1,0 +1,1188 @@
+{
+  "data": [
+    {
+      "id": "unit-000156",
+      "title": {
+        "ar": "استوديو 408 متر - مدينتي",
+        "en": "Studio 408 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 408 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 408 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1700000,
+      "area": 408,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "تراس واسع",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Parking",
+          "Private Garden",
+          "Private Pool",
+          "Central AC",
+          "Premium Finish",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "8",
+      "floor": "الأرضي",
+      "unitNumber": "799",
+      "usableSpace": 347,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:50.504Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.504Z"
+    },
+    {
+      "id": "unit-000166",
+      "title": {
+        "ar": "استوديو 453 متر - المعادي",
+        "en": "Studio 453 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 453 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 453 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1100000,
+      "area": 453,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "إطلالة بحرية",
+          "حمام سباحة خاص",
+          "مصعد خاص"
+        ],
+        "en": [
+          "24/7 Security",
+          "Premium Finish",
+          "Maid Room",
+          "Parking",
+          "Sea View",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "24",
+      "floor": "الأول",
+      "unitNumber": "4356",
+      "usableSpace": 385,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0048",
+      "createdAt": "2025-12-27T03:44:50.579Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.579Z"
+    },
+    {
+      "id": "unit-000167",
+      "title": {
+        "ar": "استوديو 91 متر - العين السخنة",
+        "en": "Studio 91 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 91 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 91 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7600000,
+      "area": 91,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس",
+          "تراس واسع",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Large Terrace",
+          "Near Transportation",
+          "Parking",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "29",
+      "floor": "السادس",
+      "unitNumber": "4801",
+      "usableSpace": 77,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0019",
+      "createdAt": "2025-12-27T03:44:50.588Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.588Z"
+    },
+    {
+      "id": "unit-000180",
+      "title": {
+        "ar": "استوديو 499 متر - جولف بورتو مارينا",
+        "en": "Studio 499 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 499 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 499 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9800000,
+      "area": 499,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Sea View",
+          "Private Elevator",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "5",
+      "floor": "الثالث",
+      "unitNumber": "4096",
+      "usableSpace": 424,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0050",
+      "createdAt": "2025-12-27T03:44:50.700Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.700Z"
+    },
+    {
+      "id": "unit-000189",
+      "title": {
+        "ar": "استوديو 185 متر - 6 أكتوبر",
+        "en": "Studio 185 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 185 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 185 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2900000,
+      "area": 185,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years",
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Pool",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الثالث",
+      "unitNumber": "838",
+      "usableSpace": 157,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0001",
+      "createdAt": "2025-12-27T03:44:50.787Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.787Z"
+    },
+    {
+      "id": "unit-000190",
+      "title": {
+        "ar": "استوديو 234 متر - العين السخنة",
+        "en": "Studio 234 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 234 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 234 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 234,
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Central AC",
+          "Sea View",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "26",
+      "floor": "الرابع",
+      "unitNumber": "2987",
+      "usableSpace": 199,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0029",
+      "createdAt": "2025-12-27T03:44:50.797Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.797Z"
+    },
+    {
+      "id": "unit-000193",
+      "title": {
+        "ar": "استوديو 218 متر - مدينتي",
+        "en": "Studio 218 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 218 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 218 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 700000,
+      "area": 218,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "إطلالة بحرية",
+          "تراس واسع",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Gym",
+          "Near Transportation",
+          "Parking",
+          "24/7 Security",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "18",
+      "floor": "الرابع",
+      "unitNumber": "5962",
+      "usableSpace": 185,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0015",
+      "createdAt": "2025-12-27T03:44:50.823Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.823Z"
+    },
+    {
+      "id": "unit-000198",
+      "title": {
+        "ar": "استوديو 167 متر - المعادي",
+        "en": "Studio 167 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 167 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 167 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 10000000,
+      "area": 167,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "تراس واسع",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Sea View",
+          "Private Garden",
+          "Maid Room",
+          "Private Pool",
+          "Near Transportation",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "17",
+      "floor": "الخامس",
+      "unitNumber": "4935",
+      "usableSpace": 142,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0047",
+      "createdAt": "2025-12-27T03:44:50.871Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.871Z"
+    },
+    {
+      "id": "unit-000216",
+      "title": {
+        "ar": "استوديو 295 متر - 6 أكتوبر",
+        "en": "Studio 295 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 295 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 295 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 800000,
+      "area": 295,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "إطلالة بحرية",
+          "موقف سيارات",
+          "حديقة خاصة",
+          "تراس واسع",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Private Elevator",
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden",
+          "Parking",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "50",
+      "floor": "الثاني",
+      "unitNumber": "9551",
+      "usableSpace": 251,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0001",
+      "createdAt": "2025-12-27T03:44:51.037Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.037Z"
+    },
+    {
+      "id": "unit-000217",
+      "title": {
+        "ar": "استوديو 115 متر - العين السخنة",
+        "en": "Studio 115 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 115 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 115 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1000000,
+      "area": 115,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "تكييف مركزي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Sea View",
+          "Gym",
+          "24/7 Security",
+          "Maid Room",
+          "Parking",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "5",
+      "floor": "الثاني",
+      "unitNumber": "9888",
+      "usableSpace": 98,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0014",
+      "createdAt": "2025-12-27T03:44:51.046Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.046Z"
+    },
+    {
+      "id": "unit-000226",
+      "title": {
+        "ar": "استوديو 316 متر - الساحل الشمالي",
+        "en": "Studio 316 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 316 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 316 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8400000,
+      "area": 316,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "نادي رياضي",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Private Garden",
+          "Private Pool",
+          "Sea View",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "1",
+      "floor": "الأرضي",
+      "unitNumber": "2844",
+      "usableSpace": 269,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0039",
+      "createdAt": "2025-12-27T03:44:51.128Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.128Z"
+    },
+    {
+      "id": "unit-000228",
+      "title": {
+        "ar": "استوديو 54 متر - 6 أكتوبر",
+        "en": "Studio 54 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 54 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 54 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7700000,
+      "area": 54,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "10-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "تراس واسع",
+          "حمام سباحة خاص",
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Gym",
+          "Premium Finish",
+          "Large Terrace",
+          "Private Elevator",
+          "Maid Room",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "3",
+      "floor": "الرابع",
+      "unitNumber": "9688",
+      "usableSpace": 46,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0040",
+      "createdAt": "2025-12-27T03:44:51.146Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.146Z"
+    },
+    {
+      "id": "unit-000230",
+      "title": {
+        "ar": "استوديو 383 متر - التجمع الخامس",
+        "en": "Studio 383 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 383 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 383 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1400000,
+      "area": 383,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Large Terrace",
+          "Parking",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "10",
+      "floor": "الثالث",
+      "unitNumber": "1338",
+      "usableSpace": 326,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0005",
+      "createdAt": "2025-12-27T03:44:51.164Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.164Z"
+    },
+    {
+      "id": "unit-000231",
+      "title": {
+        "ar": "استوديو 55 متر - العين السخنة",
+        "en": "Studio 55 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 55 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 55 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6900000,
+      "area": 55,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Near Transportation",
+          "Gym",
+          "Sea View",
+          "24/7 Security",
+          "Parking",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الأول",
+      "unitNumber": "1559",
+      "usableSpace": 47,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0037",
+      "createdAt": "2025-12-27T03:44:51.174Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.174Z"
+    },
+    {
+      "id": "unit-000235",
+      "title": {
+        "ar": "استوديو 379 متر - 6 أكتوبر",
+        "en": "Studio 379 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 379 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 379 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2900000,
+      "area": 379,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "غرفة خادمة",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden",
+          "Private Elevator",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "39",
+      "floor": "الثالث",
+      "unitNumber": "7633",
+      "usableSpace": 322,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0037",
+      "createdAt": "2025-12-27T03:44:51.209Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.209Z"
+    },
+    {
+      "id": "unit-000247",
+      "title": {
+        "ar": "استوديو 199 متر - 6 أكتوبر",
+        "en": "Studio 199 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 199 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 199 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7200000,
+      "area": 199,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "حديقة خاصة",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Sea View",
+          "Near Transportation",
+          "Private Garden",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "33",
+      "floor": "الخامس",
+      "unitNumber": "7079",
+      "usableSpace": 169,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0004",
+      "createdAt": "2025-12-27T03:44:51.321Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.321Z"
+    },
+    {
+      "id": "unit-000259",
+      "title": {
+        "ar": "استوديو 454 متر - الساحل الشمالي",
+        "en": "Studio 454 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 454 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 454 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5800000,
+      "area": 454,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "نادي رياضي",
+          "قريب من المواصلات",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "6",
+      "floor": "الأول",
+      "unitNumber": "8571",
+      "usableSpace": 386,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0049",
+      "createdAt": "2025-12-27T03:44:51.431Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.431Z"
+    },
+    {
+      "id": "unit-000272",
+      "title": {
+        "ar": "استوديو 229 متر - المعادي",
+        "en": "Studio 229 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 229 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 229 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9200000,
+      "area": 229,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "تكييف مركزي",
+          "مصعد خاص",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Elevator",
+          "Parking",
+          "24/7 Security",
+          "Gym",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "7",
+      "floor": "الأول",
+      "unitNumber": "3405",
+      "usableSpace": 195,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0013",
+      "createdAt": "2025-12-27T03:44:51.583Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.583Z"
+    },
+    {
+      "id": "unit-000278",
+      "title": {
+        "ar": "استوديو 479 متر - 6 أكتوبر",
+        "en": "Studio 479 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 479 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 479 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3600000,
+      "area": 479,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "10-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "مصعد خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Gym",
+          "24/7 Security",
+          "Parking",
+          "Maid Room",
+          "Sea View",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "السادس",
+      "unitNumber": "2919",
+      "usableSpace": 407,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0048",
+      "createdAt": "2025-12-27T03:44:51.641Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.641Z"
+    },
+    {
+      "id": "unit-000286",
+      "title": {
+        "ar": "استوديو 409 متر - الساحل الشمالي",
+        "en": "Studio 409 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 409 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 409 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3800000,
+      "area": 409,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Private Garden",
+          "Sea View",
+          "Near Transportation",
+          "Private Pool",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "25",
+      "floor": "الأول",
+      "unitNumber": "5534",
+      "usableSpace": 348,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:51.718Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.718Z"
+    }
+  ],
+  "total": 69,
+  "page": 2,
+  "limit": 20,
+  "totalPages": 4,
+  "hasNext": true,
+  "hasPrev": true,
+  "filter": {
+    "type": "studio"
+  },
+  "generatedAt": "2025-12-27T22:58:09.015Z"
+}

@@ -1,0 +1,1180 @@
+{
+  "data": [
+    {
+      "id": "unit-000358",
+      "title": {
+        "ar": "دوبلكس 292 متر - الساحل الشمالي",
+        "en": "Duplex 292 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 292 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 292 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6000000,
+      "area": 292,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "قريب من المواصلات",
+          "موقف سيارات",
+          "حديقة خاصة",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Elevator",
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "5",
+      "floor": "الثاني",
+      "unitNumber": "2833",
+      "usableSpace": 248,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0009",
+      "createdAt": "2025-12-27T03:44:52.441Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.441Z"
+    },
+    {
+      "id": "unit-000359",
+      "title": {
+        "ar": "شقة 99 متر - التجمع الخامس",
+        "en": "Apartment 99 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 99 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 99 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8800000,
+      "area": 99,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "cash",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Parking",
+          "Private Elevator",
+          "Private Pool",
+          "Gym",
+          "Private Garden",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "23",
+      "floor": "الثالث",
+      "unitNumber": "7654",
+      "usableSpace": 84,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0032",
+      "createdAt": "2025-12-27T03:44:52.451Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.451Z"
+    },
+    {
+      "id": "unit-000362",
+      "title": {
+        "ar": "توين هاوس 170 متر - التجمع الخامس",
+        "en": "Twin House 170 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 170 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 170 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5400000,
+      "area": 170,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "مصعد خاص",
+          "موقف سيارات",
+          "حديقة خاصة",
+          "قريب من المواصلات",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "24/7 Security",
+          "Maid Room",
+          "Premium Finish",
+          "Private Pool",
+          "Sea View",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "49",
+      "floor": "الثالث",
+      "unitNumber": "4981",
+      "usableSpace": 145,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0001",
+      "createdAt": "2025-12-27T03:44:52.482Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.482Z"
+    },
+    {
+      "id": "unit-000364",
+      "title": {
+        "ar": "فيلا 467 متر - الساحل الشمالي",
+        "en": "Villa 467 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 467 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 467 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3000000,
+      "area": 467,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "حديقة خاصة",
+          "حمام سباحة خاص",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Garden",
+          "Sea View",
+          "Large Terrace",
+          "Private Elevator",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "الأول",
+      "unitNumber": "3198",
+      "usableSpace": 397,
+      "gardenShare": 53,
+      "view": "pool",
+      "projectId": "project-0040",
+      "createdAt": "2025-12-27T03:44:52.502Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.502Z"
+    },
+    {
+      "id": "unit-000365",
+      "title": {
+        "ar": "توين هاوس 137 متر - المعادي",
+        "en": "Twin House 137 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 137 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 137 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7900000,
+      "area": 137,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "تشطيب سوبر لوكس",
+          "إطلالة بحرية",
+          "نادي رياضي",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Premium Finish",
+          "Sea View",
+          "24/7 Security",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "38",
+      "floor": "الخامس",
+      "unitNumber": "5344",
+      "usableSpace": 116,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0004",
+      "createdAt": "2025-12-27T03:44:52.514Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.514Z"
+    },
+    {
+      "id": "unit-000372",
+      "title": {
+        "ar": "شاليه 197 متر - الساحل الشمالي",
+        "en": "Chalet 197 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 197 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 197 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 197,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Parking",
+          "Private Garden",
+          "Private Pool",
+          "Large Terrace",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "السادس",
+      "unitNumber": "319",
+      "usableSpace": 167,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0012",
+      "createdAt": "2025-12-27T03:44:52.586Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.586Z"
+    },
+    {
+      "id": "unit-000373",
+      "title": {
+        "ar": "فيلا 95 متر - الساحل الشمالي",
+        "en": "Villa 95 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 95 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 95 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4600000,
+      "area": 95,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "حديقة خاصة",
+          "مصعد خاص",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Large Terrace",
+          "Private Garden",
+          "Private Elevator",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "9",
+      "floor": "الأرضي",
+      "unitNumber": "2732",
+      "usableSpace": 81,
+      "gardenShare": 150,
+      "view": "pool",
+      "projectId": "project-0004",
+      "createdAt": "2025-12-27T03:44:52.597Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.597Z"
+    },
+    {
+      "id": "unit-000374",
+      "title": {
+        "ar": "توين هاوس 114 متر - جولف بورتو مارينا",
+        "en": "Twin House 114 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 114 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 114 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7900000,
+      "area": 114,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "غرفة خادمة",
+          "حديقة خاصة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Large Terrace",
+          "Parking",
+          "Private Elevator",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "9",
+      "floor": "الخامس",
+      "unitNumber": "9721",
+      "usableSpace": 97,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0001",
+      "createdAt": "2025-12-27T03:44:52.607Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.607Z"
+    },
+    {
+      "id": "unit-000378",
+      "title": {
+        "ar": "توين هاوس 435 متر - العين السخنة",
+        "en": "Twin House 435 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 435 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 435 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 435,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "حمام سباحة خاص",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Elevator",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "4",
+      "floor": "الأرضي",
+      "unitNumber": "6840",
+      "usableSpace": 370,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:52.649Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.649Z"
+    },
+    {
+      "id": "unit-000379",
+      "title": {
+        "ar": "شقة 393 متر - العين السخنة",
+        "en": "Apartment 393 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 393 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 393 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6300000,
+      "area": 393,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حديقة خاصة",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Premium Finish",
+          "Near Transportation",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "25",
+      "floor": "الخامس",
+      "unitNumber": "1023",
+      "usableSpace": 334,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0040",
+      "createdAt": "2025-12-27T03:44:52.659Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.659Z"
+    },
+    {
+      "id": "unit-000381",
+      "title": {
+        "ar": "تاون هاوس 263 متر - مدينتي",
+        "en": "Townhouse 263 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 263 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 263 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6300000,
+      "area": 263,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "إطلالة بحرية",
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "حديقة خاصة",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Maid Room",
+          "Sea View",
+          "Premium Finish",
+          "Private Elevator",
+          "Private Pool",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "46",
+      "floor": "الأرضي",
+      "unitNumber": "182",
+      "usableSpace": 224,
+      "gardenShare": 75,
+      "view": "sea",
+      "projectId": "project-0032",
+      "createdAt": "2025-12-27T03:44:52.681Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.681Z"
+    },
+    {
+      "id": "unit-000384",
+      "title": {
+        "ar": "توين هاوس 402 متر - مدينتي",
+        "en": "Twin House 402 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 402 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 402 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6900000,
+      "area": 402,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "تكييف مركزي",
+          "غرفة خادمة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Private Elevator",
+          "Gym",
+          "Premium Finish",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "28",
+      "floor": "الخامس",
+      "unitNumber": "3907",
+      "usableSpace": 342,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0014",
+      "createdAt": "2025-12-27T03:44:52.713Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.713Z"
+    },
+    {
+      "id": "unit-000387",
+      "title": {
+        "ar": "شقة 403 متر - العين السخنة",
+        "en": "Apartment 403 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 403 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 403 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4000000,
+      "area": 403,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "إطلالة بحرية",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Sea View",
+          "Parking",
+          "Private Elevator",
+          "Central AC",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "11",
+      "floor": "السادس",
+      "unitNumber": "9345",
+      "usableSpace": 343,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0034",
+      "createdAt": "2025-12-27T03:44:52.744Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.744Z"
+    },
+    {
+      "id": "unit-000388",
+      "title": {
+        "ar": "توين هاوس 69 متر - التجمع الخامس",
+        "en": "Twin House 69 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 69 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 69 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2300000,
+      "area": 69,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "موقف سيارات",
+          "مصعد خاص",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Private Garden",
+          "Parking",
+          "Near Transportation",
+          "Central AC",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "49",
+      "floor": "الأرضي",
+      "unitNumber": "6499",
+      "usableSpace": 59,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0008",
+      "createdAt": "2025-12-27T03:44:52.757Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.757Z"
+    },
+    {
+      "id": "unit-000392",
+      "title": {
+        "ar": "شقة 454 متر - العين السخنة",
+        "en": "Apartment 454 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 454 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 454 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3300000,
+      "area": 454,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "مصعد خاص",
+          "إطلالة بحرية",
+          "حمام سباحة خاص",
+          "حديقة خاصة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Parking",
+          "24/7 Security",
+          "Sea View",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "25",
+      "floor": "الخامس",
+      "unitNumber": "983",
+      "usableSpace": 386,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0017",
+      "createdAt": "2025-12-27T03:44:52.800Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.800Z"
+    },
+    {
+      "id": "unit-000394",
+      "title": {
+        "ar": "تاون هاوس 236 متر - العين السخنة",
+        "en": "Townhouse 236 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 236 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 236 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4200000,
+      "area": 236,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "24/7 Security",
+          "Maid Room",
+          "Gym",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "33",
+      "floor": "الثاني",
+      "unitNumber": "3529",
+      "usableSpace": 201,
+      "gardenShare": 136,
+      "view": "pool",
+      "projectId": "project-0018",
+      "createdAt": "2025-12-27T03:44:52.820Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.820Z"
+    },
+    {
+      "id": "unit-000398",
+      "title": {
+        "ar": "استوديو 415 متر - الشيخ زايد",
+        "en": "Studio 415 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 415 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 415 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6400000,
+      "area": 415,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "حمام سباحة خاص",
+          "تشطيب سوبر لوكس",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Near Transportation",
+          "Maid Room",
+          "Premium Finish",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "16",
+      "floor": "الخامس",
+      "unitNumber": "5574",
+      "usableSpace": 353,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0030",
+      "createdAt": "2025-12-27T03:44:52.864Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.864Z"
+    },
+    {
+      "id": "unit-000401",
+      "title": {
+        "ar": "فيلا 164 متر - العين السخنة",
+        "en": "Villa 164 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 164 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 164 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4700000,
+      "area": 164,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Parking",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "الأول",
+      "unitNumber": "2321",
+      "usableSpace": 139,
+      "gardenShare": 138,
+      "view": "golf",
+      "projectId": "project-0028",
+      "createdAt": "2025-12-27T03:44:52.897Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.897Z"
+    },
+    {
+      "id": "unit-000404",
+      "title": {
+        "ar": "توين هاوس 424 متر - التجمع الخامس",
+        "en": "Twin House 424 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 424 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 424 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3400000,
+      "area": 424,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "تشطيب سوبر لوكس",
+          "نادي رياضي",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "24/7 Security",
+          "Maid Room",
+          "Private Elevator",
+          "Parking",
+          "Private Pool",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "45",
+      "floor": "الثاني",
+      "unitNumber": "5197",
+      "usableSpace": 360,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0048",
+      "createdAt": "2025-12-27T03:44:52.931Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.931Z"
+    },
+    {
+      "id": "unit-000405",
+      "title": {
+        "ar": "بنتهاوس 324 متر - الرحاب",
+        "en": "Penthouse 324 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 324 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 324 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9900000,
+      "area": 324,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "موقف سيارات",
+          "نادي رياضي",
+          "إطلالة بحرية",
+          "قريب من المواصلات",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Central AC",
+          "Private Elevator",
+          "Sea View",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "الثاني",
+      "unitNumber": "2465",
+      "usableSpace": 275,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0048",
+      "createdAt": "2025-12-27T03:44:52.943Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.943Z"
+    }
+  ],
+  "total": 170,
+  "page": 7,
+  "limit": 20,
+  "totalPages": 9,
+  "hasNext": true,
+  "hasPrev": true,
+  "filter": {
+    "unitStatus": "sold"
+  },
+  "generatedAt": "2025-12-27T22:58:10.900Z"
+}

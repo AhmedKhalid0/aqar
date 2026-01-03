@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>النسخ الاحتياطي | عقار</title>
+    
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+<body>
+    <div id="sidebarContainer"></div>
+
+    <main class="admin-main">
+        <header class="admin-header">
+            <button class="sidebar-toggle"><i class="bi bi-list"></i></button>
+            <h1><i class="bi bi-cloud-arrow-up me-2"></i>النسخ الاحتياطي</h1>
+        </header>
+
+        <div class="admin-content">
+            <!-- إنشاء نسخة احتياطية -->
+            <div class="data-card mb-4">
+                <div class="data-card-header">
+                    <h3><i class="bi bi-plus-circle me-2"></i>إنشاء نسخة احتياطية جديدة</h3>
+                </div>
+                <div class="data-card-body">
+                    <div class="row align-items-end">
+                        <div class="col-md-6 mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="includeUploads" checked>
+                                <label class="form-check-label" for="includeUploads">
+                                    تضمين الصور والملفات المرفوعة (قد يزيد حجم النسخة)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3 text-start">
+                            <button class="btn btn-gold" id="createBackupBtn" onclick="createBackup()">
+                                <i class="bi bi-cloud-arrow-up me-2"></i>إنشاء نسخة احتياطية
+                            </button>
+                        </div>
+                    </div>
+                    <div id="backupProgress" style="display: none;">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 100%"></div>
+                        </div>
+                        <p class="text-muted mt-2 mb-0">جاري إنشاء النسخة الاحتياطية...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- معلومات النظام -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-hdd"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="totalBackups">-</span>
+                            <span class="stat-label">إجمالي النسخ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-archive"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="totalSize">-</span>
+                            <span class="stat-label">إجمالي الحجم</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="bi bi-clock-history"></i></div>
+                        <div class="stat-info">
+                            <span class="stat-value" id="lastBackup">-</span>
+                            <span class="stat-label">آخر نسخة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- قائمة النسخ الاحتياطية -->
+            <div class="data-card">
+                <div class="data-card-header">
+                    <h3><i class="bi bi-list-ul me-2"></i>النسخ الاحتياطية المتاحة</h3>
+                    <button class="btn btn-outline-secondary btn-sm" onclick="loadBackups()">
+                        <i class="bi bi-arrow-clockwise"></i> تحديث
+                    </button>
+                </div>
+                <div class="data-card-body">
+                    <div class="table-responsive">
+                        <table class="table data-table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>اسم الملف</th>
+                                    <th>الحجم</th>
+                                    <th>تاريخ الإنشاء</th>
+                                    <th>الإجراءات</th>
+                                </tr>
+                            </thead>
+                            <tbody id="backupsTable">
+                                <tr><td colspan="4" class="text-center py-4">جاري التحميل...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- تنبيهات -->
+            <div class="alert alert-info mt-4">
+                <h5><i class="bi bi-info-circle me-2"></i>معلومات هامة</h5>
+                <ul class="mb-0">
+                    <li>يُنصح بإنشاء نسخة احتياطية بشكل دوري (يومياً أو أسبوعياً)</li>
+                    <li>النسخة الاحتياطية تشمل: بيانات الوحدات، المشاريع، الأخبار، المستخدمين، الإعدادات</li>
+                    <li>عند تضمين الصور، قد يزداد حجم النسخة بشكل كبير</li>
+                    <li>احتفظ بنسخة احتياطية في مكان آمن خارج السيرفر</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Restore Confirmation Modal -->
+    <div class="modal fade" id="restoreModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-warning">
+                    <h5 class="modal-title"><i class="bi bi-exclamation-triangle me-2"></i>تأكيد الاستعادة</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="mb-3">هل أنت متأكد من استعادة النسخة الاحتياطية؟</p>
+                    <p class="text-danger mb-0"><strong>تحذير:</strong> سيتم استبدال جميع البيانات الحالية بالبيانات من النسخة الاحتياطية!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                    <button type="button" class="btn btn-warning" id="confirmRestoreBtn">
+                        <i class="bi bi-arrow-counterclockwise me-2"></i>استعادة
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    
+    <script>
+        let backups = [];
+        let restoreFilename = '';
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            await Admin.init();
+            loadBackups();
+        });
+
+        async function loadBackups() {
+            try {
+                const result = await Admin.adminFetch('/api/admin/backup/list');
+                backups = result.backups || [];
+                renderBackups();
+                updateStats();
+            } catch (error) {
+                Admin.showAlert('فشل تحميل النسخ الاحتياطية', 'danger');
+            }
+        }
+
+        function renderBackups() {
+            const tbody = document.getElementById('backupsTable');
+            
+            if (backups.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" class="text-center py-4 text-muted">لا توجد نسخ احتياطية</td></tr>';
+                return;
+            }
+            
+            tbody.innerHTML = backups.map(backup => `
+                <tr>
+                    <td>
+                        <i class="bi bi-file-earmark-zip text-warning me-2"></i>
+                        ${backup.filename}
+                    </td>
+                    <td>${backup.sizeFormatted}</td>
+                    <td>${formatDate(backup.createdAt)}</td>
+                    <td>
+                        <button class="btn btn-sm btn-outline-primary me-1" onclick="downloadBackup('${backup.filename}')" title="تنزيل">
+                            <i class="bi bi-download"></i>
+                        </button>
+                        <button class="btn btn-sm btn-outline-warning me-1" onclick="confirmRestore('${backup.filename}')" title="استعادة">
+                            <i class="bi bi-arrow-counterclockwise"></i>
+                        </button>
+                        <button class="btn btn-sm btn-outline-danger" onclick="deleteBackup('${backup.filename}')" title="حذف">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function updateStats() {
+            document.getElementById('totalBackups').textContent = backups.length;
+            
+            const totalSize = backups.reduce((sum, b) => sum + b.size, 0);
+            document.getElementById('totalSize').textContent = formatBytes(totalSize);
+            
+            if (backups.length > 0) {
+                const lastBackupDate = new Date(backups[0].createdAt);
+                document.getElementById('lastBackup').textContent = formatRelativeTime(lastBackupDate);
+            } else {
+                document.getElementById('lastBackup').textContent = 'لا يوجد';
+            }
+        }
+
+        async function createBackup() {
+            const btn = document.getElementById('createBackupBtn');
+            const progress = document.getElementById('backupProgress');
+            const includeUploads = document.getElementById('includeUploads').checked;
+            
+            btn.disabled = true;
+            progress.style.display = 'block';
+            
+            try {
+                const result = await Admin.adminFetch('/api/admin/backup/create', {
+                    method: 'POST',
+                    body: JSON.stringify({ includeUploads })
+                });
+                
+                Admin.showAlert(`تم إنشاء النسخة الاحتياطية بنجاح (${result.sizeFormatted})`, 'success');
+                loadBackups();
+            } catch (error) {
+                Admin.showAlert('فشل إنشاء النسخة الاحتياطية', 'danger');
+            } finally {
+                btn.disabled = false;
+                progress.style.display = 'none';
+            }
+        }
+
+        function downloadBackup(filename) {
+            const token = localStorage.getItem('adminToken');
+            window.open(`/api/admin/backup/download/${filename}?token=${token}`, '_blank');
+        }
+
+        function confirmRestore(filename) {
+            restoreFilename = filename;
+            const modal = new bootstrap.Modal(document.getElementById('restoreModal'));
+            modal.show();
+        }
+
+        document.getElementById('confirmRestoreBtn').addEventListener('click', async () => {
+            const modal = bootstrap.Modal.getInstance(document.getElementById('restoreModal'));
+            modal.hide();
+            
+            Admin.showLoading();
+            
+            try {
+                await Admin.adminFetch(`/api/admin/backup/restore/${restoreFilename}`, {
+                    method: 'POST'
+                });
+                
+                Admin.showAlert('تم استعادة النسخة الاحتياطية بنجاح', 'success');
+                setTimeout(() => window.location.reload(), 2000);
+            } catch (error) {
+                Admin.showAlert('فشل استعادة النسخة الاحتياطية: ' + error.message, 'danger');
+            } finally {
+                Admin.hideLoading();
+            }
+        });
+
+        async function deleteBackup(filename) {
+            if (!await Admin.confirmAction('هل أنت متأكد من حذف هذه النسخة الاحتياطية؟')) return;
+            
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch(`/api/admin/backup/${filename}`, { method: 'DELETE' });
+                Admin.showAlert('تم حذف النسخة الاحتياطية', 'success');
+                loadBackups();
+            } catch (error) {
+                Admin.showAlert('فشل حذف النسخة الاحتياطية', 'danger');
+            } finally {
+                Admin.hideLoading();
+            }
+        }
+
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('ar-EG', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+
+        function formatBytes(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        function formatRelativeTime(date) {
+            const now = new Date();
+            const diff = now - date;
+            const minutes = Math.floor(diff / 60000);
+            const hours = Math.floor(diff / 3600000);
+            const days = Math.floor(diff / 86400000);
+            
+            if (minutes < 1) return 'الآن';
+            if (minutes < 60) return `منذ ${minutes} دقيقة`;
+            if (hours < 24) return `منذ ${hours} ساعة`;
+            if (days < 7) return `منذ ${days} يوم`;
+            return formatDate(date);
+        }
+    </script>
+</body>
+</html>

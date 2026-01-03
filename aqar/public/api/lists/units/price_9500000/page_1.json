@@ -1,0 +1,303 @@
+{
+  "data": [
+    {
+      "id": "unit-000007",
+      "title": {
+        "ar": "تاون هاوس 280 متر - مدينتي",
+        "en": "Townhouse 280 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 280 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 280 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9500000,
+      "area": 280,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "حديقة خاصة",
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Parking",
+          "Sea View",
+          "Premium Finish",
+          "Large Terrace",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الرابع",
+      "unitNumber": "7524",
+      "usableSpace": 238,
+      "gardenShare": 130,
+      "view": "",
+      "projectId": "project-0027",
+      "createdAt": "2025-12-27T03:44:49.878Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.878Z"
+    },
+    {
+      "id": "unit-000315",
+      "title": {
+        "ar": "شقة 107 متر - المعادي",
+        "en": "Apartment 107 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 107 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 107 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9500000,
+      "area": 107,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "حمام سباحة خاص",
+          "تراس واسع",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Elevator",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "44",
+      "floor": "الثاني",
+      "unitNumber": "3599",
+      "usableSpace": 91,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0004",
+      "createdAt": "2025-12-27T03:44:52.001Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.001Z"
+    },
+    {
+      "id": "unit-000383",
+      "title": {
+        "ar": "شقة 220 متر - الرحاب",
+        "en": "Apartment 220 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 220 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 220 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9500000,
+      "area": 220,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "تراس واسع",
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Parking",
+          "Large Terrace",
+          "Private Pool",
+          "Central AC",
+          "Sea View",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "الأول",
+      "unitNumber": "9929",
+      "usableSpace": 187,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0008",
+      "createdAt": "2025-12-27T03:44:52.701Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.701Z"
+    },
+    {
+      "id": "unit-000447",
+      "title": {
+        "ar": "توين هاوس 200 متر - العين السخنة",
+        "en": "Twin House 200 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 200 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 200 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9500000,
+      "area": 200,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Private Garden",
+          "Near Transportation",
+          "Gym",
+          "Parking",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "13",
+      "floor": "الرابع",
+      "unitNumber": "4680",
+      "usableSpace": 170,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:53.369Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.369Z"
+    },
+    {
+      "id": "unit-000481",
+      "title": {
+        "ar": "فيلا 352 متر - العاصمة الإدارية",
+        "en": "Villa 352 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 352 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 352 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9500000,
+      "area": 352,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "نادي رياضي",
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Private Garden",
+          "Premium Finish",
+          "24/7 Security",
+          "Near Transportation",
+          "Maid Room",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "46",
+      "floor": "الرابع",
+      "unitNumber": "202",
+      "usableSpace": 299,
+      "gardenShare": 65,
+      "view": "",
+      "projectId": "project-0008",
+      "createdAt": "2025-12-27T03:44:53.734Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.734Z"
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "9500000"
+  },
+  "generatedAt": "2025-12-27T22:58:13.113Z"
+}

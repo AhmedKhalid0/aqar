@@ -1,0 +1,193 @@
+{
+  "data": [
+    {
+      "id": "unit-000195",
+      "title": {
+        "ar": "دوبلكس 414 متر - المعادي",
+        "en": "Duplex 414 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 414 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 414 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 900000,
+      "area": 414,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "أمن 24 ساعة",
+          "حديقة خاصة",
+          "تكييف مركزي",
+          "تراس واسع",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Parking",
+          "Sea View",
+          "24/7 Security",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "24",
+      "floor": "الثالث",
+      "unitNumber": "4053",
+      "usableSpace": 352,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:50.844Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.844Z"
+    },
+    {
+      "id": "unit-000395",
+      "title": {
+        "ar": "استوديو 340 متر - جولف بورتو مارينا",
+        "en": "Studio 340 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 340 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 340 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 900000,
+      "area": 340,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حديقة خاصة",
+          "تراس واسع",
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Sea View",
+          "Private Garden",
+          "Private Elevator",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الثاني",
+      "unitNumber": "6261",
+      "usableSpace": 289,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:52.831Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.831Z"
+    },
+    {
+      "id": "unit-000399",
+      "title": {
+        "ar": "شقة 336 متر - العين السخنة",
+        "en": "Apartment 336 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 336 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 336 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 900000,
+      "area": 336,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "قريب من المواصلات",
+          "نادي رياضي",
+          "مصعد خاص",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Premium Finish",
+          "Near Transportation",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "16",
+      "floor": "الثاني",
+      "unitNumber": "3519",
+      "usableSpace": 286,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0015",
+      "createdAt": "2025-12-27T03:44:52.876Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.876Z"
+    }
+  ],
+  "total": 3,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "900000"
+  },
+  "generatedAt": "2025-12-27T22:58:11.934Z"
+}

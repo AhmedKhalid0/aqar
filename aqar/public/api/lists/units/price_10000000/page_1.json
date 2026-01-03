@@ -1,0 +1,422 @@
+{
+  "data": [
+    {
+      "id": "unit-000002",
+      "title": {
+        "ar": "شاليه 169 متر - الشيخ زايد",
+        "en": "Chalet 169 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 169 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 169 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 10000000,
+      "area": 169,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "تكييف مركزي",
+          "قريب من المواصلات",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Sea View",
+          "Premium Finish",
+          "Large Terrace",
+          "Near Transportation",
+          "Private Elevator",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "44",
+      "floor": "السادس",
+      "unitNumber": "1634",
+      "usableSpace": 144,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0013",
+      "createdAt": "2025-12-27T03:44:49.873Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.873Z"
+    },
+    {
+      "id": "unit-000050",
+      "title": {
+        "ar": "فيلا 84 متر - الساحل الشمالي",
+        "en": "Villa 84 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 84 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 84 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 10000000,
+      "area": 84,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "أمن 24 ساعة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Private Garden",
+          "Maid Room",
+          "Private Elevator",
+          "Private Pool",
+          "Gym",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الأرضي",
+      "unitNumber": "9299",
+      "usableSpace": 71,
+      "gardenShare": 113,
+      "view": "golf",
+      "projectId": "project-0002",
+      "createdAt": "2025-12-27T03:44:49.958Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.958Z"
+    },
+    {
+      "id": "unit-000065",
+      "title": {
+        "ar": "شقة 207 متر - المعادي",
+        "en": "Apartment 207 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 207 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 207 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 10000000,
+      "area": 207,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "3-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "أمن 24 ساعة",
+          "حديقة خاصة",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Private Pool",
+          "Premium Finish",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "32",
+      "floor": "الرابع",
+      "unitNumber": "1619",
+      "usableSpace": 176,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0001",
+      "createdAt": "2025-12-27T03:44:50.004Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.004Z"
+    },
+    {
+      "id": "unit-000069",
+      "title": {
+        "ar": "دوبلكس 135 متر - المعادي",
+        "en": "Duplex 135 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 135 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 135 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 10000000,
+      "area": 135,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "إطلالة بحرية",
+          "تراس واسع",
+          "تشطيب سوبر لوكس",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Large Terrace",
+          "Sea View",
+          "24/7 Security",
+          "Maid Room",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "40",
+      "floor": "الثاني",
+      "unitNumber": "5862",
+      "usableSpace": 115,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0033",
+      "createdAt": "2025-12-27T03:44:50.019Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.019Z"
+    },
+    {
+      "id": "unit-000109",
+      "title": {
+        "ar": "شقة 397 متر - الساحل الشمالي",
+        "en": "Apartment 397 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 397 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 397 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 10000000,
+      "area": 397,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "إطلالة بحرية",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Large Terrace",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "39",
+      "floor": "الأرضي",
+      "unitNumber": "9990",
+      "usableSpace": 337,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0047",
+      "createdAt": "2025-12-27T03:44:50.200Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.200Z"
+    },
+    {
+      "id": "unit-000133",
+      "title": {
+        "ar": "استوديو 356 متر - الشيخ زايد",
+        "en": "Studio 356 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 356 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 356 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 10000000,
+      "area": 356,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "تراس واسع",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Private Elevator",
+          "24/7 Security",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "44",
+      "floor": "الثالث",
+      "unitNumber": "6848",
+      "usableSpace": 303,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0030",
+      "createdAt": "2025-12-27T03:44:50.340Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.340Z"
+    },
+    {
+      "id": "unit-000198",
+      "title": {
+        "ar": "استوديو 167 متر - المعادي",
+        "en": "Studio 167 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 167 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 167 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 10000000,
+      "area": 167,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "تراس واسع",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Sea View",
+          "Private Garden",
+          "Maid Room",
+          "Private Pool",
+          "Near Transportation",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "17",
+      "floor": "الخامس",
+      "unitNumber": "4935",
+      "usableSpace": 142,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0047",
+      "createdAt": "2025-12-27T03:44:50.871Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.871Z"
+    }
+  ],
+  "total": 7,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "10000000"
+  },
+  "generatedAt": "2025-12-27T22:58:13.207Z"
+}

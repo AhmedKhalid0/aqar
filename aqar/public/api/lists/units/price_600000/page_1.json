@@ -1,0 +1,191 @@
+{
+  "data": [
+    {
+      "id": "unit-000049",
+      "title": {
+        "ar": "توين هاوس 488 متر - مدينتي",
+        "en": "Twin House 488 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 488 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 488 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 600000,
+      "area": 488,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "غرفة خادمة",
+          "حمام سباحة خاص",
+          "قريب من المواصلات",
+          "حديقة خاصة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Premium Finish",
+          "24/7 Security",
+          "Maid Room",
+          "Sea View",
+          "Private Elevator",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "الأول",
+      "unitNumber": "1346",
+      "usableSpace": 415,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0023",
+      "createdAt": "2025-12-27T03:44:49.955Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.955Z"
+    },
+    {
+      "id": "unit-000067",
+      "title": {
+        "ar": "شقة 321 متر - التجمع الخامس",
+        "en": "Apartment 321 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 321 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 321 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 600000,
+      "area": 321,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "قريب من المواصلات",
+          "تكييف مركزي",
+          "موقف سيارات",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Gym",
+          "Private Pool",
+          "Sea View",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "10",
+      "floor": "الرابع",
+      "unitNumber": "3528",
+      "usableSpace": 273,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0017",
+      "createdAt": "2025-12-27T03:44:50.011Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.011Z"
+    },
+    {
+      "id": "unit-000487",
+      "title": {
+        "ar": "تاون هاوس 70 متر - 6 أكتوبر",
+        "en": "Townhouse 70 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 70 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 70 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 600000,
+      "area": 70,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "تكييف مركزي",
+          "مصعد خاص",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Parking",
+          "Private Garden",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "13",
+      "floor": "الأرضي",
+      "unitNumber": "8310",
+      "usableSpace": 60,
+      "gardenShare": 131,
+      "view": "landscape",
+      "projectId": "project-0026",
+      "createdAt": "2025-12-27T03:44:53.795Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.795Z"
+    }
+  ],
+  "total": 3,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "600000"
+  },
+  "generatedAt": "2025-12-27T22:58:11.904Z"
+}

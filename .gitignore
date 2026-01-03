@@ -1,0 +1,20 @@
+# Dependencies
+aqar/node_modules/
+**/node_modules/
+
+# Security - Ignore data but keep folders
+aqar/secure_data/**/*.json
+**/secure_data/**/*.json
+
+# Tests
+aqar/tests/
+**/tests/
+
+# Deployment/Dev Artifacts
+**/DEPLOYMENT_PROMPT.md
+**/backups/
+**/*.backup*
+*.log
+
+# System
+.DS_Store

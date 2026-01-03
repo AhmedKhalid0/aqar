@@ -1,0 +1,72 @@
+<!-- Google Analytics & AdSense Placeholder -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+</script>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-navy fixed-top shadow">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <img src="/images/logo.png" alt="Logo" height="40" class="me-2 site-logo" style="display:none; max-height: 50px; width: auto;">
+            <span class="brand-text company-name" style="display:none;">Aqar</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" data-i18n="nav.home">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/units.html" data-i18n="nav.units">الوحدات</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/projects.html" data-i18n="nav.projects">المشاريع</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/news.html" data-i18n="nav.news">الأخبار</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/partners.html" data-i18n="nav.partners">الشركاء</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/reviews.html" data-i18n="nav.reviews">آراء العملاء</a>
+                </li>
+                <li class="nav-item team-nav-item" style="display: none;">
+                    <a class="nav-link" href="/team.html" data-i18n="nav.team">فريقنا</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html" data-i18n="nav.contact">اتصل بنا</a>
+                </li>
+            </ul>
+            
+            <div class="d-flex align-items-center gap-3">
+                <a href="/wishlist.html" class="btn btn-outline-gold position-relative" title="المفضلة">
+                    <i class="bi bi-heart-fill"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger wishlist-count" style="display: none;">0</span>
+                </a>
+                
+                <div class="dropdown">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button" id="langDropdown" data-bs-toggle="dropdown">
+                        <i class="bi bi-globe2"></i>
+                        <span id="currentLang">العربية</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('ar')">العربية</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Spacer for fixed navbar -->
+<div style="height: 76px;"></div>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تصفح جميع الوحدات العقارية المتاحة - شقق، فيلات، دوبلكس في أفضل المواقع">
+    <title>الوحدات العقارية | عقار</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom Styles (after Bootstrap) -->
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="global-header"></div>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-section">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/" data-i18n="nav.home">الرئيسية</a></li>
+                    <li class="breadcrumb-item active" data-i18n="nav.units">الوحدات</li>
+                </ol>
+            </nav>
+            <h1 class="text-white mt-2" data-i18n="nav.units">الوحدات العقارية</h1>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Filters Sidebar -->
+                <div class="col-lg-3 mb-4">
+                    <div class="filter-section sticky-top" style="top: 100px;">
+                        <h5 class="mb-4" data-i18n="filter.title">تصفية النتائج</h5>
+
+                        <div class="mb-3">
+                            <label class="form-label" data-i18n="filter.project">المشروع</label>
+                            <select class="form-select" id="filterProject">
+                                <option value="" data-i18n="filter.allProjects">جميع المشاريع</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" data-i18n="search.location">الموقع</label>
+                            <select class="form-select" id="filterLocation">
+                                <option value="" data-i18n="search.allLocations">جميع المواقع</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" data-i18n="search.type">نوع العقار</label>
+                            <select class="form-select" id="filterType">
+                                <option value="" data-i18n="search.allTypes">جميع الأنواع</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" data-i18n="filter.priceFrom">السعر من</label>
+                            <input type="number" class="form-control" id="filterMinPrice" placeholder="0">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" data-i18n="filter.priceTo">السعر إلى</label>
+                            <input type="number" class="form-control" id="filterMaxPrice" placeholder="10,000,000">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" data-i18n="filter.areaFrom">المساحة من (م²)</label>
+                            <input type="number" class="form-control" id="filterMinArea" placeholder="0">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" data-i18n="filter.areaTo">المساحة إلى (م²)</label>
+                            <input type="number" class="form-control" id="filterMaxArea" placeholder="1000">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" data-i18n="search.bedrooms">غرف النوم</label>
+                            <select class="form-select" id="filterBedrooms">
+                                <option value="" data-i18n="search.any">أي</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5+</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">حالة الوحدة</label>
+                            <select class="form-select" id="filterUnitStatus">
+                                <option value="">جميع الحالات</option>
+                                <option value="available">متاح</option>
+                                <option value="reserved">محجوز</option>
+                                <option value="sold">مباع</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="filterFeatured">
+                                <label class="form-check-label" for="filterFeatured">
+                                    <i class="bi bi-star-fill text-warning"></i> الوحدات المميزة فقط
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="d-grid">
+                            <button class="btn btn-outline-secondary" id="resetFilters" data-i18n="filter.reset">إعادة
+                                تعيين</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Units Grid -->
+                <div class="col-lg-9">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <p class="mb-0"><span id="unitsCount">0</span> <span data-i18n="units.count">وحدة</span></p>
+                        <select class="form-select w-auto" id="sortBy">
+                            <option value="newest" data-i18n="sort.newest">الأحدث</option>
+                            <option value="price-low" data-i18n="sort.priceLow">السعر: الأقل</option>
+                            <option value="price-high" data-i18n="sort.priceHigh">السعر: الأعلى</option>
+                            <option value="area-low" data-i18n="sort.areaSmall">المساحة: الأصغر</option>
+                            <option value="area-high" data-i18n="sort.areaLarge">المساحة: الأكبر</option>
+                        </select>
+                    </div>
+
+                    <div class="row" id="unitsGrid">
+                        <div class="loading-spinner">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <nav class="mt-4" id="paginationNav" style="display: none;">
+                        <ul class="pagination justify-content-center" id="pagination"></ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="global-footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <!-- Core -->
+    <script src="/js/core/config.js?v=4"></script>
+    <script src="/js/core/site.js?v=4"></script>
+
+    <!-- Utils -->
+    <script src="/js/utils/api.js"></script>
+    <script src="/js/utils/format.js"></script>
+    <script src="/js/utils/storage.js"></script>
+
+    <!-- Components -->
+    <script src="/js/components/cards.js"></script>
+    <script src="/js/components/ui.js"></script>
+
+    <!-- Pages -->
+    <script src="/js/pages/home.js"></script>
+    <script src="/js/pages/units.js"></script>
+    <script src="/js/pages/unit-details.js"></script>
+    <script src="/js/pages/projects.js"></script>
+    <script src="/js/pages/project-details.js"></script>
+    <script src="/js/pages/news.js"></script>
+    <script src="/js/pages/news-details.js"></script>
+    <script src="/js/pages/contact.js"></script>
+    <script src="/js/pages/team.js"></script>
+    <script src="/js/pages/partners.js"></script>
+    <script src="/js/pages/reviews.js"></script>
+    <script src="/js/pages/wishlist.js"></script>
+    <script src="/js/pages/privacy.js"></script>
+    <script src="/js/pages/terms.js"></script>
+
+    <!-- i18n & Main -->
+    <script src="/js/i18n.js"></script>
+    <script src="/js/main.js?v=12"></script>
+    <!-- No inline scripts - main.js handles page routing automatically -->
+</body>
+
+</html>

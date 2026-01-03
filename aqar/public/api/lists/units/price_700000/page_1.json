@@ -1,0 +1,193 @@
+{
+  "data": [
+    {
+      "id": "unit-000193",
+      "title": {
+        "ar": "استوديو 218 متر - مدينتي",
+        "en": "Studio 218 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 218 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 218 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 700000,
+      "area": 218,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "إطلالة بحرية",
+          "تراس واسع",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Gym",
+          "Near Transportation",
+          "Parking",
+          "24/7 Security",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "18",
+      "floor": "الرابع",
+      "unitNumber": "5962",
+      "usableSpace": 185,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0015",
+      "createdAt": "2025-12-27T03:44:50.823Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.823Z"
+    },
+    {
+      "id": "unit-000308",
+      "title": {
+        "ar": "استوديو 261 متر - الرحاب",
+        "en": "Studio 261 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 261 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 261 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 700000,
+      "area": 261,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "موقف سيارات",
+          "تراس واسع",
+          "حمام سباحة خاص",
+          "قريب من المواصلات",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Gym",
+          "Private Garden",
+          "Maid Room",
+          "Central AC",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "27",
+      "floor": "الرابع",
+      "unitNumber": "1245",
+      "usableSpace": 222,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0022",
+      "createdAt": "2025-12-27T03:44:51.932Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.932Z"
+    },
+    {
+      "id": "unit-000466",
+      "title": {
+        "ar": "فيلا 337 متر - مدينتي",
+        "en": "Villa 337 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 337 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 337 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 700000,
+      "area": 337,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "6-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "إطلالة بحرية",
+          "حديقة خاصة",
+          "موقف سيارات",
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Large Terrace",
+          "Gym",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "5",
+      "floor": "الثالث",
+      "unitNumber": "6062",
+      "usableSpace": 286,
+      "gardenShare": 138,
+      "view": "street",
+      "projectId": "project-0012",
+      "createdAt": "2025-12-27T03:44:53.574Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.574Z"
+    }
+  ],
+  "total": 3,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "700000"
+  },
+  "generatedAt": "2025-12-27T22:58:11.912Z"
+}

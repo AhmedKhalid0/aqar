@@ -1,0 +1,308 @@
+{
+  "data": [
+    {
+      "id": "unit-000006",
+      "title": {
+        "ar": "تاون هاوس 407 متر - الساحل الشمالي",
+        "en": "Townhouse 407 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 407 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 407 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3800000,
+      "area": 407,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "أمن 24 ساعة",
+          "تراس واسع",
+          "تكييف مركزي",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Near Transportation",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "40",
+      "floor": "الثالث",
+      "unitNumber": "933",
+      "usableSpace": 346,
+      "gardenShare": 191,
+      "view": "golf",
+      "projectId": "project-0034",
+      "createdAt": "2025-12-27T03:44:49.876Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.876Z"
+    },
+    {
+      "id": "unit-000192",
+      "title": {
+        "ar": "دوبلكس 80 متر - الشيخ زايد",
+        "en": "Duplex 80 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 80 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 80 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3800000,
+      "area": 80,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "قريب من المواصلات",
+          "مصعد خاص",
+          "تراس واسع",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Central AC",
+          "Gym",
+          "Premium Finish",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "44",
+      "floor": "الرابع",
+      "unitNumber": "9495",
+      "usableSpace": 68,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:50.814Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.814Z"
+    },
+    {
+      "id": "unit-000244",
+      "title": {
+        "ar": "تاون هاوس 226 متر - 6 أكتوبر",
+        "en": "Townhouse 226 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 226 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 226 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3800000,
+      "area": 226,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "قريب من المواصلات",
+          "موقف سيارات",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Near Transportation",
+          "Maid Room",
+          "Private Garden",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "12",
+      "floor": "الثاني",
+      "unitNumber": "3487",
+      "usableSpace": 192,
+      "gardenShare": 141,
+      "view": "street",
+      "projectId": "project-0017",
+      "createdAt": "2025-12-27T03:44:51.293Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.293Z"
+    },
+    {
+      "id": "unit-000286",
+      "title": {
+        "ar": "استوديو 409 متر - الساحل الشمالي",
+        "en": "Studio 409 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 409 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 409 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3800000,
+      "area": 409,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Private Garden",
+          "Sea View",
+          "Near Transportation",
+          "Private Pool",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "25",
+      "floor": "الأول",
+      "unitNumber": "5534",
+      "usableSpace": 348,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:51.718Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.718Z"
+    },
+    {
+      "id": "unit-000309",
+      "title": {
+        "ar": "فيلا 339 متر - التجمع الخامس",
+        "en": "Villa 339 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 339 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 339 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3800000,
+      "area": 339,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "موقف سيارات",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Central AC",
+          "Maid Room",
+          "Sea View",
+          "Premium Finish",
+          "Private Garden",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "25",
+      "floor": "الثاني",
+      "unitNumber": "5780",
+      "usableSpace": 288,
+      "gardenShare": 81,
+      "view": "pool",
+      "projectId": "project-0049",
+      "createdAt": "2025-12-27T03:44:51.942Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.942Z"
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "3800000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.293Z"
+}

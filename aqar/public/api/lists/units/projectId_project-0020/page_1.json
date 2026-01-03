@@ -1,0 +1,425 @@
+{
+  "data": [
+    {
+      "id": "unit-000156",
+      "title": {
+        "ar": "استوديو 408 متر - مدينتي",
+        "en": "Studio 408 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 408 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 408 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1700000,
+      "area": 408,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "تراس واسع",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Parking",
+          "Private Garden",
+          "Private Pool",
+          "Central AC",
+          "Premium Finish",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "8",
+      "floor": "الأرضي",
+      "unitNumber": "799",
+      "usableSpace": 347,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:50.504Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.504Z"
+    },
+    {
+      "id": "unit-000157",
+      "title": {
+        "ar": "فيلا 385 متر - الرحاب",
+        "en": "Villa 385 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 385 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 385 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5400000,
+      "area": 385,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "مصعد خاص",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Near Transportation",
+          "Parking",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "7",
+      "floor": "الثالث",
+      "unitNumber": "9144",
+      "usableSpace": 327,
+      "gardenShare": 103,
+      "view": "",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:50.511Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.511Z"
+    },
+    {
+      "id": "unit-000181",
+      "title": {
+        "ar": "دوبلكس 112 متر - جولف بورتو مارينا",
+        "en": "Duplex 112 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 112 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 112 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4100000,
+      "area": 112,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "موقف سيارات",
+          "مصعد خاص",
+          "تشطيب سوبر لوكس",
+          "حديقة خاصة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Parking",
+          "Gym",
+          "Private Garden",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "37",
+      "floor": "الرابع",
+      "unitNumber": "9720",
+      "usableSpace": 95,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:50.711Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.711Z"
+    },
+    {
+      "id": "unit-000264",
+      "title": {
+        "ar": "تاون هاوس 382 متر - مدينتي",
+        "en": "Townhouse 382 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 382 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 382 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4700000,
+      "area": 382,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "حمام سباحة خاص",
+          "تكييف مركزي",
+          "مصعد خاص",
+          "قريب من المواصلات",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Large Terrace",
+          "Private Pool",
+          "Private Garden",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "17",
+      "floor": "الأول",
+      "unitNumber": "413",
+      "usableSpace": 325,
+      "gardenShare": 78,
+      "view": "pool",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:51.494Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.494Z"
+    },
+    {
+      "id": "unit-000344",
+      "title": {
+        "ar": "استوديو 51 متر - المعادي",
+        "en": "Studio 51 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 51 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 51 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2200000,
+      "area": 51,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "غرفة خادمة",
+          "مصعد خاص",
+          "نادي رياضي",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Near Transportation",
+          "Premium Finish",
+          "Gym",
+          "Private Elevator",
+          "Private Pool",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "40",
+      "floor": "الرابع",
+      "unitNumber": "6246",
+      "usableSpace": 43,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:52.294Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.294Z"
+    },
+    {
+      "id": "unit-000412",
+      "title": {
+        "ar": "توين هاوس 135 متر - مدينتي",
+        "en": "Twin House 135 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 135 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 135 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8900000,
+      "area": 135,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "حديقة خاصة",
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Maid Room",
+          "Gym",
+          "Private Pool",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "2",
+      "floor": "الثاني",
+      "unitNumber": "4811",
+      "usableSpace": 115,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:53.017Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.017Z"
+    },
+    {
+      "id": "unit-000444",
+      "title": {
+        "ar": "شقة 491 متر - الساحل الشمالي",
+        "en": "Apartment 491 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 491 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 491 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 491,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "تكييف مركزي",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Central AC",
+          "Private Elevator",
+          "Parking",
+          "Private Garden",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "السادس",
+      "unitNumber": "9958",
+      "usableSpace": 417,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:53.336Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.336Z"
+    }
+  ],
+  "total": 7,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "projectId": "project-0020"
+  },
+  "generatedAt": "2025-12-27T22:58:08.229Z"
+}

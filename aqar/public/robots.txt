@@ -1,0 +1,21 @@
+# robots.txt for NewCity Real Estate
+# https://newcitydevelopment.net
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://newcitydevelopment.net/sitemap.xml
+
+# Disallow admin and API
+Disallow: /admin/
+Disallow: /api/
+
+# Allow CSS, JS, and images
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /uploads/
+
+# Crawl-delay for politeness
+Crawl-delay: 1

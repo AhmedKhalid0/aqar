@@ -1,0 +1,1187 @@
+{
+  "data": [
+    {
+      "id": "unit-000001",
+      "title": {
+        "ar": "دوبلكس 482 متر - العين السخنة",
+        "en": "Duplex 482 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 482 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 482 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2200000,
+      "area": 482,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "مصعد خاص",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Sea View",
+          "24/7 Security",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "37",
+      "floor": "السادس",
+      "unitNumber": "4007",
+      "usableSpace": 410,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0050",
+      "createdAt": "2025-12-27T03:44:49.872Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.872Z"
+    },
+    {
+      "id": "unit-000016",
+      "title": {
+        "ar": "دوبلكس 256 متر - العاصمة الإدارية",
+        "en": "Duplex 256 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 256 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 256 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7000000,
+      "area": 256,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "نادي رياضي",
+          "موقف سيارات",
+          "تشطيب سوبر لوكس",
+          "أمن 24 ساعة",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Parking",
+          "Premium Finish",
+          "Maid Room",
+          "Central AC",
+          "Gym",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "40",
+      "floor": "السادس",
+      "unitNumber": "2512",
+      "usableSpace": 218,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0018",
+      "createdAt": "2025-12-27T03:44:49.887Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.887Z"
+    },
+    {
+      "id": "unit-000029",
+      "title": {
+        "ar": "دوبلكس 345 متر - الرحاب",
+        "en": "Duplex 345 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 345 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 345 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8300000,
+      "area": 345,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "نادي رياضي",
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Large Terrace",
+          "Private Pool",
+          "Parking",
+          "Premium Finish",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "23",
+      "floor": "الأرضي",
+      "unitNumber": "9177",
+      "usableSpace": 293,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0008",
+      "createdAt": "2025-12-27T03:44:49.909Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.909Z"
+    },
+    {
+      "id": "unit-000038",
+      "title": {
+        "ar": "دوبلكس 469 متر - 6 أكتوبر",
+        "en": "Duplex 469 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 469 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 469 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6200000,
+      "area": 469,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "10-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Large Terrace",
+          "Maid Room",
+          "Private Elevator",
+          "Private Pool",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "32",
+      "floor": "الرابع",
+      "unitNumber": "680",
+      "usableSpace": 399,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0025",
+      "createdAt": "2025-12-27T03:44:49.927Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.927Z"
+    },
+    {
+      "id": "unit-000043",
+      "title": {
+        "ar": "دوبلكس 404 متر - التجمع الخامس",
+        "en": "Duplex 404 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 404 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 404 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6900000,
+      "area": 404,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "قريب من المواصلات",
+          "موقف سيارات",
+          "تكييف مركزي",
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "24/7 Security",
+          "Near Transportation",
+          "Premium Finish",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "26",
+      "floor": "الثاني",
+      "unitNumber": "9318",
+      "usableSpace": 343,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0011",
+      "createdAt": "2025-12-27T03:44:49.940Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.940Z"
+    },
+    {
+      "id": "unit-000044",
+      "title": {
+        "ar": "دوبلكس 465 متر - الشيخ زايد",
+        "en": "Duplex 465 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 465 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 465 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2100000,
+      "area": 465,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "موقف سيارات",
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس",
+          "أمن 24 ساعة",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Private Elevator",
+          "Parking",
+          "Gym",
+          "Central AC",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "السادس",
+      "unitNumber": "4151",
+      "usableSpace": 395,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0018",
+      "createdAt": "2025-12-27T03:44:49.942Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.942Z"
+    },
+    {
+      "id": "unit-000062",
+      "title": {
+        "ar": "دوبلكس 189 متر - التجمع الخامس",
+        "en": "Duplex 189 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 189 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 189 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3000000,
+      "area": 189,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Garden",
+          "Gym",
+          "Maid Room",
+          "Near Transportation",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "34",
+      "floor": "الخامس",
+      "unitNumber": "1992",
+      "usableSpace": 161,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0027",
+      "createdAt": "2025-12-27T03:44:49.995Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.995Z"
+    },
+    {
+      "id": "unit-000069",
+      "title": {
+        "ar": "دوبلكس 135 متر - المعادي",
+        "en": "Duplex 135 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 135 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 135 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 10000000,
+      "area": 135,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "إطلالة بحرية",
+          "تراس واسع",
+          "تشطيب سوبر لوكس",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Large Terrace",
+          "Sea View",
+          "24/7 Security",
+          "Maid Room",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "40",
+      "floor": "الثاني",
+      "unitNumber": "5862",
+      "usableSpace": 115,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0033",
+      "createdAt": "2025-12-27T03:44:50.019Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.019Z"
+    },
+    {
+      "id": "unit-000083",
+      "title": {
+        "ar": "دوبلكس 366 متر - العاصمة الإدارية",
+        "en": "Duplex 366 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 366 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 366 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5800000,
+      "area": 366,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "أمن 24 ساعة",
+          "قريب من المواصلات",
+          "إطلالة بحرية",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Sea View",
+          "Maid Room",
+          "Private Elevator",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "41",
+      "floor": "الثاني",
+      "unitNumber": "8757",
+      "usableSpace": 311,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0030",
+      "createdAt": "2025-12-27T03:44:50.072Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.072Z"
+    },
+    {
+      "id": "unit-000090",
+      "title": {
+        "ar": "دوبلكس 215 متر - التجمع الخامس",
+        "en": "Duplex 215 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 215 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 215 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2000000,
+      "area": 215,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "موقف سيارات",
+          "حمام سباحة خاص",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Near Transportation",
+          "Parking",
+          "Sea View",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الرابع",
+      "unitNumber": "2053",
+      "usableSpace": 183,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0015",
+      "createdAt": "2025-12-27T03:44:50.107Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.107Z"
+    },
+    {
+      "id": "unit-000106",
+      "title": {
+        "ar": "دوبلكس 448 متر - جولف بورتو مارينا",
+        "en": "Duplex 448 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 448 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 448 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9600000,
+      "area": 448,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "10-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات",
+          "أمن 24 ساعة",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Near Transportation",
+          "Premium Finish",
+          "Parking",
+          "Private Elevator",
+          "Central AC",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "40",
+      "floor": "الأرضي",
+      "unitNumber": "6370",
+      "usableSpace": 381,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0044",
+      "createdAt": "2025-12-27T03:44:50.185Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.185Z"
+    },
+    {
+      "id": "unit-000111",
+      "title": {
+        "ar": "دوبلكس 461 متر - مدينتي",
+        "en": "Duplex 461 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 461 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 461 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6600000,
+      "area": 461,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "تشطيب سوبر لوكس",
+          "تراس واسع",
+          "مصعد خاص",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Parking",
+          "24/7 Security",
+          "Central AC",
+          "Private Elevator",
+          "Gym",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "46",
+      "floor": "الأول",
+      "unitNumber": "3012",
+      "usableSpace": 392,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0044",
+      "createdAt": "2025-12-27T03:44:50.211Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.211Z"
+    },
+    {
+      "id": "unit-000126",
+      "title": {
+        "ar": "دوبلكس 246 متر - 6 أكتوبر",
+        "en": "Duplex 246 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 246 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 246 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1100000,
+      "area": 246,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Parking",
+          "Maid Room",
+          "Large Terrace",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "8",
+      "floor": "الرابع",
+      "unitNumber": "1446",
+      "usableSpace": 209,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0050",
+      "createdAt": "2025-12-27T03:44:50.296Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.296Z"
+    },
+    {
+      "id": "unit-000138",
+      "title": {
+        "ar": "دوبلكس 180 متر - الساحل الشمالي",
+        "en": "Duplex 180 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 180 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 180 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9700000,
+      "area": 180,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Parking",
+          "Private Pool",
+          "Private Elevator",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "41",
+      "floor": "الثالث",
+      "unitNumber": "147",
+      "usableSpace": 153,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0009",
+      "createdAt": "2025-12-27T03:44:50.375Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.375Z"
+    },
+    {
+      "id": "unit-000140",
+      "title": {
+        "ar": "دوبلكس 132 متر - العين السخنة",
+        "en": "Duplex 132 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 132 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 132 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1200000,
+      "area": 132,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "10-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "أمن 24 ساعة",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Parking",
+          "Private Elevator",
+          "24/7 Security",
+          "Central AC",
+          "Gym",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "27",
+      "floor": "السادس",
+      "unitNumber": "4761",
+      "usableSpace": 112,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0025",
+      "createdAt": "2025-12-27T03:44:50.388Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.388Z"
+    },
+    {
+      "id": "unit-000150",
+      "title": {
+        "ar": "دوبلكس 388 متر - الشيخ زايد",
+        "en": "Duplex 388 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 388 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 388 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9700000,
+      "area": 388,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "قريب من المواصلات",
+          "غرفة خادمة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Parking",
+          "Premium Finish",
+          "Gym",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "الخامس",
+      "unitNumber": "5245",
+      "usableSpace": 330,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:50.459Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.459Z"
+    },
+    {
+      "id": "unit-000158",
+      "title": {
+        "ar": "دوبلكس 398 متر - جولف بورتو مارينا",
+        "en": "Duplex 398 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 398 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 398 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 398,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Gym",
+          "Sea View",
+          "Premium Finish",
+          "Private Pool",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "20",
+      "floor": "الخامس",
+      "unitNumber": "2012",
+      "usableSpace": 338,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0022",
+      "createdAt": "2025-12-27T03:44:50.518Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.518Z"
+    },
+    {
+      "id": "unit-000164",
+      "title": {
+        "ar": "دوبلكس 282 متر - المعادي",
+        "en": "Duplex 282 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 282 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 282 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7500000,
+      "area": 282,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "مصعد خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "24/7 Security",
+          "Parking",
+          "Private Elevator",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "23",
+      "floor": "الأول",
+      "unitNumber": "4750",
+      "usableSpace": 240,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0028",
+      "createdAt": "2025-12-27T03:44:50.565Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.565Z"
+    },
+    {
+      "id": "unit-000169",
+      "title": {
+        "ar": "دوبلكس 445 متر - 6 أكتوبر",
+        "en": "Duplex 445 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 445 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 445 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4200000,
+      "area": 445,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "8-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Parking",
+          "24/7 Security",
+          "Large Terrace",
+          "Maid Room",
+          "Premium Finish",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "6",
+      "floor": "الأول",
+      "unitNumber": "9794",
+      "usableSpace": 378,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0024",
+      "createdAt": "2025-12-27T03:44:50.604Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.604Z"
+    },
+    {
+      "id": "unit-000173",
+      "title": {
+        "ar": "دوبلكس 360 متر - الشيخ زايد",
+        "en": "Duplex 360 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 360 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 360 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 360,
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "قريب من المواصلات",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Large Terrace",
+          "Parking",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "الثاني",
+      "unitNumber": "2439",
+      "usableSpace": 306,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0031",
+      "createdAt": "2025-12-27T03:44:50.636Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.636Z"
+    }
+  ],
+  "total": 56,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 3,
+  "hasNext": true,
+  "hasPrev": false,
+  "filter": {
+    "type": "duplex"
+  },
+  "generatedAt": "2025-12-27T22:58:08.481Z"
+}

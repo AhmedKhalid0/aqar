@@ -1,0 +1,133 @@
+{
+  "data": [
+    {
+      "id": "unit-000032",
+      "title": {
+        "ar": "استوديو 334 متر - الساحل الشمالي",
+        "en": "Studio 334 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 334 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 334 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8000000,
+      "area": 334,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Gym",
+          "Private Pool",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "9",
+      "floor": "الخامس",
+      "unitNumber": "7837",
+      "usableSpace": 284,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:49.914Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.914Z"
+    },
+    {
+      "id": "unit-000191",
+      "title": {
+        "ar": "شاليه 392 متر - الساحل الشمالي",
+        "en": "Chalet 392 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 392 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 392 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8000000,
+      "area": 392,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حديقة خاصة",
+          "نادي رياضي",
+          "غرفة خادمة",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Premium Finish",
+          "Large Terrace",
+          "Central AC",
+          "Near Transportation",
+          "24/7 Security",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الخامس",
+      "unitNumber": "8140",
+      "usableSpace": 333,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0028",
+      "createdAt": "2025-12-27T03:44:50.806Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.806Z"
+    }
+  ],
+  "total": 2,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "8000000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.904Z"
+}

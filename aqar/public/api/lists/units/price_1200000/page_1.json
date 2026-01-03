@@ -1,0 +1,301 @@
+{
+  "data": [
+    {
+      "id": "unit-000134",
+      "title": {
+        "ar": "شقة 160 متر - المعادي",
+        "en": "Apartment 160 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 160 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 160 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1200000,
+      "area": 160,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "مصعد خاص",
+          "أمن 24 ساعة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Gym",
+          "Private Garden",
+          "24/7 Security",
+          "Sea View",
+          "Private Pool",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "45",
+      "floor": "الثالث",
+      "unitNumber": "6323",
+      "usableSpace": 136,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0009",
+      "createdAt": "2025-12-27T03:44:50.347Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.347Z"
+    },
+    {
+      "id": "unit-000140",
+      "title": {
+        "ar": "دوبلكس 132 متر - العين السخنة",
+        "en": "Duplex 132 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 132 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 132 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1200000,
+      "area": 132,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "10-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "أمن 24 ساعة",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Parking",
+          "Private Elevator",
+          "24/7 Security",
+          "Central AC",
+          "Gym",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "27",
+      "floor": "السادس",
+      "unitNumber": "4761",
+      "usableSpace": 112,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0025",
+      "createdAt": "2025-12-27T03:44:50.388Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.388Z"
+    },
+    {
+      "id": "unit-000215",
+      "title": {
+        "ar": "فيلا 209 متر - جولف بورتو مارينا",
+        "en": "Villa 209 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 209 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 209 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1200000,
+      "area": 209,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "24/7 Security",
+          "Gym",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "7",
+      "floor": "الخامس",
+      "unitNumber": "4171",
+      "usableSpace": 178,
+      "gardenShare": 80,
+      "view": "landscape",
+      "projectId": "project-0010",
+      "createdAt": "2025-12-27T03:44:51.027Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.027Z"
+    },
+    {
+      "id": "unit-000406",
+      "title": {
+        "ar": "بنتهاوس 131 متر - العاصمة الإدارية",
+        "en": "Penthouse 131 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 131 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 131 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1200000,
+      "area": 131,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تراس واسع",
+          "تكييف مركزي",
+          "موقف سيارات",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Maid Room",
+          "Premium Finish",
+          "Private Elevator",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "40",
+      "floor": "الثاني",
+      "unitNumber": "3677",
+      "usableSpace": 111,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0006",
+      "createdAt": "2025-12-27T03:44:52.953Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.953Z"
+    },
+    {
+      "id": "unit-000473",
+      "title": {
+        "ar": "فيلا 301 متر - الشيخ زايد",
+        "en": "Villa 301 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 301 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 301 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1200000,
+      "area": 301,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "نادي رياضي",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "2",
+      "floor": "الثالث",
+      "unitNumber": "3952",
+      "usableSpace": 256,
+      "gardenShare": 196,
+      "view": "pool",
+      "projectId": "project-0003",
+      "createdAt": "2025-12-27T03:44:53.647Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.647Z"
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "1200000"
+  },
+  "generatedAt": "2025-12-27T22:58:11.980Z"
+}

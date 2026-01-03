@@ -1,0 +1,250 @@
+{
+  "data": [
+    {
+      "id": "unit-000084",
+      "title": {
+        "ar": "استوديو 296 متر - المعادي",
+        "en": "Studio 296 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 296 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 296 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8800000,
+      "area": 296,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "8-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "موقف سيارات",
+          "مصعد خاص",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Elevator",
+          "Parking",
+          "24/7 Security",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "38",
+      "floor": "الرابع",
+      "unitNumber": "8835",
+      "usableSpace": 252,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0019",
+      "createdAt": "2025-12-27T03:44:50.077Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.077Z"
+    },
+    {
+      "id": "unit-000113",
+      "title": {
+        "ar": "استوديو 105 متر - المعادي",
+        "en": "Studio 105 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 105 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 105 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8800000,
+      "area": 105,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "حمام سباحة خاص",
+          "مصعد خاص",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Private Pool",
+          "Maid Room",
+          "Parking",
+          "Premium Finish",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "1",
+      "floor": "السادس",
+      "unitNumber": "2052",
+      "usableSpace": 89,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0044",
+      "createdAt": "2025-12-27T03:44:50.221Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.221Z"
+    },
+    {
+      "id": "unit-000194",
+      "title": {
+        "ar": "فيلا 354 متر - العاصمة الإدارية",
+        "en": "Villa 354 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 354 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 354 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8800000,
+      "area": 354,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Parking",
+          "Private Pool",
+          "Sea View",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "36",
+      "floor": "الثالث",
+      "unitNumber": "4292",
+      "usableSpace": 301,
+      "gardenShare": 116,
+      "view": "golf",
+      "projectId": "project-0047",
+      "createdAt": "2025-12-27T03:44:50.833Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.833Z"
+    },
+    {
+      "id": "unit-000359",
+      "title": {
+        "ar": "شقة 99 متر - التجمع الخامس",
+        "en": "Apartment 99 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 99 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 99 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8800000,
+      "area": 99,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "cash",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Parking",
+          "Private Elevator",
+          "Private Pool",
+          "Gym",
+          "Private Garden",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "23",
+      "floor": "الثالث",
+      "unitNumber": "7654",
+      "usableSpace": 84,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0032",
+      "createdAt": "2025-12-27T03:44:52.451Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.451Z"
+    }
+  ],
+  "total": 4,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "8800000"
+  },
+  "generatedAt": "2025-12-27T22:58:13.028Z"
+}

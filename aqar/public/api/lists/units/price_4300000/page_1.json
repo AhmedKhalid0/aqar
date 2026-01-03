@@ -1,0 +1,239 @@
+{
+  "data": [
+    {
+      "id": "unit-000004",
+      "title": {
+        "ar": "توين هاوس 111 متر - العاصمة الإدارية",
+        "en": "Twin House 111 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 111 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 111 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4300000,
+      "area": 111,
+      "bedrooms": 6,
+      "bathrooms": 3,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "تراس واسع"
+        ],
+        "en": [
+          "Near Transportation",
+          "Gym",
+          "24/7 Security",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "41",
+      "floor": "الأول",
+      "unitNumber": "4392",
+      "usableSpace": 94,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0037",
+      "createdAt": "2025-12-27T03:44:49.875Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.875Z"
+    },
+    {
+      "id": "unit-000340",
+      "title": {
+        "ar": "توين هاوس 403 متر - جولف بورتو مارينا",
+        "en": "Twin House 403 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 403 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 403 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4300000,
+      "area": 403,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تراس واسع",
+          "نادي رياضي",
+          "موقف سيارات",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Private Garden",
+          "Parking",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "28",
+      "floor": "الأرضي",
+      "unitNumber": "9470",
+      "usableSpace": 343,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0039",
+      "createdAt": "2025-12-27T03:44:52.253Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.253Z"
+    },
+    {
+      "id": "unit-000467",
+      "title": {
+        "ar": "توين هاوس 237 متر - الشيخ زايد",
+        "en": "Twin House 237 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 237 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 237 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4300000,
+      "area": 237,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "تكييف مركزي",
+          "حديقة خاصة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Central AC",
+          "Premium Finish",
+          "Parking",
+          "Maid Room",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "السادس",
+      "unitNumber": "4116",
+      "usableSpace": 201,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0030",
+      "createdAt": "2025-12-27T03:44:53.585Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.585Z"
+    },
+    {
+      "id": "unit-000486",
+      "title": {
+        "ar": "دوبلكس 252 متر - مدينتي",
+        "en": "Duplex 252 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 252 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 252 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4300000,
+      "area": 252,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "تكييف مركزي",
+          "قريب من المواصلات",
+          "حديقة خاصة",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Gym",
+          "24/7 Security",
+          "Large Terrace",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "8",
+      "floor": "الخامس",
+      "unitNumber": "5087",
+      "usableSpace": 214,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0035",
+      "createdAt": "2025-12-27T03:44:53.784Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.784Z"
+    }
+  ],
+  "total": 4,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "4300000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.377Z"
+}

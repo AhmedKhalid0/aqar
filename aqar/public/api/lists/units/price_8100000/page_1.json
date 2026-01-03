@@ -1,0 +1,467 @@
+{
+  "data": [
+    {
+      "id": "unit-000056",
+      "title": {
+        "ar": "فيلا 422 متر - الرحاب",
+        "en": "Villa 422 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 422 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 422 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 422,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "غرفة خادمة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Large Terrace",
+          "24/7 Security",
+          "Central AC",
+          "Premium Finish",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "3",
+      "floor": "الثالث",
+      "unitNumber": "8239",
+      "usableSpace": 359,
+      "gardenShare": 144,
+      "view": "garden",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:49.975Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.975Z"
+    },
+    {
+      "id": "unit-000158",
+      "title": {
+        "ar": "دوبلكس 398 متر - جولف بورتو مارينا",
+        "en": "Duplex 398 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 398 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 398 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 398,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Gym",
+          "Sea View",
+          "Premium Finish",
+          "Private Pool",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "20",
+      "floor": "الخامس",
+      "unitNumber": "2012",
+      "usableSpace": 338,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0022",
+      "createdAt": "2025-12-27T03:44:50.518Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.518Z"
+    },
+    {
+      "id": "unit-000190",
+      "title": {
+        "ar": "استوديو 234 متر - العين السخنة",
+        "en": "Studio 234 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 234 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 234 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 234,
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Central AC",
+          "Sea View",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "26",
+      "floor": "الرابع",
+      "unitNumber": "2987",
+      "usableSpace": 199,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0029",
+      "createdAt": "2025-12-27T03:44:50.797Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.797Z"
+    },
+    {
+      "id": "unit-000237",
+      "title": {
+        "ar": "فيلا 211 متر - جولف بورتو مارينا",
+        "en": "Villa 211 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 211 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 211 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 211,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "cash",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "غرفة خادمة",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Large Terrace",
+          "Near Transportation",
+          "Central AC",
+          "Maid Room",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "4",
+      "floor": "الرابع",
+      "unitNumber": "6425",
+      "usableSpace": 179,
+      "gardenShare": 51,
+      "view": "golf",
+      "projectId": "project-0013",
+      "createdAt": "2025-12-27T03:44:51.229Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.229Z"
+    },
+    {
+      "id": "unit-000288",
+      "title": {
+        "ar": "دوبلكس 283 متر - الساحل الشمالي",
+        "en": "Duplex 283 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 283 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 283 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 283,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "مصعد خاص",
+          "قريب من المواصلات",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Parking",
+          "Private Garden",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "27",
+      "floor": "الثالث",
+      "unitNumber": "407",
+      "usableSpace": 241,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0034",
+      "createdAt": "2025-12-27T03:44:51.737Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.737Z"
+    },
+    {
+      "id": "unit-000298",
+      "title": {
+        "ar": "شاليه 450 متر - التجمع الخامس",
+        "en": "Chalet 450 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 450 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 450 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 450,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "قريب من المواصلات",
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Private Pool",
+          "Maid Room",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "47",
+      "floor": "الثاني",
+      "unitNumber": "9483",
+      "usableSpace": 383,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0039",
+      "createdAt": "2025-12-27T03:44:51.836Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.836Z"
+    },
+    {
+      "id": "unit-000378",
+      "title": {
+        "ar": "توين هاوس 435 متر - العين السخنة",
+        "en": "Twin House 435 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 435 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 435 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 435,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "حمام سباحة خاص",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Elevator",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "4",
+      "floor": "الأرضي",
+      "unitNumber": "6840",
+      "usableSpace": 370,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:52.649Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.649Z"
+    },
+    {
+      "id": "unit-000444",
+      "title": {
+        "ar": "شقة 491 متر - الساحل الشمالي",
+        "en": "Apartment 491 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 491 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 491 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 491,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "تكييف مركزي",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Central AC",
+          "Private Elevator",
+          "Parking",
+          "Private Garden",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "السادس",
+      "unitNumber": "9958",
+      "usableSpace": 417,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:53.336Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.336Z"
+    }
+  ],
+  "total": 8,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "8100000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.925Z"
+}

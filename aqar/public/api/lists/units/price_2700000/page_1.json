@@ -1,0 +1,138 @@
+{
+  "data": [
+    {
+      "id": "unit-000136",
+      "title": {
+        "ar": "بنتهاوس 187 متر - المعادي",
+        "en": "Penthouse 187 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 187 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 187 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2700000,
+      "area": 187,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "إطلالة بحرية",
+          "مصعد خاص",
+          "تشطيب سوبر لوكس",
+          "نادي رياضي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Maid Room",
+          "Sea View",
+          "Private Elevator",
+          "Private Garden",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "32",
+      "floor": "السادس",
+      "unitNumber": "5923",
+      "usableSpace": 159,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0023",
+      "createdAt": "2025-12-27T03:44:50.361Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.361Z"
+    },
+    {
+      "id": "unit-000274",
+      "title": {
+        "ar": "شاليه 343 متر - مدينتي",
+        "en": "Chalet 343 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 343 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 343 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2700000,
+      "area": 343,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حديقة خاصة",
+          "إطلالة بحرية",
+          "مصعد خاص",
+          "حمام سباحة خاص",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Large Terrace",
+          "Private Elevator",
+          "Private Garden",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "الثالث",
+      "unitNumber": "9475",
+      "usableSpace": 292,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0027",
+      "createdAt": "2025-12-27T03:44:51.601Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.601Z"
+    }
+  ],
+  "total": 2,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "2700000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.163Z"
+}

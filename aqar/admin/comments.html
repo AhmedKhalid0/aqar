@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة تعليقات الزوار | عقار</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="sidebarContainer"></div>
+
+    <main class="admin-main">
+        <header class="admin-header">
+            <button class="sidebar-toggle"><i class="bi bi-list"></i></button>
+            <h1>تعليقات الزوار</h1>
+            <div class="d-flex gap-2">
+                <select class="form-select form-select-sm" id="filterType" style="width: 120px;">
+                    <option value="">الكل</option>
+                    <option value="unit">الوحدات</option>
+                    <option value="news">الأخبار</option>
+                </select>
+                <select class="form-select form-select-sm" id="filterStatus" style="width: 120px;">
+                    <option value="">جميع الحالات</option>
+                    <option value="pending">في الانتظار</option>
+                    <option value="approved">معتمدة</option>
+                    <option value="rejected">مرفوضة</option>
+                </select>
+            </div>
+        </header>
+
+        <div class="admin-content">
+            <div class="data-card">
+                <div class="data-card-body">
+                    <div class="table-responsive">
+                        <table class="table data-table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>الاسم</th>
+                                    <th>البريد</th>
+                                    <th>التعليق</th>
+                                    <th>النوع</th>
+                                    <th>الحالة</th>
+                                    <th>التاريخ</th>
+                                    <th>الإجراءات</th>
+                                </tr>
+                            </thead>
+                            <tbody id="commentsTableBody">
+                                <tr>
+                                    <td colspan="7" class="text-center py-4">جاري التحميل...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    <script>
+        let comments = [];
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (!await Admin.checkAuth()) return;
+            Admin.initSidebar();
+            loadComments();
+
+            document.getElementById('filterStatus').addEventListener('change', applyFilters);
+            document.getElementById('filterType').addEventListener('change', applyFilters);
+        });
+
+        async function loadComments() {
+            try {
+                const response = await Admin.adminFetch('/api/admin/comments');
+                comments = response.data || response || [];
+                comments.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+                renderComments(comments);
+            } catch (error) {
+                Admin.showAlert('فشل تحميل التعليقات', 'danger');
+            }
+        }
+
+        function applyFilters() {
+            const status = document.getElementById('filterStatus').value;
+            const type = document.getElementById('filterType').value;
+
+            let filtered = comments;
+            if (status) filtered = filtered.filter(c => c.status === status);
+            if (type) filtered = filtered.filter(c => c.type === type);
+
+            renderComments(filtered);
+        }
+
+        function renderComments(data) {
+            const tbody = document.getElementById('commentsTableBody');
+
+            if (data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" class="text-center py-4">لا توجد تعليقات</td></tr>';
+                return;
+            }
+
+            const statusLabels = { pending: 'في الانتظار', approved: 'معتمد', rejected: 'مرفوض' };
+            const statusClasses = { pending: 'warning', approved: 'success', rejected: 'danger' };
+            const typeLabels = { unit: 'وحدة', news: 'خبر' };
+
+            tbody.innerHTML = data.map(comment => `
+                <tr>
+                    <td><strong>${comment.name}</strong></td>
+                    <td><small class="text-muted">${comment.email}</small></td>
+                    <td style="max-width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${comment.comment}">${comment.comment}</td>
+                    <td><span class="badge bg-info">${typeLabels[comment.type] || comment.type}</span></td>
+                    <td><span class="badge bg-${statusClasses[comment.status]}">${statusLabels[comment.status]}</span></td>
+                    <td><small class="text-muted">${Admin.formatDate(comment.createdAt)}</small></td>
+                    <td>
+                        <div class="btn-group btn-group-sm">
+                            ${comment.status !== 'approved' ? `<button class="btn btn-outline-success" onclick="approveComment('${comment.id}')" title="اعتماد"><i class="bi bi-check-lg"></i></button>` : ''}
+                            ${comment.status !== 'rejected' ? `<button class="btn btn-outline-warning" onclick="rejectComment('${comment.id}')" title="رفض"><i class="bi bi-x-lg"></i></button>` : ''}
+                            <button class="btn btn-outline-danger" onclick="deleteComment('${comment.id}')" title="حذف"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        async function approveComment(id) {
+            try {
+                await Admin.adminFetch(`/api/admin/comments/${id}/approve`, { method: 'PUT' });
+                Admin.showAlert('تم اعتماد التعليق', 'success');
+                loadComments();
+            } catch (error) {
+                Admin.showAlert('فشل اعتماد التعليق', 'danger');
+            }
+        }
+
+        async function rejectComment(id) {
+            try {
+                await Admin.adminFetch(`/api/admin/comments/${id}/reject`, { method: 'PUT' });
+                Admin.showAlert('تم رفض التعليق', 'success');
+                loadComments();
+            } catch (error) {
+                Admin.showAlert('فشل رفض التعليق', 'danger');
+            }
+        }
+
+        async function deleteComment(id) {
+            if (!confirm('هل أنت متأكد من حذف هذا التعليق؟')) return;
+
+            try {
+                await Admin.adminFetch(`/api/admin/comments/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم حذف التعليق', 'success');
+                loadComments();
+            } catch (error) {
+                Admin.showAlert('فشل حذف التعليق', 'danger');
+            }
+        }
+    </script>
+</body>
+
+</html>

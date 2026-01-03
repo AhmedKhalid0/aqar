@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة الوحدات | عقار</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/quill@1.3.7/dist/quill.snow.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div id="sidebarContainer"></div>
+
+    <main class="admin-main">
+        <header class="admin-header">
+            <button class="sidebar-toggle"><i class="bi bi-list"></i></button>
+            <h1>إدارة الوحدات</h1>
+            <button class="btn btn-gold" onclick="showAddForm()"><i class="bi bi-plus-circle me-2"></i>إضافة
+                وحدة</button>
+        </header>
+
+        <div class="admin-content">
+            <!-- Units List -->
+            <div class="data-card" id="unitsListCard">
+                <div class="data-card-header">
+                    <h3>قائمة الوحدات</h3>
+                    <div class="d-flex gap-2 align-items-center flex-wrap">
+                        <select class="form-select form-select-sm" id="filterProject" style="width: 150px;">
+                            <option value="">كل المشاريع</option>
+                        </select>
+                        <select class="form-select form-select-sm" id="filterStatus" style="width: 120px;">
+                            <option value="">كل الحالات</option>
+                            <option value="active">نشط</option>
+                            <option value="inactive">غير نشط</option>
+                        </select>
+                        <select class="form-select form-select-sm" id="filterUnitStatus" style="width: 120px;">
+                            <option value="">حالة الوحدة</option>
+                        </select>
+                        <select class="form-select form-select-sm" id="filterView" style="width: 120px;">
+                            <option value="">الإطلالة</option>
+                        </select>
+                        <input type="text" class="form-control form-control-sm" id="searchInput" placeholder="بحث..."
+                            style="width: 150px;">
+                        <button class="btn btn-outline-success btn-sm" onclick="showImportModal()"><i
+                                class="bi bi-file-earmark-excel me-1"></i>استيراد</button>
+                        <button class="btn btn-outline-info btn-sm" onclick="exportUnits()"><i
+                                class="bi bi-download me-1"></i>تصدير</button>
+                        <button class="btn btn-outline-primary btn-sm" id="bulkEditBtn" style="display:none;"
+                            onclick="showBulkEditModal()"><i class="bi bi-pencil-square me-1"></i>تعديل المحدد</button>
+                    </div>
+                </div>
+                <div class="data-card-body">
+                    <div class="table-responsive">
+                        <table class="table data-table mb-0">
+                            <thead>
+                                <tr>
+                                    <th><input type="checkbox" id="selectAll" onchange="toggleSelectAll(this)"></th>
+                                    <th>الوحدة</th>
+                                    <th>السعر</th>
+                                    <th>المساحة</th>
+                                    <th>الحالة</th>
+                                    <th>الإجراءات</th>
+                                </tr>
+                            </thead>
+                            <tbody id="unitsTableBody">
+                                <tr>
+                                    <td colspan="5" class="text-center py-4">جاري التحميل...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add/Edit Form -->
+            <div class="form-card" id="unitFormCard" style="display: none;">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 id="formTitle">إضافة وحدة جديدة</h3>
+                    <button class="btn btn-outline-secondary" onclick="hideForm()"><i class="bi bi-x-lg"></i></button>
+                </div>
+
+                <form id="unitForm">
+                    <input type="hidden" id="unitId">
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">العنوان (عربي) *</label>
+                            <input type="text" class="form-control" id="titleAr" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">العنوان (إنجليزي)</label>
+                            <input type="text" class="form-control" id="titleEn">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">المشروع</label>
+                            <select class="form-select" id="projectSelect"></select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">الموقع *</label>
+                            <select class="form-select" id="locationSelect" required></select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">حالة الوحدة</label>
+                            <select class="form-select" id="unitStatus"></select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">السعر (جنيه) *</label>
+                            <input type="number" class="form-control" id="price" required min="0">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">المساحة (م²) *</label>
+                            <input type="number" class="form-control" id="area" required min="0">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">غرف النوم *</label>
+                            <input type="number" class="form-control" id="bedrooms" required min="0">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">الحمامات *</label>
+                            <input type="number" class="form-control" id="bathrooms" required min="0">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">نوع العقار</label>
+                            <select class="form-select" id="type"></select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">الحالة</label>
+                            <select class="form-select" id="status">
+                                <option value="active">نشط</option>
+                                <option value="inactive">غير نشط</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">مميز</label>
+                            <select class="form-select" id="featured">
+                                <option value="false">لا</option>
+                                <option value="true">نعم</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">شامل التشطيب</label>
+                            <select class="form-select" id="finishing">
+                                <option value="finished">نعم - شامل التشطيب</option>
+                                <option value="semi-finished">نصف تشطيب</option>
+                                <option value="not-finished">لا - بدون تشطيب</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Building Details -->
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">رقم العمارة</label>
+                            <input type="text" class="form-control" id="buildingNumber" placeholder="مثال: 13">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">الدور</label>
+                            <input type="text" class="form-control" id="floor" placeholder="مثال: الأرضي، 1، 2">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">رقم الوحدة</label>
+                            <input type="text" class="form-control" id="unitNumber" placeholder="مثال: 101">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">المساحة القابلة للاستخدام (م²)</label>
+                            <input type="number" class="form-control" id="usableSpace" min="0" step="0.01">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">نسبة الحديقة (%)</label>
+                            <input type="number" class="form-control" id="gardenShare" min="0" max="100" step="0.01"
+                                placeholder="0">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">الإطلالة</label>
+                            <select class="form-select" id="viewSelect">
+                                <option value="">اختر الإطلالة</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">خطط الأقساط المتاحة</label>
+                        <div id="paymentPlansContainer" class="d-flex flex-wrap gap-2"></div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">الوصف (عربي)</label>
+                        <div id="descriptionArEditor" style="height: 200px;"></div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">الوصف (إنجليزي)</label>
+                        <div id="descriptionEnEditor" style="height: 200px;"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المميزات (عربي - كل سطر ميزة)</label>
+                            <textarea class="form-control" id="featuresAr" rows="3"
+                                placeholder="تكييف مركزي&#10;حديقة خاصة&#10;جراج"></textarea>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المميزات (إنجليزي - كل سطر ميزة)</label>
+                            <textarea class="form-control" id="featuresEn" rows="3"
+                                placeholder="Central AC&#10;Private Garden&#10;Garage"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label">الصور</label>
+                        <div class="d-flex gap-2 mb-2">
+                            <div class="image-upload-zone flex-grow-1" id="imageUploadZone">
+                                <i class="bi bi-cloud-upload d-block"></i>
+                                <p class="mb-0">اسحب الصور هنا أو انقر للاختيار</p>
+                            </div>
+                            <button type="button" class="btn btn-outline-primary" onclick="openMediaLibraryForImages()"
+                                style="min-width: 150px;">
+                                <i class="bi bi-images me-1"></i>اختيار من المكتبة
+                            </button>
+                        </div>
+                        <input type="file" id="imageInput" multiple accept="image/*" style="display: none;">
+                        <div class="image-preview" id="imagePreview"></div>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="hideForm()">إلغاء</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Import Modal -->
+    <div class="modal fade" id="importModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">استيراد الوحدات من Excel</h5><button type="button" class="btn-close"
+                        data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-info">
+                        <strong>تنسيق الملف:</strong> يجب أن يحتوي على الأعمدة التالية:
+                        <br><code>title_ar, title_en, projectId, locationId, price, area, bedrooms, bathrooms, type, unitStatus, buildingNumber, floor, unitNumber, view</code>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">ملف Excel</label>
+                        <input type="file" class="form-control" id="excelFile" accept=".xlsx,.xls,.csv">
+                    </div>
+                    <a href="#" class="btn btn-outline-secondary btn-sm" onclick="downloadTemplate()"><i
+                            class="bi bi-download me-1"></i>تحميل نموذج فارغ</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                    <button type="button" class="btn btn-gold" onclick="importUnits()"><i
+                            class="bi bi-upload me-1"></i>استيراد</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bulk Edit Modal -->
+    <div class="modal fade" id="bulkEditModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">تعديل الوحدات المحددة (<span id="selectedCount">0</span>)</h5><button
+                        type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المشروع</label>
+                            <select class="form-select" id="bulkProject">
+                                <option value="">-- بدون تغيير --</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">الموقع</label>
+                            <select class="form-select" id="bulkLocation">
+                                <option value="">-- بدون تغيير --</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">حالة الوحدة</label>
+                            <select class="form-select" id="bulkUnitStatus">
+                                <option value="">-- بدون تغيير --</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">الحالة</label>
+                            <select class="form-select" id="bulkStatus">
+                                <option value="">-- بدون تغيير --</option>
+                                <option value="active">نشط</option>
+                                <option value="inactive">غير نشط</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">الإطلالة</label>
+                            <select class="form-select" id="bulkView">
+                                <option value="">-- بدون تغيير --</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">التشطيب</label>
+                            <select class="form-select" id="bulkFinishing">
+                                <option value="">-- بدون تغيير --</option>
+                                <option value="finished">تشطيب كامل</option>
+                                <option value="semi-finished">نصف تشطيب</option>
+                                <option value="not-finished">بدون تشطيب</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">النوع</label>
+                            <select class="form-select" id="bulkType">
+                                <option value="">-- بدون تغيير --</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">مميزة</label>
+                            <select class="form-select" id="bulkFeatured">
+                                <option value="">-- بدون تغيير --</option>
+                                <option value="true">نعم</option>
+                                <option value="false">لا</option>
+                            </select>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label class="form-label">تعديل السعر</label>
+                            <div class="input-group">
+                                <select class="form-select" id="priceAction" style="max-width: 180px;">
+                                    <option value="">بدون تغيير</option>
+                                    <option value="set">تحديد قيمة</option>
+                                    <option value="increase">زيادة بنسبة %</option>
+                                    <option value="decrease">خصم بنسبة %</option>
+                                </select>
+                                <input type="number" class="form-control" id="priceValue" min="0" placeholder="القيمة">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                    <button type="button" class="btn btn-gold" onclick="applyBulkEdit()"><i
+                            class="bi bi-check-lg me-1"></i>تطبيق التغييرات</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quill@1.3.7/dist/quill.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    <script src="/admin/js/media-library.js"></script>
+    <script>
+        let units = [];
+        let projects = [];
+        let settings = {};
+        let imageUploader;
+        let quillAr, quillEn;
+
+        // Open media library and add selected images
+        function openMediaLibraryForImages() {
+            openMediaLibrary((selectedImages) => {
+                const images = Array.isArray(selectedImages) ? selectedImages : [selectedImages];
+                images.forEach(img => {
+                    imageUploader.addImage(img.url);
+                });
+            }, { multiple: true });
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (!await Admin.checkAuth()) return;
+            Admin.initSidebar();
+
+            quillAr = new Quill('#descriptionArEditor', { theme: 'snow', modules: { toolbar: [['bold', 'italic'], [{ 'list': 'bullet' }], ['clean']] } });
+            quillEn = new Quill('#descriptionEnEditor', { theme: 'snow', modules: { toolbar: [['bold', 'italic'], [{ 'list': 'bullet' }], ['clean']] } });
+
+            imageUploader = Admin.initImageUpload('imageUploadZone', 'imagePreview', 'imageInput');
+
+            // Load all settings data
+            try {
+                const [locations, types, projectsData, settingsData] = await Promise.all([
+                    Admin.adminFetch('/api/settings/locations'),
+                    Admin.adminFetch('/api/settings/unit-types'),
+                    Admin.adminFetch('/api/projects'),
+                    Admin.adminFetch('/api/settings')
+                ]);
+
+                // Store globally
+                projects = projectsData;
+                settings = settingsData;
+
+                // Projects dropdown
+                const projectSelect = document.getElementById('projectSelect');
+                projectSelect.innerHTML = '<option value="">بدون مشروع</option>';
+                projects.forEach(p => {
+                    const option = document.createElement('option');
+                    option.value = p.id;
+                    option.textContent = p.title?.ar || '';
+                    projectSelect.appendChild(option);
+                });
+
+                // Locations dropdown
+                const locationSelect = document.getElementById('locationSelect');
+                locationSelect.innerHTML = '<option value="">اختر الموقع</option>';
+                locations.forEach(loc => {
+                    const option = document.createElement('option');
+                    option.value = loc.id;
+                    option.textContent = loc.name?.ar || '';
+                    option.dataset.nameAr = loc.name?.ar || '';
+                    option.dataset.nameEn = loc.name?.en || '';
+                    locationSelect.appendChild(option);
+                });
+
+                // Unit types dropdown
+                const typeSelect = document.getElementById('type');
+                typeSelect.innerHTML = '<option value="">اختر النوع</option>';
+                types.forEach(t => {
+                    const option = document.createElement('option');
+                    option.value = t.id;
+                    option.textContent = t.name?.ar || '';
+                    typeSelect.appendChild(option);
+                });
+
+                // Unit statuses dropdown
+                const unitStatusSelect = document.getElementById('unitStatus');
+                unitStatusSelect.innerHTML = '';
+                (settings.unitStatuses || []).forEach(s => {
+                    const option = document.createElement('option');
+                    option.value = s.id;
+                    option.textContent = s.name?.ar || '';
+                    unitStatusSelect.appendChild(option);
+                });
+
+                // Payment plans checkboxes
+                const plansContainer = document.getElementById('paymentPlansContainer');
+                plansContainer.innerHTML = '';
+                (settings.paymentPlans || []).forEach(plan => {
+                    const div = document.createElement('div');
+                    div.className = 'form-check';
+                    div.innerHTML = `
+                        <input class="form-check-input" type="checkbox" value="${plan.id}" id="plan_${plan.id}">
+                        <label class="form-check-label" for="plan_${plan.id}">${plan.name?.ar || ''}</label>
+                    `;
+                    plansContainer.appendChild(div);
+                });
+
+                // Populate filter dropdowns
+                const filterProjectSelect = document.getElementById('filterProject');
+                projects.forEach(p => {
+                    const option = document.createElement('option');
+                    option.value = p.id;
+                    option.textContent = p.title?.ar || '';
+                    filterProjectSelect.appendChild(option);
+                });
+
+                const filterUnitStatusSelect = document.getElementById('filterUnitStatus');
+                (settings.unitStatuses || []).forEach(s => {
+                    const option = document.createElement('option');
+                    option.value = s.id;
+                    option.textContent = s.name?.ar || '';
+                    filterUnitStatusSelect.appendChild(option);
+                });
+
+                // Load branding
+                const sidebarLogo = document.getElementById('sidebarLogo');
+                if (sidebarLogo && settings.branding?.logo) {
+                    sidebarLogo.src = settings.branding.logo;
+                }
+                const sidebarCompanyName = document.getElementById('sidebarCompanyName');
+                if (sidebarCompanyName && settings.branding?.companyName) {
+                    sidebarCompanyName.textContent = settings.branding.companyName?.ar || settings.branding.companyName?.en || 'Aqar';
+                }
+
+                // Populate view filter
+                const filterViewSelect = document.getElementById('filterView');
+                (settings.views || []).forEach(v => {
+                    const option = document.createElement('option');
+                    option.value = v.id;
+                    option.textContent = v.name?.ar || '';
+                    filterViewSelect.appendChild(option);
+                });
+
+                // Populate view select in form
+                const viewSelect = document.getElementById('viewSelect');
+                (settings.views || []).forEach(v => {
+                    const option = document.createElement('option');
+                    option.value = v.id;
+                    option.textContent = v.name?.ar || '';
+                    viewSelect.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Error loading settings:', error);
+            }
+
+            loadUnits();
+
+            if (new URLSearchParams(window.location.search).get('action') === 'add') {
+                showAddForm();
+            }
+
+            // Filter event listeners
+            document.getElementById('searchInput').addEventListener('input', filterUnits);
+            document.getElementById('filterProject').addEventListener('change', filterUnits);
+            document.getElementById('filterStatus').addEventListener('change', filterUnits);
+            document.getElementById('filterUnitStatus').addEventListener('change', filterUnits);
+            document.getElementById('filterView').addEventListener('change', filterUnits);
+
+            // Populate bulk edit dropdowns
+            const bulkProject = document.getElementById('bulkProject');
+            projects.forEach(p => {
+                const option = document.createElement('option');
+                option.value = p.id;
+                option.textContent = p.title?.ar || '';
+                bulkProject.appendChild(option);
+            });
+
+            const bulkLocation = document.getElementById('bulkLocation');
+            (settings.locations || []).forEach(l => {
+                const option = document.createElement('option');
+                option.value = l.id;
+                option.textContent = l.name?.ar || '';
+                bulkLocation.appendChild(option);
+            });
+
+            const bulkUnitStatus = document.getElementById('bulkUnitStatus');
+            (settings.unitStatuses || []).forEach(s => {
+                const option = document.createElement('option');
+                option.value = s.id;
+                option.textContent = s.name?.ar || '';
+                bulkUnitStatus.appendChild(option);
+            });
+
+            const bulkView = document.getElementById('bulkView');
+            (settings.views || []).forEach(v => {
+                const option = document.createElement('option');
+                option.value = v.id;
+                option.textContent = v.name?.ar || '';
+                bulkView.appendChild(option);
+            });
+
+            const bulkType = document.getElementById('bulkType');
+            (settings.unitTypes || []).forEach(t => {
+                const option = document.createElement('option');
+                option.value = t.id;
+                option.textContent = t.name?.ar || '';
+                bulkType.appendChild(option);
+            });
+        });
+
+        let currentPage = 1;
+        let totalPages = 1;
+        let totalUnits = 0;
+        const ITEMS_PER_PAGE = 20;
+
+        async function loadUnits(page = 1) {
+            try {
+                currentPage = page;
+                const params = new URLSearchParams({
+                    page: page,
+                    limit: ITEMS_PER_PAGE,
+                    withPagination: 'true'
+                });
+
+                const result = await Admin.adminFetch(`/api/admin/units?${params}`);
+
+                if (result.pagination) {
+                    totalPages = result.pagination.totalPages;
+                    totalUnits = result.pagination.total;
+                    units = result.data;
+                    renderUnits(result.data);
+                    renderAdminPagination();
+                } else {
+                    units = result;
+                    totalUnits = result.length;
+                    renderUnits(result);
+                }
+            } catch (error) {
+                Admin.showAlert('فشل تحميل الوحدات', 'danger');
+            }
+        }
+
+        function renderAdminPagination() {
+            let paginationEl = document.getElementById('adminPagination');
+            if (!paginationEl) {
+                const container = document.querySelector('.data-card-body');
+                paginationEl = document.createElement('div');
+                paginationEl.id = 'adminPagination';
+                paginationEl.className = 'mt-3 d-flex justify-content-between align-items-center';
+                container.appendChild(paginationEl);
+            }
+
+            if (totalPages <= 1) {
+                paginationEl.innerHTML = `<small class="text-muted">إجمالي: ${totalUnits} وحدة</small>`;
+                return;
+            }
+
+            const pages = [];
+            if (totalPages <= 7) {
+                for (let i = 1; i <= totalPages; i++) pages.push(i);
+            } else {
+                pages.push(1);
+                if (currentPage > 4) pages.push('...');
+                for (let i = Math.max(2, currentPage - 2); i <= Math.min(totalPages - 1, currentPage + 2); i++) pages.push(i);
+                if (currentPage < totalPages - 3) pages.push('...');
+                pages.push(totalPages);
+            }
+
+            paginationEl.innerHTML = `
+                <small class="text-muted">عرض ${(currentPage - 1) * ITEMS_PER_PAGE + 1} - ${Math.min(currentPage * ITEMS_PER_PAGE, totalUnits)} من ${totalUnits}</small>
+                <nav>
+                    <ul class="pagination pagination-sm mb-0">
+                        <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                            <a class="page-link" href="#" onclick="loadUnits(1); return false;"><i class="bi bi-chevron-double-right"></i></a>
+                        </li>
+                        <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                            <a class="page-link" href="#" onclick="loadUnits(${currentPage - 1}); return false;"><i class="bi bi-chevron-right"></i></a>
+                        </li>
+                        ${pages.map(p => p === '...'
+                ? '<li class="page-item disabled"><span class="page-link">...</span></li>'
+                : `<li class="page-item ${p === currentPage ? 'active' : ''}"><a class="page-link" href="#" onclick="loadUnits(${p}); return false;">${p}</a></li>`
+            ).join('')}
+                        <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                            <a class="page-link" href="#" onclick="loadUnits(${currentPage + 1}); return false;"><i class="bi bi-chevron-left"></i></a>
+                        </li>
+                        <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                            <a class="page-link" href="#" onclick="loadUnits(${totalPages}); return false;"><i class="bi bi-chevron-double-left"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            `;
+        }
+
+        function renderUnits(data) {
+            const tbody = document.getElementById('unitsTableBody');
+            if (!data || data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" class="text-center py-4">لا توجد وحدات</td></tr>';
+                return;
+            }
+            tbody.innerHTML = data.map(unit => `
+                <tr>
+                    <td><input type="checkbox" class="unit-checkbox" value="${unit.id}" onchange="updateBulkEditBtn()"></td>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="${unit.images?.[0] || '/images/placeholder.jpg'}" class="rounded me-3" style="width: 60px; height: 60px; object-fit: cover;" loading="lazy">
+                            <div>
+                                <div class="fw-bold">${unit.title?.ar || ''}</div>
+                                <small class="text-muted">${unit.location?.ar || ''}</small>
+                                ${unit.buildingNumber || unit.floor || unit.unitNumber ? `<small class="text-info d-block">عمارة ${unit.buildingNumber || '-'} | دور ${unit.floor || '-'} | وحدة ${unit.unitNumber || '-'}</small>` : ''}
+                                ${unit.numericId ? `<small class="text-secondary d-block">ID: ${unit.numericId}</small>` : ''}
+                            </div>
+                        </div>
+                    </td>
+                    <td>${Admin.formatPrice(unit.price)}</td>
+                    <td>${unit.area} م²</td>
+                    <td>
+                        <span class="badge ${unit.unitStatus === 'available' ? 'bg-success' : unit.unitStatus === 'sold' ? 'bg-danger' : unit.unitStatus === 'reserved' ? 'bg-warning text-dark' : 'bg-secondary'}">${unit.unitStatus === 'available' ? 'متاح' : unit.unitStatus === 'sold' ? 'مباع' : unit.unitStatus === 'reserved' ? 'محجوز' : '-'}</span>
+                        <span class="badge-status ${unit.status} ms-1">${unit.status === 'active' ? 'نشط' : 'غير نشط'}</span>
+                    </td>
+                    <td>
+                        <button class="btn btn-sm btn-outline-primary me-1" onclick="editUnit('${unit.id}')" title="تعديل"><i class="bi bi-pencil"></i></button>
+                        <button class="btn btn-sm btn-outline-success me-1" onclick="duplicateUnit('${unit.id}')" title="نسخ"><i class="bi bi-copy"></i></button>
+                        <button class="btn btn-sm btn-outline-danger" onclick="deleteUnit('${unit.id}')" title="حذف"><i class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+            `).join('');
+            document.getElementById('selectAll').checked = false;
+            updateBulkEditBtn();
+        }
+
+        function filterUnits() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const projectFilter = document.getElementById('filterProject').value;
+            const statusFilter = document.getElementById('filterStatus').value;
+            const unitStatusFilter = document.getElementById('filterUnitStatus').value;
+            const viewFilter = document.getElementById('filterView').value;
+
+            const filtered = units.filter(u => {
+                if (search && !u.title?.ar?.toLowerCase().includes(search) && !u.location?.ar?.toLowerCase().includes(search)) return false;
+                if (projectFilter && u.projectId !== projectFilter) return false;
+                if (statusFilter && u.status !== statusFilter) return false;
+                if (unitStatusFilter && u.unitStatus !== unitStatusFilter) return false;
+                if (viewFilter && u.view !== viewFilter) return false;
+                return true;
+            });
+            renderUnits(filtered);
+        }
+
+        // Selection functions
+        function toggleSelectAll(checkbox) {
+            document.querySelectorAll('.unit-checkbox').forEach(cb => cb.checked = checkbox.checked);
+            updateBulkEditBtn();
+        }
+
+        function updateBulkEditBtn() {
+            const selected = document.querySelectorAll('.unit-checkbox:checked').length;
+            document.getElementById('bulkEditBtn').style.display = selected > 0 ? 'inline-block' : 'none';
+        }
+
+        function getSelectedIds() {
+            return Array.from(document.querySelectorAll('.unit-checkbox:checked')).map(cb => cb.value);
+        }
+
+        // Import functions
+        function showImportModal() {
+            new bootstrap.Modal(document.getElementById('importModal')).show();
+        }
+
+        function downloadTemplate() {
+            const template = [
+                { title_ar: 'شقة للبيع', title_en: 'Apartment for Sale', projectId: '', locationId: '', price: 1000000, area: 150, bedrooms: 3, bathrooms: 2, type: 'apartment', unitStatus: 'available', buildingNumber: '1', floor: '2', unitNumber: '201', view: '' }
+            ];
+            const ws = XLSX.utils.json_to_sheet(template);
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, 'Units');
+            XLSX.writeFile(wb, 'units_template.xlsx');
+        }
+
+        function exportUnits() {
+            const exportData = units.map(u => ({
+                id: u.id,
+                title_ar: u.title?.ar || '',
+                title_en: u.title?.en || '',
+                projectId: u.projectId || '',
+                locationId: u.locationId || '',
+                location_ar: u.location?.ar || '',
+                location_en: u.location?.en || '',
+                price: u.price || 0,
+                area: u.area || 0,
+                bedrooms: u.bedrooms || 0,
+                bathrooms: u.bathrooms || 0,
+                type: u.type || '',
+                unitStatus: u.unitStatus || '',
+                status: u.status || '',
+                buildingNumber: u.buildingNumber || '',
+                floor: u.floor || '',
+                unitNumber: u.unitNumber || '',
+                view: u.view || '',
+                finishing: u.finishing || '',
+                usableSpace: u.usableSpace || '',
+                gardenShare: u.gardenShare || '',
+                featured: u.featured ? 'yes' : 'no'
+            }));
+            const ws = XLSX.utils.json_to_sheet(exportData);
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, 'Units');
+            XLSX.writeFile(wb, `units_export_${new Date().toISOString().slice(0, 10)}.xlsx`);
+            Admin.showAlert('تم تصدير الوحدات بنجاح');
+        }
+
+        async function importUnits() {
+            const file = document.getElementById('excelFile').files[0];
+            if (!file) return Admin.showAlert('اختر ملف أولاً', 'warning');
+
+            try {
+                Admin.showLoading();
+                const data = await file.arrayBuffer();
+                const workbook = XLSX.read(data);
+                const sheet = workbook.Sheets[workbook.SheetNames[0]];
+                const rows = XLSX.utils.sheet_to_json(sheet);
+
+                let imported = 0;
+                for (const row of rows) {
+                    const unitData = {
+                        title: { ar: row.title_ar || '', en: row.title_en || '' },
+                        projectId: row.projectId || null,
+                        locationId: row.locationId || '',
+                        price: parseInt(row.price) || 0,
+                        area: parseInt(row.area) || 0,
+                        bedrooms: parseInt(row.bedrooms) || 0,
+                        bathrooms: parseInt(row.bathrooms) || 0,
+                        type: row.type || 'apartment',
+                        unitStatus: row.unitStatus || 'available',
+                        status: 'active',
+                        buildingNumber: row.buildingNumber || '',
+                        floor: row.floor || '',
+                        unitNumber: row.unitNumber || '',
+                        view: row.view || '',
+                        images: []
+                    };
+                    await Admin.adminFetch('/api/units', { method: 'POST', body: JSON.stringify(unitData) });
+                    imported++;
+                }
+
+                bootstrap.Modal.getInstance(document.getElementById('importModal')).hide();
+                Admin.showAlert(`تم استيراد ${imported} وحدة بنجاح`);
+                loadUnits();
+            } catch (error) {
+                Admin.showAlert('فشل الاستيراد: ' + error.message, 'danger');
+            } finally {
+                Admin.hideLoading();
+            }
+        }
+
+        // Bulk edit functions
+        function showBulkEditModal() {
+            const count = getSelectedIds().length;
+            document.getElementById('selectedCount').textContent = count;
+            new bootstrap.Modal(document.getElementById('bulkEditModal')).show();
+        }
+
+        async function applyBulkEdit() {
+            const ids = getSelectedIds();
+            if (ids.length === 0) return;
+
+            const projectId = document.getElementById('bulkProject').value;
+            const locationId = document.getElementById('bulkLocation').value;
+            const unitStatus = document.getElementById('bulkUnitStatus').value;
+            const status = document.getElementById('bulkStatus').value;
+            const view = document.getElementById('bulkView').value;
+            const finishing = document.getElementById('bulkFinishing').value;
+            const type = document.getElementById('bulkType').value;
+            const featured = document.getElementById('bulkFeatured').value;
+            const priceAction = document.getElementById('priceAction').value;
+            const priceValue = parseFloat(document.getElementById('priceValue').value) || 0;
+
+            try {
+                Admin.showLoading();
+                for (const id of ids) {
+                    const unit = units.find(u => u.id === id);
+                    if (!unit) continue;
+
+                    const updates = {};
+                    if (projectId) updates.projectId = projectId;
+                    if (locationId) updates.locationId = locationId;
+                    if (unitStatus) updates.unitStatus = unitStatus;
+                    if (status) updates.status = status;
+                    if (view) updates.view = view;
+                    if (finishing) updates.finishing = finishing;
+                    if (type) updates.type = type;
+                    if (featured) updates.featured = featured === 'true';
+
+                    if (priceAction && priceValue) {
+                        if (priceAction === 'set') updates.price = priceValue;
+                        else if (priceAction === 'increase') updates.price = Math.round(unit.price * (1 + priceValue / 100));
+                        else if (priceAction === 'decrease') updates.price = Math.round(unit.price * (1 - priceValue / 100));
+                    }
+
+                    if (Object.keys(updates).length > 0) {
+                        await Admin.adminFetch(`/api/units/${id}`, { method: 'PUT', body: JSON.stringify(updates) });
+                    }
+                }
+
+                bootstrap.Modal.getInstance(document.getElementById('bulkEditModal')).hide();
+                Admin.showAlert(`تم تحديث ${ids.length} وحدة بنجاح`);
+                loadUnits();
+            } catch (error) {
+                Admin.showAlert('فشل التحديث', 'danger');
+            } finally {
+                Admin.hideLoading();
+            }
+        }
+
+        function showAddForm() {
+            document.getElementById('unitFormCard').style.display = 'block';
+            document.getElementById('unitsListCard').style.display = 'none';
+            document.getElementById('formTitle').textContent = 'إضافة وحدة جديدة';
+            document.getElementById('unitForm').reset();
+            document.getElementById('unitId').value = '';
+            quillAr.root.innerHTML = '';
+            quillEn.root.innerHTML = '';
+            imageUploader.setImages([]);
+        }
+
+        function hideForm() {
+            document.getElementById('unitFormCard').style.display = 'none';
+            document.getElementById('unitsListCard').style.display = 'block';
+        }
+
+        function editUnit(id) {
+            const unit = units.find(u => u.id === id);
+            if (!unit) return;
+
+            document.getElementById('unitFormCard').style.display = 'block';
+            document.getElementById('unitsListCard').style.display = 'none';
+            document.getElementById('formTitle').textContent = 'تعديل الوحدة';
+
+            document.getElementById('unitId').value = unit.id;
+            document.getElementById('titleAr').value = unit.title?.ar || '';
+            document.getElementById('titleEn').value = unit.title?.en || '';
+            document.getElementById('projectSelect').value = unit.projectId || '';
+            // Try to find matching location by name or ID
+            const locSelect = document.getElementById('locationSelect');
+            if (unit.locationId) {
+                locSelect.value = unit.locationId;
+            } else {
+                let locFound = false;
+                for (let opt of locSelect.options) {
+                    if (opt.dataset.nameAr === unit.location?.ar || opt.dataset.nameEn === unit.location?.en) {
+                        locSelect.value = opt.value;
+                        locFound = true;
+                        break;
+                    }
+                }
+                if (!locFound) locSelect.value = '';
+            }
+            document.getElementById('unitStatus').value = unit.unitStatus || 'available';
+            document.getElementById('price').value = unit.price;
+            document.getElementById('area').value = unit.area;
+            document.getElementById('bedrooms').value = unit.bedrooms;
+            document.getElementById('bathrooms').value = unit.bathrooms;
+            document.getElementById('type').value = unit.type;
+            document.getElementById('status').value = unit.status;
+            document.getElementById('featured').value = unit.featured ? 'true' : 'false';
+            document.getElementById('finishing').value = unit.finishing || 'finished';
+            document.getElementById('featuresAr').value = unit.features?.ar?.join('\n') || '';
+            document.getElementById('featuresEn').value = unit.features?.en?.join('\n') || '';
+
+            // New fields
+            document.getElementById('buildingNumber').value = unit.buildingNumber || '';
+            document.getElementById('floor').value = unit.floor || '';
+            document.getElementById('unitNumber').value = unit.unitNumber || '';
+            document.getElementById('usableSpace').value = unit.usableSpace || '';
+            document.getElementById('gardenShare').value = unit.gardenShare || '';
+            document.getElementById('viewSelect').value = unit.view || '';
+
+            // Set payment plans
+            document.querySelectorAll('#paymentPlansContainer input[type="checkbox"]').forEach(cb => {
+                cb.checked = (unit.paymentPlans || []).includes(cb.value);
+            });
+
+            quillAr.root.innerHTML = Admin.decodeHtml(unit.description?.ar || '');
+            quillEn.root.innerHTML = Admin.decodeHtml(unit.description?.en || '');
+            imageUploader.setImages(unit.images || []);
+        }
+
+        function duplicateUnit(id) {
+            const unit = units.find(u => u.id === id);
+            if (!unit) return;
+
+            // Open form with unit data but no ID (will create new)
+            editUnit(id);
+            document.getElementById('unitId').value = '';
+            document.getElementById('formTitle').textContent = 'نسخ الوحدة';
+            document.getElementById('titleAr').value = (unit.title?.ar || '') + ' (نسخة)';
+            document.getElementById('titleEn').value = (unit.title?.en || '') + ' (Copy)';
+        }
+
+        async function deleteUnit(id) {
+            if (!await Admin.confirmAction('هل أنت متأكد من حذف هذه الوحدة؟')) return;
+
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch(`/api/units/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم حذف الوحدة بنجاح');
+                loadUnits();
+            } catch (error) {
+                Admin.showAlert('فشل حذف الوحدة', 'danger');
+            } finally {
+                Admin.hideLoading();
+            }
+        }
+
+        document.getElementById('unitForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const unitId = document.getElementById('unitId').value;
+            const featuresAr = document.getElementById('featuresAr').value.split('\n').filter(f => f.trim());
+            const featuresEn = document.getElementById('featuresEn').value.split('\n').filter(f => f.trim());
+
+            const locSelect = document.getElementById('locationSelect');
+            const selectedLoc = locSelect.options[locSelect.selectedIndex];
+
+            // Get selected payment plans
+            const selectedPlans = [];
+            document.querySelectorAll('#paymentPlansContainer input[type="checkbox"]:checked').forEach(cb => {
+                selectedPlans.push(cb.value);
+            });
+
+            const data = {
+                title: { ar: document.getElementById('titleAr').value, en: document.getElementById('titleEn').value },
+                projectId: document.getElementById('projectSelect').value || null,
+                location: { ar: selectedLoc?.dataset.nameAr || '', en: selectedLoc?.dataset.nameEn || '' },
+                locationId: locSelect.value,
+                unitStatus: document.getElementById('unitStatus').value,
+                description: { ar: quillAr.root.innerHTML, en: quillEn.root.innerHTML },
+                price: Math.max(0, parseInt(document.getElementById('price').value) || 0),
+                area: Math.max(0, parseInt(document.getElementById('area').value) || 0),
+                bedrooms: Math.max(0, parseInt(document.getElementById('bedrooms').value) || 0),
+                bathrooms: Math.max(0, parseInt(document.getElementById('bathrooms').value) || 0),
+                type: document.getElementById('type').value,
+                status: document.getElementById('status').value,
+                featured: document.getElementById('featured').value === 'true',
+                finishing: document.getElementById('finishing').value,
+                paymentPlans: selectedPlans,
+                features: { ar: featuresAr, en: featuresEn },
+                images: imageUploader.getImages(),
+                // New fields
+                buildingNumber: document.getElementById('buildingNumber').value,
+                floor: document.getElementById('floor').value,
+                unitNumber: document.getElementById('unitNumber').value,
+                usableSpace: parseFloat(document.getElementById('usableSpace').value) || 0,
+                gardenShare: parseFloat(document.getElementById('gardenShare').value) || 0,
+                view: document.getElementById('viewSelect').value
+            };
+
+            try {
+                Admin.showLoading();
+                if (unitId) {
+                    await Admin.adminFetch(`/api/units/${unitId}`, { method: 'PUT', body: JSON.stringify(data) });
+                    Admin.showAlert('تم تحديث الوحدة بنجاح');
+                } else {
+                    await Admin.adminFetch('/api/units', { method: 'POST', body: JSON.stringify(data) });
+                    Admin.showAlert('تم إضافة الوحدة بنجاح');
+                }
+                hideForm();
+                loadUnits();
+            } catch (error) {
+                Admin.showAlert('فشل حفظ الوحدة', 'danger');
+            } finally {
+                Admin.hideLoading();
+            }
+        });
+    </script>
+</body>
+
+</html>

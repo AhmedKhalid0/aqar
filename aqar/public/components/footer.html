@@ -1,0 +1,174 @@
+<footer class="bg-navy text-white pt-5 pb-3" role="contentinfo">
+    <div class="container">
+        <div class="row g-4">
+            <!-- About -->
+            <div class="col-lg-4 col-md-6">
+                <h2 class="h5 text-gold mb-3" id="footerAboutTitle">عن عقار</h2>
+                <p class="text-light opacity-75" id="footerAboutText">
+                    عقار هي شركة تطوير عقاري رائدة في مصر. نصمم ونبني مجتمعات عصرية ومستدامة في أفضل المواقع.
+                </p>
+                <div class="d-flex gap-3 mt-3" id="socialLinks">
+                    <a href="#" class="text-gold fs-5 d-none" id="footerFacebook" aria-label="فيسبوك"><i
+                            class="bi bi-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="text-gold fs-5 d-none" id="footerInstagram" aria-label="انستغرام"><i
+                            class="bi bi-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="text-gold fs-5 d-none" id="footerTwitter" aria-label="تويتر"><i
+                            class="bi bi-twitter-x" aria-hidden="true"></i></a>
+                    <a href="#" class="text-gold fs-5 d-none" id="footerLinkedin" aria-label="لينكدإن"><i
+                            class="bi bi-linkedin" aria-hidden="true"></i></a>
+                    <a href="#" class="text-gold fs-5 d-none" id="footerYoutube" aria-label="يوتيوب"><i
+                            class="bi bi-youtube" aria-hidden="true"></i></a>
+                    <a href="#" class="text-gold fs-5 d-none" id="footerTiktok" aria-label="تيك توك"><i
+                            class="bi bi-tiktok" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-6">
+                <h2 class="h5 text-gold mb-3" data-i18n="footer.quickLinks">روابط سريعة</h2>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="/units.html" class="text-light text-decoration-none opacity-75 hover-gold"
+                            data-i18n="nav.units">الوحدات</a></li>
+                    <li class="mb-2"><a href="/projects.html"
+                            class="text-light text-decoration-none opacity-75 hover-gold"
+                            data-i18n="nav.projects">المشاريع</a></li>
+                    <li class="mb-2"><a href="/news.html" class="text-light text-decoration-none opacity-75 hover-gold"
+                            data-i18n="nav.news">الأخبار</a></li>
+                    <li class="mb-2"><a href="/contact.html"
+                            class="text-light text-decoration-none opacity-75 hover-gold" data-i18n="nav.contact">اتصل
+                            بنا</a></li>
+                </ul>
+            </div>
+
+            <!-- Areas -->
+            <div class="col-lg-3 col-md-6">
+                <h2 class="h5 text-gold mb-3" data-i18n="footer.areas">المناطق</h2>
+                <ul class="list-unstyled" id="footerLocations">
+                    <!-- Loaded dynamically -->
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-lg-3 col-md-6">
+                <h2 class="h5 text-gold mb-3" data-i18n="footer.contactUs">تواصل معنا</h2>
+                <ul class="list-unstyled">
+                    <li class="mb-2 opacity-75">
+                        <i class="bi bi-geo-alt-fill text-gold me-2"></i>
+                        <span id="footerAddress">التجمع الخامس، القاهرة الجديدة</span>
+                    </li>
+                    <li class="mb-2 opacity-75">
+                        <i class="bi bi-telephone-fill text-gold me-2"></i>
+                        <a href="tel:+201000000000" class="text-light text-decoration-none" id="footerPhone">+20 100 000
+                            0000</a>
+                    </li>
+                    <li class="mb-2 opacity-75">
+                        <i class="bi bi-envelope-fill text-gold me-2"></i>
+                        <a href="mailto:info@aqar.com" class="text-light text-decoration-none"
+                            id="footerEmail">info@aqar.com</a>
+                    </li>
+                    <li class="mb-2 opacity-75">
+                        <i class="bi bi-clock-fill text-gold me-2"></i>
+                        <span id="footerHours">السبت - الخميس: 9 ص - 6 م</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="my-4 opacity-25">
+
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0 opacity-75" data-i18n="footer.copyright">© 2024 عقار. جميع الحقوق محفوظة.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <a href="/privacy.html" class="text-light text-decoration-none opacity-75 me-3"
+                    data-i18n="footer.privacy">سياسة الخصوصية</a>
+                <a href="/terms.html" class="text-light text-decoration-none opacity-75" data-i18n="footer.terms">الشروط
+                    والأحكام</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp Float Button -->
+<a href="https://wa.me/201000000000" target="_blank" class="whatsapp-float" id="whatsappFloat"
+    title="تواصل معنا عبر واتساب">
+    <i class="bi bi-whatsapp"></i>
+</a>
+
+<script>
+    // Load dynamic contact info
+    (async function loadFooterSettings() {
+        try {
+            const response = await fetch('/api/settings');
+            if (!response.ok) throw new Error('Failed to fetch settings');
+            const settings = await response.json();
+
+            const contact = settings.contact || {};
+            const social = settings.social || {};
+            const locations = settings.locations || [];
+            const branding = settings.branding || {};
+            const lang = localStorage.getItem('lang') || localStorage.getItem('aqar_lang') || 'ar';
+
+            // Company name and about text
+            const companyName = branding.companyName?.[lang] || branding.companyName?.ar || 'عقار';
+            const aboutTitle = lang === 'ar' ? `عن ${companyName}` : `About ${companyName}`;
+            const footerAboutTitle = document.getElementById('footerAboutTitle');
+            if (footerAboutTitle) footerAboutTitle.textContent = aboutTitle;
+
+            const footerAboutText = document.getElementById('footerAboutText');
+            if (footerAboutText && branding.footerAbout?.[lang]) {
+                footerAboutText.textContent = branding.footerAbout[lang];
+            }
+
+            // Load locations dynamically - max 4 locations
+            const locationsContainer = document.getElementById('footerLocations');
+
+            if (locationsContainer) {
+                if (locations && locations.length > 0) {
+                    const html = locations.slice(0, 4).map(loc => {
+                        const name = (loc.name && (loc.name[lang] || loc.name.ar || loc.name.en)) || '';
+                        return `<li class="mb-2"><a href="/units.html?location=${loc.id}" class="text-light text-decoration-none opacity-75 hover-gold">${name}</a></li>`;
+                    }).join('');
+                    locationsContainer.innerHTML = html;
+                } else {
+                    locationsContainer.innerHTML = '<li class="mb-2 text-light opacity-75">لا توجد مواقع</li>';
+                }
+            }
+
+            // Contact info
+            if (contact.address?.[lang]) document.getElementById('footerAddress').textContent = contact.address[lang];
+            if (contact.phone) {
+                const phoneEl = document.getElementById('footerPhone');
+                phoneEl.textContent = contact.phone;
+                phoneEl.href = 'tel:' + contact.phone.replace(/\s/g, '');
+            }
+            if (contact.email) {
+                const emailEl = document.getElementById('footerEmail');
+                emailEl.textContent = contact.email;
+                emailEl.href = 'mailto:' + contact.email;
+            }
+            if (contact.workingHours?.[lang]) document.getElementById('footerHours').textContent = contact.workingHours[lang];
+            if (contact.whatsapp) document.getElementById('whatsappFloat').href = 'https://wa.me/' + contact.whatsapp.replace(/[^0-9]/g, '');
+
+            // Social links helper
+            function updateSocial(id, url, visible) {
+                const el = document.getElementById(id);
+                if (url && visible !== false) {
+                    el.href = url;
+                    el.classList.remove('d-none');
+                } else {
+                    el.classList.add('d-none');
+                }
+            }
+
+            updateSocial('footerFacebook', social.facebook, social.facebook_visible);
+            updateSocial('footerInstagram', social.instagram, social.instagram_visible);
+            updateSocial('footerTwitter', social.twitter, social.twitter_visible);
+            updateSocial('footerLinkedin', social.linkedin, social.linkedin_visible);
+            updateSocial('footerYoutube', social.youtube, social.youtube_visible);
+            updateSocial('footerTiktok', social.tiktok, social.tiktok_visible);
+
+        } catch (e) { console.error('Error loading footer settings:', e); }
+    })();
+</script>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة الأخبار | عقار</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/quill@1.3.7/dist/quill.snow.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="sidebarContainer"></div>
+
+    <main class="admin-main">
+        <header class="admin-header">
+            <button class="sidebar-toggle"><i class="bi bi-list"></i></button>
+            <h1>إدارة الأخبار</h1>
+            <button class="btn btn-gold" onclick="showAddForm()"><i class="bi bi-plus-circle me-2"></i>نشر خبر</button>
+        </header>
+
+        <div class="admin-content">
+            <div class="data-card" id="listCard">
+                <div class="data-card-header">
+                    <h3>قائمة الأخبار</h3>
+                    <div class="d-flex gap-2">
+                        <select class="form-select form-select-sm" id="filterCategory" style="width: 150px;">
+                            <option value="">جميع التصنيفات</option>
+                            <option value="projects">أخبار المشاريع</option>
+                            <option value="tips">نصائح استثمارية</option>
+                            <option value="market">أخبار السوق</option>
+                        </select>
+                        <select class="form-select form-select-sm" id="filterStatus" style="width: 120px;">
+                            <option value="">جميع الحالات</option>
+                            <option value="published">منشور</option>
+                            <option value="draft">مسودة</option>
+                        </select>
+                        <input type="text" class="form-control form-control-sm" id="searchInput" placeholder="بحث..."
+                            style="width: 150px;">
+                    </div>
+                </div>
+                <div class="data-card-body">
+                    <div class="table-responsive">
+                        <table class="table data-table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>الخبر</th>
+                                    <th>التصنيف</th>
+                                    <th>الحالة</th>
+                                    <th>التاريخ</th>
+                                    <th>الإجراءات</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                                <tr>
+                                    <td colspan="5" class="text-center py-4">جاري التحميل...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-card" id="formCard" style="display: none;">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 id="formTitle">نشر خبر جديد</h3>
+                    <button class="btn btn-outline-secondary" onclick="hideForm()"><i class="bi bi-x-lg"></i></button>
+                </div>
+                <form id="dataForm">
+                    <input type="hidden" id="itemId">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">العنوان (عربي) *</label>
+                            <input type="text" class="form-control" id="titleAr" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">العنوان (إنجليزي)</label>
+                            <input type="text" class="form-control" id="titleEn">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">التصنيف</label>
+                            <select class="form-select" id="category">
+                                <option value="projects">أخبار المشاريع</option>
+                                <option value="tips">نصائح استثمارية</option>
+                                <option value="market">أخبار السوق</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">الحالة</label>
+                            <select class="form-select" id="status">
+                                <option value="published">منشور</option>
+                                <option value="draft">مسودة</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المقتطف (عربي)</label>
+                            <textarea class="form-control" id="excerptAr" rows="2"></textarea>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المقتطف (إنجليزي)</label>
+                            <textarea class="form-control" id="excerptEn" rows="2"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المحتوى (عربي)</label>
+                            <div id="contentArEditor" style="height: 250px;"></div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المحتوى (إنجليزي)</label>
+                            <div id="contentEnEditor" style="height: 250px;"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label">صورة الخبر</label>
+                        <div class="d-flex gap-2 mb-2">
+                            <div class="image-upload-zone flex-grow-1" id="imageUploadZone">
+                                <i class="bi bi-cloud-upload d-block"></i>
+                                <p class="mb-0">اسحب الصورة هنا</p>
+                            </div>
+                            <button type="button" class="btn btn-outline-primary" onclick="openMediaLibraryForImages()"
+                                style="min-width: 150px;">
+                                <i class="bi bi-images me-1"></i>اختيار من المكتبة
+                            </button>
+                        </div>
+                        <input type="file" id="imageInput" accept="image/*" style="display: none;">
+                        <div class="image-preview" id="imagePreview"></div>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="hideForm()">إلغاء</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quill@1.3.7/dist/quill.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    <script src="/admin/js/media-library.js"></script>
+    <script>
+        let items = [];
+        let imageUploader;
+        let quillAr, quillEn;
+
+        // Open media library and add selected image
+        function openMediaLibraryForImages() {
+            openMediaLibrary((selectedImages) => {
+                const images = Array.isArray(selectedImages) ? selectedImages : [selectedImages];
+                images.forEach(img => {
+                    imageUploader.addImage(img.url);
+                });
+            }, { multiple: false });
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (!await Admin.checkAuth()) return;
+            Admin.initSidebar();
+            const toolbarOptions = [[{ 'header': [1, 2, 3, false] }], ['bold', 'italic', 'underline'], [{ 'list': 'ordered' }, { 'list': 'bullet' }], ['link'], ['clean']];
+            quillAr = new Quill('#contentArEditor', { theme: 'snow', modules: { toolbar: toolbarOptions } });
+            quillEn = new Quill('#contentEnEditor', { theme: 'snow', modules: { toolbar: toolbarOptions } });
+            imageUploader = Admin.initImageUpload('imageUploadZone', 'imagePreview', 'imageInput');
+            loadData();
+            if (new URLSearchParams(window.location.search).get('action') === 'add') showAddForm();
+        });
+
+        async function loadData() {
+            try {
+                items = await Admin.adminFetch('/api/news');
+                renderTable();
+
+                // Setup filter listeners
+                document.getElementById('filterCategory').addEventListener('change', applyFilters);
+                document.getElementById('filterStatus').addEventListener('change', applyFilters);
+                document.getElementById('searchInput').addEventListener('input', applyFilters);
+            } catch (error) { Admin.showAlert('فشل التحميل', 'danger'); }
+        }
+
+        function applyFilters() {
+            const category = document.getElementById('filterCategory').value;
+            const status = document.getElementById('filterStatus').value;
+            const search = document.getElementById('searchInput').value.toLowerCase();
+
+            const filtered = items.filter(item => {
+                if (category && item.category !== category) return false;
+                if (status && item.status !== status) return false;
+                if (search && !item.title?.ar?.toLowerCase().includes(search) && !item.title?.en?.toLowerCase().includes(search)) return false;
+                return true;
+            });
+
+            renderFilteredTable(filtered);
+        }
+
+        function renderFilteredTable(data) {
+            const tbody = document.getElementById('tableBody');
+            if (data.length === 0) { tbody.innerHTML = '<tr><td colspan="5" class="text-center py-4">لا توجد أخبار</td></tr>'; return; }
+            const categories = { projects: 'أخبار المشاريع', tips: 'نصائح', market: 'أخبار السوق' };
+            tbody.innerHTML = data.map(item => `
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="${item.image || '/images/placeholder.jpg'}" class="rounded me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                            <div class="fw-bold">${item.title?.ar || ''}</div>
+                        </div>
+                    </td>
+                    <td>${categories[item.category] || item.category}</td>
+                    <td><span class="badge-status ${item.status === 'published' ? 'active' : 'pending'}">${item.status === 'published' ? 'منشور' : 'مسودة'}</span></td>
+                    <td><small class="text-muted">${Admin.formatDate(item.createdAt)}</small></td>
+                    <td>
+                        <button class="btn btn-sm btn-outline-primary me-1" onclick="editItem('${item.id}')"><i class="bi bi-pencil"></i></button>
+                        <button class="btn btn-sm btn-outline-danger" onclick="deleteItem('${item.id}')"><i class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function renderTable() {
+            renderFilteredTable(items);
+        }
+
+        function showAddForm() {
+            document.getElementById('formCard').style.display = 'block';
+            document.getElementById('listCard').style.display = 'none';
+            document.getElementById('formTitle').textContent = 'نشر خبر جديد';
+            document.getElementById('dataForm').reset();
+            document.getElementById('itemId').value = '';
+            quillAr.root.innerHTML = '';
+            quillEn.root.innerHTML = '';
+            imageUploader.setImages([]);
+        }
+
+        function hideForm() {
+            document.getElementById('formCard').style.display = 'none';
+            document.getElementById('listCard').style.display = 'block';
+        }
+
+        function editItem(id) {
+            const item = items.find(i => i.id === id);
+            if (!item) return;
+            document.getElementById('formCard').style.display = 'block';
+            document.getElementById('listCard').style.display = 'none';
+            document.getElementById('formTitle').textContent = 'تعديل الخبر';
+            document.getElementById('itemId').value = item.id;
+            document.getElementById('titleAr').value = item.title?.ar || '';
+            document.getElementById('titleEn').value = item.title?.en || '';
+            document.getElementById('excerptAr').value = item.excerpt?.ar || '';
+            document.getElementById('excerptEn').value = item.excerpt?.en || '';
+            document.getElementById('category').value = item.category || 'projects';
+            document.getElementById('status').value = item.status || 'published';
+            quillAr.root.innerHTML = Admin.decodeHtml(item.content?.ar || '');
+            quillEn.root.innerHTML = Admin.decodeHtml(item.content?.en || '');
+            imageUploader.setImages(item.image ? [item.image] : []);
+        }
+
+        async function deleteItem(id) {
+            if (!await Admin.confirmAction('هل أنت متأكد من الحذف؟')) return;
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch(`/api/news/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم الحذف');
+                loadData();
+            } catch (error) { Admin.showAlert('فشل الحذف', 'danger'); } finally { Admin.hideLoading(); }
+        }
+
+        document.getElementById('dataForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const itemId = document.getElementById('itemId').value;
+            const images = imageUploader.getImages();
+            const data = {
+                title: { ar: document.getElementById('titleAr').value, en: document.getElementById('titleEn').value },
+                excerpt: { ar: document.getElementById('excerptAr').value, en: document.getElementById('excerptEn').value },
+                content: { ar: quillAr.root.innerHTML, en: quillEn.root.innerHTML },
+                category: document.getElementById('category').value,
+                status: document.getElementById('status').value,
+                image: images[0] || ''
+            };
+            try {
+                Admin.showLoading();
+                if (itemId) { await Admin.adminFetch(`/api/news/${itemId}`, { method: 'PUT', body: JSON.stringify(data) }); }
+                else { await Admin.adminFetch('/api/news', { method: 'POST', body: JSON.stringify(data) }); }
+                Admin.showAlert('تم الحفظ');
+                hideForm();
+                loadData();
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+    </script>
+</body>
+
+</html>

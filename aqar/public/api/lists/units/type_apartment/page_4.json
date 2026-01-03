@@ -1,0 +1,431 @@
+{
+  "data": [
+    {
+      "id": "unit-000432",
+      "title": {
+        "ar": "شقة 67 متر - العاصمة الإدارية",
+        "en": "Apartment 67 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 67 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 67 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3400000,
+      "area": 67,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "غرفة خادمة",
+          "حمام سباحة خاص",
+          "أمن 24 ساعة",
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Central AC",
+          "Private Garden",
+          "Private Pool",
+          "Large Terrace",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "38",
+      "floor": "الثالث",
+      "unitNumber": "6559",
+      "usableSpace": 57,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0013",
+      "createdAt": "2025-12-27T03:44:53.214Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.214Z"
+    },
+    {
+      "id": "unit-000438",
+      "title": {
+        "ar": "شقة 156 متر - الرحاب",
+        "en": "Apartment 156 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 156 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 156 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1600000,
+      "area": 156,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "تكييف مركزي",
+          "تراس واسع"
+        ],
+        "en": [
+          "Premium Finish",
+          "Maid Room",
+          "Private Pool",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "18",
+      "floor": "الخامس",
+      "unitNumber": "5012",
+      "usableSpace": 133,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0005",
+      "createdAt": "2025-12-27T03:44:53.276Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.276Z"
+    },
+    {
+      "id": "unit-000441",
+      "title": {
+        "ar": "شقة 435 متر - العاصمة الإدارية",
+        "en": "Apartment 435 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 435 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 435 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5200000,
+      "area": 435,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "قريب من المواصلات",
+          "أمن 24 ساعة",
+          "إطلالة بحرية",
+          "مصعد خاص",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "24/7 Security",
+          "Premium Finish",
+          "Large Terrace",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "2",
+      "floor": "الثالث",
+      "unitNumber": "6704",
+      "usableSpace": 370,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0032",
+      "createdAt": "2025-12-27T03:44:53.305Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.305Z"
+    },
+    {
+      "id": "unit-000444",
+      "title": {
+        "ar": "شقة 491 متر - الساحل الشمالي",
+        "en": "Apartment 491 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 491 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 491 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 491,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "تكييف مركزي",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Central AC",
+          "Private Elevator",
+          "Parking",
+          "Private Garden",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "السادس",
+      "unitNumber": "9958",
+      "usableSpace": 417,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0020",
+      "createdAt": "2025-12-27T03:44:53.336Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.336Z"
+    },
+    {
+      "id": "unit-000476",
+      "title": {
+        "ar": "شقة 421 متر - التجمع الخامس",
+        "en": "Apartment 421 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 421 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 421 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1700000,
+      "area": 421,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Parking",
+          "Near Transportation",
+          "Gym",
+          "Premium Finish",
+          "Sea View",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "1",
+      "floor": "الخامس",
+      "unitNumber": "7807",
+      "usableSpace": 358,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0016",
+      "createdAt": "2025-12-27T03:44:53.679Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.679Z"
+    },
+    {
+      "id": "unit-000482",
+      "title": {
+        "ar": "شقة 128 متر - مدينتي",
+        "en": "Apartment 128 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 128 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 128 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 800000,
+      "area": 128,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "إطلالة بحرية",
+          "حمام سباحة خاص",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Central AC",
+          "24/7 Security",
+          "Premium Finish",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "36",
+      "floor": "الرابع",
+      "unitNumber": "7140",
+      "usableSpace": 109,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0002",
+      "createdAt": "2025-12-27T03:44:53.745Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.745Z"
+    },
+    {
+      "id": "unit-000489",
+      "title": {
+        "ar": "شقة 444 متر - التجمع الخامس",
+        "en": "Apartment 444 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 444 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 444 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9100000,
+      "area": 444,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "أمن 24 ساعة",
+          "حمام سباحة خاص",
+          "نادي رياضي",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Maid Room",
+          "Private Elevator",
+          "Parking",
+          "Near Transportation",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "1",
+      "floor": "الثاني",
+      "unitNumber": "2705",
+      "usableSpace": 377,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0035",
+      "createdAt": "2025-12-27T03:44:53.816Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.816Z"
+    }
+  ],
+  "total": 67,
+  "page": 4,
+  "limit": 20,
+  "totalPages": 4,
+  "hasNext": false,
+  "hasPrev": true,
+  "filter": {
+    "type": "apartment"
+  },
+  "generatedAt": "2025-12-27T22:58:09.277Z"
+}

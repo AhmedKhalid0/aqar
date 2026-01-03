@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سجل النشاط | عقار</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="sidebarContainer"></div>
+
+    <main class="admin-main">
+        <header class="admin-header">
+            <button class="sidebar-toggle"><i class="bi bi-list"></i></button>
+            <h1>سجل النشاط</h1>
+            <small class="text-muted">آخر 100 نشاط</small>
+        </header>
+
+        <div class="admin-content">
+            <div class="data-card">
+                <div class="data-card-body">
+                    <div class="table-responsive">
+                        <table class="table data-table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>المستخدم</th>
+                                    <th>العملية</th>
+                                    <th>التفاصيل</th>
+                                    <th>التاريخ</th>
+                                </tr>
+                            </thead>
+                            <tbody id="logsTableBody">
+                                <tr>
+                                    <td colspan="4" class="text-center py-4">جاري التحميل...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    <script>
+        const actionLabels = {
+            'LOGIN': { text: 'تسجيل دخول', class: 'bg-info' },
+            'CREATE_UNIT': { text: 'إضافة وحدة', class: 'bg-success' },
+            'UPDATE_UNIT': { text: 'تعديل وحدة', class: 'bg-warning' },
+            'DELETE_UNIT': { text: 'حذف وحدة', class: 'bg-danger' },
+            'CREATE_PROJECT': { text: 'إضافة مشروع', class: 'bg-success' },
+            'UPDATE_PROJECT': { text: 'تعديل مشروع', class: 'bg-warning' },
+            'DELETE_PROJECT': { text: 'حذف مشروع', class: 'bg-danger' },
+            'CREATE_NEWS': { text: 'نشر خبر', class: 'bg-success' },
+            'UPDATE_NEWS': { text: 'تعديل خبر', class: 'bg-warning' },
+            'DELETE_NEWS': { text: 'حذف خبر', class: 'bg-danger' },
+            'CREATE_PARTNER': { text: 'إضافة شريك', class: 'bg-success' },
+            'DELETE_PARTNER': { text: 'حذف شريك', class: 'bg-danger' },
+            'APPROVE_REVIEW': { text: 'اعتماد تعليق', class: 'bg-success' },
+            'DELETE_REVIEW': { text: 'حذف تعليق', class: 'bg-danger' },
+            'CREATE_USER': { text: 'إضافة مستخدم', class: 'bg-success' },
+            'DELETE_USER': { text: 'حذف مستخدم', class: 'bg-danger' },
+            'UPLOAD_IMAGE': { text: 'رفع صورة', class: 'bg-primary' },
+            'UPLOAD_IMAGES': { text: 'رفع صور', class: 'bg-primary' }
+        };
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (!await Admin.checkAuth()) return;
+            Admin.initSidebar();
+
+            const currentUser = Admin.getUser();
+            if (currentUser?.role !== 'super_admin') {
+                document.querySelector('.admin-content').innerHTML = `
+                    <div class="alert alert-warning">
+                        <i class="bi bi-exclamation-triangle me-2"></i>
+                        ليس لديك صلاحية للوصول لهذه الصفحة
+                    </div>
+                `;
+                return;
+            }
+
+            loadLogs();
+        });
+
+        async function loadLogs() {
+            try {
+                const response = await Admin.adminFetch('/api/admin/logs');
+                const logs = response.data || response || [];
+                renderLogs(logs);
+            } catch (error) {
+                Admin.showAlert('فشل تحميل السجل', 'danger');
+            }
+        }
+
+        function renderLogs(logs) {
+            const tbody = document.getElementById('logsTableBody');
+            if (logs.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" class="text-center py-4">لا يوجد سجل نشاط</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = logs.map(log => {
+                const action = actionLabels[log.action] || { text: log.action, class: 'bg-secondary' };
+                return `
+                    <tr>
+                        <td><strong>${log.username}</strong></td>
+                        <td><span class="badge ${action.class}">${action.text}</span></td>
+                        <td class="text-muted small">${log.details || '-'}</td>
+                        <td><small class="text-muted">${Admin.formatDate(log.timestamp)}</small></td>
+                    </tr>
+                `;
+            }).join('');
+        }
+    </script>
+</body>
+
+</html>

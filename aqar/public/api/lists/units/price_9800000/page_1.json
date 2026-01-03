@@ -1,0 +1,190 @@
+{
+  "data": [
+    {
+      "id": "unit-000180",
+      "title": {
+        "ar": "استوديو 499 متر - جولف بورتو مارينا",
+        "en": "Studio 499 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 499 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 499 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9800000,
+      "area": 499,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Sea View",
+          "Private Elevator",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "5",
+      "floor": "الثالث",
+      "unitNumber": "4096",
+      "usableSpace": 424,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0050",
+      "createdAt": "2025-12-27T03:44:50.700Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.700Z"
+    },
+    {
+      "id": "unit-000402",
+      "title": {
+        "ar": "دوبلكس 245 متر - 6 أكتوبر",
+        "en": "Duplex 245 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 245 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 245 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9800000,
+      "area": 245,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "تشطيب سوبر لوكس",
+          "موقف سيارات",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "24/7 Security",
+          "Central AC",
+          "Maid Room",
+          "Near Transportation",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "10",
+      "floor": "السادس",
+      "unitNumber": "5078",
+      "usableSpace": 208,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0039",
+      "createdAt": "2025-12-27T03:44:52.907Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.907Z"
+    },
+    {
+      "id": "unit-000449",
+      "title": {
+        "ar": "بنتهاوس 71 متر - الرحاب",
+        "en": "Penthouse 71 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 71 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 71 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9800000,
+      "area": 71,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "8-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "تشطيب سوبر لوكس",
+          "حديقة خاصة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Sea View",
+          "Large Terrace",
+          "Gym",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "26",
+      "floor": "الخامس",
+      "unitNumber": "1003",
+      "usableSpace": 60,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0022",
+      "createdAt": "2025-12-27T03:44:53.391Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.391Z"
+    }
+  ],
+  "total": 3,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "9800000"
+  },
+  "generatedAt": "2025-12-27T22:58:13.173Z"
+}

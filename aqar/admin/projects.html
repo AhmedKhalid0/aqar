@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة المشاريع | عقار</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/quill@1.3.7/dist/quill.snow.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="sidebarContainer"></div>
+
+    <main class="admin-main">
+        <header class="admin-header">
+            <button class="sidebar-toggle"><i class="bi bi-list"></i></button>
+            <h1>إدارة المشاريع</h1>
+            <button class="btn btn-gold" onclick="showAddForm()"><i class="bi bi-plus-circle me-2"></i>إضافة
+                مشروع</button>
+        </header>
+
+        <div class="admin-content">
+            <div class="data-card" id="listCard">
+                <div class="data-card-header">
+                    <h3>قائمة المشاريع</h3>
+                    <div class="d-flex gap-2">
+                        <select class="form-select form-select-sm" id="filterLocation" style="width: 150px;">
+                            <option value="">جميع المواقع</option>
+                        </select>
+                        <select class="form-select form-select-sm" id="filterStatus" style="width: 120px;">
+                            <option value="">جميع الحالات</option>
+                            <option value="active">نشط</option>
+                            <option value="inactive">غير نشط</option>
+                        </select>
+                        <input type="text" class="form-control form-control-sm" id="searchInput" placeholder="بحث..."
+                            style="width: 150px;">
+                    </div>
+                </div>
+                <div class="data-card-body">
+                    <div class="table-responsive">
+                        <table class="table data-table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>المشروع</th>
+                                    <th>المطور</th>
+                                    <th>الموقع</th>
+                                    <th>الوحدات</th>
+                                    <th>الحالة</th>
+                                    <th>الإجراءات</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                                <tr>
+                                    <td colspan="6" class="text-center py-4">جاري التحميل...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Pagination -->
+                    <div id="adminPagination" class="mt-3 d-flex justify-content-between align-items-center"></div>
+                </div>
+            </div>
+
+            <div class="form-card" id="formCard" style="display: none;">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 id="formTitle">إضافة مشروع</h3>
+                    <button class="btn btn-outline-secondary" onclick="hideForm()"><i class="bi bi-x-lg"></i></button>
+                </div>
+                <form id="dataForm">
+                    <input type="hidden" id="itemId">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">اسم المشروع (عربي) *</label>
+                            <input type="text" class="form-control" id="titleAr" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">اسم المشروع (إنجليزي)</label>
+                            <input type="text" class="form-control" id="titleEn">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المطور (عربي) *</label>
+                            <input type="text" class="form-control" id="developerAr" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المطور (إنجليزي)</label>
+                            <input type="text" class="form-control" id="developerEn">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">الموقع *</label>
+                            <select class="form-select" id="locationSelect" required></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">إجمالي الوحدات</label>
+                            <input type="number" class="form-control" id="totalUnits">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">الوحدات المتاحة</label>
+                            <input type="number" class="form-control" id="availableUnits">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">أقل سعر</label>
+                            <input type="number" class="form-control" id="minPrice">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label class="form-label">أعلى سعر</label>
+                            <input type="number" class="form-control" id="maxPrice">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">الحالة</label>
+                            <select class="form-select" id="status">
+                                <option value="active">نشط</option>
+                                <option value="inactive">غير نشط</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">مميز</label>
+                            <select class="form-select" id="featured">
+                                <option value="false">لا</option>
+                                <option value="true">نعم</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">الوصف (عربي)</label>
+                            <div id="descriptionArEditor" style="height: 200px;"></div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">الوصف (إنجليزي)</label>
+                            <div id="descriptionEnEditor" style="height: 200px;"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المرافق (عربي - كل سطر مرفق)</label>
+                            <textarea class="form-control" id="amenitiesAr" rows="3"></textarea>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">المرافق (إنجليزي - كل سطر مرفق)</label>
+                            <textarea class="form-control" id="amenitiesEn" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label">الصور</label>
+                        <div class="d-flex gap-2 mb-2">
+                            <div class="image-upload-zone flex-grow-1" id="imageUploadZone">
+                                <i class="bi bi-cloud-upload d-block"></i>
+                                <p class="mb-0">اسحب الصور هنا أو انقر للاختيار</p>
+                            </div>
+                            <button type="button" class="btn btn-outline-primary" onclick="openMediaLibraryForImages()"
+                                style="min-width: 150px;">
+                                <i class="bi bi-images me-1"></i>اختيار من المكتبة
+                            </button>
+                        </div>
+                        <input type="file" id="imageInput" multiple accept="image/*" style="display: none;">
+                        <div class="image-preview" id="imagePreview"></div>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-gold"><i class="bi bi-check-lg me-2"></i>حفظ</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="hideForm()">إلغاء</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quill@1.3.7/dist/quill.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    <script src="/admin/js/media-library.js"></script>
+    <script>
+        let items = [];
+        let imageUploader;
+        let quillAr, quillEn;
+
+        // Open media library and add selected images
+        function openMediaLibraryForImages() {
+            openMediaLibrary((selectedImages) => {
+                const images = Array.isArray(selectedImages) ? selectedImages : [selectedImages];
+                images.forEach(img => {
+                    imageUploader.addImage(img.url);
+                });
+            }, { multiple: true });
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (!await Admin.checkAuth()) return;
+            Admin.initSidebar();
+            quillAr = new Quill('#descriptionArEditor', { theme: 'snow', modules: { toolbar: [['bold', 'italic'], [{ 'list': 'bullet' }], ['clean']] } });
+            quillEn = new Quill('#descriptionEnEditor', { theme: 'snow', modules: { toolbar: [['bold', 'italic'], [{ 'list': 'bullet' }], ['clean']] } });
+            imageUploader = Admin.initImageUpload('imageUploadZone', 'imagePreview', 'imageInput');
+
+            // Load locations from settings
+            try {
+                const locations = await Admin.adminFetch('/api/settings/locations');
+                const locationSelect = document.getElementById('locationSelect');
+                locationSelect.innerHTML = '<option value="">اختر الموقع</option>';
+                locations.forEach(loc => {
+                    const option = document.createElement('option');
+                    option.value = loc.id;
+                    option.textContent = loc.name?.ar || '';
+                    option.dataset.nameAr = loc.name?.ar || '';
+                    option.dataset.nameEn = loc.name?.en || '';
+                    locationSelect.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Error loading locations:', error);
+            }
+
+            loadData();
+            if (new URLSearchParams(window.location.search).get('action') === 'add') showAddForm();
+        });
+
+        let currentPage = 1;
+        let totalPages = 1;
+        let totalItems = 0;
+        const ITEMS_PER_PAGE = 20;
+
+        async function loadData(page = 1) {
+            try {
+                currentPage = page;
+                const params = new URLSearchParams({
+                    page: page,
+                    limit: ITEMS_PER_PAGE,
+                    withPagination: 'true'
+                });
+
+                const result = await Admin.adminFetch(`/api/projects?${params}`);
+
+                if (result.pagination) {
+                    totalPages = result.pagination.totalPages;
+                    totalItems = result.pagination.total;
+                    items = result.data;
+                } else {
+                    items = result;
+                    totalItems = result.length;
+                }
+
+                renderTable();
+                renderAdminPagination();
+
+                // Setup filter listeners (only once)
+                if (page === 1) {
+                    document.getElementById('filterLocation').addEventListener('change', applyFilters);
+                    document.getElementById('filterStatus').addEventListener('change', applyFilters);
+                    document.getElementById('searchInput').addEventListener('input', applyFilters);
+                }
+            } catch (error) { Admin.showAlert('فشل التحميل', 'danger'); }
+        }
+
+        function renderAdminPagination() {
+            const paginationEl = document.getElementById('adminPagination');
+            if (totalPages <= 1) {
+                paginationEl.innerHTML = `<small class="text-muted">إجمالي: ${totalItems} مشروع</small>`;
+                return;
+            }
+
+            const pages = [];
+            if (totalPages <= 7) {
+                for (let i = 1; i <= totalPages; i++) pages.push(i);
+            } else {
+                pages.push(1);
+                if (currentPage > 4) pages.push('...');
+                for (let i = Math.max(2, currentPage - 2); i <= Math.min(totalPages - 1, currentPage + 2); i++) pages.push(i);
+                if (currentPage < totalPages - 3) pages.push('...');
+                pages.push(totalPages);
+            }
+
+            paginationEl.innerHTML = `
+                <small class="text-muted">عرض ${(currentPage - 1) * ITEMS_PER_PAGE + 1} - ${Math.min(currentPage * ITEMS_PER_PAGE, totalItems)} من ${totalItems}</small>
+                <nav>
+                    <ul class="pagination pagination-sm mb-0">
+                        <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                            <a class="page-link" href="#" onclick="loadData(${currentPage - 1}); return false;"><i class="bi bi-chevron-right"></i></a>
+                        </li>
+                        ${pages.map(p => p === '...'
+                ? '<li class="page-item disabled"><span class="page-link">...</span></li>'
+                : `<li class="page-item ${p === currentPage ? 'active' : ''}"><a class="page-link" href="#" onclick="loadData(${p}); return false;">${p}</a></li>`
+            ).join('')}
+                        <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                            <a class="page-link" href="#" onclick="loadData(${currentPage + 1}); return false;"><i class="bi bi-chevron-left"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            `;
+        }
+
+        function applyFilters() {
+            const location = document.getElementById('filterLocation').value;
+            const status = document.getElementById('filterStatus').value;
+            const search = document.getElementById('searchInput').value.toLowerCase();
+
+            const filtered = items.filter(item => {
+                if (location && item.locationId !== location) return false;
+                if (status && item.status !== status) return false;
+                if (search && !item.title?.ar?.toLowerCase().includes(search) && !item.title?.en?.toLowerCase().includes(search)) return false;
+                return true;
+            });
+
+            renderFilteredTable(filtered);
+        }
+
+        function renderFilteredTable(data) {
+            const tbody = document.getElementById('tableBody');
+            if (data.length === 0) { tbody.innerHTML = '<tr><td colspan="6" class="text-center py-4">لا توجد بيانات</td></tr>'; return; }
+            tbody.innerHTML = data.map(item => `
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="${item.images?.[0] || '/images/placeholder.jpg'}" class="rounded me-3" style="width: 60px; height: 60px; object-fit: cover;" loading="lazy">
+                            <div><div class="fw-bold">${item.title?.ar || ''}</div></div>
+                        </div>
+                    </td>
+                    <td>${item.developer?.ar || ''}</td>
+                    <td>${item.location?.ar || ''}</td>
+                    <td>${item.availableUnits || 0} / ${item.totalUnits || 0}</td>
+                    <td><span class="badge-status ${item.status}">${item.status === 'active' ? 'نشط' : 'غير نشط'}</span></td>
+                    <td>
+                        <button class="btn btn-sm btn-outline-primary me-1" onclick="editItem('${item.id}')" title="تعديل"><i class="bi bi-pencil"></i></button>
+                        <button class="btn btn-sm btn-outline-success me-1" onclick="duplicateItem('${item.id}')" title="نسخ"><i class="bi bi-copy"></i></button>
+                        <button class="btn btn-sm btn-outline-danger" onclick="deleteItem('${item.id}')" title="حذف"><i class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function renderTable() {
+            renderFilteredTable(items);
+        }
+
+        function showAddForm() {
+            document.getElementById('formCard').style.display = 'block';
+            document.getElementById('listCard').style.display = 'none';
+            document.getElementById('formTitle').textContent = 'إضافة مشروع';
+            document.getElementById('dataForm').reset();
+            document.getElementById('itemId').value = '';
+            quillAr.root.innerHTML = '';
+            imageUploader.setImages([]);
+        }
+
+        function hideForm() {
+            document.getElementById('formCard').style.display = 'none';
+            document.getElementById('listCard').style.display = 'block';
+        }
+
+        function editItem(id) {
+            const item = items.find(i => i.id === id);
+            if (!item) return;
+            document.getElementById('formCard').style.display = 'block';
+            document.getElementById('listCard').style.display = 'none';
+            document.getElementById('formTitle').textContent = 'تعديل المشروع';
+            document.getElementById('itemId').value = item.id;
+            document.getElementById('titleAr').value = item.title?.ar || '';
+            document.getElementById('titleEn').value = item.title?.en || '';
+            document.getElementById('developerAr').value = item.developer?.ar || '';
+            document.getElementById('developerEn').value = item.developer?.en || '';
+            // Try to find matching location
+            const locSelect = document.getElementById('locationSelect');
+            let locFound = false;
+            for (let opt of locSelect.options) {
+                if (opt.dataset.nameAr === item.location?.ar || opt.dataset.nameEn === item.location?.en) {
+                    locSelect.value = opt.value;
+                    locFound = true;
+                    break;
+                }
+            }
+            if (!locFound) locSelect.value = '';
+            document.getElementById('totalUnits').value = item.totalUnits || '';
+            document.getElementById('availableUnits').value = item.availableUnits || '';
+            document.getElementById('minPrice').value = item.priceRange?.min || '';
+            document.getElementById('maxPrice').value = item.priceRange?.max || '';
+            document.getElementById('status').value = item.status;
+            document.getElementById('featured').value = item.featured ? 'true' : 'false';
+            document.getElementById('amenitiesAr').value = item.amenities?.ar?.join('\n') || '';
+            document.getElementById('amenitiesEn').value = item.amenities?.en?.join('\n') || '';
+            quillAr.root.innerHTML = Admin.decodeHtml(item.description?.ar || '');
+            quillEn.root.innerHTML = Admin.decodeHtml(item.description?.en || '');
+            imageUploader.setImages(item.images || []);
+        }
+
+        async function deleteItem(id) {
+            if (!await Admin.confirmAction('هل أنت متأكد من الحذف؟')) return;
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch(`/api/projects/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم الحذف بنجاح');
+                loadData();
+            } catch (error) { Admin.showAlert('فشل الحذف', 'danger'); } finally { Admin.hideLoading(); }
+        }
+
+        async function duplicateItem(id) {
+            if (!await Admin.confirmAction('هل تريد نسخ هذا المشروع؟')) return;
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch(`/api/projects/${id}/duplicate`, { method: 'POST' });
+                Admin.showAlert('تم نسخ المشروع بنجاح');
+                loadData();
+            } catch (error) { Admin.showAlert('فشل نسخ المشروع', 'danger'); } finally { Admin.hideLoading(); }
+        }
+
+        document.getElementById('dataForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const itemId = document.getElementById('itemId').value;
+            const amenitiesAr = document.getElementById('amenitiesAr').value.split('\n').filter(f => f.trim());
+            const amenitiesEn = document.getElementById('amenitiesEn').value.split('\n').filter(f => f.trim());
+            const locSelect = document.getElementById('locationSelect');
+            const selectedLoc = locSelect.options[locSelect.selectedIndex];
+
+            const data = {
+                title: { ar: document.getElementById('titleAr').value, en: document.getElementById('titleEn').value },
+                developer: { ar: document.getElementById('developerAr').value, en: document.getElementById('developerEn').value },
+                location: { ar: selectedLoc?.dataset.nameAr || '', en: selectedLoc?.dataset.nameEn || '' },
+                locationId: locSelect.value,
+                description: { ar: quillAr.root.innerHTML, en: quillEn.root.innerHTML },
+                totalUnits: parseInt(document.getElementById('totalUnits').value) || 0,
+                availableUnits: parseInt(document.getElementById('availableUnits').value) || 0,
+                priceRange: { min: parseInt(document.getElementById('minPrice').value) || 0, max: parseInt(document.getElementById('maxPrice').value) || 0 },
+                status: document.getElementById('status').value,
+                featured: document.getElementById('featured').value === 'true',
+                amenities: { ar: amenitiesAr, en: amenitiesEn },
+                images: imageUploader.getImages()
+            };
+            try {
+                Admin.showLoading();
+                if (itemId) { await Admin.adminFetch(`/api/projects/${itemId}`, { method: 'PUT', body: JSON.stringify(data) }); }
+                else { await Admin.adminFetch('/api/projects', { method: 'POST', body: JSON.stringify(data) }); }
+                Admin.showAlert('تم الحفظ بنجاح');
+                hideForm();
+                loadData();
+            } catch (error) { Admin.showAlert('فشل الحفظ', 'danger'); } finally { Admin.hideLoading(); }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,367 @@
+{
+  "data": [
+    {
+      "id": "unit-000126",
+      "title": {
+        "ar": "دوبلكس 246 متر - 6 أكتوبر",
+        "en": "Duplex 246 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 246 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 246 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1100000,
+      "area": 246,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Parking",
+          "Maid Room",
+          "Large Terrace",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "8",
+      "floor": "الرابع",
+      "unitNumber": "1446",
+      "usableSpace": 209,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0050",
+      "createdAt": "2025-12-27T03:44:50.296Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.296Z"
+    },
+    {
+      "id": "unit-000166",
+      "title": {
+        "ar": "استوديو 453 متر - المعادي",
+        "en": "Studio 453 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 453 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 453 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1100000,
+      "area": 453,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "إطلالة بحرية",
+          "حمام سباحة خاص",
+          "مصعد خاص"
+        ],
+        "en": [
+          "24/7 Security",
+          "Premium Finish",
+          "Maid Room",
+          "Parking",
+          "Sea View",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "24",
+      "floor": "الأول",
+      "unitNumber": "4356",
+      "usableSpace": 385,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0048",
+      "createdAt": "2025-12-27T03:44:50.579Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.579Z"
+    },
+    {
+      "id": "unit-000202",
+      "title": {
+        "ar": "شاليه 176 متر - الرحاب",
+        "en": "Chalet 176 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 176 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 176 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1100000,
+      "area": 176,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "غرفة خادمة",
+          "قريب من المواصلات",
+          "حديقة خاصة",
+          "إطلالة بحرية",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Private Elevator",
+          "Private Garden",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "20",
+      "floor": "الرابع",
+      "unitNumber": "9189",
+      "usableSpace": 150,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0032",
+      "createdAt": "2025-12-27T03:44:50.907Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.907Z"
+    },
+    {
+      "id": "unit-000323",
+      "title": {
+        "ar": "تاون هاوس 348 متر - جولف بورتو مارينا",
+        "en": "Townhouse 348 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 348 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 348 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1100000,
+      "area": 348,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "موقف سيارات",
+          "تراس واسع",
+          "تكييف مركزي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Gym",
+          "Private Elevator",
+          "Near Transportation",
+          "Large Terrace",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "47",
+      "floor": "الرابع",
+      "unitNumber": "9825",
+      "usableSpace": 296,
+      "gardenShare": 94,
+      "view": "street",
+      "projectId": "project-0040",
+      "createdAt": "2025-12-27T03:44:52.080Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.080Z"
+    },
+    {
+      "id": "unit-000360",
+      "title": {
+        "ar": "شاليه 330 متر - مدينتي",
+        "en": "Chalet 330 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 330 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 330 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1100000,
+      "area": 330,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Large Terrace",
+          "Maid Room",
+          "Near Transportation",
+          "Private Elevator",
+          "Sea View",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "12",
+      "floor": "السادس",
+      "unitNumber": "9304",
+      "usableSpace": 281,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0017",
+      "createdAt": "2025-12-27T03:44:52.460Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.460Z"
+    },
+    {
+      "id": "unit-000474",
+      "title": {
+        "ar": "دوبلكس 242 متر - 6 أكتوبر",
+        "en": "Duplex 242 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 242 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 242 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1100000,
+      "area": 242,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "غرفة خادمة",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Sea View",
+          "Near Transportation",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "27",
+      "floor": "الأرضي",
+      "unitNumber": "2621",
+      "usableSpace": 206,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0027",
+      "createdAt": "2025-12-27T03:44:53.657Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.657Z"
+    }
+  ],
+  "total": 6,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "1100000"
+  },
+  "generatedAt": "2025-12-27T22:58:11.968Z"
+}

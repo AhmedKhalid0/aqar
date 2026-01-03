@@ -1,0 +1,768 @@
+{
+  "data": [
+    {
+      "id": "unit-000014",
+      "title": {
+        "ar": "فيلا 382 متر - المعادي",
+        "en": "Villa 382 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 382 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 382 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7100000,
+      "area": 382,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "نادي رياضي",
+          "أمن 24 ساعة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Private Elevator",
+          "Gym",
+          "Near Transportation",
+          "Premium Finish",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "48",
+      "floor": "الثالث",
+      "unitNumber": "499",
+      "usableSpace": 325,
+      "gardenShare": 197,
+      "view": "street",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:49.885Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.885Z"
+    },
+    {
+      "id": "unit-000032",
+      "title": {
+        "ar": "استوديو 334 متر - الساحل الشمالي",
+        "en": "Studio 334 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 334 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 334 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8000000,
+      "area": 334,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Gym",
+          "Private Pool",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "9",
+      "floor": "الخامس",
+      "unitNumber": "7837",
+      "usableSpace": 284,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:49.914Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.914Z"
+    },
+    {
+      "id": "unit-000039",
+      "title": {
+        "ar": "بنتهاوس 244 متر - مدينتي",
+        "en": "Penthouse 244 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 244 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 244 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7200000,
+      "area": 244,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "مصعد خاص",
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات",
+          "إطلالة بحرية",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Parking",
+          "Large Terrace",
+          "Near Transportation",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "18",
+      "floor": "الأول",
+      "unitNumber": "524",
+      "usableSpace": 207,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:49.929Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.929Z"
+    },
+    {
+      "id": "unit-000055",
+      "title": {
+        "ar": "تاون هاوس 346 متر - 6 أكتوبر",
+        "en": "Townhouse 346 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 346 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 346 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3900000,
+      "area": 346,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "مصعد خاص",
+          "تراس واسع",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Maid Room",
+          "Sea View",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "الأول",
+      "unitNumber": "1286",
+      "usableSpace": 294,
+      "gardenShare": 192,
+      "view": "",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:49.972Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.972Z"
+    },
+    {
+      "id": "unit-000096",
+      "title": {
+        "ar": "شاليه 354 متر - الشيخ زايد",
+        "en": "Chalet 354 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 354 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 354 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6000000,
+      "area": 354,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Parking",
+          "Gym",
+          "Large Terrace",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "28",
+      "floor": "الرابع",
+      "unitNumber": "9995",
+      "usableSpace": 301,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:50.137Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.137Z"
+    },
+    {
+      "id": "unit-000159",
+      "title": {
+        "ar": "فيلا 421 متر - الساحل الشمالي",
+        "en": "Villa 421 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 421 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 421 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3700000,
+      "area": 421,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "حديقة خاصة",
+          "مصعد خاص",
+          "نادي رياضي"
+        ],
+        "en": [
+          "24/7 Security",
+          "Private Elevator",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "34",
+      "floor": "الثالث",
+      "unitNumber": "2905",
+      "usableSpace": 358,
+      "gardenShare": 107,
+      "view": "garden",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:50.526Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.526Z"
+    },
+    {
+      "id": "unit-000220",
+      "title": {
+        "ar": "فيلا 165 متر - العاصمة الإدارية",
+        "en": "Villa 165 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 165 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 165 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4900000,
+      "area": 165,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Private Garden",
+          "Parking",
+          "Central AC",
+          "Maid Room",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "49",
+      "floor": "الخامس",
+      "unitNumber": "8487",
+      "usableSpace": 140,
+      "gardenShare": 181,
+      "view": "golf",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:51.073Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.073Z"
+    },
+    {
+      "id": "unit-000224",
+      "title": {
+        "ar": "شقة 162 متر - 6 أكتوبر",
+        "en": "Apartment 162 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 162 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 162 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3900000,
+      "area": 162,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "مصعد خاص",
+          "تشطيب سوبر لوكس",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Parking",
+          "Sea View",
+          "Private Garden",
+          "Near Transportation",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "17",
+      "floor": "الثالث",
+      "unitNumber": "528",
+      "usableSpace": 138,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:51.109Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.109Z"
+    },
+    {
+      "id": "unit-000284",
+      "title": {
+        "ar": "شاليه 77 متر - جولف بورتو مارينا",
+        "en": "Chalet 77 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 77 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 77 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1400000,
+      "area": 77,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "مصعد خاص",
+          "موقف سيارات",
+          "نادي رياضي",
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Sea View",
+          "Gym",
+          "24/7 Security",
+          "Central AC",
+          "Maid Room",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "18",
+      "floor": "الأرضي",
+      "unitNumber": "7458",
+      "usableSpace": 65,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:51.698Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.698Z"
+    },
+    {
+      "id": "unit-000320",
+      "title": {
+        "ar": "دوبلكس 349 متر - جولف بورتو مارينا",
+        "en": "Duplex 349 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 349 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 349 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3600000,
+      "area": 349,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "cash",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Gym",
+          "Private Elevator",
+          "Large Terrace",
+          "Premium Finish",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "12",
+      "floor": "الرابع",
+      "unitNumber": "6998",
+      "usableSpace": 297,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:52.051Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.051Z"
+    },
+    {
+      "id": "unit-000395",
+      "title": {
+        "ar": "استوديو 340 متر - جولف بورتو مارينا",
+        "en": "Studio 340 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 340 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 340 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 900000,
+      "area": 340,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حديقة خاصة",
+          "تراس واسع",
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Sea View",
+          "Private Garden",
+          "Private Elevator",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الثاني",
+      "unitNumber": "6261",
+      "usableSpace": 289,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:52.831Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.831Z"
+    },
+    {
+      "id": "unit-000416",
+      "title": {
+        "ar": "بنتهاوس 110 متر - التجمع الخامس",
+        "en": "Penthouse 110 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 110 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 110 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4600000,
+      "area": 110,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "نادي رياضي",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Gym",
+          "Large Terrace",
+          "Near Transportation",
+          "Premium Finish",
+          "Sea View",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "18",
+      "floor": "الخامس",
+      "unitNumber": "3808",
+      "usableSpace": 94,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:53.056Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.056Z"
+    },
+    {
+      "id": "unit-000447",
+      "title": {
+        "ar": "توين هاوس 200 متر - العين السخنة",
+        "en": "Twin House 200 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 200 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 200 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9500000,
+      "area": 200,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Private Garden",
+          "Near Transportation",
+          "Gym",
+          "Parking",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "13",
+      "floor": "الرابع",
+      "unitNumber": "4680",
+      "usableSpace": 170,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:53.369Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.369Z"
+    }
+  ],
+  "total": 13,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "projectId": "project-0043"
+  },
+  "generatedAt": "2025-12-27T22:58:07.368Z"
+}

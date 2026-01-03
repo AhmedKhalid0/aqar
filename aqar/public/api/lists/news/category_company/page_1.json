@@ -1,0 +1,434 @@
+{
+  "data": [
+    {
+      "id": "news-0006",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات المعادي 6",
+        "en": "New City Achieves Record Sales Maadi 6"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.945Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.945Z"
+    },
+    {
+      "id": "news-0009",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات المعادي 9",
+        "en": "New City Achieves Record Sales Maadi 9"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.947Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.947Z"
+    },
+    {
+      "id": "news-0010",
+      "title": {
+        "ar": "توسعات جديدة لشركة نيو سيتي جولف بورتو مارينا 10",
+        "en": "New City Announces Expansion Golf Porto Marina 10"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن توسعات جديدة لشركة نيو سيتي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Announces Expansion.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن توسعات جديدة لشركة نيو سيتي في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Announces Expansion as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.947Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.947Z"
+    },
+    {
+      "id": "news-0013",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات مدينتي 13",
+        "en": "New City Achieves Record Sales Madinaty 13"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.950Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.950Z"
+    },
+    {
+      "id": "news-0014",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات جولف بورتو مارينا 14",
+        "en": "New City Achieves Record Sales Golf Porto Marina 14"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.951Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.951Z"
+    },
+    {
+      "id": "news-0016",
+      "title": {
+        "ar": "توسعات جديدة لشركة نيو سيتي مدينتي 16",
+        "en": "New City Announces Expansion Madinaty 16"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن توسعات جديدة لشركة نيو سيتي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Announces Expansion.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن توسعات جديدة لشركة نيو سيتي في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Announces Expansion as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.953Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.953Z"
+    },
+    {
+      "id": "news-0018",
+      "title": {
+        "ar": "توسعات جديدة لشركة نيو سيتي الشيخ زايد 18",
+        "en": "New City Announces Expansion Sheikh Zayed 18"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن توسعات جديدة لشركة نيو سيتي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Announces Expansion.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن توسعات جديدة لشركة نيو سيتي في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Announces Expansion as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.954Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.954Z"
+    },
+    {
+      "id": "news-0020",
+      "title": {
+        "ar": "شراكة استراتيجية جديدة الشيخ زايد 20",
+        "en": "New Strategic Partnership Sheikh Zayed 20"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن شراكة استراتيجية جديدة.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New Strategic Partnership.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن شراكة استراتيجية جديدة في إطار استراتيجية التوسع...",
+        "en": "New City announced New Strategic Partnership as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.956Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.956Z"
+    },
+    {
+      "id": "news-0021",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات الشيخ زايد 21",
+        "en": "New City Achieves Record Sales Sheikh Zayed 21"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.958Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.958Z"
+    },
+    {
+      "id": "news-0025",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات جولف بورتو مارينا 25",
+        "en": "New City Achieves Record Sales Golf Porto Marina 25"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.964Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.964Z"
+    },
+    {
+      "id": "news-0026",
+      "title": {
+        "ar": "شراكة استراتيجية جديدة 6 أكتوبر 26",
+        "en": "New Strategic Partnership 6th of October 26"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن شراكة استراتيجية جديدة.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New Strategic Partnership.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن شراكة استراتيجية جديدة في إطار استراتيجية التوسع...",
+        "en": "New City announced New Strategic Partnership as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.965Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.965Z"
+    },
+    {
+      "id": "news-0029",
+      "title": {
+        "ar": "توسعات جديدة لشركة نيو سيتي التجمع الخامس 29",
+        "en": "New City Announces Expansion Fifth Settlement 29"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن توسعات جديدة لشركة نيو سيتي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Announces Expansion.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن توسعات جديدة لشركة نيو سيتي في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Announces Expansion as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.969Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.969Z"
+    },
+    {
+      "id": "news-0037",
+      "title": {
+        "ar": "توسعات جديدة لشركة نيو سيتي العاصمة الإدارية 37",
+        "en": "New City Announces Expansion New Capital 37"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن توسعات جديدة لشركة نيو سيتي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Announces Expansion.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن توسعات جديدة لشركة نيو سيتي في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Announces Expansion as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.982Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.982Z"
+    },
+    {
+      "id": "news-0042",
+      "title": {
+        "ar": "توسعات جديدة لشركة نيو سيتي التجمع الخامس 42",
+        "en": "New City Announces Expansion Fifth Settlement 42"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن توسعات جديدة لشركة نيو سيتي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Announces Expansion.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن توسعات جديدة لشركة نيو سيتي في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Announces Expansion as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.992Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.992Z"
+    },
+    {
+      "id": "news-0051",
+      "title": {
+        "ar": "شراكة استراتيجية جديدة الرحاب 51",
+        "en": "New Strategic Partnership Rehab City 51"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن شراكة استراتيجية جديدة.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New Strategic Partnership.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن شراكة استراتيجية جديدة في إطار استراتيجية التوسع...",
+        "en": "New City announced New Strategic Partnership as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.012Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.012Z"
+    },
+    {
+      "id": "news-0053",
+      "title": {
+        "ar": "شراكة استراتيجية جديدة العاصمة الإدارية 53",
+        "en": "New Strategic Partnership New Capital 53"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن شراكة استراتيجية جديدة.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New Strategic Partnership.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن شراكة استراتيجية جديدة في إطار استراتيجية التوسع...",
+        "en": "New City announced New Strategic Partnership as part of expansion strategy..."
+      },
+      "image": "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.017Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.017Z"
+    },
+    {
+      "id": "news-0055",
+      "title": {
+        "ar": "شراكة استراتيجية جديدة الرحاب 55",
+        "en": "New Strategic Partnership Rehab City 55"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن شراكة استراتيجية جديدة.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New Strategic Partnership.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن شراكة استراتيجية جديدة في إطار استراتيجية التوسع...",
+        "en": "New City announced New Strategic Partnership as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.021Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.021Z"
+    },
+    {
+      "id": "news-0056",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات الرحاب 56",
+        "en": "New City Achieves Record Sales Rehab City 56"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.024Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.024Z"
+    },
+    {
+      "id": "news-0060",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات جولف بورتو مارينا 60",
+        "en": "New City Achieves Record Sales Golf Porto Marina 60"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.035Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.035Z"
+    },
+    {
+      "id": "news-0064",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات 6 أكتوبر 64",
+        "en": "New City Achieves Record Sales 6th of October 64"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.046Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.046Z"
+    }
+  ],
+  "total": 28,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 2,
+  "hasNext": true,
+  "hasPrev": false,
+  "filter": {
+    "category": "company"
+  },
+  "generatedAt": "2025-12-27T22:58:13.893Z"
+}

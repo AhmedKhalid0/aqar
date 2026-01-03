@@ -1,0 +1,302 @@
+{
+  "data": [
+    {
+      "id": "unit-000228",
+      "title": {
+        "ar": "استوديو 54 متر - 6 أكتوبر",
+        "en": "Studio 54 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 54 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 54 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7700000,
+      "area": 54,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "10-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "تراس واسع",
+          "حمام سباحة خاص",
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Gym",
+          "Premium Finish",
+          "Large Terrace",
+          "Private Elevator",
+          "Maid Room",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "3",
+      "floor": "الرابع",
+      "unitNumber": "9688",
+      "usableSpace": 46,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0040",
+      "createdAt": "2025-12-27T03:44:51.146Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.146Z"
+    },
+    {
+      "id": "unit-000252",
+      "title": {
+        "ar": "دوبلكس 274 متر - العاصمة الإدارية",
+        "en": "Duplex 274 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 274 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 274 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7700000,
+      "area": 274,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "قريب من المواصلات",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "24/7 Security",
+          "Near Transportation",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "30",
+      "floor": "الأرضي",
+      "unitNumber": "5253",
+      "usableSpace": 233,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0010",
+      "createdAt": "2025-12-27T03:44:51.367Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.367Z"
+    },
+    {
+      "id": "unit-000263",
+      "title": {
+        "ar": "فيلا 255 متر - الرحاب",
+        "en": "Villa 255 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 255 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 255 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7700000,
+      "area": 255,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "أمن 24 ساعة",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Garden",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "39",
+      "floor": "الثاني",
+      "unitNumber": "2772",
+      "usableSpace": 217,
+      "gardenShare": 127,
+      "view": "street",
+      "projectId": "project-0016",
+      "createdAt": "2025-12-27T03:44:51.480Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.480Z"
+    },
+    {
+      "id": "unit-000297",
+      "title": {
+        "ar": "بنتهاوس 56 متر - الشيخ زايد",
+        "en": "Penthouse 56 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 56 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 56 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7700000,
+      "area": 56,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حديقة خاصة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Parking",
+          "24/7 Security",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الأول",
+      "unitNumber": "2092",
+      "usableSpace": 48,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0031",
+      "createdAt": "2025-12-27T03:44:51.825Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.825Z"
+    },
+    {
+      "id": "unit-000484",
+      "title": {
+        "ar": "فيلا 218 متر - الساحل الشمالي",
+        "en": "Villa 218 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 218 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 218 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7700000,
+      "area": 218,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "تراس واسع",
+          "تكييف مركزي",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Premium Finish",
+          "Near Transportation",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "10",
+      "floor": "الخامس",
+      "unitNumber": "4268",
+      "usableSpace": 185,
+      "gardenShare": 172,
+      "view": "pool",
+      "projectId": "project-0046",
+      "createdAt": "2025-12-27T03:44:53.764Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.764Z"
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "7700000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.863Z"
+}

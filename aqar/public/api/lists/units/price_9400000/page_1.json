@@ -1,0 +1,191 @@
+{
+  "data": [
+    {
+      "id": "unit-000258",
+      "title": {
+        "ar": "تاون هاوس 362 متر - التجمع الخامس",
+        "en": "Townhouse 362 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 362 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 362 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9400000,
+      "area": 362,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "غرفة خادمة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Garden",
+          "Gym",
+          "Maid Room",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "24",
+      "floor": "الأرضي",
+      "unitNumber": "3129",
+      "usableSpace": 308,
+      "gardenShare": 142,
+      "view": "sea",
+      "projectId": "project-0049",
+      "createdAt": "2025-12-27T03:44:51.422Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.422Z"
+    },
+    {
+      "id": "unit-000314",
+      "title": {
+        "ar": "استوديو 487 متر - المعادي",
+        "en": "Studio 487 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 487 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 487 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9400000,
+      "area": 487,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "8-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "مصعد خاص",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Parking",
+          "Private Pool",
+          "24/7 Security",
+          "Private Garden",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "23",
+      "floor": "الثالث",
+      "unitNumber": "3621",
+      "usableSpace": 414,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0032",
+      "createdAt": "2025-12-27T03:44:51.992Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.992Z"
+    },
+    {
+      "id": "unit-000435",
+      "title": {
+        "ar": "بنتهاوس 405 متر - المعادي",
+        "en": "Penthouse 405 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 405 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 405 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9400000,
+      "area": 405,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "تشطيب سوبر لوكس",
+          "تكييف مركزي",
+          "أمن 24 ساعة",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Maid Room",
+          "Parking",
+          "Central AC",
+          "Private Pool",
+          "24/7 Security",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الثاني",
+      "unitNumber": "7069",
+      "usableSpace": 344,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0031",
+      "createdAt": "2025-12-27T03:44:53.244Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.244Z"
+    }
+  ],
+  "total": 3,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "9400000"
+  },
+  "generatedAt": "2025-12-27T22:58:13.091Z"
+}

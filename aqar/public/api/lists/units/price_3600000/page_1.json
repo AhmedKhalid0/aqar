@@ -1,0 +1,303 @@
+{
+  "data": [
+    {
+      "id": "unit-000130",
+      "title": {
+        "ar": "بنتهاوس 225 متر - 6 أكتوبر",
+        "en": "Penthouse 225 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 225 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 225 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3600000,
+      "area": 225,
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "نادي رياضي",
+          "قريب من المواصلات",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Near Transportation",
+          "Premium Finish",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "38",
+      "floor": "الثاني",
+      "unitNumber": "7518",
+      "usableSpace": 191,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0007",
+      "createdAt": "2025-12-27T03:44:50.320Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.320Z"
+    },
+    {
+      "id": "unit-000171",
+      "title": {
+        "ar": "شاليه 318 متر - الساحل الشمالي",
+        "en": "Chalet 318 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 318 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 318 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3600000,
+      "area": 318,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Large Terrace",
+          "Private Garden",
+          "Private Pool",
+          "24/7 Security",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "25",
+      "floor": "السادس",
+      "unitNumber": "1064",
+      "usableSpace": 270,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0015",
+      "createdAt": "2025-12-27T03:44:50.620Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.620Z"
+    },
+    {
+      "id": "unit-000178",
+      "title": {
+        "ar": "فيلا 462 متر - الشيخ زايد",
+        "en": "Villa 462 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 462 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 462 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3600000,
+      "area": 462,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "24/7 Security",
+          "Parking",
+          "Private Elevator",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "46",
+      "floor": "الثالث",
+      "unitNumber": "1511",
+      "usableSpace": 393,
+      "gardenShare": 175,
+      "view": "golf",
+      "projectId": "project-0008",
+      "createdAt": "2025-12-27T03:44:50.677Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.677Z"
+    },
+    {
+      "id": "unit-000278",
+      "title": {
+        "ar": "استوديو 479 متر - 6 أكتوبر",
+        "en": "Studio 479 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 479 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 479 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3600000,
+      "area": 479,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "10-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "مصعد خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Gym",
+          "24/7 Security",
+          "Parking",
+          "Maid Room",
+          "Sea View",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "السادس",
+      "unitNumber": "2919",
+      "usableSpace": 407,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0048",
+      "createdAt": "2025-12-27T03:44:51.641Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.641Z"
+    },
+    {
+      "id": "unit-000320",
+      "title": {
+        "ar": "دوبلكس 349 متر - جولف بورتو مارينا",
+        "en": "Duplex 349 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 349 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 349 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3600000,
+      "area": 349,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "cash",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Gym",
+          "Private Elevator",
+          "Large Terrace",
+          "Premium Finish",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "12",
+      "floor": "الرابع",
+      "unitNumber": "6998",
+      "usableSpace": 297,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:52.051Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.051Z"
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "3600000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.274Z"
+}

@@ -1,0 +1,1089 @@
+{
+  "data": [
+    {
+      "id": "project-0001",
+      "title": {
+        "ar": "مشروع ماونتن فيو - المعادي 1",
+        "en": "Mountain View Project - Maadi 1"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في المعادي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 741 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Maadi, combining luxury and comfort with unique architectural designs. The project includes 741 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "ماونتن فيو",
+        "en": "Mountain View"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "totalUnits": 741,
+      "availableUnits": 610,
+      "priceRange": {
+        "min": 8000000,
+        "max": 13000000
+      },
+      "amenities": {
+        "ar": [
+          "مسجد",
+          "ملاعب جولف",
+          "مدارس دولية",
+          "ملاعب تنس",
+          "مناطق ترفيهية للأطفال",
+          "نادي صحي",
+          "حمامات سباحة",
+          "حدائق طبيعية"
+        ],
+        "en": [
+          "International Schools",
+          "Golf Courses",
+          "Kids Play Areas",
+          "Spa"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.784Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.784Z"
+    },
+    {
+      "id": "project-0002",
+      "title": {
+        "ar": "مشروع ماونتن فيو - العين السخنة 2",
+        "en": "Mountain View Project - Ain Sokhna 2"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في العين السخنة، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1112 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Ain Sokhna, combining luxury and comfort with unique architectural designs. The project includes 1112 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "ماونتن فيو",
+        "en": "Mountain View"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "totalUnits": 1112,
+      "availableUnits": 592,
+      "priceRange": {
+        "min": 5000000,
+        "max": 15000000
+      },
+      "amenities": {
+        "ar": [
+          "أمن 24 ساعة",
+          "مطاعم راقية",
+          "مسجد",
+          "حدائق طبيعية",
+          "سبا"
+        ],
+        "en": [
+          "Kids Play Areas",
+          "Tennis Courts",
+          "Fine Dining",
+          "International Schools",
+          "Spa",
+          "Mosque",
+          "Health Club"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.786Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.786Z"
+    },
+    {
+      "id": "project-0003",
+      "title": {
+        "ar": "مشروع طلعت مصطفى - الشيخ زايد 3",
+        "en": "Talaat Moustafa Project - Sheikh Zayed 3"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في الشيخ زايد، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 616 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Sheikh Zayed, combining luxury and comfort with unique architectural designs. The project includes 616 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "طلعت مصطفى",
+        "en": "Talaat Moustafa"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "totalUnits": 616,
+      "availableUnits": 514,
+      "priceRange": {
+        "min": 7000000,
+        "max": 13000000
+      },
+      "amenities": {
+        "ar": [
+          "مدارس دولية",
+          "ملاعب تنس",
+          "كلوب هاوس",
+          "حمامات سباحة",
+          "أمن 24 ساعة",
+          "حدائق طبيعية"
+        ],
+        "en": [
+          "Tennis Courts",
+          "International Schools",
+          "24/7 Security",
+          "Jogging Tracks",
+          "Fine Dining",
+          "Club House",
+          "Health Club"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.786Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.786Z"
+    },
+    {
+      "id": "project-0004",
+      "title": {
+        "ar": "مشروع هايد بارك - التجمع الخامس 4",
+        "en": "Hyde Park Project - Fifth Settlement 4"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في التجمع الخامس، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1488 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Fifth Settlement, combining luxury and comfort with unique architectural designs. The project includes 1488 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "هايد بارك",
+        "en": "Hyde Park"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "totalUnits": 1488,
+      "availableUnits": 751,
+      "priceRange": {
+        "min": 10000000,
+        "max": 18000000
+      },
+      "amenities": {
+        "ar": [
+          "مسجد",
+          "كلوب هاوس",
+          "ملاعب جولف",
+          "مراكز تسوق",
+          "ملاعب تنس"
+        ],
+        "en": [
+          "Swimming Pools",
+          "Kids Play Areas",
+          "Golf Courses",
+          "Club House",
+          "Landscaped Gardens",
+          "Health Club",
+          "Spa"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.787Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.787Z"
+    },
+    {
+      "id": "project-0005",
+      "title": {
+        "ar": "مشروع طلعت مصطفى - مدينتي 5",
+        "en": "Talaat Moustafa Project - Madinaty 5"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في مدينتي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 185 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Madinaty, combining luxury and comfort with unique architectural designs. The project includes 185 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "طلعت مصطفى",
+        "en": "Talaat Moustafa"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "totalUnits": 185,
+      "availableUnits": 86,
+      "priceRange": {
+        "min": 1000000,
+        "max": 12000000
+      },
+      "amenities": {
+        "ar": [
+          "مسجد",
+          "مسارات للجري",
+          "نادي صحي",
+          "مطاعم راقية",
+          "مراكز تسوق",
+          "مدارس دولية",
+          "سبا",
+          "ملاعب تنس"
+        ],
+        "en": [
+          "24/7 Security",
+          "Shopping Centers",
+          "Fine Dining",
+          "Golf Courses",
+          "Swimming Pools",
+          "Spa"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.788Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.788Z"
+    },
+    {
+      "id": "project-0006",
+      "title": {
+        "ar": "مشروع سوديك - العاصمة الإدارية 6",
+        "en": "SODIC Project - New Capital 6"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في العاصمة الإدارية، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 913 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in New Capital, combining luxury and comfort with unique architectural designs. The project includes 913 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "سوديك",
+        "en": "SODIC"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "totalUnits": 913,
+      "availableUnits": 626,
+      "priceRange": {
+        "min": 10000000,
+        "max": 25000000
+      },
+      "amenities": {
+        "ar": [
+          "مراكز تسوق",
+          "ملاعب تنس",
+          "نادي صحي",
+          "أمن 24 ساعة",
+          "مطاعم راقية"
+        ],
+        "en": [
+          "Mosque",
+          "Swimming Pools",
+          "Golf Courses",
+          "Health Club",
+          "Tennis Courts"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.789Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.789Z"
+    },
+    {
+      "id": "project-0007",
+      "title": {
+        "ar": "مشروع بالم هيلز - مدينتي 7",
+        "en": "Palm Hills Project - Madinaty 7"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في مدينتي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1795 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Madinaty, combining luxury and comfort with unique architectural designs. The project includes 1795 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "بالم هيلز",
+        "en": "Palm Hills"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "totalUnits": 1795,
+      "availableUnits": 886,
+      "priceRange": {
+        "min": 7000000,
+        "max": 22000000
+      },
+      "amenities": {
+        "ar": [
+          "حمامات سباحة",
+          "أمن 24 ساعة",
+          "ملاعب تنس",
+          "مطاعم راقية"
+        ],
+        "en": [
+          "Mosque",
+          "Health Club",
+          "Landscaped Gardens",
+          "24/7 Security",
+          "Fine Dining"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.790Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.790Z"
+    },
+    {
+      "id": "project-0008",
+      "title": {
+        "ar": "مشروع هايد بارك - الشيخ زايد 8",
+        "en": "Hyde Park Project - Sheikh Zayed 8"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في الشيخ زايد، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 585 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Sheikh Zayed, combining luxury and comfort with unique architectural designs. The project includes 585 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "هايد بارك",
+        "en": "Hyde Park"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "totalUnits": 585,
+      "availableUnits": 516,
+      "priceRange": {
+        "min": 8000000,
+        "max": 24000000
+      },
+      "amenities": {
+        "ar": [
+          "مدارس دولية",
+          "مسجد",
+          "نادي صحي",
+          "ملاعب تنس"
+        ],
+        "en": [
+          "Club House",
+          "Golf Courses",
+          "Fine Dining",
+          "Shopping Centers",
+          "Jogging Tracks",
+          "Spa"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.792Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.792Z"
+    },
+    {
+      "id": "project-0009",
+      "title": {
+        "ar": "مشروع نيو سيتي - الشيخ زايد 9",
+        "en": "New City Project - Sheikh Zayed 9"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في الشيخ زايد، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 940 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Sheikh Zayed, combining luxury and comfort with unique architectural designs. The project includes 940 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "نيو سيتي",
+        "en": "New City"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "totalUnits": 940,
+      "availableUnits": 653,
+      "priceRange": {
+        "min": 2000000,
+        "max": 12000000
+      },
+      "amenities": {
+        "ar": [
+          "حدائق طبيعية",
+          "مدارس دولية",
+          "ملاعب جولف",
+          "مسجد",
+          "سبا"
+        ],
+        "en": [
+          "Jogging Tracks",
+          "Tennis Courts",
+          "Swimming Pools",
+          "Golf Courses",
+          "Shopping Centers",
+          "Spa",
+          "International Schools"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.793Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.793Z"
+    },
+    {
+      "id": "project-0010",
+      "title": {
+        "ar": "مشروع بالم هيلز - المعادي 10",
+        "en": "Palm Hills Project - Maadi 10"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في المعادي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 578 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Maadi, combining luxury and comfort with unique architectural designs. The project includes 578 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "بالم هيلز",
+        "en": "Palm Hills"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "totalUnits": 578,
+      "availableUnits": 387,
+      "priceRange": {
+        "min": 9000000,
+        "max": 25000000
+      },
+      "amenities": {
+        "ar": [
+          "ملاعب جولف",
+          "مراكز تسوق",
+          "سبا",
+          "ملاعب تنس",
+          "حمامات سباحة",
+          "مدارس دولية"
+        ],
+        "en": [
+          "Mosque",
+          "Health Club",
+          "Club House",
+          "Golf Courses",
+          "Jogging Tracks",
+          "Landscaped Gardens",
+          "Spa",
+          "Fine Dining"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.794Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.794Z"
+    },
+    {
+      "id": "project-0011",
+      "title": {
+        "ar": "مشروع هايد بارك - المعادي 11",
+        "en": "Hyde Park Project - Maadi 11"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في المعادي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1784 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Maadi, combining luxury and comfort with unique architectural designs. The project includes 1784 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "هايد بارك",
+        "en": "Hyde Park"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "totalUnits": 1784,
+      "availableUnits": 1500,
+      "priceRange": {
+        "min": 7000000,
+        "max": 24000000
+      },
+      "amenities": {
+        "ar": [
+          "مدارس دولية",
+          "ملاعب جولف",
+          "حدائق طبيعية",
+          "مناطق ترفيهية للأطفال",
+          "كلوب هاوس",
+          "مسارات للجري",
+          "سبا",
+          "مراكز تسوق"
+        ],
+        "en": [
+          "Tennis Courts",
+          "Health Club",
+          "24/7 Security",
+          "Fine Dining",
+          "Club House",
+          "Jogging Tracks",
+          "Landscaped Gardens"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.795Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.795Z"
+    },
+    {
+      "id": "project-0012",
+      "title": {
+        "ar": "مشروع سوديك - 6 أكتوبر 12",
+        "en": "SODIC Project - 6th of October 12"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في 6 أكتوبر، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 786 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in 6th of October, combining luxury and comfort with unique architectural designs. The project includes 786 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "سوديك",
+        "en": "SODIC"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "totalUnits": 786,
+      "availableUnits": 200,
+      "priceRange": {
+        "min": 8000000,
+        "max": 25000000
+      },
+      "amenities": {
+        "ar": [
+          "نادي صحي",
+          "كلوب هاوس",
+          "مناطق ترفيهية للأطفال",
+          "ملاعب جولف"
+        ],
+        "en": [
+          "Golf Courses",
+          "24/7 Security",
+          "Jogging Tracks",
+          "Kids Play Areas",
+          "Fine Dining",
+          "Club House",
+          "Tennis Courts"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.796Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.796Z"
+    },
+    {
+      "id": "project-0013",
+      "title": {
+        "ar": "مشروع بالم هيلز - التجمع الخامس 13",
+        "en": "Palm Hills Project - Fifth Settlement 13"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في التجمع الخامس، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1653 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Fifth Settlement, combining luxury and comfort with unique architectural designs. The project includes 1653 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "بالم هيلز",
+        "en": "Palm Hills"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "totalUnits": 1653,
+      "availableUnits": 1080,
+      "priceRange": {
+        "min": 1000000,
+        "max": 19000000
+      },
+      "amenities": {
+        "ar": [
+          "كلوب هاوس",
+          "مطاعم راقية",
+          "حمامات سباحة",
+          "مراكز تسوق",
+          "مناطق ترفيهية للأطفال"
+        ],
+        "en": [
+          "24/7 Security",
+          "International Schools",
+          "Jogging Tracks",
+          "Fine Dining",
+          "Spa",
+          "Club House"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.797Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.797Z"
+    },
+    {
+      "id": "project-0014",
+      "title": {
+        "ar": "مشروع سوديك - العاصمة الإدارية 14",
+        "en": "SODIC Project - New Capital 14"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في العاصمة الإدارية، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 266 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in New Capital, combining luxury and comfort with unique architectural designs. The project includes 266 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "سوديك",
+        "en": "SODIC"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "totalUnits": 266,
+      "availableUnits": 201,
+      "priceRange": {
+        "min": 5000000,
+        "max": 16000000
+      },
+      "amenities": {
+        "ar": [
+          "مدارس دولية",
+          "كلوب هاوس",
+          "ملاعب جولف",
+          "حدائق طبيعية",
+          "سبا"
+        ],
+        "en": [
+          "Golf Courses",
+          "Shopping Centers",
+          "Spa",
+          "Tennis Courts",
+          "Health Club"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.799Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.799Z"
+    },
+    {
+      "id": "project-0015",
+      "title": {
+        "ar": "مشروع هايد بارك - الساحل الشمالي 15",
+        "en": "Hyde Park Project - North Coast 15"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في الساحل الشمالي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1800 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in North Coast, combining luxury and comfort with unique architectural designs. The project includes 1800 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "هايد بارك",
+        "en": "Hyde Park"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "totalUnits": 1800,
+      "availableUnits": 527,
+      "priceRange": {
+        "min": 7000000,
+        "max": 14000000
+      },
+      "amenities": {
+        "ar": [
+          "حمامات سباحة",
+          "ملاعب تنس",
+          "مدارس دولية",
+          "أمن 24 ساعة",
+          "مسجد",
+          "ملاعب جولف"
+        ],
+        "en": [
+          "24/7 Security",
+          "Golf Courses",
+          "Spa",
+          "Fine Dining",
+          "Club House",
+          "Shopping Centers"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.800Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.800Z"
+    },
+    {
+      "id": "project-0016",
+      "title": {
+        "ar": "مشروع هايد بارك - مدينتي 16",
+        "en": "Hyde Park Project - Madinaty 16"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في مدينتي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1583 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Madinaty, combining luxury and comfort with unique architectural designs. The project includes 1583 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "هايد بارك",
+        "en": "Hyde Park"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "totalUnits": 1583,
+      "availableUnits": 662,
+      "priceRange": {
+        "min": 8000000,
+        "max": 25000000
+      },
+      "amenities": {
+        "ar": [
+          "مسارات للجري",
+          "أمن 24 ساعة",
+          "مطاعم راقية",
+          "مناطق ترفيهية للأطفال",
+          "سبا",
+          "نادي صحي",
+          "حدائق طبيعية"
+        ],
+        "en": [
+          "Golf Courses",
+          "Mosque",
+          "Spa",
+          "Health Club",
+          "Tennis Courts",
+          "International Schools",
+          "Club House"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.801Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.801Z"
+    },
+    {
+      "id": "project-0017",
+      "title": {
+        "ar": "مشروع لافيستا - العاصمة الإدارية 17",
+        "en": "La Vista Project - New Capital 17"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في العاصمة الإدارية، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 725 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in New Capital, combining luxury and comfort with unique architectural designs. The project includes 725 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "لافيستا",
+        "en": "La Vista"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "totalUnits": 725,
+      "availableUnits": 262,
+      "priceRange": {
+        "min": 8000000,
+        "max": 25000000
+      },
+      "amenities": {
+        "ar": [
+          "مناطق ترفيهية للأطفال",
+          "ملاعب جولف",
+          "مسجد",
+          "سبا",
+          "مطاعم راقية"
+        ],
+        "en": [
+          "Mosque",
+          "Golf Courses",
+          "Spa",
+          "Fine Dining",
+          "Kids Play Areas",
+          "Club House",
+          "Tennis Courts"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.802Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.802Z"
+    },
+    {
+      "id": "project-0018",
+      "title": {
+        "ar": "مشروع سوديك - جولف بورتو مارينا 18",
+        "en": "SODIC Project - Golf Porto Marina 18"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في جولف بورتو مارينا، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 887 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Golf Porto Marina, combining luxury and comfort with unique architectural designs. The project includes 887 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "سوديك",
+        "en": "SODIC"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "totalUnits": 887,
+      "availableUnits": 609,
+      "priceRange": {
+        "min": 6000000,
+        "max": 19000000
+      },
+      "amenities": {
+        "ar": [
+          "أمن 24 ساعة",
+          "حدائق طبيعية",
+          "مناطق ترفيهية للأطفال",
+          "مطاعم راقية",
+          "نادي صحي",
+          "سبا"
+        ],
+        "en": [
+          "Golf Courses",
+          "Spa",
+          "Jogging Tracks",
+          "Tennis Courts",
+          "Shopping Centers",
+          "International Schools"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2025-12-27T03:44:49.803Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.803Z"
+    },
+    {
+      "id": "project-0019",
+      "title": {
+        "ar": "مشروع طلعت مصطفى - العاصمة الإدارية 19",
+        "en": "Talaat Moustafa Project - New Capital 19"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في العاصمة الإدارية، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1330 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in New Capital, combining luxury and comfort with unique architectural designs. The project includes 1330 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "طلعت مصطفى",
+        "en": "Talaat Moustafa"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "totalUnits": 1330,
+      "availableUnits": 279,
+      "priceRange": {
+        "min": 4000000,
+        "max": 11000000
+      },
+      "amenities": {
+        "ar": [
+          "مراكز تسوق",
+          "حدائق طبيعية",
+          "حمامات سباحة",
+          "كلوب هاوس",
+          "مسجد",
+          "ملاعب جولف",
+          "نادي صحي"
+        ],
+        "en": [
+          "Tennis Courts",
+          "Swimming Pools",
+          "Landscaped Gardens",
+          "International Schools",
+          "Fine Dining",
+          "Club House"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.805Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.805Z"
+    },
+    {
+      "id": "project-002",
+      "title": {
+        "ar": "عمارة 13",
+        "en": "Building 13"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في قلب مدينة الشيخ زايد، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة.</p>",
+        "en": "<p>An integrated residential community in the heart of Sheikh Zayed City, combining luxury and comfort with unique architectural designs.</p>"
+      },
+      "developer": {
+        "ar": "نيو سيتي",
+        "en": "New City"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "totalUnits": 800,
+      "availableUnits": 200,
+      "priceRange": {
+        "min": 3000000,
+        "max": 25000000
+      },
+      "amenities": {
+        "ar": [
+          "ملاعب جولف",
+          "سبا",
+          "مطاعم راقية",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Golf Courses",
+          "Spa",
+          "Fine Dining",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "status": "active",
+      "featured": true,
+      "createdAt": "2024-01-12T11:00:00.000Z",
+      "createdBy": "admin-001",
+      "locationId": "golf-porto-marina",
+      "updatedAt": "2025-12-25T06:35:46.989Z"
+    }
+  ],
+  "total": 51,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 3,
+  "hasNext": true,
+  "hasPrev": false,
+  "filter": {
+    "location": "[object Object]"
+  },
+  "generatedAt": "2025-12-27T22:58:13.344Z"
+}

@@ -1,0 +1,132 @@
+{
+  "data": [
+    {
+      "id": "unit-000044",
+      "title": {
+        "ar": "دوبلكس 465 متر - الشيخ زايد",
+        "en": "Duplex 465 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 465 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 465 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2100000,
+      "area": 465,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "موقف سيارات",
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس",
+          "أمن 24 ساعة",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Private Elevator",
+          "Parking",
+          "Gym",
+          "Central AC",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "السادس",
+      "unitNumber": "4151",
+      "usableSpace": 395,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0018",
+      "createdAt": "2025-12-27T03:44:49.942Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.942Z"
+    },
+    {
+      "id": "unit-000073",
+      "title": {
+        "ar": "تاون هاوس 373 متر - الساحل الشمالي",
+        "en": "Townhouse 373 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 373 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 373 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2100000,
+      "area": 373,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "10-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Private Garden",
+          "Near Transportation",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "35",
+      "floor": "الثاني",
+      "unitNumber": "7579",
+      "usableSpace": 317,
+      "gardenShare": 63,
+      "view": "pool",
+      "projectId": "project-0048",
+      "createdAt": "2025-12-27T03:44:50.033Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.033Z"
+    }
+  ],
+  "total": 2,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "2100000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.089Z"
+}

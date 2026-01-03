@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة التعليقات | عقار</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="sidebarContainer"></div>
+
+    <main class="admin-main">
+        <header class="admin-header">
+            <button class="sidebar-toggle"><i class="bi bi-list"></i></button>
+            <h1>إدارة التعليقات</h1>
+            <div>
+                <select class="form-select form-select-sm" id="filterStatus" style="width: auto;">
+                    <option value="">جميع التعليقات</option>
+                    <option value="pending">في الانتظار</option>
+                    <option value="approved">معتمدة</option>
+                </select>
+            </div>
+        </header>
+
+        <div class="admin-content">
+            <div class="data-card">
+                <div class="data-card-body">
+                    <div class="table-responsive">
+                        <table class="table data-table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>الاسم</th>
+                                    <th>التقييم</th>
+                                    <th>التعليق</th>
+                                    <th>الحالة</th>
+                                    <th>التاريخ</th>
+                                    <th>الإجراءات</th>
+                                </tr>
+                            </thead>
+                            <tbody id="reviewsTableBody">
+                                <tr>
+                                    <td colspan="6" class="text-center py-4">جاري التحميل...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    <script>
+        let reviews = [];
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (!await Admin.checkAuth()) return;
+            Admin.initSidebar();
+            loadReviews();
+
+            document.getElementById('filterStatus').addEventListener('change', filterReviews);
+        });
+
+        async function loadReviews() {
+            try {
+                const response = await Admin.adminFetch('/api/admin/reviews');
+                reviews = response.data || response || [];
+                reviews.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+                renderReviews(reviews);
+            } catch (error) {
+                Admin.showAlert('فشل تحميل التعليقات', 'danger');
+            }
+        }
+
+        function filterReviews() {
+            const status = document.getElementById('filterStatus').value;
+            const filtered = status ? reviews.filter(r => r.status === status) : reviews;
+            renderReviews(filtered);
+        }
+
+        function renderReviews(data) {
+            const tbody = document.getElementById('reviewsTableBody');
+            if (data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" class="text-center py-4">لا توجد تعليقات</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = data.map(review => `
+                <tr>
+                    <td><strong>${review.name}</strong></td>
+                    <td class="text-gold">${'★'.repeat(review.rating)}${'☆'.repeat(5 - review.rating)}</td>
+                    <td style="max-width: 300px;">
+                        <div class="text-truncate">${review.comment?.ar || review.comment || ''}</div>
+                    </td>
+                    <td>
+                        <span class="badge-status ${review.status}">
+                            ${review.status === 'approved' ? 'معتمد' : 'في الانتظار'}
+                        </span>
+                    </td>
+                    <td><small class="text-muted">${Admin.formatDate(review.createdAt)}</small></td>
+                    <td>
+                        ${review.status === 'pending' ? `
+                            <button class="btn btn-sm btn-success me-1" onclick="approveReview('${review.id}')" title="اعتماد">
+                                <i class="bi bi-check-lg"></i>
+                            </button>
+                        ` : ''}
+                        <button class="btn btn-sm btn-outline-danger" onclick="deleteReview('${review.id}')" title="حذف">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        async function approveReview(id) {
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch(`/api/admin/reviews/${id}/approve`, { method: 'PUT' });
+                Admin.showAlert('تم اعتماد التعليق');
+                loadReviews();
+            } catch (error) {
+                Admin.showAlert('فشل اعتماد التعليق', 'danger');
+            } finally {
+                Admin.hideLoading();
+            }
+        }
+
+        async function deleteReview(id) {
+            if (!await Admin.confirmAction('هل أنت متأكد من حذف هذا التعليق؟')) return;
+
+            try {
+                Admin.showLoading();
+                await Admin.adminFetch(`/api/admin/reviews/${id}`, { method: 'DELETE' });
+                Admin.showAlert('تم حذف التعليق');
+                loadReviews();
+            } catch (error) {
+                Admin.showAlert('فشل حذف التعليق', 'danger');
+            } finally {
+                Admin.hideLoading();
+            }
+        }
+    </script>
+</body>
+
+</html>

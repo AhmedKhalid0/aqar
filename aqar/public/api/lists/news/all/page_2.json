@@ -1,0 +1,430 @@
+{
+  "data": [
+    {
+      "id": "news-002",
+      "title": {
+        "ar": "نصائح لشراء عقار استثماري ناجح",
+        "en": "Tips for Buying a Successful Investment Property"
+      },
+      "content": {
+        "ar": "<p>يعتبر الاستثمار العقاري من أفضل أنواع الاستثمارات طويلة المدى. إليك بعض النصائح الهامة:</p><ul><li>اختر الموقع بعناية</li><li>ادرس السوق جيداً</li><li>تحقق من المطور العقاري</li></ul>",
+        "en": "<p>Real estate investment is one of the best types of long-term investments. Here are some important tips:</p><ul><li>Choose the location carefully</li><li>Study the market well</li><li>Verify the developer</li></ul>"
+      },
+      "excerpt": {
+        "ar": "يعتبر الاستثمار العقاري من أفضل أنواع الاستثمارات...",
+        "en": "Real estate investment is one of the best types of investments..."
+      },
+      "image": "/uploads/sample-news-2.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2024-02-05T10:30:00.000Z",
+      "createdBy": "admin-001"
+    },
+    {
+      "id": "news-0020",
+      "title": {
+        "ar": "شراكة استراتيجية جديدة الشيخ زايد 20",
+        "en": "New Strategic Partnership Sheikh Zayed 20"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن شراكة استراتيجية جديدة.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New Strategic Partnership.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن شراكة استراتيجية جديدة في إطار استراتيجية التوسع...",
+        "en": "New City announced New Strategic Partnership as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.956Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.956Z"
+    },
+    {
+      "id": "news-0021",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات الشيخ زايد 21",
+        "en": "New City Achieves Record Sales Sheikh Zayed 21"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.958Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.958Z"
+    },
+    {
+      "id": "news-0022",
+      "title": {
+        "ar": "أفضل المناطق للاستثمار العقاري المعادي 22",
+        "en": "Best Areas for Real Estate Investment Maadi 22"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أفضل المناطق للاستثمار العقاري.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Best Areas for Real Estate Investment.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أفضل المناطق للاستثمار العقاري في إطار استراتيجية التوسع...",
+        "en": "New City announced Best Areas for Real Estate Investment as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+      "category": "market",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.959Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.959Z"
+    },
+    {
+      "id": "news-0023",
+      "title": {
+        "ar": "افتتاح مرحلة جديدة في مشروع المعادي 23",
+        "en": "Opening of New Phase in Project Maadi 23"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن افتتاح مرحلة جديدة في مشروع.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Opening of New Phase in Project.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن افتتاح مرحلة جديدة في مشروع في إطار استراتيجية التوسع...",
+        "en": "New City announced Opening of New Phase in Project as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+      "category": "projects",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.961Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.961Z"
+    },
+    {
+      "id": "news-0024",
+      "title": {
+        "ar": "ورشة عمل الاستثمار العقاري الرحاب 24",
+        "en": "Real Estate Investment Workshop Rehab City 24"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن ورشة عمل الاستثمار العقاري.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Real Estate Investment Workshop.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن ورشة عمل الاستثمار العقاري في إطار استراتيجية التوسع...",
+        "en": "New City announced Real Estate Investment Workshop as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+      "category": "events",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.962Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.962Z"
+    },
+    {
+      "id": "news-0025",
+      "title": {
+        "ar": "نيو سيتي تحقق رقماً قياسياً في المبيعات جولف بورتو مارينا 25",
+        "en": "New City Achieves Record Sales Golf Porto Marina 25"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نيو سيتي تحقق رقماً قياسياً في المبيعات.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Achieves Record Sales.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نيو سيتي تحقق رقماً قياسياً في المبيعات في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Achieves Record Sales as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.964Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.964Z"
+    },
+    {
+      "id": "news-0026",
+      "title": {
+        "ar": "شراكة استراتيجية جديدة 6 أكتوبر 26",
+        "en": "New Strategic Partnership 6th of October 26"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن شراكة استراتيجية جديدة.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New Strategic Partnership.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن شراكة استراتيجية جديدة في إطار استراتيجية التوسع...",
+        "en": "New City announced New Strategic Partnership as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.965Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.965Z"
+    },
+    {
+      "id": "news-0027",
+      "title": {
+        "ar": "توقعات أسعار العقارات لعام الساحل الشمالي 27",
+        "en": "Property Price Predictions for Year North Coast 27"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن توقعات أسعار العقارات لعام.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Property Price Predictions for Year.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن توقعات أسعار العقارات لعام في إطار استراتيجية التوسع...",
+        "en": "New City announced Property Price Predictions for Year as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+      "category": "market",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.966Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.966Z"
+    },
+    {
+      "id": "news-0028",
+      "title": {
+        "ar": "أهم العوامل عند شراء عقار التجمع الخامس 28",
+        "en": "Key Factors When Buying Property Fifth Settlement 28"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أهم العوامل عند شراء عقار.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Key Factors When Buying Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أهم العوامل عند شراء عقار في إطار استراتيجية التوسع...",
+        "en": "New City announced Key Factors When Buying Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.968Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.968Z"
+    },
+    {
+      "id": "news-0029",
+      "title": {
+        "ar": "توسعات جديدة لشركة نيو سيتي التجمع الخامس 29",
+        "en": "New City Announces Expansion Fifth Settlement 29"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن توسعات جديدة لشركة نيو سيتي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Announces Expansion.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن توسعات جديدة لشركة نيو سيتي في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Announces Expansion as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.969Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.969Z"
+    },
+    {
+      "id": "news-0030",
+      "title": {
+        "ar": "نصائح لشراء عقار استثماري ناجح الساحل الشمالي 30",
+        "en": "Tips for Buying a Successful Investment Property North Coast 30"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نصائح لشراء عقار استثماري ناجح.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Tips for Buying a Successful Investment Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نصائح لشراء عقار استثماري ناجح في إطار استراتيجية التوسع...",
+        "en": "New City announced Tips for Buying a Successful Investment Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.971Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.971Z"
+    },
+    {
+      "id": "news-0031",
+      "title": {
+        "ar": "معرض العقارات السنوي الساحل الشمالي 31",
+        "en": "Annual Real Estate Exhibition North Coast 31"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن معرض العقارات السنوي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Annual Real Estate Exhibition.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن معرض العقارات السنوي في إطار استراتيجية التوسع...",
+        "en": "New City announced Annual Real Estate Exhibition as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "events",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.972Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.972Z"
+    },
+    {
+      "id": "news-0032",
+      "title": {
+        "ar": "إطلاق مشروع سكني جديد في العين السخنة 32",
+        "en": "Launch of New Residential Project in Ain Sokhna 32"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن إطلاق مشروع سكني جديد في.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Launch of New Residential Project in.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن إطلاق مشروع سكني جديد في في إطار استراتيجية التوسع...",
+        "en": "New City announced Launch of New Residential Project in as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+      "category": "projects",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.974Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.974Z"
+    },
+    {
+      "id": "news-0033",
+      "title": {
+        "ar": "أهم العوامل عند شراء عقار مدينتي 33",
+        "en": "Key Factors When Buying Property Madinaty 33"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أهم العوامل عند شراء عقار.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Key Factors When Buying Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أهم العوامل عند شراء عقار في إطار استراتيجية التوسع...",
+        "en": "New City announced Key Factors When Buying Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.975Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.975Z"
+    },
+    {
+      "id": "news-0034",
+      "title": {
+        "ar": "كيف تختار الوحدة المناسبة لك الرحاب 34",
+        "en": "How to Choose the Right Unit for You Rehab City 34"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن كيف تختار الوحدة المناسبة لك.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced How to Choose the Right Unit for You.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن كيف تختار الوحدة المناسبة لك في إطار استراتيجية التوسع...",
+        "en": "New City announced How to Choose the Right Unit for You as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.977Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.977Z"
+    },
+    {
+      "id": "news-0035",
+      "title": {
+        "ar": "أهم العوامل عند شراء عقار التجمع الخامس 35",
+        "en": "Key Factors When Buying Property Fifth Settlement 35"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أهم العوامل عند شراء عقار.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Key Factors When Buying Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أهم العوامل عند شراء عقار في إطار استراتيجية التوسع...",
+        "en": "New City announced Key Factors When Buying Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.979Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.979Z"
+    },
+    {
+      "id": "news-0036",
+      "title": {
+        "ar": "معرض العقارات السنوي الساحل الشمالي 36",
+        "en": "Annual Real Estate Exhibition North Coast 36"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن معرض العقارات السنوي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Annual Real Estate Exhibition.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن معرض العقارات السنوي في إطار استراتيجية التوسع...",
+        "en": "New City announced Annual Real Estate Exhibition as part of expansion strategy..."
+      },
+      "image": "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+      "category": "events",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.980Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.980Z"
+    },
+    {
+      "id": "news-0037",
+      "title": {
+        "ar": "توسعات جديدة لشركة نيو سيتي العاصمة الإدارية 37",
+        "en": "New City Announces Expansion New Capital 37"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن توسعات جديدة لشركة نيو سيتي.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced New City Announces Expansion.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن توسعات جديدة لشركة نيو سيتي في إطار استراتيجية التوسع...",
+        "en": "New City announced New City Announces Expansion as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "company",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.982Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.982Z"
+    },
+    {
+      "id": "news-0038",
+      "title": {
+        "ar": "أفضل المناطق للاستثمار العقاري الرحاب 38",
+        "en": "Best Areas for Real Estate Investment Rehab City 38"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أفضل المناطق للاستثمار العقاري.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Best Areas for Real Estate Investment.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أفضل المناطق للاستثمار العقاري في إطار استراتيجية التوسع...",
+        "en": "New City announced Best Areas for Real Estate Investment as part of expansion strategy..."
+      },
+      "image": "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+      "category": "market",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.984Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.984Z"
+    }
+  ],
+  "total": 102,
+  "page": 2,
+  "limit": 20,
+  "totalPages": 6,
+  "hasNext": true,
+  "hasPrev": true,
+  "generatedAt": "2025-12-27T22:58:13.592Z"
+}

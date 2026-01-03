@@ -1,0 +1,1191 @@
+{
+  "data": [
+    {
+      "id": "unit-000183",
+      "title": {
+        "ar": "بنتهاوس 339 متر - 6 أكتوبر",
+        "en": "Penthouse 339 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 339 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 339 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5300000,
+      "area": 339,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Premium Finish",
+          "24/7 Security",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "الثالث",
+      "unitNumber": "6318",
+      "usableSpace": 288,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0044",
+      "createdAt": "2025-12-27T03:44:50.729Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.729Z"
+    },
+    {
+      "id": "unit-000188",
+      "title": {
+        "ar": "بنتهاوس 406 متر - العين السخنة",
+        "en": "Penthouse 406 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 406 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 406 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9200000,
+      "area": 406,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "تكييف مركزي",
+          "أمن 24 ساعة",
+          "حمام سباحة خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Garden",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "37",
+      "floor": "الثالث",
+      "unitNumber": "9082",
+      "usableSpace": 345,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0015",
+      "createdAt": "2025-12-27T03:44:50.778Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.778Z"
+    },
+    {
+      "id": "unit-000196",
+      "title": {
+        "ar": "بنتهاوس 231 متر - التجمع الخامس",
+        "en": "Penthouse 231 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 231 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 231 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5500000,
+      "area": 231,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Near Transportation",
+          "Private Elevator",
+          "Private Pool",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "34",
+      "floor": "الأرضي",
+      "unitNumber": "4343",
+      "usableSpace": 196,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0026",
+      "createdAt": "2025-12-27T03:44:50.854Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.854Z"
+    },
+    {
+      "id": "unit-000240",
+      "title": {
+        "ar": "بنتهاوس 126 متر - العين السخنة",
+        "en": "Penthouse 126 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 126 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 126 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6200000,
+      "area": 126,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "موقف سيارات",
+          "قريب من المواصلات",
+          "أمن 24 ساعة",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Premium Finish",
+          "Central AC",
+          "Private Pool",
+          "Private Elevator",
+          "Large Terrace",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "28",
+      "floor": "الخامس",
+      "unitNumber": "3706",
+      "usableSpace": 107,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0006",
+      "createdAt": "2025-12-27T03:44:51.256Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.256Z"
+    },
+    {
+      "id": "unit-000261",
+      "title": {
+        "ar": "بنتهاوس 122 متر - الرحاب",
+        "en": "Penthouse 122 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 122 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 122 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8700000,
+      "area": 122,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Near Transportation",
+          "Sea View",
+          "Gym",
+          "Private Elevator",
+          "Maid Room",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "38",
+      "floor": "الخامس",
+      "unitNumber": "1204",
+      "usableSpace": 104,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0002",
+      "createdAt": "2025-12-27T03:44:51.450Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.450Z"
+    },
+    {
+      "id": "unit-000267",
+      "title": {
+        "ar": "بنتهاوس 472 متر - جولف بورتو مارينا",
+        "en": "Penthouse 472 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 472 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 472 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4200000,
+      "area": 472,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "تكييف مركزي",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Sea View",
+          "Near Transportation",
+          "Premium Finish",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "45",
+      "floor": "الثالث",
+      "unitNumber": "4044",
+      "usableSpace": 401,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0033",
+      "createdAt": "2025-12-27T03:44:51.532Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.532Z"
+    },
+    {
+      "id": "unit-000297",
+      "title": {
+        "ar": "بنتهاوس 56 متر - الشيخ زايد",
+        "en": "Penthouse 56 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 56 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 56 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7700000,
+      "area": 56,
+      "bedrooms": 5,
+      "bathrooms": 1,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حديقة خاصة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Parking",
+          "24/7 Security",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الأول",
+      "unitNumber": "2092",
+      "usableSpace": 48,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0031",
+      "createdAt": "2025-12-27T03:44:51.825Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.825Z"
+    },
+    {
+      "id": "unit-000304",
+      "title": {
+        "ar": "بنتهاوس 182 متر - العين السخنة",
+        "en": "Penthouse 182 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 182 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 182 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9700000,
+      "area": 182,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "إطلالة بحرية",
+          "قريب من المواصلات",
+          "نادي رياضي",
+          "تراس واسع",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Near Transportation",
+          "Private Elevator",
+          "Large Terrace",
+          "Sea View",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "28",
+      "floor": "الأول",
+      "unitNumber": "7196",
+      "usableSpace": 155,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0010",
+      "createdAt": "2025-12-27T03:44:51.893Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.893Z"
+    },
+    {
+      "id": "unit-000311",
+      "title": {
+        "ar": "بنتهاوس 487 متر - مدينتي",
+        "en": "Penthouse 487 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 487 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 487 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9600000,
+      "area": 487,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "نادي رياضي",
+          "قريب من المواصلات",
+          "أمن 24 ساعة",
+          "مصعد خاص",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Premium Finish",
+          "Gym",
+          "Private Pool",
+          "Central AC",
+          "Private Garden",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "36",
+      "floor": "الثالث",
+      "unitNumber": "5107",
+      "usableSpace": 414,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0016",
+      "createdAt": "2025-12-27T03:44:51.961Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.961Z"
+    },
+    {
+      "id": "unit-000316",
+      "title": {
+        "ar": "بنتهاوس 175 متر - 6 أكتوبر",
+        "en": "Penthouse 175 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 175 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 175 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6000000,
+      "area": 175,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Maid Room",
+          "Private Elevator",
+          "Premium Finish",
+          "Central AC",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "27",
+      "floor": "الخامس",
+      "unitNumber": "8582",
+      "usableSpace": 149,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0011",
+      "createdAt": "2025-12-27T03:44:52.010Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.010Z"
+    },
+    {
+      "id": "unit-000317",
+      "title": {
+        "ar": "بنتهاوس 463 متر - المعادي",
+        "en": "Penthouse 463 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 463 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 463 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5700000,
+      "area": 463,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص",
+          "نادي رياضي",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Premium Finish",
+          "Maid Room",
+          "Private Pool",
+          "Gym",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "21",
+      "floor": "الثالث",
+      "unitNumber": "7711",
+      "usableSpace": 394,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0006",
+      "createdAt": "2025-12-27T03:44:52.020Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.020Z"
+    },
+    {
+      "id": "unit-000324",
+      "title": {
+        "ar": "بنتهاوس 161 متر - المعادي",
+        "en": "Penthouse 161 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 161 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 161 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4400000,
+      "area": 161,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "مصعد خاص",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Gym",
+          "Sea View",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "29",
+      "floor": "الأول",
+      "unitNumber": "9108",
+      "usableSpace": 137,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0028",
+      "createdAt": "2025-12-27T03:44:52.090Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.090Z"
+    },
+    {
+      "id": "unit-000331",
+      "title": {
+        "ar": "بنتهاوس 157 متر - مدينتي",
+        "en": "Penthouse 157 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 157 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 157 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6600000,
+      "area": 157,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "حمام سباحة خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Near Transportation",
+          "Gym",
+          "Sea View",
+          "Private Garden",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "29",
+      "floor": "الثاني",
+      "unitNumber": "3368",
+      "usableSpace": 133,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0048",
+      "createdAt": "2025-12-27T03:44:52.160Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.160Z"
+    },
+    {
+      "id": "unit-000351",
+      "title": {
+        "ar": "بنتهاوس 88 متر - الساحل الشمالي",
+        "en": "Penthouse 88 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 88 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 88 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4500000,
+      "area": 88,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years",
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس",
+          "أمن 24 ساعة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Gym",
+          "Sea View",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "41",
+      "floor": "الخامس",
+      "unitNumber": "1828",
+      "usableSpace": 75,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0027",
+      "createdAt": "2025-12-27T03:44:52.366Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.366Z"
+    },
+    {
+      "id": "unit-000356",
+      "title": {
+        "ar": "بنتهاوس 208 متر - الشيخ زايد",
+        "en": "Penthouse 208 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 208 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 208 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8700000,
+      "area": 208,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "قريب من المواصلات",
+          "نادي رياضي",
+          "غرفة خادمة",
+          "موقف سيارات",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Private Pool",
+          "Private Garden",
+          "Parking",
+          "Large Terrace",
+          "Private Elevator",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الأول",
+      "unitNumber": "4733",
+      "usableSpace": 177,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0003",
+      "createdAt": "2025-12-27T03:44:52.418Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.418Z"
+    },
+    {
+      "id": "unit-000357",
+      "title": {
+        "ar": "بنتهاوس 499 متر - التجمع الخامس",
+        "en": "Penthouse 499 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 499 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 499 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3100000,
+      "area": 499,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "cash",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "تراس واسع",
+          "قريب من المواصلات",
+          "تكييف مركزي",
+          "حمام سباحة خاص",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "24/7 Security",
+          "Gym",
+          "Private Pool",
+          "Private Garden",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "17",
+      "floor": "الخامس",
+      "unitNumber": "892",
+      "usableSpace": 424,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0031",
+      "createdAt": "2025-12-27T03:44:52.431Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.431Z"
+    },
+    {
+      "id": "unit-000368",
+      "title": {
+        "ar": "بنتهاوس 269 متر - الرحاب",
+        "en": "Penthouse 269 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 269 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 269 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2300000,
+      "area": 269,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "تراس واسع"
+        ],
+        "en": [
+          "Premium Finish",
+          "Parking",
+          "Large Terrace",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "21",
+      "floor": "الخامس",
+      "unitNumber": "1101",
+      "usableSpace": 229,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0012",
+      "createdAt": "2025-12-27T03:44:52.543Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.543Z"
+    },
+    {
+      "id": "unit-000369",
+      "title": {
+        "ar": "بنتهاوس 223 متر - التجمع الخامس",
+        "en": "Penthouse 223 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 223 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 223 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5900000,
+      "area": 223,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Central AC",
+          "Parking",
+          "Private Elevator",
+          "Premium Finish",
+          "Private Pool",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الخامس",
+      "unitNumber": "2937",
+      "usableSpace": 190,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0047",
+      "createdAt": "2025-12-27T03:44:52.555Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.555Z"
+    },
+    {
+      "id": "unit-000393",
+      "title": {
+        "ar": "بنتهاوس 388 متر - الشيخ زايد",
+        "en": "Penthouse 388 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 388 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 388 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6500000,
+      "area": 388,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash",
+        "8-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "موقف سيارات",
+          "غرفة خادمة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Private Elevator",
+          "24/7 Security",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "26",
+      "floor": "الثالث",
+      "unitNumber": "190",
+      "usableSpace": 330,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0031",
+      "createdAt": "2025-12-27T03:44:52.810Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.810Z"
+    },
+    {
+      "id": "unit-000405",
+      "title": {
+        "ar": "بنتهاوس 324 متر - الرحاب",
+        "en": "Penthouse 324 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 324 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 324 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9900000,
+      "area": 324,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "موقف سيارات",
+          "نادي رياضي",
+          "إطلالة بحرية",
+          "قريب من المواصلات",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Central AC",
+          "Private Elevator",
+          "Sea View",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "الثاني",
+      "unitNumber": "2465",
+      "usableSpace": 275,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0048",
+      "createdAt": "2025-12-27T03:44:52.943Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.943Z"
+    }
+  ],
+  "total": 52,
+  "page": 2,
+  "limit": 20,
+  "totalPages": 3,
+  "hasNext": true,
+  "hasPrev": true,
+  "filter": {
+    "type": "penthouse"
+  },
+  "generatedAt": "2025-12-27T22:58:09.553Z"
+}

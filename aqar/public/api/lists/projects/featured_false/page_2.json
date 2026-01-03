@@ -1,0 +1,397 @@
+{
+  "data": [
+    {
+      "id": "project-0038",
+      "title": {
+        "ar": "مشروع سوديك - العاصمة الإدارية 38",
+        "en": "SODIC Project - New Capital 38"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في العاصمة الإدارية، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 744 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in New Capital, combining luxury and comfort with unique architectural designs. The project includes 744 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "سوديك",
+        "en": "SODIC"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "totalUnits": 744,
+      "availableUnits": 247,
+      "priceRange": {
+        "min": 10000000,
+        "max": 29000000
+      },
+      "amenities": {
+        "ar": [
+          "مسارات للجري",
+          "ملاعب جولف",
+          "سبا",
+          "مناطق ترفيهية للأطفال",
+          "مراكز تسوق",
+          "كلوب هاوس",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Fine Dining",
+          "Health Club",
+          "24/7 Security",
+          "Kids Play Areas",
+          "Spa",
+          "Jogging Tracks"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.839Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.839Z"
+    },
+    {
+      "id": "project-0039",
+      "title": {
+        "ar": "مشروع نيو سيتي - التجمع الخامس 39",
+        "en": "New City Project - Fifth Settlement 39"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في التجمع الخامس، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1083 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Fifth Settlement, combining luxury and comfort with unique architectural designs. The project includes 1083 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "نيو سيتي",
+        "en": "New City"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "totalUnits": 1083,
+      "availableUnits": 378,
+      "priceRange": {
+        "min": 4000000,
+        "max": 17000000
+      },
+      "amenities": {
+        "ar": [
+          "مناطق ترفيهية للأطفال",
+          "مراكز تسوق",
+          "مدارس دولية",
+          "ملاعب تنس",
+          "كلوب هاوس",
+          "مسجد",
+          "نادي صحي"
+        ],
+        "en": [
+          "Swimming Pools",
+          "Club House",
+          "International Schools",
+          "Mosque",
+          "Golf Courses",
+          "Fine Dining",
+          "Spa",
+          "Tennis Courts"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.841Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.841Z"
+    },
+    {
+      "id": "project-0041",
+      "title": {
+        "ar": "مشروع ماونتن فيو - الشيخ زايد 41",
+        "en": "Mountain View Project - Sheikh Zayed 41"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في الشيخ زايد، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 494 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Sheikh Zayed, combining luxury and comfort with unique architectural designs. The project includes 494 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "ماونتن فيو",
+        "en": "Mountain View"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "totalUnits": 494,
+      "availableUnits": 181,
+      "priceRange": {
+        "min": 7000000,
+        "max": 24000000
+      },
+      "amenities": {
+        "ar": [
+          "مطاعم راقية",
+          "نادي صحي",
+          "سبا",
+          "حدائق طبيعية",
+          "مدارس دولية",
+          "مسارات للجري",
+          "مراكز تسوق",
+          "حمامات سباحة"
+        ],
+        "en": [
+          "Spa",
+          "International Schools",
+          "Landscaped Gardens",
+          "Golf Courses"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.847Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.847Z"
+    },
+    {
+      "id": "project-0042",
+      "title": {
+        "ar": "مشروع هايد بارك - الرحاب 42",
+        "en": "Hyde Park Project - Rehab City 42"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في الرحاب، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1308 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Rehab City, combining luxury and comfort with unique architectural designs. The project includes 1308 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "هايد بارك",
+        "en": "Hyde Park"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "totalUnits": 1308,
+      "availableUnits": 848,
+      "priceRange": {
+        "min": 9000000,
+        "max": 21000000
+      },
+      "amenities": {
+        "ar": [
+          "ملاعب جولف",
+          "سبا",
+          "مطاعم راقية",
+          "ملاعب تنس",
+          "أمن 24 ساعة",
+          "حمامات سباحة",
+          "نادي صحي"
+        ],
+        "en": [
+          "24/7 Security",
+          "Fine Dining",
+          "Club House",
+          "Spa"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.849Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.849Z"
+    },
+    {
+      "id": "project-0043",
+      "title": {
+        "ar": "مشروع طلعت مصطفى - الساحل الشمالي 43",
+        "en": "Talaat Moustafa Project - North Coast 43"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في الساحل الشمالي، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 214 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in North Coast, combining luxury and comfort with unique architectural designs. The project includes 214 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "طلعت مصطفى",
+        "en": "Talaat Moustafa"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "totalUnits": 214,
+      "availableUnits": 103,
+      "priceRange": {
+        "min": 1000000,
+        "max": 7000000
+      },
+      "amenities": {
+        "ar": [
+          "ملاعب جولف",
+          "كلوب هاوس",
+          "مدارس دولية",
+          "مسجد",
+          "مراكز تسوق",
+          "مناطق ترفيهية للأطفال",
+          "نادي صحي"
+        ],
+        "en": [
+          "Golf Courses",
+          "Spa",
+          "Kids Play Areas",
+          "24/7 Security",
+          "Jogging Tracks",
+          "Club House"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.851Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.851Z"
+    },
+    {
+      "id": "project-0045",
+      "title": {
+        "ar": "مشروع إعمار مصر - 6 أكتوبر 45",
+        "en": "Emaar Misr Project - 6th of October 45"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في 6 أكتوبر، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 918 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in 6th of October, combining luxury and comfort with unique architectural designs. The project includes 918 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "إعمار مصر",
+        "en": "Emaar Misr"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "totalUnits": 918,
+      "availableUnits": 253,
+      "priceRange": {
+        "min": 6000000,
+        "max": 18000000
+      },
+      "amenities": {
+        "ar": [
+          "حدائق طبيعية",
+          "ملاعب جولف",
+          "سبا",
+          "مناطق ترفيهية للأطفال"
+        ],
+        "en": [
+          "Health Club",
+          "International Schools",
+          "Fine Dining",
+          "Mosque",
+          "Tennis Courts",
+          "24/7 Security",
+          "Jogging Tracks",
+          "Spa"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.857Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.857Z"
+    },
+    {
+      "id": "project-0047",
+      "title": {
+        "ar": "مشروع هايد بارك - التجمع الخامس 47",
+        "en": "Hyde Park Project - Fifth Settlement 47"
+      },
+      "description": {
+        "ar": "<p>مجتمع سكني متكامل في التجمع الخامس، يجمع بين الفخامة والراحة مع تصاميم معمارية فريدة. يضم المشروع 1216 وحدة سكنية متنوعة.</p>",
+        "en": "<p>An integrated residential community in Fifth Settlement, combining luxury and comfort with unique architectural designs. The project includes 1216 diverse residential units.</p>"
+      },
+      "developer": {
+        "ar": "هايد بارك",
+        "en": "Hyde Park"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "totalUnits": 1216,
+      "availableUnits": 143,
+      "priceRange": {
+        "min": 5000000,
+        "max": 24000000
+      },
+      "amenities": {
+        "ar": [
+          "نادي صحي",
+          "مطاعم راقية",
+          "مناطق ترفيهية للأطفال",
+          "سبا",
+          "مسارات للجري"
+        ],
+        "en": [
+          "International Schools",
+          "Kids Play Areas",
+          "Spa",
+          "Golf Courses",
+          "Landscaped Gardens",
+          "Shopping Centers",
+          "Club House"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "status": "active",
+      "featured": false,
+      "createdAt": "2025-12-27T03:44:49.861Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.861Z"
+    }
+  ],
+  "total": 27,
+  "page": 2,
+  "limit": 20,
+  "totalPages": 2,
+  "hasNext": false,
+  "hasPrev": true,
+  "filter": {
+    "featured": "false"
+  },
+  "generatedAt": "2025-12-27T22:58:13.412Z"
+}

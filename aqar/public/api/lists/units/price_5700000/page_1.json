@@ -1,0 +1,367 @@
+{
+  "data": [
+    {
+      "id": "unit-000122",
+      "title": {
+        "ar": "شقة 104 متر - العين السخنة",
+        "en": "Apartment 104 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 104 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 104 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5700000,
+      "area": 104,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "8-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "تراس واسع",
+          "حمام سباحة خاص",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Parking",
+          "Near Transportation",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "49",
+      "floor": "الأول",
+      "unitNumber": "5166",
+      "usableSpace": 88,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0002",
+      "createdAt": "2025-12-27T03:44:50.272Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.272Z"
+    },
+    {
+      "id": "unit-000125",
+      "title": {
+        "ar": "بنتهاوس 196 متر - العاصمة الإدارية",
+        "en": "Penthouse 196 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 196 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 196 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5700000,
+      "area": 196,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "تكييف مركزي",
+          "إطلالة بحرية",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Parking",
+          "Premium Finish",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "39",
+      "floor": "الرابع",
+      "unitNumber": "9511",
+      "usableSpace": 167,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0025",
+      "createdAt": "2025-12-27T03:44:50.290Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.290Z"
+    },
+    {
+      "id": "unit-000292",
+      "title": {
+        "ar": "شقة 223 متر - 6 أكتوبر",
+        "en": "Apartment 223 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 223 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 223 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5700000,
+      "area": 223,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "حديقة خاصة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Maid Room",
+          "Sea View",
+          "Near Transportation",
+          "Gym",
+          "Premium Finish",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "48",
+      "floor": "الثاني",
+      "unitNumber": "5823",
+      "usableSpace": 190,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0014",
+      "createdAt": "2025-12-27T03:44:51.776Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.776Z"
+    },
+    {
+      "id": "unit-000317",
+      "title": {
+        "ar": "بنتهاوس 463 متر - المعادي",
+        "en": "Penthouse 463 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 463 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 463 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5700000,
+      "area": 463,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص",
+          "نادي رياضي",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Premium Finish",
+          "Maid Room",
+          "Private Pool",
+          "Gym",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "21",
+      "floor": "الثالث",
+      "unitNumber": "7711",
+      "usableSpace": 394,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0006",
+      "createdAt": "2025-12-27T03:44:52.020Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.020Z"
+    },
+    {
+      "id": "unit-000430",
+      "title": {
+        "ar": "تاون هاوس 62 متر - الشيخ زايد",
+        "en": "Townhouse 62 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 62 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 62 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5700000,
+      "area": 62,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years",
+        "8-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "موقف سيارات",
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Private Pool",
+          "Private Elevator",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "11",
+      "floor": "السادس",
+      "unitNumber": "5767",
+      "usableSpace": 53,
+      "gardenShare": 98,
+      "view": "garden",
+      "projectId": "project-0049",
+      "createdAt": "2025-12-27T03:44:53.194Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.194Z"
+    },
+    {
+      "id": "unit-000464",
+      "title": {
+        "ar": "تاون هاوس 68 متر - جولف بورتو مارينا",
+        "en": "Townhouse 68 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 68 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 68 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5700000,
+      "area": 68,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Maid Room",
+          "24/7 Security",
+          "Premium Finish",
+          "Sea View",
+          "Gym",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "35",
+      "floor": "السادس",
+      "unitNumber": "871",
+      "usableSpace": 58,
+      "gardenShare": 191,
+      "view": "pool",
+      "projectId": "project-0033",
+      "createdAt": "2025-12-27T03:44:53.551Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.551Z"
+    }
+  ],
+  "total": 6,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "5700000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.567Z"
+}

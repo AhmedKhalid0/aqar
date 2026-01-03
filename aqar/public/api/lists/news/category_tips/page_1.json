@@ -1,0 +1,412 @@
+{
+  "data": [
+    {
+      "id": "news-0008",
+      "title": {
+        "ar": "كيف تختار الوحدة المناسبة لك التجمع الخامس 8",
+        "en": "How to Choose the Right Unit for You Fifth Settlement 8"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن كيف تختار الوحدة المناسبة لك.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced How to Choose the Right Unit for You.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن كيف تختار الوحدة المناسبة لك في إطار استراتيجية التوسع...",
+        "en": "New City announced How to Choose the Right Unit for You as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.946Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.946Z"
+    },
+    {
+      "id": "news-0012",
+      "title": {
+        "ar": "نصائح لشراء عقار استثماري ناجح المعادي 12",
+        "en": "Tips for Buying a Successful Investment Property Maadi 12"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نصائح لشراء عقار استثماري ناجح.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Tips for Buying a Successful Investment Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نصائح لشراء عقار استثماري ناجح في إطار استراتيجية التوسع...",
+        "en": "New City announced Tips for Buying a Successful Investment Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.949Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.949Z"
+    },
+    {
+      "id": "news-0015",
+      "title": {
+        "ar": "نصائح لشراء عقار استثماري ناجح الشيخ زايد 15",
+        "en": "Tips for Buying a Successful Investment Property Sheikh Zayed 15"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نصائح لشراء عقار استثماري ناجح.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Tips for Buying a Successful Investment Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نصائح لشراء عقار استثماري ناجح في إطار استراتيجية التوسع...",
+        "en": "New City announced Tips for Buying a Successful Investment Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.952Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.952Z"
+    },
+    {
+      "id": "news-002",
+      "title": {
+        "ar": "نصائح لشراء عقار استثماري ناجح",
+        "en": "Tips for Buying a Successful Investment Property"
+      },
+      "content": {
+        "ar": "<p>يعتبر الاستثمار العقاري من أفضل أنواع الاستثمارات طويلة المدى. إليك بعض النصائح الهامة:</p><ul><li>اختر الموقع بعناية</li><li>ادرس السوق جيداً</li><li>تحقق من المطور العقاري</li></ul>",
+        "en": "<p>Real estate investment is one of the best types of long-term investments. Here are some important tips:</p><ul><li>Choose the location carefully</li><li>Study the market well</li><li>Verify the developer</li></ul>"
+      },
+      "excerpt": {
+        "ar": "يعتبر الاستثمار العقاري من أفضل أنواع الاستثمارات...",
+        "en": "Real estate investment is one of the best types of investments..."
+      },
+      "image": "/uploads/sample-news-2.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2024-02-05T10:30:00.000Z",
+      "createdBy": "admin-001"
+    },
+    {
+      "id": "news-0028",
+      "title": {
+        "ar": "أهم العوامل عند شراء عقار التجمع الخامس 28",
+        "en": "Key Factors When Buying Property Fifth Settlement 28"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أهم العوامل عند شراء عقار.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Key Factors When Buying Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أهم العوامل عند شراء عقار في إطار استراتيجية التوسع...",
+        "en": "New City announced Key Factors When Buying Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.968Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.968Z"
+    },
+    {
+      "id": "news-0030",
+      "title": {
+        "ar": "نصائح لشراء عقار استثماري ناجح الساحل الشمالي 30",
+        "en": "Tips for Buying a Successful Investment Property North Coast 30"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نصائح لشراء عقار استثماري ناجح.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Tips for Buying a Successful Investment Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نصائح لشراء عقار استثماري ناجح في إطار استراتيجية التوسع...",
+        "en": "New City announced Tips for Buying a Successful Investment Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.971Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.971Z"
+    },
+    {
+      "id": "news-0033",
+      "title": {
+        "ar": "أهم العوامل عند شراء عقار مدينتي 33",
+        "en": "Key Factors When Buying Property Madinaty 33"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أهم العوامل عند شراء عقار.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Key Factors When Buying Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أهم العوامل عند شراء عقار في إطار استراتيجية التوسع...",
+        "en": "New City announced Key Factors When Buying Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.975Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.975Z"
+    },
+    {
+      "id": "news-0034",
+      "title": {
+        "ar": "كيف تختار الوحدة المناسبة لك الرحاب 34",
+        "en": "How to Choose the Right Unit for You Rehab City 34"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن كيف تختار الوحدة المناسبة لك.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced How to Choose the Right Unit for You.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن كيف تختار الوحدة المناسبة لك في إطار استراتيجية التوسع...",
+        "en": "New City announced How to Choose the Right Unit for You as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.977Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.977Z"
+    },
+    {
+      "id": "news-0035",
+      "title": {
+        "ar": "أهم العوامل عند شراء عقار التجمع الخامس 35",
+        "en": "Key Factors When Buying Property Fifth Settlement 35"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أهم العوامل عند شراء عقار.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Key Factors When Buying Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أهم العوامل عند شراء عقار في إطار استراتيجية التوسع...",
+        "en": "New City announced Key Factors When Buying Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:53.979Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.979Z"
+    },
+    {
+      "id": "news-0046",
+      "title": {
+        "ar": "أهم العوامل عند شراء عقار الساحل الشمالي 46",
+        "en": "Key Factors When Buying Property North Coast 46"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أهم العوامل عند شراء عقار.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Key Factors When Buying Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أهم العوامل عند شراء عقار في إطار استراتيجية التوسع...",
+        "en": "New City announced Key Factors When Buying Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.001Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.001Z"
+    },
+    {
+      "id": "news-0047",
+      "title": {
+        "ar": "أهم العوامل عند شراء عقار الساحل الشمالي 47",
+        "en": "Key Factors When Buying Property North Coast 47"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أهم العوامل عند شراء عقار.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Key Factors When Buying Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أهم العوامل عند شراء عقار في إطار استراتيجية التوسع...",
+        "en": "New City announced Key Factors When Buying Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.003Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.003Z"
+    },
+    {
+      "id": "news-0054",
+      "title": {
+        "ar": "كيف تختار الوحدة المناسبة لك الرحاب 54",
+        "en": "How to Choose the Right Unit for You Rehab City 54"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن كيف تختار الوحدة المناسبة لك.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced How to Choose the Right Unit for You.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن كيف تختار الوحدة المناسبة لك في إطار استراتيجية التوسع...",
+        "en": "New City announced How to Choose the Right Unit for You as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.019Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.019Z"
+    },
+    {
+      "id": "news-0058",
+      "title": {
+        "ar": "كيف تختار الوحدة المناسبة لك الشيخ زايد 58",
+        "en": "How to Choose the Right Unit for You Sheikh Zayed 58"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن كيف تختار الوحدة المناسبة لك.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced How to Choose the Right Unit for You.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن كيف تختار الوحدة المناسبة لك في إطار استراتيجية التوسع...",
+        "en": "New City announced How to Choose the Right Unit for You as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.029Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.029Z"
+    },
+    {
+      "id": "news-0063",
+      "title": {
+        "ar": "كيف تختار الوحدة المناسبة لك العاصمة الإدارية 63",
+        "en": "How to Choose the Right Unit for You New Capital 63"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن كيف تختار الوحدة المناسبة لك.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced How to Choose the Right Unit for You.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن كيف تختار الوحدة المناسبة لك في إطار استراتيجية التوسع...",
+        "en": "New City announced How to Choose the Right Unit for You as part of expansion strategy..."
+      },
+      "image": "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.043Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.043Z"
+    },
+    {
+      "id": "news-0069",
+      "title": {
+        "ar": "نصائح لشراء عقار استثماري ناجح العاصمة الإدارية 69",
+        "en": "Tips for Buying a Successful Investment Property New Capital 69"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نصائح لشراء عقار استثماري ناجح.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Tips for Buying a Successful Investment Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نصائح لشراء عقار استثماري ناجح في إطار استراتيجية التوسع...",
+        "en": "New City announced Tips for Buying a Successful Investment Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.063Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.063Z"
+    },
+    {
+      "id": "news-0070",
+      "title": {
+        "ar": "أهم العوامل عند شراء عقار الرحاب 70",
+        "en": "Key Factors When Buying Property Rehab City 70"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن أهم العوامل عند شراء عقار.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Key Factors When Buying Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن أهم العوامل عند شراء عقار في إطار استراتيجية التوسع...",
+        "en": "New City announced Key Factors When Buying Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.065Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.065Z"
+    },
+    {
+      "id": "news-0074",
+      "title": {
+        "ar": "كيف تختار الوحدة المناسبة لك جولف بورتو مارينا 74",
+        "en": "How to Choose the Right Unit for You Golf Porto Marina 74"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن كيف تختار الوحدة المناسبة لك.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced How to Choose the Right Unit for You.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن كيف تختار الوحدة المناسبة لك في إطار استراتيجية التوسع...",
+        "en": "New City announced How to Choose the Right Unit for You as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.078Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.078Z"
+    },
+    {
+      "id": "news-0094",
+      "title": {
+        "ar": "نصائح لشراء عقار استثماري ناجح التجمع الخامس 94",
+        "en": "Tips for Buying a Successful Investment Property Fifth Settlement 94"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نصائح لشراء عقار استثماري ناجح.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Tips for Buying a Successful Investment Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نصائح لشراء عقار استثماري ناجح في إطار استراتيجية التوسع...",
+        "en": "New City announced Tips for Buying a Successful Investment Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.168Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.168Z"
+    },
+    {
+      "id": "news-0097",
+      "title": {
+        "ar": "نصائح لشراء عقار استثماري ناجح مدينتي 97",
+        "en": "Tips for Buying a Successful Investment Property Madinaty 97"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن نصائح لشراء عقار استثماري ناجح.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Tips for Buying a Successful Investment Property.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن نصائح لشراء عقار استثماري ناجح في إطار استراتيجية التوسع...",
+        "en": "New City announced Tips for Buying a Successful Investment Property as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+      "category": "tips",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.183Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.183Z"
+    }
+  ],
+  "total": 19,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "category": "tips"
+  },
+  "generatedAt": "2025-12-27T22:58:13.927Z"
+}

@@ -1,0 +1,357 @@
+{
+  "data": [
+    {
+      "id": "unit-000103",
+      "title": {
+        "ar": "شاليه 302 متر - الساحل الشمالي",
+        "en": "Chalet 302 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 302 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 302 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 302,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "موقف سيارات",
+          "مصعد خاص",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Private Pool",
+          "Near Transportation",
+          "Sea View",
+          "Central AC",
+          "Private Garden",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "30",
+      "floor": "الثاني",
+      "unitNumber": "4141",
+      "usableSpace": 257,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0032",
+      "createdAt": "2025-12-27T03:44:50.170Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.170Z"
+    },
+    {
+      "id": "unit-000145",
+      "title": {
+        "ar": "تاون هاوس 396 متر - مدينتي",
+        "en": "Townhouse 396 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 396 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 396 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 396,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "حمام سباحة خاص",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Central AC",
+          "Private Pool",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "9",
+      "floor": "السادس",
+      "unitNumber": "3044",
+      "usableSpace": 337,
+      "gardenShare": 92,
+      "view": "",
+      "projectId": "project-0016",
+      "createdAt": "2025-12-27T03:44:50.424Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.424Z"
+    },
+    {
+      "id": "unit-000173",
+      "title": {
+        "ar": "دوبلكس 360 متر - الشيخ زايد",
+        "en": "Duplex 360 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 360 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 360 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 360,
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "قريب من المواصلات",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Large Terrace",
+          "Parking",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "43",
+      "floor": "الثاني",
+      "unitNumber": "2439",
+      "usableSpace": 306,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0031",
+      "createdAt": "2025-12-27T03:44:50.636Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.636Z"
+    },
+    {
+      "id": "unit-000279",
+      "title": {
+        "ar": "توين هاوس 60 متر - العاصمة الإدارية",
+        "en": "Twin House 60 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 60 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 60 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 60,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "إطلالة بحرية",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Near Transportation",
+          "Private Pool",
+          "Private Garden",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "33",
+      "floor": "الثاني",
+      "unitNumber": "847",
+      "usableSpace": 51,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0017",
+      "createdAt": "2025-12-27T03:44:51.650Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.650Z"
+    },
+    {
+      "id": "unit-000372",
+      "title": {
+        "ar": "شاليه 197 متر - الساحل الشمالي",
+        "en": "Chalet 197 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 197 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 197 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 197,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Parking",
+          "Private Garden",
+          "Private Pool",
+          "Large Terrace",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "السادس",
+      "unitNumber": "319",
+      "usableSpace": 167,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0012",
+      "createdAt": "2025-12-27T03:44:52.586Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.586Z"
+    },
+    {
+      "id": "unit-000396",
+      "title": {
+        "ar": "استوديو 395 متر - الرحاب",
+        "en": "Studio 395 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 395 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 395 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 395,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years",
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "إطلالة بحرية",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Sea View",
+          "Private Pool",
+          "Near Transportation",
+          "Gym",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "27",
+      "floor": "الأول",
+      "unitNumber": "800",
+      "usableSpace": 336,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:52.842Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.842Z"
+    }
+  ],
+  "total": 6,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "2500000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.145Z"
+}

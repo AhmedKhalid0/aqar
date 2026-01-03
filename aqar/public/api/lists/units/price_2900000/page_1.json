@@ -1,0 +1,361 @@
+{
+  "data": [
+    {
+      "id": "unit-000015",
+      "title": {
+        "ar": "شقة 237 متر - التجمع الخامس",
+        "en": "Apartment 237 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 237 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 237 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2900000,
+      "area": 237,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "نادي رياضي",
+          "تراس واسع",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Parking",
+          "Private Pool",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "الأرضي",
+      "unitNumber": "5156",
+      "usableSpace": 201,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0035",
+      "createdAt": "2025-12-27T03:44:49.886Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.886Z"
+    },
+    {
+      "id": "unit-000110",
+      "title": {
+        "ar": "بنتهاوس 155 متر - مدينتي",
+        "en": "Penthouse 155 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 155 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 155 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2900000,
+      "area": 155,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "قريب من المواصلات",
+          "تكييف مركزي",
+          "غرفة خادمة",
+          "إطلالة بحرية",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Private Elevator",
+          "Central AC",
+          "Maid Room",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "1",
+      "floor": "الثاني",
+      "unitNumber": "4007",
+      "usableSpace": 132,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0024",
+      "createdAt": "2025-12-27T03:44:50.205Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.205Z"
+    },
+    {
+      "id": "unit-000189",
+      "title": {
+        "ar": "استوديو 185 متر - 6 أكتوبر",
+        "en": "Studio 185 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 185 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 185 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2900000,
+      "area": 185,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years",
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "تكييف مركزي",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Pool",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الثالث",
+      "unitNumber": "838",
+      "usableSpace": 157,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0001",
+      "createdAt": "2025-12-27T03:44:50.787Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.787Z"
+    },
+    {
+      "id": "unit-000235",
+      "title": {
+        "ar": "استوديو 379 متر - 6 أكتوبر",
+        "en": "Studio 379 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 379 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 379 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2900000,
+      "area": 379,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "غرفة خادمة",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden",
+          "Private Elevator",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "39",
+      "floor": "الثالث",
+      "unitNumber": "7633",
+      "usableSpace": 322,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0037",
+      "createdAt": "2025-12-27T03:44:51.209Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.209Z"
+    },
+    {
+      "id": "unit-000301",
+      "title": {
+        "ar": "تاون هاوس 116 متر - 6 أكتوبر",
+        "en": "Townhouse 116 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 116 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 116 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2900000,
+      "area": 116,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "موقف سيارات",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Parking",
+          "Sea View",
+          "Gym",
+          "Maid Room",
+          "Private Garden",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "34",
+      "floor": "الخامس",
+      "unitNumber": "6217",
+      "usableSpace": 99,
+      "gardenShare": 137,
+      "view": "pool",
+      "projectId": "project-0012",
+      "createdAt": "2025-12-27T03:44:51.864Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.864Z"
+    },
+    {
+      "id": "unit-000455",
+      "title": {
+        "ar": "دوبلكس 396 متر - 6 أكتوبر",
+        "en": "Duplex 396 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 396 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 396 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2900000,
+      "area": 396,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "نادي رياضي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Gym",
+          "Parking",
+          "Sea View",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "4",
+      "floor": "الثالث",
+      "unitNumber": "4414",
+      "usableSpace": 337,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0019",
+      "createdAt": "2025-12-27T03:44:53.456Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.456Z"
+    }
+  ],
+  "total": 6,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "2900000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.179Z"
+}

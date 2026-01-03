@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "id": "news-0099",
+      "title": {
+        "ar": "تسليم وحدات المرحلة الأولى من الشيخ زايد 99",
+        "en": "Delivery of Phase One Units in Sheikh Zayed 99"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن تسليم وحدات المرحلة الأولى من.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Delivery of Phase One Units in.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن تسليم وحدات المرحلة الأولى من في إطار استراتيجية التوسع...",
+        "en": "New City announced Delivery of Phase One Units in as part of expansion strategy..."
+      },
+      "image": "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+      "category": "projects",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.192Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.192Z"
+    },
+    {
+      "id": "news-0100",
+      "title": {
+        "ar": "ورشة عمل الاستثمار العقاري 6 أكتوبر 100",
+        "en": "Real Estate Investment Workshop 6th of October 100"
+      },
+      "content": {
+        "ar": "<p>في خطوة جديدة تؤكد ريادة نيو سيتي في سوق العقارات المصري، أعلنت الشركة عن ورشة عمل الاستثمار العقاري.</p><p>يأتي هذا في إطار استراتيجية الشركة للتوسع وتلبية احتياجات العملاء المتزايدة.</p><p>تتميز هذه الخطوة بعدة مزايا تشمل الموقع المتميز والتصاميم العصرية والأسعار التنافسية.</p>",
+        "en": "<p>In a new step confirming New City's leadership in the Egyptian real estate market, the company announced Real Estate Investment Workshop.</p><p>This comes as part of the company's strategy to expand and meet growing customer needs.</p><p>This step features several advantages including prime location, modern designs, and competitive prices.</p>"
+      },
+      "excerpt": {
+        "ar": "أعلنت شركة نيو سيتي عن ورشة عمل الاستثمار العقاري في إطار استراتيجية التوسع...",
+        "en": "New City announced Real Estate Investment Workshop as part of expansion strategy..."
+      },
+      "image": "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+      "category": "events",
+      "status": "published",
+      "createdAt": "2025-12-27T03:44:54.197Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:54.197Z"
+    }
+  ],
+  "total": 102,
+  "page": 6,
+  "limit": 20,
+  "totalPages": 6,
+  "hasNext": false,
+  "hasPrev": true,
+  "filter": {
+    "status": "published"
+  },
+  "generatedAt": "2025-12-27T22:58:13.799Z"
+}

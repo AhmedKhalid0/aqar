@@ -1,0 +1,248 @@
+{
+  "data": [
+    {
+      "id": "unit-000448",
+      "title": {
+        "ar": "تاون هاوس 363 متر - الساحل الشمالي",
+        "en": "Townhouse 363 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 363 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 363 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8300000,
+      "area": 363,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Near Transportation",
+          "Parking",
+          "Large Terrace",
+          "Private Pool",
+          "24/7 Security"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "27",
+      "floor": "الرابع",
+      "unitNumber": "6892",
+      "usableSpace": 309,
+      "gardenShare": 93,
+      "view": "garden",
+      "projectId": "project-0012",
+      "createdAt": "2025-12-27T03:44:53.380Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.380Z"
+    },
+    {
+      "id": "unit-000451",
+      "title": {
+        "ar": "تاون هاوس 298 متر - جولف بورتو مارينا",
+        "en": "Townhouse 298 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 298 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 298 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7600000,
+      "area": 298,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "غرفة خادمة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Private Garden",
+          "24/7 Security",
+          "Central AC",
+          "Private Elevator",
+          "Private Pool",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "20",
+      "floor": "الثاني",
+      "unitNumber": "4680",
+      "usableSpace": 253,
+      "gardenShare": 124,
+      "view": "sea",
+      "projectId": "project-0046",
+      "createdAt": "2025-12-27T03:44:53.413Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.413Z"
+    },
+    {
+      "id": "unit-000464",
+      "title": {
+        "ar": "تاون هاوس 68 متر - جولف بورتو مارينا",
+        "en": "Townhouse 68 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 68 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 68 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5700000,
+      "area": 68,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Maid Room",
+          "24/7 Security",
+          "Premium Finish",
+          "Sea View",
+          "Gym",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "35",
+      "floor": "السادس",
+      "unitNumber": "871",
+      "usableSpace": 58,
+      "gardenShare": 191,
+      "view": "pool",
+      "projectId": "project-0033",
+      "createdAt": "2025-12-27T03:44:53.551Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.551Z"
+    },
+    {
+      "id": "unit-000487",
+      "title": {
+        "ar": "تاون هاوس 70 متر - 6 أكتوبر",
+        "en": "Townhouse 70 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 70 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 70 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 600000,
+      "area": 70,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "تكييف مركزي",
+          "مصعد خاص",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Parking",
+          "Private Garden",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "13",
+      "floor": "الأرضي",
+      "unitNumber": "8310",
+      "usableSpace": 60,
+      "gardenShare": 131,
+      "view": "landscape",
+      "projectId": "project-0026",
+      "createdAt": "2025-12-27T03:44:53.795Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.795Z"
+    }
+  ],
+  "total": 64,
+  "page": 4,
+  "limit": 20,
+  "totalPages": 4,
+  "hasNext": false,
+  "hasPrev": true,
+  "filter": {
+    "type": "townhouse"
+  },
+  "generatedAt": "2025-12-27T22:58:08.914Z"
+}

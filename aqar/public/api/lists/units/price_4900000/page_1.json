@@ -1,0 +1,252 @@
+{
+  "data": [
+    {
+      "id": "unit-000012",
+      "title": {
+        "ar": "تاون هاوس 435 متر - المعادي",
+        "en": "Townhouse 435 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 435 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 435 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4900000,
+      "area": 435,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "مصعد خاص",
+          "حمام سباحة خاص",
+          "تراس واسع",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "24/7 Security",
+          "Premium Finish",
+          "Large Terrace",
+          "Sea View",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "12",
+      "floor": "السادس",
+      "unitNumber": "9694",
+      "usableSpace": 370,
+      "gardenShare": 86,
+      "view": "landscape",
+      "projectId": "project-0049",
+      "createdAt": "2025-12-27T03:44:49.883Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.883Z"
+    },
+    {
+      "id": "unit-000220",
+      "title": {
+        "ar": "فيلا 165 متر - العاصمة الإدارية",
+        "en": "Villa 165 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 165 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 165 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4900000,
+      "area": 165,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Private Garden",
+          "Parking",
+          "Central AC",
+          "Maid Room",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "49",
+      "floor": "الخامس",
+      "unitNumber": "8487",
+      "usableSpace": 140,
+      "gardenShare": 181,
+      "view": "golf",
+      "projectId": "project-0043",
+      "createdAt": "2025-12-27T03:44:51.073Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.073Z"
+    },
+    {
+      "id": "unit-000296",
+      "title": {
+        "ar": "تاون هاوس 383 متر - العين السخنة",
+        "en": "Townhouse 383 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 383 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 383 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4900000,
+      "area": 383,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "3-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "غرفة خادمة",
+          "قريب من المواصلات",
+          "مصعد خاص"
+        ],
+        "en": [
+          "24/7 Security",
+          "Private Elevator",
+          "Large Terrace",
+          "Private Garden",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "الأرضي",
+      "unitNumber": "2070",
+      "usableSpace": 326,
+      "gardenShare": 175,
+      "view": "pool",
+      "projectId": "project-0034",
+      "createdAt": "2025-12-27T03:44:51.815Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.815Z"
+    },
+    {
+      "id": "unit-000321",
+      "title": {
+        "ar": "تاون هاوس 148 متر - العين السخنة",
+        "en": "Townhouse 148 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 148 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 148 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4900000,
+      "area": 148,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "غرفة خادمة",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Gym",
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "22",
+      "floor": "الخامس",
+      "unitNumber": "4153",
+      "usableSpace": 126,
+      "gardenShare": 132,
+      "view": "garden",
+      "projectId": "project-0015",
+      "createdAt": "2025-12-27T03:44:52.060Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.060Z"
+    }
+  ],
+  "total": 4,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "4900000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.457Z"
+}

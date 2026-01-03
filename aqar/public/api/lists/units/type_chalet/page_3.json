@@ -1,0 +1,1170 @@
+{
+  "data": [
+    {
+      "id": "unit-000298",
+      "title": {
+        "ar": "شاليه 450 متر - التجمع الخامس",
+        "en": "Chalet 450 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 450 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 450 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8100000,
+      "area": 450,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "قريب من المواصلات",
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Private Pool",
+          "Maid Room",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "47",
+      "floor": "الثاني",
+      "unitNumber": "9483",
+      "usableSpace": 383,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0039",
+      "createdAt": "2025-12-27T03:44:51.836Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.836Z"
+    },
+    {
+      "id": "unit-000305",
+      "title": {
+        "ar": "شاليه 281 متر - العين السخنة",
+        "en": "Chalet 281 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 281 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 281 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8200000,
+      "area": 281,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "تراس واسع",
+          "إطلالة بحرية",
+          "تكييف مركزي",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Premium Finish",
+          "Central AC",
+          "Private Garden",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "48",
+      "floor": "الخامس",
+      "unitNumber": "3205",
+      "usableSpace": 239,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0015",
+      "createdAt": "2025-12-27T03:44:51.903Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.903Z"
+    },
+    {
+      "id": "unit-000319",
+      "title": {
+        "ar": "شاليه 298 متر - جولف بورتو مارينا",
+        "en": "Chalet 298 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 298 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 298 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9700000,
+      "area": 298,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "قريب من المواصلات",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Near Transportation",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "5",
+      "floor": "الأرضي",
+      "unitNumber": "2660",
+      "usableSpace": 253,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0010",
+      "createdAt": "2025-12-27T03:44:52.040Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.040Z"
+    },
+    {
+      "id": "unit-000335",
+      "title": {
+        "ar": "شاليه 88 متر - العاصمة الإدارية",
+        "en": "Chalet 88 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 88 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 88 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7900000,
+      "area": 88,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "أمن 24 ساعة",
+          "حمام سباحة خاص",
+          "حديقة خاصة",
+          "غرفة خادمة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Private Pool",
+          "Large Terrace",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "48",
+      "floor": "الأول",
+      "unitNumber": "828",
+      "usableSpace": 75,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0027",
+      "createdAt": "2025-12-27T03:44:52.201Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.201Z"
+    },
+    {
+      "id": "unit-000345",
+      "title": {
+        "ar": "شاليه 92 متر - العين السخنة",
+        "en": "Chalet 92 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 92 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 92 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4200000,
+      "area": 92,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "غرفة خادمة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Parking",
+          "Private Garden",
+          "Large Terrace",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "33",
+      "floor": "السادس",
+      "unitNumber": "7650",
+      "usableSpace": 78,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0033",
+      "createdAt": "2025-12-27T03:44:52.304Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.304Z"
+    },
+    {
+      "id": "unit-000353",
+      "title": {
+        "ar": "شاليه 91 متر - مدينتي",
+        "en": "Chalet 91 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 91 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 91 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4800000,
+      "area": 91,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "نادي رياضي",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Elevator",
+          "Private Pool",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "الثاني",
+      "unitNumber": "9968",
+      "usableSpace": 77,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0034",
+      "createdAt": "2025-12-27T03:44:52.387Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.387Z"
+    },
+    {
+      "id": "unit-000360",
+      "title": {
+        "ar": "شاليه 330 متر - مدينتي",
+        "en": "Chalet 330 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 330 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 330 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1100000,
+      "area": 330,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Large Terrace",
+          "Maid Room",
+          "Near Transportation",
+          "Private Elevator",
+          "Sea View",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "12",
+      "floor": "السادس",
+      "unitNumber": "9304",
+      "usableSpace": 281,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0017",
+      "createdAt": "2025-12-27T03:44:52.460Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.460Z"
+    },
+    {
+      "id": "unit-000372",
+      "title": {
+        "ar": "شاليه 197 متر - الساحل الشمالي",
+        "en": "Chalet 197 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 197 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 197 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 197,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Parking",
+          "Private Garden",
+          "Private Pool",
+          "Large Terrace",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "42",
+      "floor": "السادس",
+      "unitNumber": "319",
+      "usableSpace": 167,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0012",
+      "createdAt": "2025-12-27T03:44:52.586Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.586Z"
+    },
+    {
+      "id": "unit-000389",
+      "title": {
+        "ar": "شاليه 288 متر - 6 أكتوبر",
+        "en": "Chalet 288 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 288 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 288 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4500000,
+      "area": 288,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Central AC",
+          "Parking",
+          "Maid Room",
+          "Private Garden",
+          "24/7 Security",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "35",
+      "floor": "الخامس",
+      "unitNumber": "2426",
+      "usableSpace": 245,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0030",
+      "createdAt": "2025-12-27T03:44:52.767Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.767Z"
+    },
+    {
+      "id": "unit-000409",
+      "title": {
+        "ar": "شاليه 289 متر - جولف بورتو مارينا",
+        "en": "Chalet 289 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 289 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 289 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9700000,
+      "area": 289,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Private Elevator",
+          "Premium Finish",
+          "Near Transportation",
+          "Parking",
+          "Central AC",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "13",
+      "floor": "الخامس",
+      "unitNumber": "6164",
+      "usableSpace": 246,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0027",
+      "createdAt": "2025-12-27T03:44:52.986Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.986Z"
+    },
+    {
+      "id": "unit-000423",
+      "title": {
+        "ar": "شاليه 356 متر - مدينتي",
+        "en": "Chalet 356 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 356 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 356 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8200000,
+      "area": 356,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Premium Finish",
+          "Large Terrace",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "44",
+      "floor": "الأرضي",
+      "unitNumber": "6618",
+      "usableSpace": 303,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0006",
+      "createdAt": "2025-12-27T03:44:53.126Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.126Z"
+    },
+    {
+      "id": "unit-000443",
+      "title": {
+        "ar": "شاليه 373 متر - التجمع الخامس",
+        "en": "Chalet 373 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 373 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 373 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7500000,
+      "area": 373,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "حمام سباحة خاص",
+          "أمن 24 ساعة",
+          "تراس واسع",
+          "حديقة خاصة",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Premium Finish",
+          "Sea View",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg"
+      ],
+      "buildingNumber": "7",
+      "floor": "الأول",
+      "unitNumber": "3864",
+      "usableSpace": 317,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0004",
+      "createdAt": "2025-12-27T03:44:53.326Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.326Z"
+    },
+    {
+      "id": "unit-000450",
+      "title": {
+        "ar": "شاليه 215 متر - المعادي",
+        "en": "Chalet 215 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 215 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 215 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4200000,
+      "area": 215,
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "تراس واسع"
+        ],
+        "en": [
+          "Private Garden",
+          "Premium Finish",
+          "Sea View",
+          "Parking",
+          "Maid Room",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "32",
+      "floor": "السادس",
+      "unitNumber": "3005",
+      "usableSpace": 183,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0044",
+      "createdAt": "2025-12-27T03:44:53.401Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.401Z"
+    },
+    {
+      "id": "unit-000458",
+      "title": {
+        "ar": "شاليه 72 متر - العاصمة الإدارية",
+        "en": "Chalet 72 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 72 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 72 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1400000,
+      "area": 72,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Parking",
+          "Gym",
+          "Large Terrace",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "الأول",
+      "unitNumber": "2550",
+      "usableSpace": 61,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0022",
+      "createdAt": "2025-12-27T03:44:53.489Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.489Z"
+    },
+    {
+      "id": "unit-000468",
+      "title": {
+        "ar": "شاليه 464 متر - الساحل الشمالي",
+        "en": "Chalet 464 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 464 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 464 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 1800000,
+      "area": 464,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years",
+        "cash",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "تراس واسع",
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Gym",
+          "24/7 Security",
+          "Large Terrace",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الخامس",
+      "unitNumber": "8595",
+      "usableSpace": 394,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0011",
+      "createdAt": "2025-12-27T03:44:53.596Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.596Z"
+    },
+    {
+      "id": "unit-000472",
+      "title": {
+        "ar": "شاليه 213 متر - 6 أكتوبر",
+        "en": "Chalet 213 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 213 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 213 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5200000,
+      "area": 213,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Private Garden",
+          "Gym",
+          "Central AC",
+          "Parking",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "41",
+      "floor": "الرابع",
+      "unitNumber": "273",
+      "usableSpace": 181,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0003",
+      "createdAt": "2025-12-27T03:44:53.637Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.637Z"
+    },
+    {
+      "id": "unit-000475",
+      "title": {
+        "ar": "شاليه 298 متر - التجمع الخامس",
+        "en": "Chalet 298 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 298 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 298 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8400000,
+      "area": 298,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "تشطيب سوبر لوكس",
+          "تراس واسع",
+          "حمام سباحة خاص",
+          "أمن 24 ساعة",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Pool",
+          "Private Elevator",
+          "Gym",
+          "Premium Finish",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "35",
+      "floor": "الأول",
+      "unitNumber": "2591",
+      "usableSpace": 253,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0021",
+      "createdAt": "2025-12-27T03:44:53.669Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.669Z"
+    },
+    {
+      "id": "unit-000480",
+      "title": {
+        "ar": "شاليه 467 متر - العاصمة الإدارية",
+        "en": "Chalet 467 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 467 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 467 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5400000,
+      "area": 467,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "حمام سباحة خاص",
+          "غرفة خادمة",
+          "نادي رياضي",
+          "قريب من المواصلات"
+        ],
+        "en": [
+          "Parking",
+          "Large Terrace",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "الثاني",
+      "unitNumber": "963",
+      "usableSpace": 397,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0005",
+      "createdAt": "2025-12-27T03:44:53.724Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.724Z"
+    },
+    {
+      "id": "unit-000485",
+      "title": {
+        "ar": "شاليه 176 متر - جولف بورتو مارينا",
+        "en": "Chalet 176 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 176 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 176 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5600000,
+      "area": 176,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "قريب من المواصلات",
+          "إطلالة بحرية",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "24/7 Security",
+          "Private Pool",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "30",
+      "floor": "الخامس",
+      "unitNumber": "8280",
+      "usableSpace": 150,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0011",
+      "createdAt": "2025-12-27T03:44:53.773Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.773Z"
+    },
+    {
+      "id": "unit-000491",
+      "title": {
+        "ar": "شاليه 290 متر - 6 أكتوبر",
+        "en": "Chalet 290 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 290 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 290 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7400000,
+      "area": 290,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "6-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "مصعد خاص",
+          "تشطيب سوبر لوكس",
+          "تكييف مركزي",
+          "قريب من المواصلات",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Premium Finish",
+          "Sea View",
+          "Gym",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "25",
+      "floor": "الثالث",
+      "unitNumber": "3501",
+      "usableSpace": 247,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0032",
+      "createdAt": "2025-12-27T03:44:53.837Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.837Z"
+    }
+  ],
+  "total": 60,
+  "page": 3,
+  "limit": 20,
+  "totalPages": 3,
+  "hasNext": false,
+  "hasPrev": true,
+  "filter": {
+    "type": "chalet"
+  },
+  "generatedAt": "2025-12-27T22:58:08.434Z"
+}

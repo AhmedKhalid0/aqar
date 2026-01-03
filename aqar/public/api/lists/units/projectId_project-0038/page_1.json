@@ -1,0 +1,299 @@
+{
+  "data": [
+    {
+      "id": "unit-000057",
+      "title": {
+        "ar": "استوديو 380 متر - جولف بورتو مارينا",
+        "en": "Studio 380 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 380 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 380 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7900000,
+      "area": 380,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "cash",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "حديقة خاصة",
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "تكييف مركزي",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg"
+      ],
+      "buildingNumber": "45",
+      "floor": "السادس",
+      "unitNumber": "6201",
+      "usableSpace": 323,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0038",
+      "createdAt": "2025-12-27T03:44:49.978Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.978Z"
+    },
+    {
+      "id": "unit-000119",
+      "title": {
+        "ar": "فيلا 279 متر - العين السخنة",
+        "en": "Villa 279 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>فيلا فاخرة بمساحة 279 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury villa with 279 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3400000,
+      "area": 279,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "type": "villa",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "موقف سيارات",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Premium Finish",
+          "Gym",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "17",
+      "floor": "الخامس",
+      "unitNumber": "4686",
+      "usableSpace": 237,
+      "gardenShare": 200,
+      "view": "landscape",
+      "projectId": "project-0038",
+      "createdAt": "2025-12-27T03:44:50.255Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.255Z"
+    },
+    {
+      "id": "unit-000206",
+      "title": {
+        "ar": "شاليه 348 متر - مدينتي",
+        "en": "Chalet 348 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>شاليه فاخرة بمساحة 348 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury chalet with 348 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9900000,
+      "area": 348,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "chalet",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "تشطيب سوبر لوكس",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Private Garden",
+          "Parking",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "26",
+      "floor": "الثالث",
+      "unitNumber": "3852",
+      "usableSpace": 296,
+      "gardenShare": 0,
+      "view": "golf",
+      "projectId": "project-0038",
+      "createdAt": "2025-12-27T03:44:50.944Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.944Z"
+    },
+    {
+      "id": "unit-000336",
+      "title": {
+        "ar": "شقة 130 متر - الساحل الشمالي",
+        "en": "Apartment 130 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>شقة فاخرة بمساحة 130 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury apartment with 130 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6500000,
+      "area": 130,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "type": "apartment",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Premium Finish",
+          "Private Pool",
+          "Private Garden",
+          "Near Transportation",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "1",
+      "floor": "الرابع",
+      "unitNumber": "8658",
+      "usableSpace": 111,
+      "gardenShare": 0,
+      "view": "street",
+      "projectId": "project-0038",
+      "createdAt": "2025-12-27T03:44:52.212Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.212Z"
+    },
+    {
+      "id": "unit-000456",
+      "title": {
+        "ar": "توين هاوس 287 متر - الساحل الشمالي",
+        "en": "Twin House 287 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 287 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 287 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4400000,
+      "area": 287,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "نادي رياضي",
+          "أمن 24 ساعة",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Near Transportation",
+          "Maid Room",
+          "Private Garden",
+          "Central AC",
+          "24/7 Security",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "10",
+      "floor": "السادس",
+      "unitNumber": "2697",
+      "usableSpace": 244,
+      "gardenShare": 0,
+      "view": "landscape",
+      "projectId": "project-0038",
+      "createdAt": "2025-12-27T03:44:53.467Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.467Z"
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "projectId": "project-0038"
+  },
+  "generatedAt": "2025-12-27T22:58:07.910Z"
+}

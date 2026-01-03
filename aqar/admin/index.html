@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة التحكم | عقار</title>
+    
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebarContainer"></div>
+
+    <!-- Main Content -->
+    <main class="admin-main">
+        <header class="admin-header">
+            <button class="sidebar-toggle">
+                <i class="bi bi-list"></i>
+            </button>
+            <h1>لوحة التحكم</h1>
+            <div>
+                <a href="/" target="_blank" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-eye me-1"></i>
+                    عرض الموقع
+                </a>
+            </div>
+        </header>
+
+        <div class="admin-content">
+            <!-- Stats Cards -->
+            <div class="row g-4 mb-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-card">
+                        <div class="stat-icon bg-primary">
+                            <i class="bi bi-building"></i>
+                        </div>
+                        <div class="stat-value" id="unitsCount">0</div>
+                        <div class="stat-label">الوحدات</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-card">
+                        <div class="stat-icon bg-success">
+                            <i class="bi bi-buildings"></i>
+                        </div>
+                        <div class="stat-value" id="projectsCount">0</div>
+                        <div class="stat-label">المشاريع</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-card">
+                        <div class="stat-icon bg-warning">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div class="stat-value" id="messagesCount">0</div>
+                        <div class="stat-label">رسائل جديدة</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-card">
+                        <div class="stat-icon bg-info">
+                            <i class="bi bi-chat-quote"></i>
+                        </div>
+                        <div class="stat-value" id="reviewsCount">0</div>
+                        <div class="stat-label">تعليقات معلقة</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="row g-4 mb-4">
+                <div class="col-12">
+                    <div class="data-card">
+                        <div class="data-card-header">
+                            <h3>إجراءات سريعة</h3>
+                        </div>
+                        <div class="p-4">
+                            <div class="row g-3">
+                                <div class="col-md-3 col-6">
+                                    <a href="/admin/units.html?action=add" class="btn btn-gold w-100 py-3">
+                                        <i class="bi bi-plus-circle fs-4 d-block mb-2"></i>
+                                        إضافة وحدة
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <a href="/admin/projects.html?action=add" class="btn btn-navy w-100 py-3">
+                                        <i class="bi bi-plus-circle fs-4 d-block mb-2"></i>
+                                        إضافة مشروع
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <a href="/admin/news.html?action=add" class="btn btn-outline-primary w-100 py-3">
+                                        <i class="bi bi-plus-circle fs-4 d-block mb-2"></i>
+                                        نشر خبر
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <a href="/admin/messages.html" class="btn btn-outline-secondary w-100 py-3">
+                                        <i class="bi bi-envelope fs-4 d-block mb-2"></i>
+                                        عرض الرسائل
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Activity -->
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="data-card">
+                        <div class="data-card-header">
+                            <h3>آخر الوحدات</h3>
+                            <a href="/admin/units.html" class="btn btn-sm btn-outline-primary">عرض الكل</a>
+                        </div>
+                        <div class="data-card-body">
+                            <table class="table data-table mb-0">
+                                <tbody id="recentUnits">
+                                    <tr><td class="text-center py-4 text-muted">جاري التحميل...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="data-card">
+                        <div class="data-card-header">
+                            <h3>آخر الرسائل</h3>
+                            <a href="/admin/messages.html" class="btn btn-sm btn-outline-primary">عرض الكل</a>
+                        </div>
+                        <div class="data-card-body">
+                            <table class="table data-table mb-0">
+                                <tbody id="recentMessages">
+                                    <tr><td class="text-center py-4 text-muted">جاري التحميل...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/admin/js/admin.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Check authentication
+            if (!await Admin.checkAuth()) return;
+            
+            Admin.initSidebar();
+            loadDashboardData();
+        });
+
+        async function loadDashboardData() {
+            try {
+                // Load stats
+                const stats = await Admin.adminFetch('/api/admin/stats');
+                
+                document.getElementById('unitsCount').textContent = stats.units?.total || 0;
+                document.getElementById('projectsCount').textContent = stats.projects?.total || 0;
+                document.getElementById('messagesCount').textContent = stats.messages?.unread || 0;
+                document.getElementById('reviewsCount').textContent = stats.reviews?.pending || 0;
+
+                // Load recent units
+                const units = await Admin.adminFetch('/api/units');
+                const recentUnitsEl = document.getElementById('recentUnits');
+                
+                if (units.length === 0) {
+                    recentUnitsEl.innerHTML = '<tr><td class="text-center py-4 text-muted">لا توجد وحدات</td></tr>';
+                } else {
+                    recentUnitsEl.innerHTML = units.slice(0, 5).map(unit => `
+                        <tr>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <img src="${unit.images?.[0] || '/images/placeholder.jpg'}" alt="" 
+                                         class="rounded me-3" style="width: 50px; height: 50px; object-fit: cover;">
+                                    <div>
+                                        <div class="fw-bold">${unit.title?.ar || ''}</div>
+                                        <small class="text-muted">${Admin.formatPrice(unit.price)}</small>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-start">
+                                <span class="badge-status ${unit.status === 'active' ? 'active' : 'inactive'}">
+                                    ${unit.status === 'active' ? 'نشط' : 'غير نشط'}
+                                </span>
+                            </td>
+                        </tr>
+                    `).join('');
+                }
+
+                // Load recent messages
+                const messages = await Admin.adminFetch('/api/admin/messages');
+                const recentMessagesEl = document.getElementById('recentMessages');
+                
+                if (messages.length === 0) {
+                    recentMessagesEl.innerHTML = '<tr><td class="text-center py-4 text-muted">لا توجد رسائل</td></tr>';
+                } else {
+                    recentMessagesEl.innerHTML = messages.slice(0, 5).map(msg => `
+                        <tr>
+                            <td>
+                                <div class="fw-bold">${msg.name}</div>
+                                <small class="text-muted">${msg.subject || 'بدون موضوع'}</small>
+                            </td>
+                            <td class="text-start">
+                                <span class="badge-status ${msg.read ? 'active' : 'pending'}">
+                                    ${msg.read ? 'مقروءة' : 'جديدة'}
+                                </span>
+                            </td>
+                        </tr>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Error loading dashboard:', error);
+            }
+        }
+    </script>
+</body>
+</html>

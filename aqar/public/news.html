@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="آخر أخبار السوق العقاري ونصائح الاستثمار">
+    <title>الأخبار | الفهد</title>
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom Styles (after Bootstrap) -->
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="global-header"></div>
+
+    <section class="breadcrumb-section">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/" data-i18n="breadcrumb.home">الرئيسية</a></li>
+                    <li class="breadcrumb-item active" data-i18n="breadcrumb.news">الأخبار</li>
+                </ol>
+            </nav>
+            <h1 class="text-white mt-2" data-i18n="news.title">الأخبار والمقالات</h1>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <select class="form-select" id="filterCategory">
+                        <option value="" data-i18n="news.allCategories">جميع التصنيفات</option>
+                        <option value="projects" data-i18n="news.projectNews">أخبار المشاريع</option>
+                        <option value="tips" data-i18n="news.investmentTips">نصائح استثمارية</option>
+                        <option value="market" data-i18n="news.marketNews">أخبار السوق</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row" id="newsGrid">
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav class="mt-4" id="paginationNav" style="display: none;">
+                <ul class="pagination justify-content-center" id="pagination"></ul>
+            </nav>
+        </div>
+    </section>
+
+    <div id="global-footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- Core -->
+    <script src="/js/core/config.js?v=4"></script>
+    <script src="/js/core/site.js?v=4"></script>
+    
+    <!-- Utils -->
+    <script src="/js/utils/api.js"></script>
+    <script src="/js/utils/format.js"></script>
+    <script src="/js/utils/storage.js"></script>
+    
+    <!-- Components -->
+    <script src="/js/components/cards.js"></script>
+    <script src="/js/components/ui.js"></script>
+    
+    <!-- Pages -->
+    <script src="/js/pages/home.js"></script>
+    <script src="/js/pages/units.js"></script>
+    <script src="/js/pages/unit-details.js"></script>
+    <script src="/js/pages/projects.js"></script>
+    <script src="/js/pages/project-details.js"></script>
+    <script src="/js/pages/news.js"></script>
+    <script src="/js/pages/news-details.js"></script>
+    <script src="/js/pages/contact.js"></script>
+    <script src="/js/pages/team.js"></script>
+    <script src="/js/pages/partners.js"></script>
+    <script src="/js/pages/reviews.js"></script>
+    <script src="/js/pages/wishlist.js"></script>
+    <script src="/js/pages/privacy.js"></script>
+    <script src="/js/pages/terms.js"></script>
+    
+    <!-- i18n & Main -->
+    <script src="/js/i18n.js"></script>
+    <script src="/js/main.js?v=12"></script>
+    <script src="/js/pagination.js" defer></script>
+    <script src="/js/imageOptimizer.js" defer></script>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,1188 @@
+{
+  "data": [
+    {
+      "id": "unit-000131",
+      "title": {
+        "ar": "تاون هاوس 497 متر - الشيخ زايد",
+        "en": "Townhouse 497 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 497 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 497 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8600000,
+      "area": 497,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "مصعد خاص",
+          "موقف سيارات",
+          "تكييف مركزي",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Maid Room",
+          "24/7 Security",
+          "Near Transportation",
+          "Gym",
+          "Private Elevator",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "50",
+      "floor": "الأرضي",
+      "unitNumber": "6996",
+      "usableSpace": 422,
+      "gardenShare": 109,
+      "view": "landscape",
+      "projectId": "project-0003",
+      "createdAt": "2025-12-27T03:44:50.327Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.327Z"
+    },
+    {
+      "id": "unit-000139",
+      "title": {
+        "ar": "تاون هاوس 313 متر - 6 أكتوبر",
+        "en": "Townhouse 313 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 313 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 313 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5100000,
+      "area": 313,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Large Terrace",
+          "Near Transportation",
+          "Premium Finish",
+          "Private Elevator",
+          "Gym",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "39",
+      "floor": "الثاني",
+      "unitNumber": "1686",
+      "usableSpace": 266,
+      "gardenShare": 180,
+      "view": "pool",
+      "projectId": "project-0016",
+      "createdAt": "2025-12-27T03:44:50.382Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.382Z"
+    },
+    {
+      "id": "unit-000145",
+      "title": {
+        "ar": "تاون هاوس 396 متر - مدينتي",
+        "en": "Townhouse 396 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 396 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 396 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2500000,
+      "area": 396,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "حديقة خاصة",
+          "حمام سباحة خاص",
+          "نادي رياضي"
+        ],
+        "en": [
+          "Premium Finish",
+          "Central AC",
+          "Private Pool",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "9",
+      "floor": "السادس",
+      "unitNumber": "3044",
+      "usableSpace": 337,
+      "gardenShare": 92,
+      "view": "",
+      "projectId": "project-0016",
+      "createdAt": "2025-12-27T03:44:50.424Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.424Z"
+    },
+    {
+      "id": "unit-000147",
+      "title": {
+        "ar": "تاون هاوس 133 متر - جولف بورتو مارينا",
+        "en": "Townhouse 133 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 133 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 133 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3900000,
+      "area": 133,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "غرفة خادمة",
+          "تكييف مركزي",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Large Terrace",
+          "Premium Finish",
+          "Near Transportation",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "41",
+      "floor": "الأول",
+      "unitNumber": "4920",
+      "usableSpace": 113,
+      "gardenShare": 154,
+      "view": "street",
+      "projectId": "project-0003",
+      "createdAt": "2025-12-27T03:44:50.437Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.437Z"
+    },
+    {
+      "id": "unit-000160",
+      "title": {
+        "ar": "تاون هاوس 198 متر - جولف بورتو مارينا",
+        "en": "Townhouse 198 sqm - Golf Porto Marina"
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 198 متر مربع في جولف بورتو مارينا. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 198 sqm in Golf Porto Marina. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4000000,
+      "area": 198,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "مصعد خاص",
+          "تراس واسع",
+          "موقف سيارات",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "24/7 Security",
+          "Sea View",
+          "Premium Finish",
+          "Private Elevator",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg"
+      ],
+      "buildingNumber": "50",
+      "floor": "الخامس",
+      "unitNumber": "535",
+      "usableSpace": 168,
+      "gardenShare": 70,
+      "view": "garden",
+      "projectId": "project-0044",
+      "createdAt": "2025-12-27T03:44:50.535Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.535Z"
+    },
+    {
+      "id": "unit-000175",
+      "title": {
+        "ar": "تاون هاوس 228 متر - 6 أكتوبر",
+        "en": "Townhouse 228 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 228 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 228 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8300000,
+      "area": 228,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years",
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "إطلالة بحرية",
+          "غرفة خادمة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Parking",
+          "Sea View",
+          "24/7 Security",
+          "Near Transportation",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "30",
+      "floor": "الرابع",
+      "unitNumber": "5077",
+      "usableSpace": 194,
+      "gardenShare": 112,
+      "view": "golf",
+      "projectId": "project-0018",
+      "createdAt": "2025-12-27T03:44:50.651Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.651Z"
+    },
+    {
+      "id": "unit-000176",
+      "title": {
+        "ar": "تاون هاوس 261 متر - 6 أكتوبر",
+        "en": "Townhouse 261 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 261 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 261 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3700000,
+      "area": 261,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "غرفة خادمة",
+          "حمام سباحة خاص",
+          "نادي رياضي",
+          "حديقة خاصة",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Premium Finish",
+          "Central AC",
+          "Gym",
+          "Maid Room",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "15",
+      "floor": "الأرضي",
+      "unitNumber": "9738",
+      "usableSpace": 222,
+      "gardenShare": 194,
+      "view": "landscape",
+      "projectId": "project-0022",
+      "createdAt": "2025-12-27T03:44:50.661Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.661Z"
+    },
+    {
+      "id": "unit-000182",
+      "title": {
+        "ar": "تاون هاوس 411 متر - الساحل الشمالي",
+        "en": "Townhouse 411 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 411 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 411 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 4400000,
+      "area": 411,
+      "bedrooms": 6,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "8-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "تكييف مركزي",
+          "تراس واسع",
+          "حمام سباحة خاص",
+          "تشطيب سوبر لوكس",
+          "أمن 24 ساعة"
+        ],
+        "en": [
+          "Maid Room",
+          "Gym",
+          "Central AC",
+          "Large Terrace",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "13",
+      "floor": "الأول",
+      "unitNumber": "7414",
+      "usableSpace": 349,
+      "gardenShare": 73,
+      "view": "garden",
+      "projectId": "project-0031",
+      "createdAt": "2025-12-27T03:44:50.720Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.720Z"
+    },
+    {
+      "id": "unit-000184",
+      "title": {
+        "ar": "تاون هاوس 226 متر - التجمع الخامس",
+        "en": "Townhouse 226 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 226 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 226 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 2400000,
+      "area": 226,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "مصعد خاص",
+          "قريب من المواصلات",
+          "تشطيب سوبر لوكس",
+          "موقف سيارات"
+        ],
+        "en": [
+          "Large Terrace",
+          "Private Elevator",
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg"
+      ],
+      "buildingNumber": "33",
+      "floor": "الرابع",
+      "unitNumber": "5157",
+      "usableSpace": 192,
+      "gardenShare": 129,
+      "view": "golf",
+      "projectId": "project-0045",
+      "createdAt": "2025-12-27T03:44:50.740Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.740Z"
+    },
+    {
+      "id": "unit-000185",
+      "title": {
+        "ar": "تاون هاوس 133 متر - الشيخ زايد",
+        "en": "Townhouse 133 sqm - Sheikh Zayed"
+      },
+      "location": {
+        "ar": "الشيخ زايد",
+        "en": "Sheikh Zayed"
+      },
+      "locationId": "sheikh-zayed",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 133 متر مربع في الشيخ زايد. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 133 sqm in Sheikh Zayed. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9900000,
+      "area": 133,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "cash",
+        "8-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "حديقة خاصة",
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس",
+          "تراس واسع",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Parking",
+          "Gym",
+          "Private Elevator",
+          "Central AC",
+          "Large Terrace",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "4",
+      "floor": "الثاني",
+      "unitNumber": "4785",
+      "usableSpace": 113,
+      "gardenShare": 90,
+      "view": "garden",
+      "projectId": "project-0033",
+      "createdAt": "2025-12-27T03:44:50.751Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.751Z"
+    },
+    {
+      "id": "unit-000208",
+      "title": {
+        "ar": "تاون هاوس 158 متر - التجمع الخامس",
+        "en": "Townhouse 158 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 158 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 158 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5800000,
+      "area": 158,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "إطلالة بحرية",
+          "أمن 24 ساعة",
+          "تراس واسع",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Private Elevator",
+          "Central AC",
+          "Parking",
+          "Maid Room"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "48",
+      "floor": "الخامس",
+      "unitNumber": "960",
+      "usableSpace": 134,
+      "gardenShare": 172,
+      "view": "pool",
+      "projectId": "project-0032",
+      "createdAt": "2025-12-27T03:44:50.964Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.964Z"
+    },
+    {
+      "id": "unit-000222",
+      "title": {
+        "ar": "تاون هاوس 172 متر - العاصمة الإدارية",
+        "en": "Townhouse 172 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 172 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 172 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 800000,
+      "area": 172,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "نادي رياضي",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Garden",
+          "Central AC"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "5",
+      "floor": "الأول",
+      "unitNumber": "5811",
+      "usableSpace": 146,
+      "gardenShare": 157,
+      "view": "",
+      "projectId": "project-0007",
+      "createdAt": "2025-12-27T03:44:51.091Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.091Z"
+    },
+    {
+      "id": "unit-000238",
+      "title": {
+        "ar": "تاون هاوس 79 متر - الساحل الشمالي",
+        "en": "Townhouse 79 sqm - North Coast"
+      },
+      "location": {
+        "ar": "الساحل الشمالي",
+        "en": "North Coast"
+      },
+      "locationId": "north-coast",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 79 متر مربع في الساحل الشمالي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 79 sqm in North Coast. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6800000,
+      "area": 79,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "موقف سيارات",
+          "إطلالة بحرية",
+          "حديقة خاصة",
+          "غرفة خادمة",
+          "تراس واسع"
+        ],
+        "en": [
+          "Gym",
+          "Premium Finish",
+          "Private Elevator",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "32",
+      "floor": "الأول",
+      "unitNumber": "1736",
+      "usableSpace": 67,
+      "gardenShare": 66,
+      "view": "sea",
+      "projectId": "project-0014",
+      "createdAt": "2025-12-27T03:44:51.239Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.239Z"
+    },
+    {
+      "id": "unit-000239",
+      "title": {
+        "ar": "تاون هاوس 252 متر - المعادي",
+        "en": "Townhouse 252 sqm - Maadi"
+      },
+      "location": {
+        "ar": "المعادي",
+        "en": "Maadi"
+      },
+      "locationId": "maadi",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 252 متر مربع في المعادي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 252 sqm in Maadi. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 8600000,
+      "area": 252,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "غرفة خادمة",
+          "تكييف مركزي",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Near Transportation",
+          "Sea View",
+          "Premium Finish",
+          "Private Elevator",
+          "Private Pool",
+          "Parking"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766644392683-f80be205-732f-4692-b953-5db73e48a436.jpg",
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg",
+        "/uploads/1766644392682-47488809-ee00-4602-a91f-846ed94e7627.jpg"
+      ],
+      "buildingNumber": "33",
+      "floor": "الرابع",
+      "unitNumber": "6506",
+      "usableSpace": 214,
+      "gardenShare": 145,
+      "view": "golf",
+      "projectId": "project-0018",
+      "createdAt": "2025-12-27T03:44:51.248Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.248Z"
+    },
+    {
+      "id": "unit-000244",
+      "title": {
+        "ar": "تاون هاوس 226 متر - 6 أكتوبر",
+        "en": "Townhouse 226 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 226 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 226 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 3800000,
+      "area": 226,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "available",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years",
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "قريب من المواصلات",
+          "موقف سيارات",
+          "إطلالة بحرية"
+        ],
+        "en": [
+          "Near Transportation",
+          "Maid Room",
+          "Private Garden",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "12",
+      "floor": "الثاني",
+      "unitNumber": "3487",
+      "usableSpace": 192,
+      "gardenShare": 141,
+      "view": "street",
+      "projectId": "project-0017",
+      "createdAt": "2025-12-27T03:44:51.293Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.293Z"
+    },
+    {
+      "id": "unit-000250",
+      "title": {
+        "ar": "تاون هاوس 328 متر - مدينتي",
+        "en": "Townhouse 328 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 328 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 328 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7000000,
+      "area": 328,
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "3-years",
+        "cash",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "قريب من المواصلات",
+          "نادي رياضي",
+          "غرفة خادمة"
+        ],
+        "en": [
+          "Central AC",
+          "24/7 Security",
+          "Maid Room",
+          "Parking",
+          "Sea View"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766797503773-92c16a72-4bf7-4a70-88f6-21abc9415855.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "9",
+      "floor": "الأرضي",
+      "unitNumber": "3095",
+      "usableSpace": 279,
+      "gardenShare": 179,
+      "view": "pool",
+      "projectId": "project-0042",
+      "createdAt": "2025-12-27T03:44:51.349Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.349Z"
+    },
+    {
+      "id": "unit-000251",
+      "title": {
+        "ar": "تاون هاوس 293 متر - الرحاب",
+        "en": "Townhouse 293 sqm - Rehab City"
+      },
+      "location": {
+        "ar": "الرحاب",
+        "en": "Rehab City"
+      },
+      "locationId": "rehab",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 293 متر مربع في الرحاب. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 293 sqm in Rehab City. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 7100000,
+      "area": 293,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "3-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "موقف سيارات",
+          "نادي رياضي",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Parking",
+          "Premium Finish",
+          "24/7 Security",
+          "Private Pool",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "4",
+      "floor": "الأول",
+      "unitNumber": "9970",
+      "usableSpace": 249,
+      "gardenShare": 124,
+      "view": "sea",
+      "projectId": "project-0001",
+      "createdAt": "2025-12-27T03:44:51.358Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.358Z"
+    },
+    {
+      "id": "unit-000254",
+      "title": {
+        "ar": "تاون هاوس 331 متر - العين السخنة",
+        "en": "Townhouse 331 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 331 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 331 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6300000,
+      "area": 331,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "تكييف مركزي",
+          "نادي رياضي",
+          "موقف سيارات",
+          "مصعد خاص",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Pool",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg",
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg"
+      ],
+      "buildingNumber": "10",
+      "floor": "الأرضي",
+      "unitNumber": "4710",
+      "usableSpace": 281,
+      "gardenShare": 67,
+      "view": "garden",
+      "projectId": "project-0040",
+      "createdAt": "2025-12-27T03:44:51.386Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.386Z"
+    },
+    {
+      "id": "unit-000258",
+      "title": {
+        "ar": "تاون هاوس 362 متر - التجمع الخامس",
+        "en": "Townhouse 362 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 362 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 362 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 9400000,
+      "area": 362,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "8-years"
+      ],
+      "features": {
+        "ar": [
+          "نادي رياضي",
+          "أمن 24 ساعة",
+          "موقف سيارات",
+          "غرفة خادمة",
+          "تكييف مركزي"
+        ],
+        "en": [
+          "Near Transportation",
+          "Private Garden",
+          "Gym",
+          "Maid Room",
+          "Large Terrace"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg"
+      ],
+      "buildingNumber": "24",
+      "floor": "الأرضي",
+      "unitNumber": "3129",
+      "usableSpace": 308,
+      "gardenShare": 142,
+      "view": "sea",
+      "projectId": "project-0049",
+      "createdAt": "2025-12-27T03:44:51.422Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.422Z"
+    },
+    {
+      "id": "unit-000262",
+      "title": {
+        "ar": "تاون هاوس 233 متر - العين السخنة",
+        "en": "Townhouse 233 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>تاون هاوس فاخرة بمساحة 233 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury townhouse with 233 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 5400000,
+      "area": 233,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "type": "townhouse",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "semi-finished",
+      "paymentPlans": [
+        "6-years",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "أمن 24 ساعة",
+          "نادي رياضي",
+          "موقف سيارات",
+          "قريب من المواصلات",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Large Terrace",
+          "Sea View",
+          "Premium Finish",
+          "Parking",
+          "Private Elevator",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120510-25bcff8c-5212-43a2-b5e2-12fc8a3cf794.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "12",
+      "floor": "الثالث",
+      "unitNumber": "9906",
+      "usableSpace": 198,
+      "gardenShare": 118,
+      "view": "garden",
+      "projectId": "project-0021",
+      "createdAt": "2025-12-27T03:44:51.459Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.459Z"
+    }
+  ],
+  "total": 64,
+  "page": 2,
+  "limit": 20,
+  "totalPages": 4,
+  "hasNext": true,
+  "hasPrev": true,
+  "filter": {
+    "type": "townhouse"
+  },
+  "generatedAt": "2025-12-27T22:58:08.846Z"
+}

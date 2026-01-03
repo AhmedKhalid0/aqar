@@ -1,0 +1,311 @@
+{
+  "data": [
+    {
+      "id": "unit-000043",
+      "title": {
+        "ar": "دوبلكس 404 متر - التجمع الخامس",
+        "en": "Duplex 404 sqm - Fifth Settlement"
+      },
+      "location": {
+        "ar": "التجمع الخامس",
+        "en": "Fifth Settlement"
+      },
+      "locationId": "fifth-settlement",
+      "description": {
+        "ar": "<p>دوبلكس فاخرة بمساحة 404 متر مربع في التجمع الخامس. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury duplex with 404 sqm in Fifth Settlement. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6900000,
+      "area": 404,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "duplex",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "تراس واسع",
+          "قريب من المواصلات",
+          "موقف سيارات",
+          "تكييف مركزي",
+          "غرفة خادمة",
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "24/7 Security",
+          "Near Transportation",
+          "Premium Finish",
+          "Gym"
+        ]
+      },
+      "images": [
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg",
+        "/uploads/1766591419114-f09f133e-69aa-4e30-8fcd-8211d1567dd1.jpg"
+      ],
+      "buildingNumber": "26",
+      "floor": "الثاني",
+      "unitNumber": "9318",
+      "usableSpace": 343,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0011",
+      "createdAt": "2025-12-27T03:44:49.940Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:49.940Z"
+    },
+    {
+      "id": "unit-000187",
+      "title": {
+        "ar": "توين هاوس 178 متر - 6 أكتوبر",
+        "en": "Twin House 178 sqm - 6th of October"
+      },
+      "location": {
+        "ar": "6 أكتوبر",
+        "en": "6th of October"
+      },
+      "locationId": "october-6",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 178 متر مربع في 6 أكتوبر. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 178 sqm in 6th of October. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6900000,
+      "area": 178,
+      "bedrooms": 6,
+      "bathrooms": 1,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "6-years",
+        "cash",
+        "10-years"
+      ],
+      "features": {
+        "ar": [
+          "حديقة خاصة",
+          "موقف سيارات",
+          "أمن 24 ساعة",
+          "إطلالة بحرية",
+          "حمام سباحة خاص"
+        ],
+        "en": [
+          "Private Pool",
+          "24/7 Security",
+          "Maid Room",
+          "Gym",
+          "Parking",
+          "Near Transportation"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766644120512-c9feca98-1331-4f41-bf53-a3825cddbb50.jpg",
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766644392681-f8b78712-22c1-4daf-b8c6-353bcb2651d1.jpg"
+      ],
+      "buildingNumber": "32",
+      "floor": "الأول",
+      "unitNumber": "3980",
+      "usableSpace": 151,
+      "gardenShare": 0,
+      "view": "pool",
+      "projectId": "project-0024",
+      "createdAt": "2025-12-27T03:44:50.770Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:50.770Z"
+    },
+    {
+      "id": "unit-000231",
+      "title": {
+        "ar": "استوديو 55 متر - العين السخنة",
+        "en": "Studio 55 sqm - Ain Sokhna"
+      },
+      "location": {
+        "ar": "العين السخنة",
+        "en": "Ain Sokhna"
+      },
+      "locationId": "ain-sokhna",
+      "description": {
+        "ar": "<p>استوديو فاخرة بمساحة 55 متر مربع في العين السخنة. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury studio with 55 sqm in Ain Sokhna. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6900000,
+      "area": 55,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "type": "studio",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": false,
+      "finishing": "core-shell",
+      "paymentPlans": [
+        "10-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس",
+          "حمام سباحة خاص",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Near Transportation",
+          "Gym",
+          "Sea View",
+          "24/7 Security",
+          "Parking",
+          "Private Elevator"
+        ]
+      },
+      "images": [
+        "/uploads/1766644120503-b8a5285f-a6a2-47a5-832e-6c2ea840abef.jpg",
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg"
+      ],
+      "buildingNumber": "19",
+      "floor": "الأول",
+      "unitNumber": "1559",
+      "usableSpace": 47,
+      "gardenShare": 0,
+      "view": "sea",
+      "projectId": "project-0037",
+      "createdAt": "2025-12-27T03:44:51.174Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:51.174Z"
+    },
+    {
+      "id": "unit-000384",
+      "title": {
+        "ar": "توين هاوس 402 متر - مدينتي",
+        "en": "Twin House 402 sqm - Madinaty"
+      },
+      "location": {
+        "ar": "مدينتي",
+        "en": "Madinaty"
+      },
+      "locationId": "madinaty",
+      "description": {
+        "ar": "<p>توين هاوس فاخرة بمساحة 402 متر مربع في مدينتي. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury twin house with 402 sqm in Madinaty. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6900000,
+      "area": 402,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "type": "twin-house",
+      "status": "active",
+      "unitStatus": "sold",
+      "featured": false,
+      "finishing": "finished",
+      "paymentPlans": [
+        "8-years",
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "حمام سباحة خاص",
+          "إطلالة بحرية",
+          "تكييف مركزي",
+          "غرفة خادمة",
+          "مصعد خاص"
+        ],
+        "en": [
+          "Private Elevator",
+          "Gym",
+          "Premium Finish",
+          "Private Pool"
+        ]
+      },
+      "images": [
+        "/uploads/1766591416272-7fe0dc19-e41e-4e0a-8f71-03f2430ee559.jpg"
+      ],
+      "buildingNumber": "28",
+      "floor": "الخامس",
+      "unitNumber": "3907",
+      "usableSpace": 342,
+      "gardenShare": 0,
+      "view": "",
+      "projectId": "project-0014",
+      "createdAt": "2025-12-27T03:44:52.713Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:52.713Z"
+    },
+    {
+      "id": "unit-000428",
+      "title": {
+        "ar": "بنتهاوس 250 متر - العاصمة الإدارية",
+        "en": "Penthouse 250 sqm - New Capital"
+      },
+      "location": {
+        "ar": "العاصمة الإدارية",
+        "en": "New Capital"
+      },
+      "locationId": "new-capital",
+      "description": {
+        "ar": "<p>بنتهاوس فاخرة بمساحة 250 متر مربع في العاصمة الإدارية. تتميز بتشطيبات عالية الجودة وموقع متميز.</p>",
+        "en": "<p>Luxury penthouse with 250 sqm in New Capital. Features high-quality finishes and prime location.</p>"
+      },
+      "price": 6900000,
+      "area": 250,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "type": "penthouse",
+      "status": "active",
+      "unitStatus": "reserved",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "cash",
+        "3-years"
+      ],
+      "features": {
+        "ar": [
+          "مصعد خاص",
+          "نادي رياضي",
+          "إطلالة بحرية",
+          "تراس واسع",
+          "قريب من المواصلات",
+          "حديقة خاصة"
+        ],
+        "en": [
+          "Central AC",
+          "Large Terrace",
+          "Premium Finish",
+          "Private Pool",
+          "Private Elevator",
+          "Private Garden"
+        ]
+      },
+      "images": [
+        "/uploads/1766797522158-3deae7a4-55db-4429-a74d-f12ab9c2a324.jpg"
+      ],
+      "buildingNumber": "1",
+      "floor": "السادس",
+      "unitNumber": "9938",
+      "usableSpace": 213,
+      "gardenShare": 0,
+      "view": "garden",
+      "projectId": "project-0041",
+      "createdAt": "2025-12-27T03:44:53.174Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T03:44:53.174Z"
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "price": "6900000"
+  },
+  "generatedAt": "2025-12-27T22:58:12.750Z"
+}

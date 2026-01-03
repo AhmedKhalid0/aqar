@@ -1,0 +1,206 @@
+{
+  "data": [
+    {
+      "id": "3a70f5e6-fb3f-4a09-b7be-def69347a832",
+      "title": {
+        "ar": "شاليه 60 متر عمارة 13  (نسخة)",
+        "en": "Chalet 30 m  Building 13 (Copy)"
+      },
+      "projectId": "project-002",
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "unitStatus": "available",
+      "description": {
+        "ar": "<p>شاليه علي الريقر سايد</p>",
+        "en": "<p>Porto Golf</p>"
+      },
+      "price": 1430000,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Premium Finish"
+        ]
+      },
+      "images": [],
+      "buildingNumber": "13",
+      "floor": "الارضي",
+      "unitNumber": "1236",
+      "usableSpace": 60,
+      "gardenShare": 0,
+      "view": "riverside",
+      "createdAt": "2025-12-26T20:29:31.595Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T02:04:09.557Z"
+    },
+    {
+      "id": "5348f566-1218-4907-8303-205fb16550be",
+      "title": {
+        "ar": "شاليه 60 متر عمارة 13 ",
+        "en": "Chalet 30 m  Building 13"
+      },
+      "projectId": "project-002",
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "unitStatus": "available",
+      "description": {
+        "ar": "<p>شاليه علي الريقر سايد</p>",
+        "en": "<p>Porto Golf</p>"
+      },
+      "price": 1430000,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Premium Finish"
+        ]
+      },
+      "images": [],
+      "buildingNumber": "13",
+      "floor": "الارضي",
+      "unitNumber": "1236",
+      "usableSpace": 60,
+      "gardenShare": 0,
+      "view": "riverside",
+      "createdAt": "2025-12-26T19:34:12.031Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T02:04:09.554Z"
+    },
+    {
+      "id": "be684036-8abd-41ee-986e-770ed2267664",
+      "title": {
+        "ar": "شاليه 30 متر عمارة 13",
+        "en": "Chalet 30 m "
+      },
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "description": {
+        "ar": "<p>شاليه علي الريقر سايد</p>",
+        "en": "<p>Porto Golf</p>"
+      },
+      "price": 1430000,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "featured": true,
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Premium Finish"
+        ]
+      },
+      "images": [
+        "/uploads/1766590847252-c1151886-0163-48e7-abe1-4dea0f2f3b68.jpg",
+        "/uploads/1766635934210-e6c031d1-fd60-4894-9a7d-083aa9b76af3.jpg",
+        "/uploads/1766635937611-ba380479-d149-4335-a299-bb48282ccfd5.jpg"
+      ],
+      "createdAt": "2025-12-24T15:41:30.490Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T02:04:09.548Z",
+      "locationId": "golf-porto-marina",
+      "projectId": "project-002",
+      "unitStatus": "sold",
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "buildingNumber": "13",
+      "floor": "الارضي",
+      "unitNumber": "12122",
+      "usableSpace": 60,
+      "gardenShare": 30,
+      "view": "riverside"
+    },
+    {
+      "id": "chalet-30-m-building-200-unit-1236-building-13",
+      "title": {
+        "ar": "شاليه 60 متر عمارة 13  (نسخة) (نسخة)",
+        "en": "  Chalet 30 m  Building  200"
+      },
+      "projectId": "project-002",
+      "location": {
+        "ar": "جولف بورتو مارينا",
+        "en": "Golf Porto Marina"
+      },
+      "locationId": "golf-porto-marina",
+      "unitStatus": "available",
+      "description": {
+        "ar": "<p>شاليه علي الريقر سايد</p>",
+        "en": "<p>Porto Golf</p>"
+      },
+      "price": 1430000,
+      "area": 90,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "chalet",
+      "status": "active",
+      "featured": true,
+      "finishing": "finished",
+      "paymentPlans": [
+        "6-years"
+      ],
+      "features": {
+        "ar": [
+          "تشطيب سوبر لوكس"
+        ],
+        "en": [
+          "Premium Finish"
+        ]
+      },
+      "images": [],
+      "buildingNumber": "13",
+      "floor": "الارضي",
+      "unitNumber": "1236",
+      "usableSpace": 60,
+      "gardenShare": 0,
+      "view": "",
+      "createdAt": "2025-12-26T21:57:47.218Z",
+      "createdBy": "admin-001",
+      "updatedAt": "2025-12-27T02:04:09.562Z"
+    }
+  ],
+  "total": 4,
+  "page": 1,
+  "limit": 20,
+  "totalPages": 1,
+  "hasNext": false,
+  "hasPrev": false,
+  "filter": {
+    "projectId": "project-002"
+  },
+  "generatedAt": "2025-12-27T22:58:06.952Z"
+}
